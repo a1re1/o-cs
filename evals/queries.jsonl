@@ -821,3 +821,28 @@
 {"id":"6.11-033","query":"Barocas Hardt Narayanan Fairness and Machine Learning book chapters","relevant":["sources/ai-safety-fairness-and-interpretability-texts-courses-and-seminal-papers.md"],"section":"6.11","kind":"source"}
 {"id":"6.11-034","query":"Molnar Interpretable Machine Learning free book","relevant":["sources/ai-safety-fairness-and-interpretability-texts-courses-and-seminal-papers.md"],"section":"6.11","kind":"source"}
 {"id":"6.11-035","query":"Anthropic interpretability circuits toy models of superposition scaling monosemanticity","relevant":["sources/ai-safety-fairness-and-interpretability-texts-courses-and-seminal-papers.md","concepts/interpretability-and-explainability.md"],"section":"6.11","kind":"source"}
+{"id":"7.1-001","query":"Hyrum's law observable behavior depended on API change","relevant":["concepts/software-engineering-fundamentals.md","concepts/modularity-and-information-hiding.md"],"section":"7.1","kind":"keyword"}
+{"id":"7.1-002","query":"No Silver Bullet essence accident complexity conformity changeability invisibility","relevant":["concepts/software-engineering-fundamentals.md","sources/software-engineering-texts-courses-and-seminal-papers.md"],"section":"7.1","kind":"keyword"}
+{"id":"7.1-003","query":"Brooks' law adding people to a late project mythical man-month","relevant":["concepts/software-engineering-fundamentals.md"],"section":"7.1","kind":"keyword"}
+{"id":"7.1-004","query":"waterfall vs spiral vs agile process models Royce Boehm","relevant":["concepts/software-engineering-fundamentals.md"],"section":"7.1","kind":"compare"}
+{"id":"7.1-005","query":"Agile Manifesto twelve principles Scrum XP Kanban","relevant":["concepts/software-engineering-fundamentals.md"],"section":"7.1","kind":"keyword"}
+{"id":"7.1-006","query":"Conway's law inverse Conway maneuver team structure architecture","relevant":["concepts/software-engineering-fundamentals.md"],"section":"7.1","kind":"keyword"}
+{"id":"7.1-007","query":"Lehman's laws of software evolution continuing change increasing complexity","relevant":["concepts/software-engineering-fundamentals.md","concepts/technical-debt-and-maintenance.md"],"section":"7.1","kind":"keyword"}
+{"id":"7.1-008","query":"how to measure developer productivity DORA metrics","relevant":["concepts/software-engineering-fundamentals.md"],"section":"7.1","kind":"howto"}
+{"id":"7.1-009","query":"will an AI coding tool make us 10x faster","relevant":["concepts/software-engineering-fundamentals.md"],"section":"7.1","kind":"paraphrase"}
+{"id":"7.1-010","query":"Parnas criteria decomposing systems into modules information hiding KWIC","relevant":["concepts/modularity-and-information-hiding.md"],"section":"7.1","kind":"keyword"}
+{"id":"7.1-011","query":"coupling cohesion separation of concerns layering","relevant":["concepts/modularity-and-information-hiding.md"],"section":"7.1","kind":"keyword"}
+{"id":"7.1-012","query":"deep modules vs shallow modules Ousterhout interface cost","relevant":["concepts/modularity-and-information-hiding.md"],"section":"7.1","kind":"compare"}
+{"id":"7.1-013","query":"SOLID open-closed dependency inversion single responsibility","relevant":["concepts/modularity-and-information-hiding.md"],"section":"7.1","kind":"keyword"}
+{"id":"7.1-014","query":"leaky abstractions why you need to know one level down","relevant":["concepts/modularity-and-information-hiding.md"],"section":"7.1","kind":"question"}
+{"id":"7.1-015","query":"how should I split my program into modules","relevant":["concepts/modularity-and-information-hiding.md"],"section":"7.1","kind":"paraphrase"}
+{"id":"7.1-016","query":"semantic versioning backward compatibility deprecation policy API evolution","relevant":["concepts/modularity-and-information-hiding.md","concepts/technical-debt-and-maintenance.md"],"section":"7.1","kind":"keyword"}
+{"id":"7.1-017","query":"technical debt quadrant deliberate prudent reckless interest principal Cunningham","relevant":["concepts/technical-debt-and-maintenance.md"],"section":"7.1","kind":"keyword"}
+{"id":"7.1-018","query":"corrective adaptive perfective preventive maintenance cost share","relevant":["concepts/technical-debt-and-maintenance.md"],"section":"7.1","kind":"keyword"}
+{"id":"7.1-019","query":"legacy code seams characterization tests Feathers","relevant":["concepts/technical-debt-and-maintenance.md"],"section":"7.1","kind":"keyword"}
+{"id":"7.1-020","query":"should we rewrite from scratch or refactor strangler fig","relevant":["concepts/technical-debt-and-maintenance.md"],"section":"7.1","kind":"question"}
+{"id":"7.1-021","query":"large-scale changes codemods deprecation one-version rule monorepo","relevant":["concepts/technical-debt-and-maintenance.md"],"section":"7.1","kind":"keyword"}
+{"id":"7.1-022","query":"code hotspots churn times complexity where to pay down debt","relevant":["concepts/technical-debt-and-maintenance.md"],"section":"7.1","kind":"keyword"}
+{"id":"7.1-023","query":"our codebase keeps getting slower to change every quarter","relevant":["concepts/technical-debt-and-maintenance.md"],"section":"7.1","kind":"paraphrase"}
+{"id":"7.1-024","query":"Software Engineering at Google book programming over time","relevant":["sources/software-engineering-texts-courses-and-seminal-papers.md"],"section":"7.1","kind":"source"}
+{"id":"7.1-025","query":"Peopleware DeMarco Lister flow productivity","relevant":["sources/software-engineering-texts-courses-and-seminal-papers.md","concepts/software-engineering-fundamentals.md"],"section":"7.1","kind":"source"}

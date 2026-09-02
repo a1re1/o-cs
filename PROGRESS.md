@@ -70,7 +70,7 @@ oasis improvements (PRs to ~/src/oasis), and a running experiments report (`repo
 - [x] 6.10 Robotics (Tedrake, Modern Robotics, LaValle, Thrun)
 - [x] 6.11 AI safety/fairness (Fairness&ML, Molnar, Amodei 2016, interpretability)
 ### 7 Software engineering
-- [ ] 7.1 SE fundamentals (SWE at Google, Brooks, Parnas, Conway, Agile)
+- [x] 7.1 SE fundamentals (SWE at Google, Brooks, Parnas, Conway, Agile)
 - [ ] 7.2 Testing & analysis (Fuzzing Book, Debugging Book, QuickCheck, KLEE, delta debugging)
 - [ ] 7.3 Architecture & system design (DDIA, system-design-primer, Fielding REST, AOSA, 500 lines)
 - [ ] 7.4 DevOps/SRE (SRE book, Accelerate, chaos engineering, k8s docs)

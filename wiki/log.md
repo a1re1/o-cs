@@ -3,6 +3,49 @@
 Newest first. Generated from wiki/log/*.md — do not edit.
 
 ---
+title: Ingest §7.1 software engineering fundamentals
+type: log
+section: "7.1"
+tags: [ingest, software-engineering, brooks, parnas, agile, technical-debt, modularity]
+summary: Read the SWE at Google table of contents, the full abstract/introduction of "No Silver Bullet", the introduction of Parnas 1971, and the twelve Agile principles; wrote 3 concepts (software-engineering-fundamentals and technical-debt-and-maintenance were wanted) and 1 combined source; linked the existing §2.6 pages (code-review, refactoring, unit-testing, debugging, git-data-model, build-systems-and-make, design-patterns-catalog).
+---
+## [2026-09-02] ingest | §7.1 Software engineering fundamentals
+
+Read: abseil.io SWE-book ToC (thesis chapter subsections: Hyrum's law, hash ordering,
+policies that scale, compiler upgrade, shifting left, markers, distributed builds; culture
+part: help me hide my code, the genius myth, hiding considered harmful, bus factor);
+Brooks 1986 TR86-020 abstract and §1 (essence/accident, "unless it is more than 9/10 of all
+effort", the four prescriptions, "skepticism is not pessimism"); Parnas CMU-CS-71-101
+abstract and introduction ("if programmers sang hymns"; the criteria question); the twelve
+Agile principles verbatim. Mythical Man-Month, Code Complete, Pragmatic Programmer,
+Sommerville, Royce, Boehm, Conway, Lehman, Peopleware, Feathers, Ousterhout from memory.
+
+Source: [[software-engineering-texts-courses-and-seminal-papers]].
+Concepts: [[software-engineering-fundamentals]] (wanted), [[modularity-and-information-hiding]],
+[[technical-debt-and-maintenance]] (wanted).
+
+Insights: Parnas' "decompose by decisions likely to change, not by flowchart" is the same
+argument as the end-to-end paper's "put the function where the knowledge is" and as
+Codd's data independence — three fields discovering that interfaces should be chosen by
+what varies. Hyrum's law is Lehman's law I seen from the API provider's side; Sculley's
+CACE is Parnas violated at the feature level. "No Silver Bullet" is a falsifiable claim
+with a number (10× in a decade) — the right frame for AI coding tools: they attack
+accidents (typing, boilerplate, lookup) and some essence (requirements conversation,
+prototyping speed), and Brooks' list says which. Royce's waterfall paper arguing against
+waterfall is the field's founding misreading. Technical debt's "interest" is exactly the
+amortized-cost view of [[amortized-analysis]]: a cheap operation now paid for by expensive
+ones later.
+
+Applied the question-heading rule from Finding 8 proactively? Not yet — headings here are
+descriptive; will add practitioner questions if the eval flags misses.
+
+Forward wanted slugs: continuous-integration-and-delivery, software-architecture-and-system-design
+(§7.3), api-design, dependency-management-and-packaging, developer-tooling-and-workflow
+(check §2.6 slug), design-by-contract (§7.2), fuzzing (§7.2), abstract-data-types-and-interfaces
+(check §2 slug), database-schema-evolution, human-computer-interaction (§9?),
+amortized-analysis (check §3 slug).
+
+---
 title: Ingest §6.9 ML systems, MLOps and data engineering
 type: log
 section: "6.9"
