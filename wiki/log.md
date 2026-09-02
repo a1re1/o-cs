@@ -3,6 +3,47 @@
 Newest first. Generated from wiki/log/*.md — do not edit.
 
 ---
+title: Ingest §7.4 DevOps, CI/CD, SRE & infrastructure
+type: log
+section: "7.4"
+tags: [ingest, devops, ci-cd, sre, kubernetes, chaos-engineering, observability, infrastructure-as-code]
+summary: Read SRE book and Workbook tables of contents, SRE ch. 4 (SLOs) in full, continuousdelivery.com, the Principles of Chaos, DORA's metrics guide, and the Kubernetes concepts index; wrote 5 concepts (continuous-integration-and-delivery and containers-and-kubernetes were wanted) and 1 combined source, building on the existing §4.8 site-reliability-engineering and cluster-scheduling-and-observability pages.
+---
+## [2026-09-02] ingest | §7.4 DevOps, CI/CD, SRE & infrastructure
+
+Read: sre.google ToC (34 chapters + appendices) and Workbook ToC; SRE ch. 4 (SLI/SLO/SLA
+definitions, Shakespeare example, "you don't always get to choose", latency–QPS
+coupling); continuousdelivery.com "What is CD" + benefits list; principlesofchaos.org
+(definition, four-step experiment, five advanced principles); dora.dev metrics guide
+(throughput: change lead time, deployment frequency, failed-deployment recovery time;
+instability: change fail rate, deployment rework rate; "speed and stability are not
+tradeoffs"); kubernetes.io Concepts index. Humble & Farley, Accelerate capabilities,
+DevOps Handbook, Phoenix Project, Morris IaC, Terraform docs, Twelve-Factor, Netflix
+FIT/ChAP, DiRT, Prometheus/OTel from memory.
+
+Source: [[devops-cicd-and-sre-texts-courses-and-seminal-papers]].
+Concepts: [[continuous-integration-and-delivery]] (wanted), [[containers-and-kubernetes]]
+(wanted), [[infrastructure-as-code-and-devops]],
+[[observability-monitoring-and-incident-response]], [[chaos-engineering-and-reliability-testing]].
+Existing pages that already carried the §4.8 SRE core (SLOs, error budgets, toil,
+overload, cascading failure) were linked, not duplicated: [[site-reliability-engineering]],
+[[cluster-scheduling-and-observability]], [[cloud-and-serverless]].
+
+Insights: Kubernetes' reconciliation loop is the same level-triggered control-loop idea
+as GitOps and Terraform's plan/apply — declare desired state, converge — i.e. the
+software-engineering form of feedback control; chaos engineering is Popperian testing
+for systems (a hypothesis you try to refute against a steady-state metric), which is
+also exactly the canary methodology; DORA's finding that speed and stability correlate
+is the batch-size argument from lean manufacturing and, in the corpus, the same
+small-increments logic as CI, delta debugging, and gradient steps. "Alert on symptoms
+not causes" is SLOs pushed into the alerting layer; burn-rate alerting is a derivative
+threshold on an integral — control theory again.
+
+Forward wanted: security-principles, web-security (§8); raft (check §4 slug for
+consensus); design-by-contract now exists (§7.2). Note for §7.5: dns-http-and-the-web-stack
+exists — extend rather than create http page.
+
+---
 title: Ingest §7.3 software architecture & system design
 type: log
 section: "7.3"

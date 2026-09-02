@@ -926,3 +926,41 @@
 {"id":"7.3-036","query":"system design primer donnemartin","relevant":["sources/software-architecture-texts-courses-and-seminal-papers.md","concepts/scalable-system-design.md"],"section":"7.3","kind":"source"}
 {"id":"7.3-037","query":"Architecture of Open Source Applications AOSA 500 lines or less","relevant":["sources/software-architecture-texts-courses-and-seminal-papers.md"],"section":"7.3","kind":"source"}
 {"id":"7.3-038","query":"Helland life beyond distributed transactions entities idempotent messages","relevant":["sources/software-architecture-texts-courses-and-seminal-papers.md","concepts/microservices-and-resilience-patterns.md"],"section":"7.3","kind":"source"}
+{"id":"7.4-001","query":"continuous delivery deployment pipeline commit stage build once promote artifact","relevant":["concepts/continuous-integration-and-delivery.md"],"section":"7.4","kind":"keyword"}
+{"id":"7.4-002","query":"trunk-based development merge queue keep main green","relevant":["concepts/continuous-integration-and-delivery.md"],"section":"7.4","kind":"keyword"}
+{"id":"7.4-003","query":"blue-green vs canary vs rolling deployment feature flags","relevant":["concepts/continuous-integration-and-delivery.md"],"section":"7.4","kind":"compare"}
+{"id":"7.4-004","query":"expand contract database migration backward compatible schema deploy","relevant":["concepts/continuous-integration-and-delivery.md"],"section":"7.4","kind":"keyword"}
+{"id":"7.4-005","query":"DORA four keys five metrics lead time deployment frequency change fail rate","relevant":["concepts/continuous-integration-and-delivery.md","concepts/software-engineering-fundamentals.md"],"section":"7.4","kind":"keyword"}
+{"id":"7.4-006","query":"does deploying more often make systems less stable","relevant":["concepts/continuous-integration-and-delivery.md"],"section":"7.4","kind":"question"}
+{"id":"7.4-007","query":"what is a container namespaces cgroups image layers overlayfs","relevant":["concepts/containers-and-kubernetes.md"],"section":"7.4","kind":"question"}
+{"id":"7.4-008","query":"Dockerfile layer caching multi-stage build distroless","relevant":["concepts/containers-and-kubernetes.md"],"section":"7.4","kind":"keyword"}
+{"id":"7.4-009","query":"Kubernetes control plane api server etcd scheduler kubelet reconciliation loop","relevant":["concepts/containers-and-kubernetes.md"],"section":"7.4","kind":"keyword"}
+{"id":"7.4-010","query":"Deployment vs StatefulSet vs DaemonSet Service Ingress ConfigMap Secret","relevant":["concepts/containers-and-kubernetes.md"],"section":"7.4","kind":"compare"}
+{"id":"7.4-011","query":"liveness vs readiness probe requests limits QoS eviction","relevant":["concepts/containers-and-kubernetes.md"],"section":"7.4","kind":"compare"}
+{"id":"7.4-012","query":"twelve-factor app config in environment stateless processes","relevant":["concepts/containers-and-kubernetes.md"],"section":"7.4","kind":"keyword"}
+{"id":"7.4-013","query":"do we actually need kubernetes for a small team","relevant":["concepts/containers-and-kubernetes.md"],"section":"7.4","kind":"paraphrase"}
+{"id":"7.4-014","query":"containers vs virtual machines isolation shared kernel","relevant":["concepts/containers-and-kubernetes.md","concepts/os-kernels-and-virtualization.md"],"section":"7.4","kind":"compare"}
+{"id":"7.4-015","query":"DevOps three ways flow feedback continual learning","relevant":["concepts/infrastructure-as-code-and-devops.md"],"section":"7.4","kind":"keyword"}
+{"id":"7.4-016","query":"Terraform state file remote locking plan apply drift","relevant":["concepts/infrastructure-as-code-and-devops.md"],"section":"7.4","kind":"keyword"}
+{"id":"7.4-017","query":"GitOps Argo CD Flux reconcile cluster to git repo","relevant":["concepts/infrastructure-as-code-and-devops.md"],"section":"7.4","kind":"keyword"}
+{"id":"7.4-018","query":"immutable infrastructure cattle not pets Packer images vs Ansible configuration management","relevant":["concepts/infrastructure-as-code-and-devops.md"],"section":"7.4","kind":"compare"}
+{"id":"7.4-019","query":"how should we manage secrets in CI and infrastructure","relevant":["concepts/infrastructure-as-code-and-devops.md"],"section":"7.4","kind":"howto"}
+{"id":"7.4-020","query":"platform engineering internal developer platform paved roads","relevant":["concepts/infrastructure-as-code-and-devops.md"],"section":"7.4","kind":"keyword"}
+{"id":"7.4-021","query":"Westrum generative culture DORA capabilities","relevant":["concepts/infrastructure-as-code-and-devops.md"],"section":"7.4","kind":"keyword"}
+{"id":"7.4-022","query":"metrics logs traces observability vs monitoring high cardinality","relevant":["concepts/observability-monitoring-and-incident-response.md"],"section":"7.4","kind":"keyword"}
+{"id":"7.4-023","query":"four golden signals RED USE method what to monitor","relevant":["concepts/observability-monitoring-and-incident-response.md","concepts/site-reliability-engineering.md"],"section":"7.4","kind":"keyword"}
+{"id":"7.4-024","query":"SLO burn rate multi-window alerting alert on symptoms not causes","relevant":["concepts/observability-monitoring-and-incident-response.md"],"section":"7.4","kind":"keyword"}
+{"id":"7.4-025","query":"incident commander roles severity levels incident management","relevant":["concepts/observability-monitoring-and-incident-response.md"],"section":"7.4","kind":"keyword"}
+{"id":"7.4-026","query":"blameless postmortem template action items","relevant":["concepts/observability-monitoring-and-incident-response.md","concepts/site-reliability-engineering.md"],"section":"7.4","kind":"keyword"}
+{"id":"7.4-027","query":"we get paged constantly and most alerts are noise","relevant":["concepts/observability-monitoring-and-incident-response.md"],"section":"7.4","kind":"paraphrase"}
+{"id":"7.4-028","query":"Prometheus histogram vs summary label cardinality explosion","relevant":["concepts/observability-monitoring-and-incident-response.md"],"section":"7.4","kind":"keyword"}
+{"id":"7.4-029","query":"OpenTelemetry distributed tracing spans trace context propagation","relevant":["concepts/observability-monitoring-and-incident-response.md"],"section":"7.4","kind":"keyword"}
+{"id":"7.4-030","query":"principles of chaos engineering steady state hypothesis blast radius","relevant":["concepts/chaos-engineering-and-reliability-testing.md"],"section":"7.4","kind":"keyword"}
+{"id":"7.4-031","query":"Chaos Monkey Chaos Kong FIT ChAP Netflix","relevant":["concepts/chaos-engineering-and-reliability-testing.md"],"section":"7.4","kind":"keyword"}
+{"id":"7.4-032","query":"how do I start doing chaos engineering safely in production","relevant":["concepts/chaos-engineering-and-reliability-testing.md"],"section":"7.4","kind":"howto"}
+{"id":"7.4-033","query":"disaster recovery drill restore from backup failover exercise RPO RTO","relevant":["concepts/chaos-engineering-and-reliability-testing.md"],"section":"7.4","kind":"keyword"}
+{"id":"7.4-034","query":"game days DiRT fault injection latency injection","relevant":["concepts/chaos-engineering-and-reliability-testing.md"],"section":"7.4","kind":"keyword"}
+{"id":"7.4-035","query":"testing for reliability canary load soak capacity tests","relevant":["concepts/chaos-engineering-and-reliability-testing.md"],"section":"7.4","kind":"keyword"}
+{"id":"7.4-036","query":"Site Reliability Engineering book Google chapters embracing risk eliminating toil","relevant":["sources/devops-cicd-and-sre-texts-courses-and-seminal-papers.md","concepts/site-reliability-engineering.md"],"section":"7.4","kind":"source"}
+{"id":"7.4-037","query":"Accelerate Forsgren Humble Kim State of DevOps","relevant":["sources/devops-cicd-and-sre-texts-courses-and-seminal-papers.md"],"section":"7.4","kind":"source"}
+{"id":"7.4-038","query":"SRE Workbook implementing SLOs canarying releases","relevant":["sources/devops-cicd-and-sre-texts-courses-and-seminal-papers.md"],"section":"7.4","kind":"source"}

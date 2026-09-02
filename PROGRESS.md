@@ -73,7 +73,7 @@ oasis improvements (PRs to ~/src/oasis), and a running experiments report (`repo
 - [x] 7.1 SE fundamentals (SWE at Google, Brooks, Parnas, Conway, Agile)
 - [x] 7.2 Testing & analysis (Fuzzing Book, Debugging Book, QuickCheck, KLEE, delta debugging)
 - [x] 7.3 Architecture & system design (DDIA, system-design-primer, Fielding REST, AOSA, 500 lines)
-- [ ] 7.4 DevOps/SRE (SRE book, Accelerate, chaos engineering, k8s docs)
+- [x] 7.4 DevOps/SRE (SRE book, Accelerate, chaos engineering, k8s docs)
 - [ ] 7.5 Web (MDN, Eloquent JS, HPBN, Full Stack Open, HTTP spec)
 - [ ] 7.6 Mobile (CS193p, Android Compose)
 - [ ] 7.7 Open source practice (Fogel, Cathedral & Bazaar, licensing, supply chain)
