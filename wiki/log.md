@@ -2,6 +2,13 @@
 
 Newest first. Generated from wiki/log/*.md — do not edit.
 
+## [2026-09-02] ingest | §2.1 Introduction to programming (SICP, Composing Programs/CS61A, HtDP, CS50, Think Python)
+- Read: SICP contents; 2.1.2 (abstraction barriers), 2.2.3 (sequences as conventional interfaces — the enumerate/map/filter/accumulate signal-flow figure), 3.1.3 (costs of introducing assignment — make-simplified-withdraw vs make-decrementer); Composing Programs 3ed intro and chapter list; HtDP 2e table of contents.
+- Created sources: sicp, composing-programs, htdp, harvard-cs50, think-python.
+- Created concepts: substitution-and-environment-models, recursion-and-iteration, higher-order-functions, data-abstraction, assignment-state-and-environments, streams-and-lazy-evaluation, interpreters-eval-apply, design-recipe, debugging, objects-and-classes.
+- Insight: SICP's "sequences as conventional interfaces" is the same idea as MapReduce, Rust iterators and SQL pipelines; and its "costs of assignment" section is the clearest argument for the pure-core/impure-shell design that §2.2/§2.4 pages will rely on. HtDP's template step is structural induction as a coding discipline — linked to [[induction]].
+- Wanted pages: functional-programming-principles, specifications-and-invariants, algebraic-data-types, persistent-data-structures, lambda-calculus, compiler-pipeline, bytecode-and-virtual-machines, parsing, unit-testing, delta-debugging, undefined-behavior, pointers-and-memory, binary-search, liskov-substitution, design-patterns, mapreduce, synchronization-primitives, dynamic-programming.
+
 ## [2026-09-01] ingest | §1.5 Logic, §1.6 Optimization & numerics, §1.7 Information theory
 - Read: CS103 Summer 2026 lecture list; Open Logic Project part/chapter structure; forall x: Calgary description; Boyd & Vandenberghe contents + 9.3 (gradient descent convergence analysis: (1 − m/M) rate); MacKay ITILA contents + source coding theorem discussion (typical sets, "H bits, no more and no less"); 18.335 syllabus (from repo memory).
 - Created sources: stanford-cs103, open-logic-project, forall-x-calgary, boyd-convex-optimization, mit-18-335-numerical-methods, mackay-itila, shannon-1948.

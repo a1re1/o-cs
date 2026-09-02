@@ -58,3 +58,15 @@
 {"id": "1.7-004", "query": "KL divergence is not symmetric which direction to use", "relevant": ["concepts/entropy-and-information.md"], "section": "1.7", "kind": "concept"}
 {"id": "1.7-005", "query": "shannon capacity formula for a noisy channel with bandwidth and SNR", "relevant": ["concepts/channel-capacity-and-error-correction.md", "sources/shannon-1948.md"], "section": "1.7", "kind": "lookup"}
 {"id": "1.7-006", "query": "minimum description length as occam's razor for model selection", "relevant": ["concepts/kolmogorov-complexity.md"], "section": "1.7", "kind": "concept"}
+{"id": "2.1-001", "query": "why does a closure defined in a loop see the last value of the loop variable", "relevant": ["concepts/substitution-and-environment-models.md", "concepts/higher-order-functions.md"], "section": "2.1", "kind": "concept"}
+{"id": "2.1-002", "query": "convert a recursive function to constant stack space", "relevant": ["concepts/recursion-and-iteration.md"], "section": "2.1", "kind": "howto"}
+{"id": "2.1-003", "query": "enumerate map filter accumulate pipeline pattern", "relevant": ["concepts/higher-order-functions.md"], "section": "2.1", "kind": "concept"}
+{"id": "2.1-004", "query": "adding a new type vs adding a new operation, expression problem", "relevant": ["concepts/data-abstraction.md"], "section": "2.1", "kind": "concept"}
+{"id": "2.1-005", "query": "what breaks when you introduce assignment into a functional program", "relevant": ["concepts/assignment-state-and-environments.md"], "section": "2.1", "kind": "concept"}
+{"id": "2.1-006", "query": "python generator can only be iterated once", "relevant": ["concepts/streams-and-lazy-evaluation.md"], "section": "2.1", "kind": "lookup"}
+{"id": "2.1-007", "query": "how does eval apply work in a scheme interpreter", "relevant": ["concepts/interpreters-eval-apply.md"], "section": "2.1", "kind": "concept"}
+{"id": "2.1-008", "query": "write examples and tests before the function body, template from the data definition", "relevant": ["concepts/design-recipe.md"], "section": "2.1", "kind": "howto"}
+{"id": "2.1-009", "query": "how to find a bug by bisecting the program", "relevant": ["concepts/debugging.md"], "section": "2.1", "kind": "howto"}
+{"id": "2.1-010", "query": "difference between is and == in python identity equality", "relevant": ["concepts/assignment-state-and-environments.md", "concepts/objects-and-classes.md"], "section": "2.1", "kind": "lookup"}
+{"id": "2.1-011", "query": "which free book is the python version of SICP", "relevant": ["sources/composing-programs.md"], "section": "2.1", "kind": "lookup"}
+{"id": "2.1-012", "query": "mutable default argument shared between calls", "relevant": ["concepts/assignment-state-and-environments.md", "concepts/debugging.md"], "section": "2.1", "kind": "lookup"}
