@@ -3,6 +3,24 @@
 Newest first. Generated from wiki/log/*.md — do not edit.
 
 ---
+title: Ingest §3.4 competitive programming
+type: log
+section: "3.4"
+tags: [ingest, competitive-programming, cph]
+summary: Read CPH table of contents; wrote source + 4 concept pages (range queries, CP techniques, number-theory algorithms, computational geometry).
+---
+## [2026-09-02] ingest | §3.4 Competitive programming & problem solving
+
+Read: CPH contents (30 chapters). Wrote [[competitive-programmers-handbook]] and
+[[range-queries-segment-trees-fenwick]], [[competitive-programming-techniques]],
+[[number-theory-algorithms]], [[computational-geometry]]. §3 (data structures & algorithms) is
+now complete: 3.1–3.4.
+
+Insight: the complexity-budget table (n → target big-O) is the contest form of
+[[asymptotic-notation]]; nearly all "tricks" are amortization ([[amortized-analysis]]) or
+monotonicity (binary search on the answer, two pointers) in disguise.
+
+---
 title: Ingest §3.3 advanced algorithms and data structures
 type: log
 section: "3.3"

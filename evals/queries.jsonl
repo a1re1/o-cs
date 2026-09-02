@@ -167,3 +167,13 @@
 {"id":"3.3-011","query":"adding a cache server remaps only 1/n of the keys hash ring virtual nodes","relevant":["concepts/consistent-hashing.md"],"section":"3.3","kind":"keyword"}
 {"id":"3.3-012","query":"Karp 21 NP-complete problems Cook theorem paper","relevant":["sources/karp-cook-and-classic-papers.md"],"section":"3.3","kind":"source"}
 {"id":"3.3-013","query":"Stanford modern algorithmic toolbox course mini-projects","relevant":["sources/cs168-modern-algorithmic-toolbox.md"],"section":"3.3","kind":"source"}
+{"id":"3.4-001","query":"fenwick tree lowest set bit prefix sum point update","relevant":["concepts/range-queries-segment-trees-fenwick.md"],"section":"3.4","kind":"keyword"}
+{"id":"3.4-002","query":"range add and range sum with lazy propagation","relevant":["concepts/range-queries-segment-trees-fenwick.md"],"section":"3.4","kind":"keyword"}
+{"id":"3.4-003","query":"n is 40, subset sum too big for 2^n, what technique","relevant":["concepts/competitive-programming-techniques.md"],"section":"3.4","kind":"question"}
+{"id":"3.4-004","query":"binary search on the answer monotone feasibility","relevant":["concepts/competitive-programming-techniques.md"],"section":"3.4","kind":"keyword"}
+{"id":"3.4-005","query":"modular inverse Fermat little theorem a^(p-2) binomial coefficients mod prime","relevant":["concepts/number-theory-algorithms.md"],"section":"3.4","kind":"keyword"}
+{"id":"3.4-006","query":"test whether a 64 bit number is prime quickly","relevant":["concepts/number-theory-algorithms.md"],"section":"3.4","kind":"paraphrase"}
+{"id":"3.4-007","query":"cross product orientation test segment intersection","relevant":["concepts/computational-geometry.md"],"section":"3.4","kind":"keyword"}
+{"id":"3.4-008","query":"convex hull monotone chain sweep line closest pair","relevant":["concepts/computational-geometry.md"],"section":"3.4","kind":"keyword"}
+{"id":"3.4-009","query":"which time complexity can I afford for n up to 10^5","relevant":["concepts/competitive-programming-techniques.md"],"section":"3.4","kind":"question"}
+{"id":"3.4-010","query":"free competitive programming book CSES","relevant":["sources/competitive-programmers-handbook.md"],"section":"3.4","kind":"source"}
