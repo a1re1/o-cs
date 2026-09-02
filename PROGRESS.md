@@ -90,10 +90,10 @@ oasis improvements (PRs to ~/src/oasis), and a running experiments report (`repo
 - [x] 9.4 Data visualization (Wilke, Munzner, Cleveland&McGill, D3, Vega-Lite)
 - [x] 9.5 Social computing & graph ML (Easley&Kleinberg, MMDS, CS224W, PageRank, GCN)
 ### 10 Data
-- [ ] 10.1 Data science (Data 8, Data 100, McKinney, R4DS)
-- [ ] 10.2 Big data & mining (MMDS, MapReduce, Spark, MinHash, HyperLogLog, Count-Min, Dataflow)
-- [ ] 10.3 Information retrieval (Manning IIR, Croft, CS276, BM25, DPR, ColBERT, HNSW)  ← also feeds oasis tuning
-- [ ] 10.4 Knowledge representation (Brachman-Levesque, RDF/SPARQL, knowledge graphs)
+- [x] 10.1 Data science (Data 8, Data 100, McKinney, R4DS)
+- [x] 10.2 Big data & mining (MMDS, MapReduce, Spark, MinHash, HyperLogLog, Count-Min, Dataflow)
+- [x] 10.3 Information retrieval (Manning IIR, Croft, CS276, BM25, DPR, ColBERT, HNSW)  ← also feeds oasis tuning
+- [x] 10.4 Knowledge representation (Brachman-Levesque, RDF/SPARQL, knowledge graphs)
 ### 11 Specialized
 - [ ] 11.1 Comp bio (Compeau-Pevzner, Needleman-Wunsch, BLAST, BWT, AlphaFold)
 - [ ] 11.2 Scientific computing (Heath, 18.335, AM205, autodiff)

@@ -2,6 +2,62 @@
 
 Newest first. Generated from wiki/log/*.md — do not edit.
 
+# 2026-09-02 — Ingest §9 Human-Centered Computing (9.1–9.5)
+
+**Read/distilled:** Norman *DOET*; Nielsen usability heuristics + discount methods;
+Card/Moran/Newell MHP & GOMS; Fitts 1954; Bush 1945, Engelbart 1968, Sutherland
+Sketchpad. PBRT, Real-Time Rendering; Phong/Blinn shading, Whitted 1980, Kajiya 1986
+rendering equation, Veach 1997, NeRF, Gaussian splatting; Catmull-Clark, Garland-
+Heckbert, Crane DDG. Gregory *Game Engine Architecture*, Nystrom patterns, Ericson
+collision; Reynolds Boids, Stam Stable Fluids, Müller PBD. Tufte, Munzner, Wilke,
+Cleveland-McGill 1984, Bertin, Shneiderman 1996, Wilkinson/ggplot2, D3, Vega-Lite.
+Easley-Kleinberg *Networks, Crowds, and Markets*, Leskovec MMDS/CS224W; Milgram,
+Granovetter, Watts-Strogatz, Barabási-Albert, PageRank, HITS, Kipf-Welling GCN.
+
+**Pages created (20):**
+- Sources (5): hci-texts-courses-and-seminal-papers, computer-graphics-texts-courses-
+  and-seminal-papers, games-and-simulation-texts-and-seminal-papers, data-
+  visualization-texts-courses-and-seminal-papers, computational-social-science-texts-
+  and-seminal-papers.
+- Concepts (15): human-computer-interaction (was wanted from ~8 pages),
+  usability-evaluation-and-user-research, interaction-design-and-cognitive-models;
+  computer-graphics-rendering, ray-tracing-and-path-tracing, geometry-processing-and-
+  meshes; game-engine-architecture, physics-simulation-and-collision-detection;
+  data-visualization, visual-encoding-and-perception, grammar-of-graphics-and-
+  interactive-visualization; network-science, graph-neural-networks,
+  recommender-systems, spectral-graph-theory-and-clustering.
+
+**Reused (linked, not recreated):** monte-carlo-methods, markov-chains,
+caches-and-memory-hierarchy, parallel-architectures-simd-gpu, deep-learning-basics,
+entropy-and-information, hypothesis-testing-and-confidence-intervals, svd-and-pca,
+transformers-and-attention, graph-representations, k-means-clustering,
+nlp-fundamentals, frontend-frameworks-and-state-management,
+computing-ethics-and-professional-responsibility.
+
+**Cross-cutting insights logged:**
+- PageRank = stationary distribution of a Markov chain (teleport ⇒ ergodic); network
+  science, GCN (first-order spectral convolution), and mesh Laplacians are all the
+  same graph-Laplacian operator (§9.5 = §9.2 geometry via spectral-graph-theory).
+- Fitts's index of difficulty is measured in bits — HCI borrows Shannon's
+  [[entropy-and-information]]; A/B testing is [[hypothesis-testing-and-confidence-intervals]]
+  applied to interfaces (same machinery as RCTs).
+- ECS / data-oriented design is the cache-locality argument (§3 architecture) applied
+  to game engines; path tracing is Monte Carlo integration of the rendering equation.
+- Recommender evaluation (NDCG, precision@k) = IR evaluation metrics (§10.3 preview);
+  filter-bubble/amplification ethics tie §9.5 to §7.8.
+
+**Status:** build_index ok: 427 pages, 49 logs, 56 wanted, 0 orphans.
+
+**Open questions / forward links (wanted):** linear-algebra-for-cs (heavy from
+graphics — create in scientific computing), data-oriented-design, exploratory-data-
+analysis + experiment-design-and-causal-inference (§10.1), evaluation-of-ir-systems
+(§10.3), numerical-methods-and-stability.
+
+**Next:** §10 Data & Information Systems — 10.1 data science, 10.2 big data/mining,
+10.3 IR & search (create bm25, tf-idf-and-vector-space-model, dense-retrieval-and-
+embeddings, evaluation-of-ir-systems, manning-irb — the theory behind oasis itself),
+10.4 KR/semantic web. Then §11 specialized, §12 paths/syntheses.
+
 ---
 title: Ingest §8.3 privacy technologies and §8.4 blockchain
 type: log
@@ -1503,6 +1559,55 @@ garbage-collection, compiler-optimizations, caches-and-memory-hierarchy, virtual
 - Created concepts: substitution-and-environment-models, recursion-and-iteration, higher-order-functions, data-abstraction, assignment-state-and-environments, streams-and-lazy-evaluation, interpreters-eval-apply, design-recipe, debugging, objects-and-classes.
 - Insight: SICP's "sequences as conventional interfaces" is the same idea as MapReduce, Rust iterators and SQL pipelines; and its "costs of assignment" section is the clearest argument for the pure-core/impure-shell design that §2.2/§2.4 pages will rely on. HtDP's template step is structural induction as a coding discipline — linked to [[induction]].
 - Wanted pages: functional-programming-principles, specifications-and-invariants, algebraic-data-types, persistent-data-structures, lambda-calculus, compiler-pipeline, bytecode-and-virtual-machines, parsing, unit-testing, delta-debugging, undefined-behavior, pointers-and-memory, binary-search, liskov-substitution, design-patterns, mapreduce, synchronization-primitives, dynamic-programming.
+
+# 2026-09-02 — Ingest §10 Data & Information Systems (10.1–10.4)
+
+**Read/distilled:** Berkeley Data 8/Data 100, McKinney pandas, Wickham tidy data;
+Mining of Massive Datasets, Foundations of Data Science, Han DM; Manning *Introduction
+to Information Retrieval* (IIR), Croft *Search Engines*, Lin *Pretrained Transformers
+for Text Ranking*; Salton VSM, Spärck Jones idf, Robertson BM25, Brin-Page, DPR,
+ColBERT, HNSW/FAISS, Cormack RRF; Brachman-Levesque KR&R, W3C RDF/OWL/SPARQL,
+Berners-Lee 2001, Wikidata, TransE.
+
+**Pages created (18):**
+- Sources (4): data-science-texts-and-courses, big-data-mining-texts-and-papers,
+  manning-irb (was wanted), knowledge-representation-texts-and-papers.
+- Concepts (13): exploratory-data-analysis (was wanted), data-wrangling-and-tidy-data
+  [§10.1]; frequent-itemsets-and-association-rules, columnar-storage-and-data-formats
+  [§10.2]; inverted-index (was wanted), tf-idf-and-vector-space-model (was wanted),
+  bm25 (was wanted), dense-retrieval-and-embeddings (was wanted, 8 inbound),
+  approximate-nearest-neighbor-search, evaluation-of-ir-systems (was wanted),
+  hybrid-search-and-rank-fusion [§10.3]; knowledge-graphs-and-ontologies (was wanted),
+  description-logics-and-reasoning [§10.4].
+- Synthesis (1): oasis-search-engine — maps this project's own hybrid BM25+dense+RRF
+  engine onto the §10.3 IR concepts and its eval harness.
+
+**Reused (linked, not recreated):** mapreduce-and-dataflow, streaming-and-sketching
+(Bloom/Count-Min/HyperLogLog already covered), similarity-search-and-lsh (MinHash),
+storage-engines-and-indexes, relational-model, causal-inference,
+hypothesis-testing-and-confidence-intervals, svd-and-pca, transformers-and-attention,
+graph-neural-networks, first-order-logic, propositional-logic, machine-learning-basics.
+
+**Cross-cutting insights logged:**
+- §10.3 IS the theory behind this project's own search: bm25 + inverted-index (lexical),
+  dense-retrieval + ANN (semantic), fused by reciprocal rank fusion (k=60). The recurring
+  "heading trick" in this wiki's evals is BM25F field-weighting on headings, made
+  explicit in [[oasis-search-engine]].
+- IR evaluation metrics (recall@k, MRR, nDCG) = recommender metrics (§9.5) = the harness
+  metrics used throughout this project.
+- Split-apply-combine (pandas groupby) = single-machine [[mapreduce-and-dataflow]];
+  columnar/vectorized execution = §3 SIMD applied to analytics.
+- Description logics = decidable fragments of first-order logic; OWL reasoning's
+  tractability is the [[computability-and-halting-problem]] story (full FOL undecidable),
+  and the open-world assumption is the sharp contrast with database closed-world negation.
+- TransE knowledge-graph embeddings connect symbolic KR to [[graph-neural-networks]].
+
+**Status:** build_index ok: 445 pages, 50 logs, 48 wanted, 0 orphans.
+
+**Next:** §11 Specialized & Interdisciplinary (11.1–11.6: robotics, bioinformatics,
+quantum, comp-econ/game-theory, HPC/scientific computing, etc.), then §12 learning
+paths + syntheses. Also pending at the §9/§10 boundary: report + chart + artifact
+republish, PROGRESS handoff, memory update (deferred to after §11 to batch bookkeeping).
 
 ## [2026-09-01] ingest | §1.5 Logic, §1.6 Optimization & numerics, §1.7 Information theory
 - Read: CS103 Summer 2026 lecture list; Open Logic Project part/chapter structure; forall x: Calgary description; Boyd & Vandenberghe contents + 9.3 (gradient descent convergence analysis: (1 − m/M) rate); MacKay ITILA contents + source coding theorem discussion (typical sets, "H bits, no more and no less"); 18.335 syllabus (from repo memory).
