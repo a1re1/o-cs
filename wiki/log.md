@@ -3,6 +3,39 @@
 Newest first. Generated from wiki/log/*.md — do not edit.
 
 ---
+title: Ingest §5.6 quantum computing
+type: log
+section: "5.6"
+tags: [ingest, quantum, shor, grover, qec, nisq]
+summary: Read Aaronson's lecture-note ToC (27 lectures), Shor 1994 and Preskill NISQ abstracts; wrote 3 concepts (quantum-computing was wanted) and 1 combined source. §5 complete.
+---
+## [2026-09-02] ingest | §5.6 Quantum computing
+
+Read: Aaronson *Introduction to Quantum Information Science* ToC (27 lectures — the arc
+from "probability with minus signs" through Bell games to Shor, Grover, BBBV, adiabatic,
+QEC); Shor 1994/97 abstract (the extended Church–Turing framing: "a digital computer is
+generally believed to be an efficient universal computing device … this may not be true when
+quantum mechanics is taken into consideration"); Preskill 2018 abstract (50–100 qubits,
+noise limits circuit size). Nielsen & Chuang, de Wolf, Grover, BBBV, Steane/Shor codes,
+surface code, threshold theorem, Sycamore, Willow from memory.
+
+Source: [[quantum-computing-texts-and-courses]].
+Concepts: [[quantum-computing]] (wanted), [[quantum-algorithms]],
+[[quantum-error-correction-and-nisq]].
+
+Insights: Simon → Shor is the same move as Bernstein–Vazirani → Simon: a Fourier transform
+over the right group reads out a hidden subgroup, and "which groups" is exactly the line
+between broken (abelian: RSA/ECC) and safe (dihedral/lattices) cryptography — §5.3's post-
+quantum choice explained by §5.6. BBBV is the quantum Baker–Gill–Solovay: an oracle result
+that bounds what the technique can do. Syndrome measurement discretizing continuous errors is
+the deepest idea in the section — it's why the classical coding theory of §1.7 carries over
+(CSS codes are pairs of classical codes). The threshold theorem is von Neumann 1956 again.
+Magic-state distillation makes the T gate the "expensive instruction" of a quantum ISA — a
+[[performance-equation-and-amdahl]] cost model for a machine that doesn't exist yet.
+
+§5 (Theory) is now complete: 5.1–5.6.
+
+---
 title: Ingest §5.5 formal methods and verification
 type: log
 section: "5.5"

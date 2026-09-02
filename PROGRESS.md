@@ -56,7 +56,7 @@ oasis improvements (PRs to ~/src/oasis), and a running experiments report (`repo
 - [x] 5.3 Cryptography (Boneh-Shoup, Joy of Cryptography, CS255, seminal papers)
 - [x] 5.4 PL theory & types (TAPL, Software Foundations, PFPL, PLAI, seminal papers)
 - [x] 5.5 Formal methods (TLA+, model checking, abstract interpretation, seL4, CompCert)
-- [ ] 5.6 Quantum computing (de Wolf notes, Preskill, Qiskit, Shor/Grover)
+- [x] 5.6 Quantum computing (de Wolf notes, Preskill, Qiskit, Shor/Grover)
 ### 6 AI/ML
 - [ ] 6.1 Intro AI (CS188, AIMA, Poole&Mackworth, A*)
 - [ ] 6.2 Machine learning (CS229 notes, ISLR, ESL, Shalev-Shwartz, Murphy, seminal papers)

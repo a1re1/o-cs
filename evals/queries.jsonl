@@ -479,3 +479,22 @@
 {"id":"5.5-022","query":"Lamport Specifying Systems TLA+ book","relevant":["sources/formal-methods-texts-and-courses.md"],"section":"5.5","kind":"source"}
 {"id":"5.5-023","query":"Baier Katoen Principles of Model Checking","relevant":["sources/formal-methods-texts-and-courses.md"],"section":"5.5","kind":"source"}
 {"id":"5.5-024","query":"Cousot abstract interpretation 1977 paper","relevant":["sources/formal-methods-seminal-papers.md","concepts/abstract-interpretation.md"],"section":"5.5","kind":"source"}
+{"id":"5.6-001","query":"qubit amplitudes Born rule measurement probability squared","relevant":["concepts/quantum-computing.md"],"section":"5.6","kind":"keyword"}
+{"id":"5.6-002","query":"why does quantum parallelism not let you read all the answers","relevant":["concepts/quantum-computing.md","concepts/quantum-algorithms.md"],"section":"5.6","kind":"question"}
+{"id":"5.6-003","query":"no-cloning theorem BB84 quantum key distribution eavesdropper disturbance","relevant":["concepts/quantum-computing.md"],"section":"5.6","kind":"keyword"}
+{"id":"5.6-004","query":"Bell state CHSH inequality nonlocal game 0.854","relevant":["concepts/quantum-computing.md"],"section":"5.6","kind":"keyword"}
+{"id":"5.6-005","query":"universal gate set Hadamard T CNOT Clifford Gottesman-Knill","relevant":["concepts/quantum-computing.md","concepts/quantum-error-correction-and-nisq.md"],"section":"5.6","kind":"keyword"}
+{"id":"5.6-006","query":"teleportation superdense coding shared entanglement classical bits","relevant":["concepts/quantum-computing.md"],"section":"5.6","kind":"keyword"}
+{"id":"5.6-007","query":"Shor's algorithm period finding QFT continued fractions factoring","relevant":["concepts/quantum-algorithms.md"],"section":"5.6","kind":"keyword"}
+{"id":"5.6-008","query":"Grover search square root N optimal BBBV lower bound","relevant":["concepts/quantum-algorithms.md"],"section":"5.6","kind":"keyword"}
+{"id":"5.6-009","query":"can quantum computers solve NP-complete problems exponentially faster","relevant":["concepts/quantum-algorithms.md"],"section":"5.6","kind":"question"}
+{"id":"5.6-010","query":"Simon's algorithm hidden period exponential separation Deutsch-Jozsa","relevant":["concepts/quantum-algorithms.md"],"section":"5.6","kind":"keyword"}
+{"id":"5.6-011","query":"HHL linear systems caveats dequantization Tang","relevant":["concepts/quantum-algorithms.md"],"section":"5.6","kind":"keyword"}
+{"id":"5.6-012","query":"BQP vs BPP vs PSPACE quantum complexity class","relevant":["concepts/quantum-algorithms.md","concepts/complexity-classes.md"],"section":"5.6","kind":"keyword"}
+{"id":"5.6-013","query":"how can you correct quantum errors if you can't copy or measure the state","relevant":["concepts/quantum-error-correction-and-nisq.md"],"section":"5.6","kind":"question"}
+{"id":"5.6-014","query":"surface code threshold 1 percent stabilizers syndrome decoding","relevant":["concepts/quantum-error-correction-and-nisq.md"],"section":"5.6","kind":"keyword"}
+{"id":"5.6-015","query":"magic state distillation T gates Eastin-Knill fault tolerance overhead","relevant":["concepts/quantum-error-correction-and-nisq.md"],"section":"5.6","kind":"keyword"}
+{"id":"5.6-016","query":"NISQ Preskill noisy intermediate scale error mitigation variational","relevant":["concepts/quantum-error-correction-and-nisq.md"],"section":"5.6","kind":"keyword"}
+{"id":"5.6-017","query":"superconducting transmon vs trapped ion vs neutral atom qubits comparison","relevant":["concepts/quantum-error-correction-and-nisq.md"],"section":"5.6","kind":"compare"}
+{"id":"5.6-018","query":"Nielsen Chuang quantum computation and quantum information textbook","relevant":["sources/quantum-computing-texts-and-courses.md"],"section":"5.6","kind":"source"}
+{"id":"5.6-019","query":"Scott Aaronson quantum lecture notes free","relevant":["sources/quantum-computing-texts-and-courses.md"],"section":"5.6","kind":"source"}
