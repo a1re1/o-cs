@@ -3,6 +3,82 @@
 Newest first. Generated from wiki/log/*.md — do not edit.
 
 ---
+title: Ingest §6.8 learning theory
+type: log
+section: "6.8"
+tags: [ingest, learning-theory, pac, vc, rademacher, online-learning, ntk, double-descent]
+summary: Read Mohri's book page, the UML front matter (from §6.2), and the Belkin double-descent abstract; wrote 2 concepts (statistical-learning-theory and online-learning-and-regret — both wanted) and 1 combined source.
+---
+## [2026-09-02] ingest | §6.8 Learning theory
+
+Read: Belkin, Hsu, Ma & Mandal 2019 abstract in full ("the bias-variance trade-off appears
+to be at odds with the observed behavior … very rich models such as neural networks are
+trained to exactly fit … and yet they often obtain high accuracy … 'double descent' curve
+subsumes the textbook U-shaped curve"); Mohri's book page (1.3 kB — nav only); UML's
+preface/structure (fetched in §6.2). Vershynin, Wainwright, Cesa-Bianchi & Lugosi, Ma's
+STATS214 notes, and the papers from memory.
+
+Source: [[learning-theory-texts-courses-and-seminal-papers]].
+Concepts: [[statistical-learning-theory]] (wanted — referenced by seven earlier pages),
+[[online-learning-and-regret]] (wanted).
+
+Insights: the whole batch theory is one move — replace the union bound over hypotheses by a
+union bound over *behaviours on the sample* (Sauer–Shelah, symmetrization) — and Rademacher
+complexity is that move made data-dependent. Online learning removes the distribution
+altogether and still gets √T; online-to-batch then *re-derives* SGD's statistical rate
+without uniform convergence, which is the cleaner explanation of why one pass of SGD works
+([[gradient-descent]]). Hedge = FTRL with entropy = mirror descent on the simplex = AdaBoost
+= the multiplicative-weights LP solver of [[approximation-algorithms]] = the constructive
+minimax theorem: one algorithm, five sections of the curriculum. Deep-learning theory's
+state is honest in the page: NTK explains convergence in the lazy regime, implicit bias
+explains which interpolant GD picks, benign overfitting explains why interpolating can be
+fine, and none of them predicts [[scaling-laws]]. Littlestone dimension ⇔ private
+learnability is the kind of equivalence that would have been a §5 highlight.
+
+Section §6 is now 8 of 11 done (6.9 ML systems, 6.10 robotics, 6.11 safety remain).
+Forward wanted slugs: game-theory (now referenced by ~6 pages — write it in §6.11 or the
+synthesis pass), data-compression (check §1.7 slug), approximation-algorithms (check §3).
+
+---
+title: Ingest §6.7 probabilistic graphical models and Bayesian methods
+type: log
+section: "6.7"
+tags: [ingest, pgm, mcmc, variational-inference, bayesian, causal]
+summary: Read the CS228 notes' full contents page; wrote 5 concepts (probabilistic-graphical-models, monte-carlo-methods, bayesian-inference, causal-inference were wanted) plus variational-inference, and 1 combined source.
+---
+## [2026-09-02] ingest | §6.7 PGMs & Bayesian methods
+
+Read: CS228 notes contents (Ermon; four parts — representation, inference, learning,
+"bringing it together" with the VAE — with every subsection listed). Koller & Friedman,
+MacKay, BDA3, GPML, Pearl, Neal's HMC and Hoffman–Gelman NUTS from memory (I know these
+texts). Barber not fetched.
+
+Source: [[pgm-and-bayesian-texts-courses-and-seminal-papers]].
+Concepts: [[probabilistic-graphical-models]] (wanted), [[monte-carlo-methods]] (wanted —
+the slug was requested by §3 and §6 pages; this page covers MC estimation, importance
+sampling, MCMC/HMC/NUTS, SMC, and the randomized-algorithms sense),
+[[variational-inference]], [[bayesian-inference]] (wanted), [[causal-inference]] (wanted).
+
+Insights: inference on a factor graph is [[dynamic-programming]] over a tree decomposition
+— the same treewidth that governs CSPs, database join trees, and Bayes nets; the junction
+tree is "run VE once, cache all messages". MCMC and VI are the two ways to avoid computing
+a partition function: run a chain that only needs ratios, or optimize a bound that only
+needs expectations under q. Loopy BP being a stationary point of the Bethe free energy
+ties the LDPC decoders of §1.7 to variational inference. The reverse-KL variance
+underestimation is the mirror of MLE's forward-KL moment matching — the same asymmetry
+that separates mode-seeking GANs from mode-covering likelihood models in §6.3. HMC is
+gradient descent's Hamiltonian cousin — [[deep-learning-basics]]'s autodiff made it
+practical. Pearl's do-operator is graph surgery — deleting incoming edges — the exact dual of
+[[abstract-interpretation]]'s "modify the program, keep the semantics": modify the model,
+ask what the data would be. The Bayesian workflow's prior/posterior predictive checks are
+unit tests for models.
+
+Forward wanted slugs: fairness-in-machine-learning, interpretability-and-explainability
+(§6.11), randomized-algorithms (check §3 slug), hashing-and-randomness (check),
+probability-and-statistics-for-cs (still wanted — §1.4 has specific pages;
+consider a hub page in the syntheses pass).
+
+---
 title: Ingest §6.6 reinforcement learning
 type: log
 section: "6.6"

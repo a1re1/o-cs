@@ -674,3 +674,61 @@
 {"id":"6.6-025","query":"Sutton Barto Reinforcement Learning An Introduction chapters","relevant":["sources/reinforcement-learning-texts-courses-and-seminal-papers.md"],"section":"6.6","kind":"source"}
 {"id":"6.6-026","query":"OpenAI Spinning Up deep RL key concepts","relevant":["sources/reinforcement-learning-texts-courses-and-seminal-papers.md"],"section":"6.6","kind":"source"}
 {"id":"6.6-027","query":"Berkeley CS285 Levine deep reinforcement learning course","relevant":["sources/reinforcement-learning-texts-courses-and-seminal-papers.md"],"section":"6.6","kind":"source"}
+{"id":"6.7-001","query":"Markov random field Hammersley-Clifford cliques partition function vs Bayesian network","relevant":["concepts/probabilistic-graphical-models.md"],"section":"6.7","kind":"compare"}
+{"id":"6.7-002","query":"junction tree algorithm moralization triangulation clique tree calibration","relevant":["concepts/probabilistic-graphical-models.md"],"section":"6.7","kind":"keyword"}
+{"id":"6.7-003","query":"loopy belief propagation Bethe free energy LDPC","relevant":["concepts/probabilistic-graphical-models.md","concepts/variational-inference.md"],"section":"6.7","kind":"keyword"}
+{"id":"6.7-004","query":"MAP inference graph cuts LP relaxation dual decomposition","relevant":["concepts/probabilistic-graphical-models.md"],"section":"6.7","kind":"keyword"}
+{"id":"6.7-005","query":"conditional random field vs HMM discriminative sequence labeling","relevant":["concepts/probabilistic-graphical-models.md"],"section":"6.7","kind":"compare"}
+{"id":"6.7-006","query":"learning undirected models partition function gradient contrastive divergence pseudo-likelihood","relevant":["concepts/probabilistic-graphical-models.md"],"section":"6.7","kind":"keyword"}
+{"id":"6.7-007","query":"Chow-Liu tree structure learning BIC PC algorithm","relevant":["concepts/probabilistic-graphical-models.md"],"section":"6.7","kind":"keyword"}
+{"id":"6.7-008","query":"Metropolis-Hastings acceptance ratio detailed balance stationary distribution","relevant":["concepts/monte-carlo-methods.md"],"section":"6.7","kind":"keyword"}
+{"id":"6.7-009","query":"importance sampling weights variance effective sample size high dimensions","relevant":["concepts/monte-carlo-methods.md"],"section":"6.7","kind":"keyword"}
+{"id":"6.7-010","query":"Hamiltonian Monte Carlo leapfrog NUTS Stan divergences","relevant":["concepts/monte-carlo-methods.md"],"section":"6.7","kind":"keyword"}
+{"id":"6.7-011","query":"how do I know my MCMC chain has converged R-hat effective sample size","relevant":["concepts/monte-carlo-methods.md"],"section":"6.7","kind":"question"}
+{"id":"6.7-012","query":"Gibbs sampling full conditional Markov blanket","relevant":["concepts/monte-carlo-methods.md","concepts/bayesian-networks-and-hmms.md"],"section":"6.7","kind":"keyword"}
+{"id":"6.7-013","query":"Monte Carlo integration error 1/sqrt(N) dimension independent variance reduction","relevant":["concepts/monte-carlo-methods.md"],"section":"6.7","kind":"keyword"}
+{"id":"6.7-014","query":"ELBO KL divergence lower bound on log evidence why","relevant":["concepts/variational-inference.md"],"section":"6.7","kind":"question"}
+{"id":"6.7-015","query":"mean field CAVI coordinate ascent update exponential family conjugate","relevant":["concepts/variational-inference.md"],"section":"6.7","kind":"keyword"}
+{"id":"6.7-016","query":"score function estimator vs reparameterization trick gradient variance","relevant":["concepts/variational-inference.md"],"section":"6.7","kind":"compare"}
+{"id":"6.7-017","query":"amortized inference inference network VAE amortization gap","relevant":["concepts/variational-inference.md"],"section":"6.7","kind":"keyword"}
+{"id":"6.7-018","query":"variational inference vs MCMC when to use which","relevant":["concepts/variational-inference.md","concepts/monte-carlo-methods.md"],"section":"6.7","kind":"compare"}
+{"id":"6.7-019","query":"reverse KL mode seeking underestimates variance expectation propagation","relevant":["concepts/variational-inference.md"],"section":"6.7","kind":"keyword"}
+{"id":"6.7-020","query":"LDA topic model stochastic variational inference","relevant":["concepts/variational-inference.md"],"section":"6.7","kind":"keyword"}
+{"id":"6.7-021","query":"conjugate prior Beta Binomial pseudo-counts posterior update","relevant":["concepts/bayesian-inference.md"],"section":"6.7","kind":"keyword"}
+{"id":"6.7-022","query":"hierarchical model partial pooling shrinkage eight schools","relevant":["concepts/bayesian-inference.md"],"section":"6.7","kind":"keyword"}
+{"id":"6.7-023","query":"marginal likelihood Bayes factor Occam's razor WAIC LOO model comparison","relevant":["concepts/bayesian-inference.md"],"section":"6.7","kind":"keyword"}
+{"id":"6.7-024","query":"posterior predictive check prior predictive check Bayesian workflow","relevant":["concepts/bayesian-inference.md"],"section":"6.7","kind":"keyword"}
+{"id":"6.7-025","query":"Gaussian process regression kernel posterior mean variance Bayesian optimization","relevant":["concepts/bayesian-inference.md"],"section":"6.7","kind":"keyword"}
+{"id":"6.7-026","query":"credible interval vs confidence interval Bayesian frequentist","relevant":["concepts/bayesian-inference.md"],"section":"6.7","kind":"compare"}
+{"id":"6.7-027","query":"I have very little data and want uncertainty estimates","relevant":["concepts/bayesian-inference.md"],"section":"6.7","kind":"paraphrase"}
+{"id":"6.7-028","query":"backdoor criterion adjustment formula do-calculus confounder","relevant":["concepts/causal-inference.md"],"section":"6.7","kind":"keyword"}
+{"id":"6.7-029","query":"Simpson's paradox collider bias selection bias","relevant":["concepts/causal-inference.md"],"section":"6.7","kind":"keyword"}
+{"id":"6.7-030","query":"propensity score matching inverse probability weighting doubly robust","relevant":["concepts/causal-inference.md"],"section":"6.7","kind":"keyword"}
+{"id":"6.7-031","query":"potential outcomes ATE ignorability randomized experiment A/B test","relevant":["concepts/causal-inference.md"],"section":"6.7","kind":"keyword"}
+{"id":"6.7-032","query":"instrumental variables difference in differences regression discontinuity","relevant":["concepts/causal-inference.md"],"section":"6.7","kind":"keyword"}
+{"id":"6.7-033","query":"can I estimate the effect of a feature from observational logs without an experiment","relevant":["concepts/causal-inference.md"],"section":"6.7","kind":"paraphrase"}
+{"id":"6.7-034","query":"ladder of causation counterfactuals structural causal model Pearl","relevant":["concepts/causal-inference.md"],"section":"6.7","kind":"keyword"}
+{"id":"6.7-035","query":"Koller Friedman Probabilistic Graphical Models book","relevant":["sources/pgm-and-bayesian-texts-courses-and-seminal-papers.md"],"section":"6.7","kind":"source"}
+{"id":"6.7-036","query":"Stanford CS228 notes Ermon","relevant":["sources/pgm-and-bayesian-texts-courses-and-seminal-papers.md"],"section":"6.7","kind":"source"}
+{"id":"6.7-037","query":"MacKay Information Theory Inference and Learning Algorithms","relevant":["sources/pgm-and-bayesian-texts-courses-and-seminal-papers.md"],"section":"6.7","kind":"source"}
+{"id":"6.8-001","query":"PAC learning definition sample complexity epsilon delta","relevant":["concepts/statistical-learning-theory.md"],"section":"6.8","kind":"keyword"}
+{"id":"6.8-002","query":"VC dimension shattering Sauer-Shelah growth function","relevant":["concepts/statistical-learning-theory.md"],"section":"6.8","kind":"keyword"}
+{"id":"6.8-003","query":"fundamental theorem of statistical learning uniform convergence finite VC","relevant":["concepts/statistical-learning-theory.md"],"section":"6.8","kind":"keyword"}
+{"id":"6.8-004","query":"Rademacher complexity symmetrization data-dependent bound Talagrand contraction","relevant":["concepts/statistical-learning-theory.md"],"section":"6.8","kind":"keyword"}
+{"id":"6.8-005","query":"margin bound SVM boosting why AdaBoost doesn't overfit","relevant":["concepts/statistical-learning-theory.md"],"section":"6.8","kind":"question"}
+{"id":"6.8-006","query":"algorithmic stability PAC-Bayes compression bounds generalization","relevant":["concepts/statistical-learning-theory.md"],"section":"6.8","kind":"keyword"}
+{"id":"6.8-007","query":"neural tangent kernel lazy training infinite width","relevant":["concepts/statistical-learning-theory.md"],"section":"6.8","kind":"keyword"}
+{"id":"6.8-008","query":"benign overfitting interpolation minimum norm implicit bias max margin","relevant":["concepts/statistical-learning-theory.md"],"section":"6.8","kind":"keyword"}
+{"id":"6.8-009","query":"why do neural networks generalize if they can memorize random labels","relevant":["concepts/statistical-learning-theory.md","concepts/neural-network-training.md"],"section":"6.8","kind":"question"}
+{"id":"6.8-010","query":"computational hardness of learning proper vs improper Kearns Valiant","relevant":["concepts/statistical-learning-theory.md"],"section":"6.8","kind":"keyword"}
+{"id":"6.8-011","query":"no free lunch theorem structural risk minimization MDL bound","relevant":["concepts/statistical-learning-theory.md","concepts/generalization-bias-variance-and-regularization.md"],"section":"6.8","kind":"keyword"}
+{"id":"6.8-012","query":"Hedge exponential weights regret sqrt T log N experts","relevant":["concepts/online-learning-and-regret.md"],"section":"6.8","kind":"keyword"}
+{"id":"6.8-013","query":"perceptron mistake bound Novikoff R over gamma squared Winnow","relevant":["concepts/online-learning-and-regret.md"],"section":"6.8","kind":"keyword"}
+{"id":"6.8-014","query":"online gradient descent regret FTRL mirror descent AdaGrad","relevant":["concepts/online-learning-and-regret.md"],"section":"6.8","kind":"keyword"}
+{"id":"6.8-015","query":"online-to-batch conversion SGD excess risk one pass","relevant":["concepts/online-learning-and-regret.md"],"section":"6.8","kind":"keyword"}
+{"id":"6.8-016","query":"minimax theorem no-regret dynamics Nash equilibrium multiplicative weights","relevant":["concepts/online-learning-and-regret.md"],"section":"6.8","kind":"keyword"}
+{"id":"6.8-017","query":"Littlestone dimension online learnability","relevant":["concepts/online-learning-and-regret.md"],"section":"6.8","kind":"lookup"}
+{"id":"6.8-018","query":"guarantees when the data is not iid and could be adversarial","relevant":["concepts/online-learning-and-regret.md"],"section":"6.8","kind":"paraphrase"}
+{"id":"6.8-019","query":"AdaBoost as a game Hedge against weak learner","relevant":["concepts/online-learning-and-regret.md"],"section":"6.8","kind":"keyword"}
+{"id":"6.8-020","query":"Mohri Foundations of Machine Learning Vershynin High-Dimensional Probability","relevant":["sources/learning-theory-texts-courses-and-seminal-papers.md"],"section":"6.8","kind":"source"}
+{"id":"6.8-021","query":"Belkin double descent reconciling bias-variance modern practice","relevant":["sources/learning-theory-texts-courses-and-seminal-papers.md","concepts/statistical-learning-theory.md"],"section":"6.8","kind":"source"}
