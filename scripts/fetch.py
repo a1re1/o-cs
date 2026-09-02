@@ -50,6 +50,7 @@ if __name__ == "__main__":
         grep = re.compile(args[args.index("--grep") + 1], re.I)
     data, suffix = fetch(url)
     text = to_text(data, suffix)
+    text = re.sub(r"[\x00-\x08\x0b\x0c\x0e-\x1f]", "", text)
     text = re.sub(r"\n{3,}", "\n\n", text)
     if grep:
         lines = text.splitlines()
