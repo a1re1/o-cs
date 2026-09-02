@@ -25,7 +25,7 @@ geometric ideas appear in any dynamics simulation.
 systems. **Semi-implicit (symplectic) Euler** — update velocity first, then position
 with the new velocity — is stable enough and standard in games. Stiff systems
 (cloth, springs) need implicit or position-based methods. See
-[[numerical-methods-and-stability]].
+[[numerical-linear-algebra-and-solvers]].
 
 **Collision detection, two phases:**
 - **Broad phase** — cheaply prune non-colliding pairs using spatial structures:
@@ -78,7 +78,7 @@ would oscillate and blow up.
 
 ## Related
 - [[game-engine-architecture]] — physics is a subsystem in the fixed-timestep loop.
-- [[numerical-methods-and-stability]] — integrator stability underlies all of this.
+- [[numerical-linear-algebra-and-solvers]] — integrator stability underlies all of this.
 - [[computer-graphics-rendering]] — simulated geometry gets rendered.
 
 ## Sources

@@ -24,7 +24,7 @@ photorealism.
 **The rasterization pipeline** (logical stages; the GPU parallelizes each):
 1. **Model & view transform** — place objects in the world and the world relative
    to the camera, via 4×4 matrices in **homogeneous coordinates** (so translation is
-   a matrix multiply). See [[linear-algebra-for-cs]].
+   a matrix multiply). See [[matrices-and-linear-maps]].
 2. **Projection** — perspective or orthographic transform into clip space; the
    perspective divide produces foreshortening.
 3. **Clipping & viewport transform** — cut geometry to the frustum, map to pixels.
@@ -82,7 +82,7 @@ texture and applies Blinn-Phong lighting, and the z-buffer discards hidden faces
 - [[ray-tracing-and-path-tracing]] — the physically based alternative for photorealism.
 - [[geometry-processing-and-meshes]] — the surfaces being rendered.
 - [[parallel-architectures-simd-gpu]] — the hardware the pipeline maps onto.
-- [[linear-algebra-for-cs]] — transforms and projections are matrix math.
+- [[matrices-and-linear-maps]] — transforms and projections are matrix math.
 
 ## Sources
 Distilled from [[computer-graphics-texts-courses-and-seminal-papers]] (Marschner &

@@ -91,7 +91,7 @@ quotients in programming.
 
 ## Related
 - [[type-systems]], [[lambda-calculus]], [[polymorphism-and-type-inference]],
-  [[program-verification]], [[propositional-logic]], [[predicate-logic]], [[proof-techniques]],
+  [[program-verification]], [[propositional-logic]], [[first-order-logic]], [[proof-techniques]],
   [[induction]], [[decidability-and-reductions]], [[closures-and-environment-model]].
 
 ## Sources

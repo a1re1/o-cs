@@ -27,7 +27,7 @@ closed form (or an asymptotic bound) and *proving* it, usually by [[induction]].
    function, and partial fractions read off the closed form. Also count things: the coefficient of
    x^n in (1 + x + x² + …)^k = 1/(1−x)^k is C(n+k−1, k−1) — stars and bars from [[counting-rules]].
 4. **Divide and conquer**: T(n) = aT(n/b) + f(n) — use the Master theorem / recursion-tree method
-   ([[master-theorem]], §3.2). T(n) = 2T(n/2) + n ⇒ Θ(n log n).
+   ([[divide-and-conquer]], §3.2). T(n) = 2T(n/2) + n ⇒ Θ(n log n).
 
 ## Pitfalls
 - Floors/ceilings and base cases rarely change the asymptotics but can break an exact closed form.
@@ -42,7 +42,7 @@ Characteristic approach: homogeneous root 2, particular constant −1.
 
 ## Related
 - [[asymptotic-notation]] — what the bounds mean.
-- [[master-theorem]] — divide-and-conquer recurrences (§3.2).
+- [[divide-and-conquer]] — divide-and-conquer recurrences (§3.2).
 - [[induction]], [[counting-rules]].
 
 ## Sources

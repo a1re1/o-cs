@@ -65,7 +65,7 @@ because collapsing them incurs large quadric error.
 ## Related
 - [[computer-graphics-rendering]] — meshes are what gets rasterized.
 - [[spectral-graph-theory-and-clustering]] — the mesh Laplacian is a graph Laplacian.
-- [[linear-algebra-for-cs]] — DDG operators are sparse linear systems.
+- [[matrices-and-linear-maps]] — DDG operators are sparse linear systems.
 
 ## Sources
 Distilled from [[computer-graphics-texts-courses-and-seminal-papers]] (Catmull-Clark

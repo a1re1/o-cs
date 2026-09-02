@@ -60,7 +60,7 @@ amortized decrease-key; pairing heaps in practice ([[heaps-and-priority-queues]]
 
 ## Geometric
 Range trees (O(log^{d−1} n) with fractional cascading), k-d trees, segment/interval trees,
-priority search trees, kinetic data structures — [[augmented-data-structures]].
+priority search trees, kinetic data structures — [[advanced-data-structures]].
 
 ## Related
 - [[persistent-data-structures]], [[balanced-search-trees]], [[amortized-analysis]], [[tries]],

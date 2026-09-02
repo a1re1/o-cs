@@ -60,5 +60,5 @@ engineering with numerical simulation.
 ## What it adds
 Games are where real-time systems, numerical methods, and graphics meet under a hard
 frame-time budget. Links to [[computer-graphics-rendering]], [[monte-carlo-methods]]
-and numerical [[numerical-methods-and-stability]], and [[data-oriented-design]] via
+and numerical [[numerical-linear-algebra-and-solvers]], and [[data-oriented-design]] via
 ECS and cache-friendly layout.

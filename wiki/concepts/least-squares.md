@@ -37,7 +37,7 @@ squares scales rows. Constrained (Ax ≈ b subject to Cx = d) via KKT system.
 (80/20), fit on the training set, compare RMS errors: train ≪ test ⇒ overfitting (too many/too flexible
 features); train ≈ test ⇒ some evidence of generalization. **Cross-validation**: k folds, fit k
 times, average — also shows how sensitive θ is to the data. Polynomial degree vs test error is the
-canonical picture ([[bias-variance-tradeoff]]).
+canonical picture ([[generalization-bias-variance-and-regularization]]).
 
 ## Pitfalls
 - Collinear features ⇒ AᵀA singular or ill-conditioned; coefficients meaningless though predictions may be fine.
@@ -47,7 +47,7 @@ canonical picture ([[bias-variance-tradeoff]]).
 
 ## Related
 - [[orthogonality-and-projections]] — geometry; [[svd-and-pca]] — pseudoinverse and conditioning.
-- [[gradient-descent]] — iterative solution when A is huge (§1.6); [[bias-variance-tradeoff]] (§6.2).
+- [[gradient-descent]] — iterative solution when A is huge (§1.6); [[generalization-bias-variance-and-regularization]] (§6.2).
 
 ## Sources
 VMLS ch. 12–15 (least squares, data fitting, validation, classification, multi-objective); Strang lecture 16.

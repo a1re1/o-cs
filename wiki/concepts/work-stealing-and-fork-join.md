@@ -30,7 +30,7 @@ T₁/T∞ ≫ P (**parallel slackness**). Examples: parallel merge sort with par
 Θ(n log n), span Θ(log³ n) (Θ(log² n) with better merge); matrix multiply divide-and-conquer —
 work Θ(n³), span Θ(log² n); reductions Θ(log n); a naive parallel loop that spawns each
 iteration from a serial loop has span Θ(n) — recursive spawning fixes it. Amdahl is the
-special case of the span law ([[divide-and-conquer]], [[master-theorem]]).
+special case of the span law ([[divide-and-conquer]], [[divide-and-conquer]]).
 
 ## Work stealing (Blumofe & Leiserson 1999)
 Each worker keeps a **deque** of ready tasks; it pushes and pops at the bottom (LIFO — keeps the

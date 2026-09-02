@@ -17,7 +17,7 @@ semantics in which time and concurrency are explicit.
 **Continuous**: the plant as ODEs (ẋ = f(x, u), Newton's laws, motors, thermal); actor
 models with signals as functions of time; integrators; feedback control — proportional/
 integral/derivative (**PID**) controllers, stability, gain and phase margins
-([[linear-algebra-for-cs]], [[numerical-computing-and-floating-point]] for simulation).
+([[matrices-and-linear-maps]], [[floating-point]] for simulation).
 **Discrete**: **finite-state machines** — states, inputs, outputs, guards, reactions; Moore
 vs Mealy; **extended** state machines with variables (the practical form: a `switch` in an
 ISR loop — [[microcontrollers-and-embedded-programming]]); nondeterminism (abstraction of
@@ -77,7 +77,7 @@ generate code from verified models (SCADE, Simulink Coder) and test with hardwar
 ## Related
 - [[real-time-scheduling]], [[microcontrollers-and-embedded-programming]],
   [[finite-automata-and-regular-languages]], [[model-checking]], [[program-verification]],
-  [[streams-and-lazy-evaluation]], [[processes-and-threads]], [[numerical-computing-and-floating-point]].
+  [[streams-and-lazy-evaluation]], [[processes-and-threads]], [[floating-point]].
 
 ## Sources
 Lee & Seshia, Introduction to Embedded Systems, 2nd ed., ch. 2–7, 12–16; Lee, "Cyber-Physical Systems: Design Challenges" (2008); Lee, "The Problem with Threads" (2006); Harel, "Statecharts" (1987); Benveniste et al., "The Synchronous Languages 12 Years Later" (2003).

@@ -39,7 +39,7 @@ p̂ = (k + a − 1)/(n + a + b − 2) (Laplace smoothing with a = b = 2). Gaussi
 
 ## Model comparison
 Higher likelihood always favours more parameters; penalize with AIC/BIC or use held-out likelihood /
-cross-validation ([[least-squares]] validation, [[bias-variance-tradeoff]]).
+cross-validation ([[least-squares]] validation, [[generalization-bias-variance-and-regularization]]).
 
 ## Pitfalls
 - Maximizing likelihood over models of different dimension without penalty.

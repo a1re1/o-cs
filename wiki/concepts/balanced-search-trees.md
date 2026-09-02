@@ -47,7 +47,7 @@ Language libraries: Java `TreeMap` (red-black), C++ `std::map` (red-black), Rust
 `floor`/`ceiling`, predecessor/successor, `rank(k)` and `select(i)` with subtree sizes, range
 count and range iteration, ordered traversal, min/max — all O(log n) — plus deterministic
 iteration and worst-case (not expected) bounds. Interval trees, order-statistic trees and k-d
-trees are augmentations ([[augmented-data-structures]]).
+trees are augmentations ([[advanced-data-structures]]).
 
 ## Pitfalls
 - Using a balanced tree where a hash table suffices (2–5× slower for pure lookups).
@@ -56,7 +56,7 @@ trees are augmentations ([[augmented-data-structures]]).
 
 ## Related
 - [[binary-search-trees]], [[hash-tables]], [[amortized-analysis]], [[persistent-data-structures]]
-  (path copying works on any of these), [[storage-engines-and-indexes]], [[augmented-data-structures]].
+  (path copying works on any of these), [[storage-engines-and-indexes]], [[advanced-data-structures]].
 
 ## Sources
 Sedgewick 3.3; ODS ch. 7–9, 14; CS61B week 6; CLRS ch. 13, 18.

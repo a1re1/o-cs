@@ -62,7 +62,7 @@ indexing follows query patterns ([[storage-engines-and-indexes]]).
 
 ## Related
 - [[storage-engines-and-indexes]], [[query-optimization]], [[transactions-and-concurrency-control]],
-  [[distributed-databases-and-nosql]], [[predicate-logic]], [[sets-relations-functions]].
+  [[distributed-databases-and-nosql]], [[first-order-logic]], [[sets-relations-functions]].
 
 ## Sources
 Codd 1970; 15-445 L01–02; Silberschatz ch. 1–7; DDIA ch. 2.

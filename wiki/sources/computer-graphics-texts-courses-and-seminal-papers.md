@@ -68,6 +68,6 @@ the meshes and surfaces themselves.
 
 ## What it adds
 Graphics is where linear algebra, calculus, and physics become pictures. It links to
-[[linear-algebra-for-cs]] (transforms are matrices), [[monte-carlo-methods]]
+[[matrices-and-linear-maps]] (transforms are matrices), [[monte-carlo-methods]]
 (path tracing is Monte Carlo integration), [[parallel-architectures-simd-gpu]] (the
 pipeline is massively parallel), and [[deep-learning-basics]] (neural rendering).

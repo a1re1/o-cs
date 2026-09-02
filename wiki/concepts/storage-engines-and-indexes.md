@@ -48,7 +48,7 @@ OS lacks ([[caches-and-memory-hierarchy]], [[virtual-memory]]).
   O(1) equality, no ranges. **Bloom filters** to skip lookups. Skip lists, radix/ART tries and
   learned indexes in memory-optimized engines ([[tries]], [[hash-tables]]).
 - Bitmap indexes and zone maps for analytics; inverted indexes for text
-  ([[search-engines-and-ranking]]); R-trees/spatial; vector indexes (HNSW) in vector DBs.
+  ([[hybrid-search-and-rank-fusion]]); R-trees/spatial; vector indexes (HNSW) in vector DBs.
 
 ## LSM-trees (O'Neil 1996; DDIA ch. 3)
 Writes go to a WAL and an in-memory sorted **memtable**; when full, flush as an immutable sorted

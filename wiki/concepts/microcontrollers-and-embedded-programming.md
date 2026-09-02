@@ -58,7 +58,7 @@ timer, not busy loops; measure with a GPIO toggle and an oscilloscope.
   [[ownership-and-borrowing]]), MicroPython/Arduino for prototyping; cross compilers (arm-none-
   eabi-gcc), linker scripts (flash/RAM regions, vector table, `.data` copy, `.bss` zero),
   startup code, `-Os`, no dynamic allocation (or pools), **fixed-point** math on cores without
-  FPUs, lookup tables ([[numerical-computing-and-floating-point]]).
+  FPUs, lookup tables ([[floating-point]]).
 
 ## Power, robustness, deployment
 **Low power**: run fast then sleep; sleep modes (sleep/stop/standby with wake sources); clock

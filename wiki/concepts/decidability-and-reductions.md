@@ -69,7 +69,7 @@ opposite); minimal machines are unrecognizable; self-replicating programs and vi
 inevitable; **Gödel's first incompleteness theorem** as a corollary (the sentence "this
 statement is unprovable" — or Barak/Sipser: provability in a sound system is recognizable, so
 if every true statement about halting were provable, halting would be decidable —
-[[predicate-logic]], [[proof-techniques]]).
+[[first-order-logic]], [[proof-techniques]]).
 
 ## What it means in practice
 Halting/termination checkers succeed on structured subsets (ranking functions, size-change);
@@ -90,7 +90,7 @@ computer science was born in the wreckage.
 ## Related
 - [[computability-and-halting-problem]] (the §1.5 introduction this page extends), [[turing-machines]], [[complexity-classes]], [[p-vs-np]], [[np-completeness-and-reductions]],
   [[context-free-grammars]], [[abstract-interpretation]], [[program-verification]],
-  [[sets-relations-functions]], [[predicate-logic]], [[kolmogorov-complexity]].
+  [[sets-relations-functions]], [[first-order-logic]], [[kolmogorov-complexity]].
 
 ## Sources
 Turing 1936 §8, 11; Sipser ch. 4–6 (18.404 L7–11); Barak ch. 9, 11; Rice 1953; Post 1946; Matiyasevich 1970.

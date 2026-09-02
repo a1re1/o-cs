@@ -79,7 +79,7 @@ each year ([[np-completeness-and-reductions]] — reductions in the *useful* dir
 ## Related
 - [[np-completeness-and-reductions]], [[p-vs-np]], [[program-verification]], [[model-checking]],
   [[complexity-theory-advanced]], [[union-find]], [[integer-representation-and-bits]],
-  [[fuzzing]], [[propositional-logic]], [[predicate-logic]].
+  [[fuzzing]], [[propositional-logic]], [[first-order-logic]].
 
 ## Sources
 Davis, Logemann & Loveland 1962; Marques-Silva & Sakallah (GRASP) 1996; Moskewicz et al. (Chaff) 2001; Eén & Sörensson (MiniSat) 2003; Bryant 1986; Nelson & Oppen 1979; de Moura & Bjørner 2008; *Handbook of Satisfiability* (2nd ed. 2021); Knuth TAOCP vol. 4 fasc. 6; Barrett & Tinelli "Satisfiability Modulo Theories" 2018.

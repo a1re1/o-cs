@@ -49,7 +49,7 @@ Vector databases use **HNSW** (hierarchical navigable small-world graphs: greedy
 layered proximity graph, ~log n hops), IVF (k-means coarse quantization + inverted lists — see
 [[k-means-clustering]]), and **product quantization** for compression; FAISS, ScaNN, Annoy,
 DiskANN. Trade recall for speed; measure recall@k on held-out queries. Hybrid search fuses dense
-ANN with lexical BM25 by reciprocal rank fusion — the design of [[search-engines-and-ranking]].
+ANN with lexical BM25 by reciprocal rank fusion — the design of [[hybrid-search-and-rank-fusion]].
 
 ## Pitfalls
 - Using k-d trees or exact search in 100+ dimensions; normalizing vectors when the metric
@@ -59,7 +59,7 @@ ANN with lexical BM25 by reciprocal rank fusion — the design of [[search-engin
 
 ## Related
 - [[hash-tables]], [[streaming-and-sketching]], [[svd-and-pca]], [[concentration-inequalities]],
-  [[vectors-and-inner-products]], [[k-means-clustering]], [[search-engines-and-ranking]].
+  [[vectors-and-inner-products]], [[k-means-clustering]], [[hybrid-search-and-rank-fusion]].
 
 ## Sources
 CS168 weeks 2; Indyk & Motwani 1998; Broder 1997; Johnson & Lindenstrauss 1984; Malkov & Yashunin 2018 (HNSW).

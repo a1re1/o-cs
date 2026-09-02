@@ -1293,3 +1293,20 @@
 {"id":"12-008","query":"how to learn data science databases big data information retrieval","relevant":["paths/data-track.md"],"section":"12","kind":"howto"}
 {"id":"12-009","query":"what order should I learn to build a search engine and data systems","relevant":["paths/data-track.md"],"section":"12","kind":"question"}
 {"id":"12-010","query":"roadmap from beginner to specialized track computer science","relevant":["paths/core-spine.md"],"section":"12","kind":"paraphrase"}
+{"id":"gap-001","query":"transfer learning fine-tuning pretrained model LoRA parameter efficient","relevant":["concepts/transfer-learning-and-fine-tuning.md"],"section":"6.3","kind":"keyword"}
+{"id":"gap-002","query":"how to adapt a pretrained model to a small dataset","relevant":["concepts/transfer-learning-and-fine-tuning.md"],"section":"6.3","kind":"question"}
+{"id":"gap-003","query":"catastrophic forgetting freeze layers fine tuning","relevant":["concepts/transfer-learning-and-fine-tuning.md"],"section":"6.3","kind":"lookup"}
+{"id":"gap-004","query":"nonlinear optimization gradient descent Newton method convex nonconvex","relevant":["concepts/nonlinear-optimization.md"],"section":"6.2","kind":"keyword"}
+{"id":"gap-005","query":"Lagrange multipliers KKT constrained optimization conditions","relevant":["concepts/nonlinear-optimization.md"],"section":"6.2","kind":"lookup"}
+{"id":"gap-006","query":"why does neural network training find good minima despite nonconvexity","relevant":["concepts/nonlinear-optimization.md"],"section":"6.2","kind":"question"}
+{"id":"gap-007","query":"efficient transformers quadratic attention FlashAttention KV cache long context","relevant":["concepts/efficient-transformers-and-long-context.md"],"section":"6.4","kind":"keyword"}
+{"id":"gap-008","query":"how do models handle very long context sparse linear attention","relevant":["concepts/efficient-transformers-and-long-context.md"],"section":"6.4","kind":"question"}
+{"id":"gap-009","query":"KV cache memory bottleneck grouped query attention serving","relevant":["concepts/efficient-transformers-and-long-context.md"],"section":"6.4","kind":"lookup"}
+{"id":"gap-010","query":"PageRank random surfer stationary distribution damping power iteration","relevant":["concepts/pagerank.md"],"section":"10.3","kind":"keyword"}
+{"id":"gap-011","query":"how does Google rank pages by links importance","relevant":["concepts/pagerank.md"],"section":"10.3","kind":"question"}
+{"id":"gap-012","query":"functional programming pure functions immutability higher order map filter reduce","relevant":["concepts/functional-programming-principles.md"],"section":"2.4","kind":"keyword"}
+{"id":"gap-013","query":"referential transparency no side effects reason about code","relevant":["concepts/functional-programming-principles.md"],"section":"2.4","kind":"concept"}
+{"id":"gap-014","query":"why is immutable pure code easier to parallelize","relevant":["concepts/functional-programming-principles.md"],"section":"2.4","kind":"question"}
+{"id":"gap-015","query":"LLM agent tool use ReAct reason act loop function calling","relevant":["concepts/llm-agents-and-tool-use.md"],"section":"6.4","kind":"keyword"}
+{"id":"gap-016","query":"how do you give a language model access to tools and search","relevant":["concepts/llm-agents-and-tool-use.md"],"section":"6.4","kind":"question"}
+{"id":"gap-017","query":"agent error compounding prompt injection untrusted tool output","relevant":["concepts/llm-agents-and-tool-use.md"],"section":"6.4","kind":"lookup"}
