@@ -81,8 +81,8 @@ oasis improvements (PRs to ~/src/oasis), and a running experiments report (`repo
 ### 8 Security
 - [x] 8.1 Computer security (CS161 textbook, 6.858, Saltzer&Schroeder, Thompson, Aleph One, Spectre)
 - [x] 8.2 Offensive security & RE (pwn.college, OverTheWire, Nightmare)
-- [ ] 8.3 Privacy (Dwork&Roth, Programming DP, k-anonymity, Tor, federated learning)
-- [ ] 8.4 Blockchain (Nakamoto, Princeton Bitcoin book, Ethereum, selfish mining)
+- [x] 8.3 Privacy (Dwork&Roth, Programming DP, k-anonymity, Tor, federated learning)
+- [x] 8.4 Blockchain (Nakamoto, Princeton Bitcoin book, Ethereum, selfish mining)
 ### 9 Human-centered
 - [ ] 9.1 HCI (Norman, Bush, Engelbart, Fitts, Nielsen heuristics)
 - [ ] 9.2 Graphics (15-462 Crane, PBR book, Ray Tracing in One Weekend, Kajiya)

@@ -3,6 +3,53 @@
 Newest first. Generated from wiki/log/*.md — do not edit.
 
 ---
+title: Ingest §8.3 privacy technologies and §8.4 blockchain
+type: log
+section: "8.4"
+tags: [ingest, privacy, differential-privacy, tor, mpc, federated-learning, blockchain, bitcoin, consensus]
+summary: Read the Dwork & Roth monograph ToC, the Tor paper abstract, the Nakamoto Bitcoin paper (abstract and §1–2), and the CS251 2025 syllabus; wrote 2 concepts and 1 source, building on the existing differential-privacy (§6.11) and byzantine-fault-tolerance-and-blockchains (§4) pages rather than duplicating them. This completes §8.
+---
+## [2026-09-02] ingest | §8.3 Privacy & §8.4 Blockchain
+
+Read: cis.upenn.edu Dwork & Roth privacybook.pdf full ToC (13 chapters: (ε,δ)-DP,
+Laplace/exponential mechanisms, composition, sparse vector, SmallDB/private MW, boosting,
+subsample-and-aggregate/propose-test-release, reconstruction lower bounds, DP+complexity,
+DP+mechanism-design, DP+ML, local/pan-private/continual models); programming-dp.com
+front matter; svn tor-design.html abstract (telescoping circuits, PFS, fixed cells,
+directory servers, exit policies, rendezvous hidden services); bitcoin.org/bitcoin.pdf
+abstract + §1–2 (double-spending, coin = chain of signatures, PoW timestamp chain,
+longest chain = honest majority, "cryptographic proof instead of trust"); cs251.stanford.edu
+Fall 2025 syllabus (Bitcoin mechanics, classical consensus/SMR, Nakamoto consensus, PoS
+& availability-finality, EVM/Solidity, DeFi/AMM/MEV/flash-loans, zk-SNARKs/Zcash,
+Lightning/rollups). Sweeney, Narayanan-Shmatikov, MPC/FHE, selfish mining, reentrancy
+from memory.
+
+Source: [[privacy-and-blockchain-texts-courses-and-seminal-papers]].
+Concepts: [[privacy-enhancing-technologies]], [[blockchain-and-cryptocurrencies]].
+Existing pages linked, not duplicated: [[differential-privacy]] (§6.11 — the DP mechanism
+lives there; the PET page points to it), [[byzantine-fault-tolerance-and-blockchains]]
+(§4 — Nakamoto/PBFT consensus; the blockchain page points to it),
+[[cryptographic-protocols-and-zero-knowledge]], [[public-key-cryptography]],
+[[hash-functions-cryptographic]], [[consensus-paxos-raft]].
+
+Insights: the three privacy goals map cleanly onto three failures of "just encrypt it" —
+DP for output leakage, Tor/mixnets for metadata, MPC/FHE for input secrecy — and each is
+a different point in a cost/utility space, so "which PET" is a threat-model question, the
+same discipline as §8.1. De-identification's failure (Sweeney, Netflix) is the empirical
+motivation for DP the same way memory-safety CVE stats motivate Rust. Nakamoto consensus
+is sybil-resistance bolted onto the §4 Byzantine-agreement problem by pricing votes in a
+scarce resource — and PoS's accountability/slashing is what classical BFT already had
+(known validators), so the blockchain design space is exactly the §4 consensus space with
+open membership added. Smart-contract "gas" is the halting problem (§5) monetized;
+zk-rollups are §8.3 zero-knowledge proofs (§8's crypto) solving §7.3 scalability. The
+whole section reinforces that "trust-minimization" is a cost you pay, not a free lunch —
+the same lesson as REST statelessness and microservices.
+
+§8 complete (8.1–8.4). Next: §9 Human-centered computing (9.1 HCI — human-computer-
+interaction is wanted from ~8 pages; create it first), then §10 IR/data, §11 specialized,
+§12 paths/syntheses.
+
+---
 title: Ingest §8.1 computer security
 type: log
 section: "8.1"

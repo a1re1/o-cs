@@ -1108,3 +1108,27 @@
 {"id":"8.1-040","query":"CS161 Berkeley computer security textbook","relevant":["sources/computer-security-texts-courses-and-seminal-papers.md"],"section":"8.1","kind":"source"}
 {"id":"8.1-041","query":"Anderson Security Engineering book","relevant":["sources/computer-security-texts-courses-and-seminal-papers.md"],"section":"8.1","kind":"source"}
 {"id":"8.1-042","query":"Reflections on Trusting Trust Thompson compiler backdoor","relevant":["concepts/software-exploitation-and-mitigations.md","sources/computer-security-texts-courses-and-seminal-papers.md"],"section":"8.2","kind":"keyword"}
+{"id":"8.3-001","query":"why does anonymization fail linkage attack Netflix de-anonymization","relevant":["concepts/privacy-enhancing-technologies.md","concepts/differential-privacy.md"],"section":"8.3","kind":"question"}
+{"id":"8.3-002","query":"k-anonymity l-diversity t-closeness limitations","relevant":["concepts/privacy-enhancing-technologies.md"],"section":"8.3","kind":"keyword"}
+{"id":"8.3-003","query":"Tor onion routing telescoping circuit hidden services traffic analysis","relevant":["concepts/privacy-enhancing-technologies.md"],"section":"8.3","kind":"keyword"}
+{"id":"8.3-004","query":"mix networks Chaum anonymous communication metadata","relevant":["concepts/privacy-enhancing-technologies.md"],"section":"8.3","kind":"keyword"}
+{"id":"8.3-005","query":"secure multiparty computation garbled circuits private set intersection","relevant":["concepts/privacy-enhancing-technologies.md"],"section":"8.3","kind":"keyword"}
+{"id":"8.3-006","query":"homomorphic encryption compute on encrypted data FHE Gentry","relevant":["concepts/privacy-enhancing-technologies.md"],"section":"8.3","kind":"keyword"}
+{"id":"8.3-007","query":"federated learning gradient leakage secure aggregation DP-SGD","relevant":["concepts/privacy-enhancing-technologies.md"],"section":"8.3","kind":"keyword"}
+{"id":"8.3-008","query":"how do I compute statistics on user data without exposing individuals","relevant":["concepts/privacy-enhancing-technologies.md","concepts/differential-privacy.md"],"section":"8.3","kind":"paraphrase"}
+{"id":"8.3-009","query":"which privacy technology should I use for my threat model","relevant":["concepts/privacy-enhancing-technologies.md"],"section":"8.3","kind":"howto"}
+{"id":"8.3-010","query":"private information retrieval oblivious RAM access pattern leakage","relevant":["concepts/privacy-enhancing-technologies.md"],"section":"8.3","kind":"keyword"}
+{"id":"8.3-011","query":"Dwork Roth algorithmic foundations of differential privacy Laplace mechanism composition","relevant":["sources/privacy-and-blockchain-texts-courses-and-seminal-papers.md","concepts/differential-privacy.md"],"section":"8.3","kind":"source"}
+{"id":"8.4-001","query":"how does Bitcoin solve double spending without a trusted third party","relevant":["concepts/blockchain-and-cryptocurrencies.md"],"section":"8.4","kind":"question"}
+{"id":"8.4-002","query":"proof of work mining longest chain difficulty adjustment Nakamoto consensus","relevant":["concepts/blockchain-and-cryptocurrencies.md"],"section":"8.4","kind":"keyword"}
+{"id":"8.4-003","query":"UTXO transaction Merkle tree block chain of signatures","relevant":["concepts/blockchain-and-cryptocurrencies.md"],"section":"8.4","kind":"keyword"}
+{"id":"8.4-004","query":"51 percent attack honest majority selfish mining","relevant":["concepts/blockchain-and-cryptocurrencies.md"],"section":"8.4","kind":"keyword"}
+{"id":"8.4-005","query":"proof of stake slashing finality availability dilemma","relevant":["concepts/blockchain-and-cryptocurrencies.md"],"section":"8.4","kind":"compare"}
+{"id":"8.4-006","query":"Ethereum EVM gas smart contracts Solidity","relevant":["concepts/blockchain-and-cryptocurrencies.md"],"section":"8.4","kind":"keyword"}
+{"id":"8.4-007","query":"reentrancy the DAO hack smart contract security","relevant":["concepts/blockchain-and-cryptocurrencies.md"],"section":"8.4","kind":"keyword"}
+{"id":"8.4-008","query":"DeFi automated market maker constant product formula MEV flash loan","relevant":["concepts/blockchain-and-cryptocurrencies.md"],"section":"8.4","kind":"keyword"}
+{"id":"8.4-009","query":"blockchain scaling layer 2 rollups Lightning payment channels","relevant":["concepts/blockchain-and-cryptocurrencies.md"],"section":"8.4","kind":"keyword"}
+{"id":"8.4-010","query":"zk-SNARK Zcash private transactions blockchain","relevant":["concepts/blockchain-and-cryptocurrencies.md","concepts/cryptographic-protocols-and-zero-knowledge.md"],"section":"8.4","kind":"keyword"}
+{"id":"8.4-011","query":"do I actually need a blockchain or would a database work","relevant":["concepts/blockchain-and-cryptocurrencies.md"],"section":"8.4","kind":"paraphrase"}
+{"id":"8.4-012","query":"Nakamoto Bitcoin whitepaper peer to peer electronic cash","relevant":["sources/privacy-and-blockchain-texts-courses-and-seminal-papers.md","concepts/blockchain-and-cryptocurrencies.md"],"section":"8.4","kind":"source"}
+{"id":"8.4-013","query":"Stanford CS251 blockchain course Boneh","relevant":["sources/privacy-and-blockchain-texts-courses-and-seminal-papers.md"],"section":"8.4","kind":"source"}
