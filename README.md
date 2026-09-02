@@ -24,7 +24,7 @@ citations back to the source material.
 The long-running research log (search-quality benchmarks, oasis tuning experiments,
 lci tool-use evals, what worked and what did not) is published here:
 
-**â [o-cs Study Hall â experiments & findings](https://claude.ai/code/artifact/2203cff4-861c-431e-bf89-b0c1f63f6e26)**
+**[o-cs Study Hall â experiments & findings](https://claude.ai/code/artifact/2203cff4-861c-431e-bf89-b0c1f63f6e26)**
 
 Source of truth for the report is [`reports/experiments.html`](reports/experiments.html).
 
