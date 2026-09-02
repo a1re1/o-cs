@@ -177,3 +177,17 @@
 {"id":"3.4-008","query":"convex hull monotone chain sweep line closest pair","relevant":["concepts/computational-geometry.md"],"section":"3.4","kind":"keyword"}
 {"id":"3.4-009","query":"which time complexity can I afford for n up to 10^5","relevant":["concepts/competitive-programming-techniques.md"],"section":"3.4","kind":"question"}
 {"id":"3.4-010","query":"free competitive programming book CSES","relevant":["sources/competitive-programmers-handbook.md"],"section":"3.4","kind":"source"}
+{"id":"4.1-001","query":"RISC-V instruction formats R I S B U J load store architecture","relevant":["concepts/isa-and-assembly.md"],"section":"4.1","kind":"keyword"}
+{"id":"4.1-002","query":"why did simpler instruction sets beat complex ones","relevant":["concepts/isa-and-assembly.md","sources/architecture-seminal-papers.md"],"section":"4.1","kind":"paraphrase"}
+{"id":"4.1-003","query":"build an ALU and RAM from NAND gates and flip-flops","relevant":["concepts/digital-logic-and-the-alu.md","sources/nand2tetris.md"],"section":"4.1","kind":"paraphrase"}
+{"id":"4.1-004","query":"data hazard forwarding load-use stall branch prediction flush","relevant":["concepts/pipelining-and-hazards.md"],"section":"4.1","kind":"keyword"}
+{"id":"4.1-005","query":"how does out-of-order execution rename registers Tomasulo reorder buffer","relevant":["concepts/pipelining-and-hazards.md"],"section":"4.1","kind":"question"}
+{"id":"4.1-006","query":"direct mapped vs set associative cache tag index offset AMAT","relevant":["concepts/caches-and-memory-hierarchy.md"],"section":"4.1","kind":"keyword"}
+{"id":"4.1-007","query":"why is iterating a 2D array column by column so much slower","relevant":["concepts/caches-and-memory-hierarchy.md"],"section":"4.1","kind":"question"}
+{"id":"4.1-008","query":"CPU time equals instructions times CPI times clock period","relevant":["concepts/performance-equation-and-amdahl.md"],"section":"4.1","kind":"paraphrase"}
+{"id":"4.1-009","query":"end of Dennard scaling power wall multicore domain specific accelerators","relevant":["concepts/performance-equation-and-amdahl.md","concepts/parallel-architectures-simd-gpu.md"],"section":"4.1","kind":"keyword"}
+{"id":"4.1-010","query":"GPU warps SIMT memory coalescing latency hiding","relevant":["concepts/parallel-architectures-simd-gpu.md"],"section":"4.1","kind":"keyword"}
+{"id":"4.1-011","query":"MESI invalidation false sharing padding cache line","relevant":["concepts/cache-coherence-and-memory-consistency.md"],"section":"4.1","kind":"keyword"}
+{"id":"4.1-012","query":"can a later load be reordered before an earlier store on x86","relevant":["concepts/cache-coherence-and-memory-consistency.md"],"section":"4.1","kind":"question"}
+{"id":"4.1-013","query":"Spectre speculative execution cache side channel","relevant":["concepts/pipelining-and-hazards.md","sources/architecture-seminal-papers.md"],"section":"4.1","kind":"keyword"}
+{"id":"4.1-014","query":"Patterson Hennessy textbook RISC-V edition chapters","relevant":["sources/patterson-hennessy-cod.md"],"section":"4.1","kind":"source"}

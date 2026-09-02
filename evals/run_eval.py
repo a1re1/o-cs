@@ -81,10 +81,15 @@ def ignore_flags() -> List[str]:
     return _IGNORE_FLAGS
 
 
+EXTRA_OASIS_ARGS: List[str] = []
+NO_IGNORE = False
+
+
 def run_oasis(root: str, query: str, k: int, mode: str) -> List[Dict[str, Any]]:
     """Run `oasis search` for one query; return the parsed hit list."""
-    cmd = ["oasis", "--root", root, *ignore_flags(), "search", query, "--json", "-k", str(k)]
-    if mode == "lexical":
+    flags = [] if NO_IGNORE else ignore_flags()
+    cmd = ["oasis", "--root", root, *flags, *EXTRA_OASIS_ARGS, "search", query, "--json", "-k", str(k)]
+    if mode.startswith("lexical"):
         cmd.append("--lexical-only")
     proc = subprocess.run(cmd, capture_output=True, text=True)
     if proc.returncode != 0:
@@ -328,6 +333,12 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--dedupe", action="store_true",
                         help="post-process hits: drop index.md/log.md and keep one hit per page "
                              "(simulates candidate oasis features; mode is recorded as <mode>+dedupe)")
+    parser.add_argument("--oasis-args", default="",
+                        help="extra global flags passed to oasis verbatim, e.g. '--per-page 0'")
+    parser.add_argument("--no-ignore", action="store_true",
+                        help="do not pass --ignore index.md/log.md (reproduces pre-PR#2 behaviour)")
+    parser.add_argument("--label", default=None,
+                        help="mode label recorded in history/latest files (default: mode[+dedupe])")
     parser.add_argument("--no-history", action="store_true",
                         help="do not append to evals/results/history.jsonl")
     return parser
@@ -349,9 +360,12 @@ def main(argv: Optional[List[str]] = None) -> int:
         print("error: no queries to evaluate (check --section filter)", file=sys.stderr)
         return 2
 
-    if args.dedupe:
-        args.mode = args.mode + "+dedupe"
-    print(f"running {len(rows)} queries (mode={args.mode}, k={args.k}, root={args.root})")
+    global EXTRA_OASIS_ARGS, NO_IGNORE
+    EXTRA_OASIS_ARGS = args.oasis_args.split()
+    NO_IGNORE = args.no_ignore
+    label = args.label or (args.mode + ("+dedupe" if args.dedupe else ""))
+    print(f"running {len(rows)} queries (mode={args.mode}, label={label}, k={args.k}, root={args.root}, "
+          f"oasis_args={EXTRA_OASIS_ARGS}, ignore={'off' if NO_IGNORE else 'on'})")
     results: List[Dict[str, Any]] = []
     for row in rows:
         results.append(eval_query(row["query"], row.get("relevant", []),
@@ -360,14 +374,14 @@ def main(argv: Optional[List[str]] = None) -> int:
     metrics = aggregate(results)
     per_section = aggregate_by_section(rows, results)
     print_table(metrics, per_section, results, args.verbose)
-    write_latest(args.root, args.mode, args.k, rows, results, metrics, per_section)
+    write_latest(args.root, label, args.k, rows, results, metrics, per_section)
 
     if not args.no_history:
-        append_history(args.root, args.mode, args.k, len(rows), metrics,
+        append_history(args.root, label, args.k, len(rows), metrics,
                        per_section, queries_path)
 
     if args.compare:
-        return compare_with_history(args.mode, metrics)
+        return compare_with_history(label, metrics)
     return 0
 
 
