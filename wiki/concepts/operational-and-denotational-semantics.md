@@ -48,8 +48,7 @@ them ([[type-systems]]).
 denotations justify substitution anywhere. Commands denote state transformers Σ → Σ⊥
 (**⊥** = divergence); **while** denotes the **least fixed point** of F(f) = λσ. if ⟦b⟧σ then
 f(⟦c⟧σ) else σ, which exists because domains are CPOs and F is continuous (Kleene: lfp = ⊔
-Fⁿ(⊥) — the unrolling of the loop; [[recurrences-and-fixed-points]] if present, else
-[[invariant-principle]]). The untyped λ-calculus needs a domain D ≅ D → D (Scott's D∞) —
+Fⁿ(⊥) — the unrolling of the loop; [[recurrences]], [[invariant-principle]]). The untyped λ-calculus needs a domain D ≅ D → D (Scott's D∞) —
 the first real mathematical model of self-application. Full abstraction (denotational
 equality = contextual equivalence) failed for PCF with plain domains (Plotkin 1977 —
 parallel-or) and was recovered by game semantics (1990s); denotational methods remain
