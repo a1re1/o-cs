@@ -594,3 +594,34 @@
 {"id":"6.3-035","query":"Goodfellow Bengio Courville Deep Learning book chapters","relevant":["sources/deep-learning-texts-courses-and-seminal-papers.md"],"section":"6.3","kind":"source"}
 {"id":"6.3-036","query":"Karpathy Neural Networks Zero to Hero micrograd makemore","relevant":["sources/deep-learning-texts-courses-and-seminal-papers.md","concepts/deep-learning-basics.md"],"section":"6.3","kind":"source"}
 {"id":"6.3-037","query":"CS231n Stanford deep learning computer vision course","relevant":["sources/deep-learning-texts-courses-and-seminal-papers.md"],"section":"6.3","kind":"source"}
+{"id":"6.4-001","query":"byte pair encoding tokenizer merges subword vocabulary","relevant":["concepts/nlp-fundamentals.md"],"section":"6.4","kind":"keyword"}
+{"id":"6.4-002","query":"why can't language models count letters in a word","relevant":["concepts/nlp-fundamentals.md","concepts/large-language-models.md"],"section":"6.4","kind":"question"}
+{"id":"6.4-003","query":"n-gram language model Kneser-Ney smoothing backoff perplexity","relevant":["concepts/nlp-fundamentals.md"],"section":"6.4","kind":"keyword"}
+{"id":"6.4-004","query":"word2vec skip-gram negative sampling GloVe analogies","relevant":["concepts/nlp-fundamentals.md"],"section":"6.4","kind":"keyword"}
+{"id":"6.4-005","query":"BLEU ROUGE F1 evaluating machine translation summarization","relevant":["concepts/nlp-fundamentals.md"],"section":"6.4","kind":"keyword"}
+{"id":"6.4-006","query":"POS tagging NER CRF BiLSTM dependency parsing","relevant":["concepts/nlp-fundamentals.md"],"section":"6.4","kind":"keyword"}
+{"id":"6.4-007","query":"LLM pretraining data pipeline deduplication quality filtering mixture","relevant":["concepts/large-language-models.md"],"section":"6.4","kind":"keyword"}
+{"id":"6.4-008","query":"in-context learning few-shot prompting chain of thought GPT-3","relevant":["concepts/large-language-models.md"],"section":"6.4","kind":"keyword"}
+{"id":"6.4-009","query":"temperature top-p nucleus sampling decoding strategies","relevant":["concepts/large-language-models.md"],"section":"6.4","kind":"keyword"}
+{"id":"6.4-010","query":"speculative decoding quantization continuous batching paged KV cache vLLM","relevant":["concepts/large-language-models.md"],"section":"6.4","kind":"keyword"}
+{"id":"6.4-011","query":"retrieval augmented generation RAG chunking hallucination grounding","relevant":["concepts/large-language-models.md"],"section":"6.4","kind":"keyword"}
+{"id":"6.4-012","query":"how do I make an LLM answer questions about my own documents","relevant":["concepts/large-language-models.md"],"section":"6.4","kind":"paraphrase"}
+{"id":"6.4-013","query":"tool use function calling agents prompt injection","relevant":["concepts/large-language-models.md"],"section":"6.4","kind":"keyword"}
+{"id":"6.4-014","query":"why does the model make up facts confidently hallucination sycophancy","relevant":["concepts/large-language-models.md"],"section":"6.4","kind":"question"}
+{"id":"6.4-015","query":"Kaplan scaling laws power law loss parameters data compute","relevant":["concepts/scaling-laws.md"],"section":"6.4","kind":"keyword"}
+{"id":"6.4-016","query":"Chinchilla compute optimal tokens per parameter 20","relevant":["concepts/scaling-laws.md"],"section":"6.4","kind":"keyword"}
+{"id":"6.4-017","query":"6ND FLOPs estimate training compute for a language model","relevant":["concepts/scaling-laws.md"],"section":"6.4","kind":"howto"}
+{"id":"6.4-018","query":"emergent abilities mirage discontinuous metrics","relevant":["concepts/scaling-laws.md"],"section":"6.4","kind":"keyword"}
+{"id":"6.4-019","query":"should I train a bigger model or on more data given a fixed budget","relevant":["concepts/scaling-laws.md"],"section":"6.4","kind":"paraphrase"}
+{"id":"6.4-020","query":"test-time compute scaling inference reasoning tokens","relevant":["concepts/scaling-laws.md","concepts/llm-post-training-sft-rlhf-dpo.md"],"section":"6.4","kind":"keyword"}
+{"id":"6.4-021","query":"RLHF reward model Bradley-Terry PPO KL penalty InstructGPT","relevant":["concepts/llm-post-training-sft-rlhf-dpo.md"],"section":"6.4","kind":"keyword"}
+{"id":"6.4-022","query":"DPO direct preference optimization derivation implicit reward","relevant":["concepts/llm-post-training-sft-rlhf-dpo.md"],"section":"6.4","kind":"keyword"}
+{"id":"6.4-023","query":"LoRA low-rank adapters QLoRA parameter-efficient fine-tuning","relevant":["concepts/llm-post-training-sft-rlhf-dpo.md"],"section":"6.4","kind":"keyword"}
+{"id":"6.4-024","query":"Constitutional AI RLAIF critique and revision","relevant":["concepts/llm-post-training-sft-rlhf-dpo.md"],"section":"6.4","kind":"keyword"}
+{"id":"6.4-025","query":"reward hacking Goodhart over-optimization sycophancy RLHF","relevant":["concepts/llm-post-training-sft-rlhf-dpo.md"],"section":"6.4","kind":"keyword"}
+{"id":"6.4-026","query":"GRPO verifiable rewards reasoning models DeepSeek-R1 o1","relevant":["concepts/llm-post-training-sft-rlhf-dpo.md"],"section":"6.4","kind":"keyword"}
+{"id":"6.4-027","query":"instruction tuning SFT vs RLHF what does each stage teach","relevant":["concepts/llm-post-training-sft-rlhf-dpo.md"],"section":"6.4","kind":"compare"}
+{"id":"6.4-028","query":"fine-tune a 70B model on a single GPU","relevant":["concepts/llm-post-training-sft-rlhf-dpo.md"],"section":"6.4","kind":"paraphrase"}
+{"id":"6.4-029","query":"Jurafsky Martin Speech and Language Processing 3rd edition","relevant":["sources/nlp-and-llm-courses-texts-and-seminal-papers.md"],"section":"6.4","kind":"source"}
+{"id":"6.4-030","query":"CS336 language modeling from scratch assignments","relevant":["sources/nlp-and-llm-courses-texts-and-seminal-papers.md"],"section":"6.4","kind":"source"}
+{"id":"6.4-031","query":"nanoGPT Karpathy reproduce GPT-2","relevant":["sources/nlp-and-llm-courses-texts-and-seminal-papers.md","concepts/large-language-models.md"],"section":"6.4","kind":"lookup"}

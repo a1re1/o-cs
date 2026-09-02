@@ -61,7 +61,7 @@ oasis improvements (PRs to ~/src/oasis), and a running experiments report (`repo
 - [x] 6.1 Intro AI (CS188, AIMA, Poole&Mackworth, A*)
 - [x] 6.2 Machine learning (CS229 notes, ISLR, ESL, Shalev-Shwartz, Murphy, seminal papers)
 - [x] 6.3 Deep learning (Goodfellow, D2L, Prince UDL, CS231N, seminal papers)
-- [ ] 6.4 NLP & LLMs (Jurafsky-Martin, CS224N, CS324, CS336, seminal papers)
+- [x] 6.4 NLP & LLMs (Jurafsky-Martin, CS224N, CS324, CS336, seminal papers)
 - [ ] 6.5 Computer vision (Szeliski, CS231N, seminal papers)
 - [ ] 6.6 Reinforcement learning (Sutton&Barto, CS285, Spinning Up, seminal papers)
 - [ ] 6.7 PGMs & Bayesian (Koller-Friedman, Barber, CS228 notes, MCMC papers)
