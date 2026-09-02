@@ -42,7 +42,7 @@ oasis improvements (PRs to ~/src/oasis), and a running experiments report (`repo
 - [x] 3.4 Competitive programming (CPH Laaksonen, USACO guide)
 ### 4 Systems
 - [x] 4.1 Architecture (CS61C, Nand2Tetris, P&H, H&P, Mutlu, seminal papers)
-- [ ] 4.2 Operating systems (OSTEP, xv6 book, 6.1810, seminal papers)
+- [x] 4.2 Operating systems (OSTEP, xv6 book, 6.1810, seminal papers)
 - [ ] 4.3 Compilers (Crafting Interpreters, CS143, CS6120, SSA book, seminal papers)
 - [ ] 4.4 Networks (CS144, Peterson&Davie, HPBN, Beej, RFCs, seminal papers)
 - [ ] 4.5 Databases (15-445, CS186, Red Book, Hellerstein Architecture of a DBMS, seminal papers)

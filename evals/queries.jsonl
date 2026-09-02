@@ -191,3 +191,21 @@
 {"id":"4.1-012","query":"can a later load be reordered before an earlier store on x86","relevant":["concepts/cache-coherence-and-memory-consistency.md"],"section":"4.1","kind":"question"}
 {"id":"4.1-013","query":"Spectre speculative execution cache side channel","relevant":["concepts/pipelining-and-hazards.md","sources/architecture-seminal-papers.md"],"section":"4.1","kind":"keyword"}
 {"id":"4.1-014","query":"Patterson Hennessy textbook RISC-V edition chapters","relevant":["sources/patterson-hennessy-cod.md"],"section":"4.1","kind":"source"}
+{"id":"4.2-001","query":"why are fork and exec separate system calls","relevant":["concepts/processes-and-threads.md"],"section":"4.2","kind":"question"}
+{"id":"4.2-002","query":"threads share an address space but have separate stacks and program counters","relevant":["concepts/processes-and-threads.md"],"section":"4.2","kind":"paraphrase"}
+{"id":"4.2-003","query":"how does the kernel regain control from a running program timer interrupt trap table","relevant":["concepts/limited-direct-execution-and-syscalls.md"],"section":"4.2","kind":"question"}
+{"id":"4.2-004","query":"page fault handler demand paging copy on write lazy allocation","relevant":["concepts/virtual-memory.md","concepts/limited-direct-execution-and-syscalls.md"],"section":"4.2","kind":"keyword"}
+{"id":"4.2-005","query":"MLFQ demote CPU bound jobs priority boost to avoid starvation","relevant":["concepts/cpu-scheduling.md"],"section":"4.2","kind":"keyword"}
+{"id":"4.2-006","query":"Linux CFS vruntime nice weights red-black tree","relevant":["concepts/cpu-scheduling.md"],"section":"4.2","kind":"keyword"}
+{"id":"4.2-007","query":"multi-level page table TLB miss ASID huge pages","relevant":["concepts/virtual-memory.md"],"section":"4.2","kind":"keyword"}
+{"id":"4.2-008","query":"clock algorithm approximates LRU page replacement Belady's anomaly thrashing","relevant":["concepts/virtual-memory.md"],"section":"4.2","kind":"keyword"}
+{"id":"4.2-009","query":"why must I wait on a condition variable in a while loop","relevant":["concepts/synchronization-primitives.md"],"section":"4.2","kind":"question"}
+{"id":"4.2-010","query":"four conditions for deadlock and how lock ordering prevents it","relevant":["concepts/synchronization-primitives.md"],"section":"4.2","kind":"question"}
+{"id":"4.2-011","query":"inode direct and indirect block pointers directory entries","relevant":["concepts/file-systems.md"],"section":"4.2","kind":"keyword"}
+{"id":"4.2-012","query":"my write returned but the data was lost after a crash","relevant":["concepts/file-systems.md"],"section":"4.2","kind":"paraphrase"}
+{"id":"4.2-013","query":"journaling write-ahead log crash consistency vs fsck vs copy on write","relevant":["concepts/file-systems.md"],"section":"4.2","kind":"keyword"}
+{"id":"4.2-014","query":"log-structured file system segment cleaning SSD flash translation layer","relevant":["concepts/file-systems.md","sources/os-seminal-papers.md"],"section":"4.2","kind":"keyword"}
+{"id":"4.2-015","query":"microkernel vs monolithic kernel IPC cost exokernel","relevant":["concepts/os-kernels-and-virtualization.md"],"section":"4.2","kind":"keyword"}
+{"id":"4.2-016","query":"how do containers differ from virtual machines namespaces cgroups hypervisor","relevant":["concepts/os-kernels-and-virtualization.md"],"section":"4.2","kind":"question"}
+{"id":"4.2-017","query":"free operating systems textbook three easy pieces","relevant":["sources/ostep.md"],"section":"4.2","kind":"source"}
+{"id":"4.2-018","query":"Lampson hints for computer system design end-to-end keep it simple","relevant":["sources/os-seminal-papers.md"],"section":"4.2","kind":"keyword"}

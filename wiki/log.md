@@ -3,6 +3,35 @@
 Newest first. Generated from wiki/log/*.md — do not edit.
 
 ---
+title: Ingest §4.2 operating systems
+type: log
+section: "4.2"
+tags: [ingest, operating-systems, ostep, xv6, lampson]
+summary: Read OSTEP ch. 2 (virtualization framing), 18 (paging), 26 (threads), 7 (scheduling), Lampson's Hints intro; UNIX paper URL gone; wrote 7 concept pages and 3 sources.
+---
+## [2026-09-02] ingest | §4.2 Operating systems
+
+Read: OSTEP intro (the crux: how to virtualize; OS as virtual machine, standard library,
+resource manager), paging intro (fixed-size pieces vs segmentation's fragmentation), threads
+intro (multiple PCs sharing an address space; TCB; the stack per thread), scheduling intro
+(workload assumptions relaxed one at a time), Lampson's Hints §1–2 (interfaces: simple, complete,
+fast — the hardest part of design). Ritchie–Thompson at bell-labs.com returned 410; written from
+memory. xv6 book structure from the 6.1810 site (memory).
+
+Sources: [[ostep]], [[xv6-and-6-1810]], [[os-seminal-papers]]. Concepts: [[processes-and-threads]],
+[[limited-direct-execution-and-syscalls]], [[cpu-scheduling]], [[virtual-memory]],
+[[synchronization-primitives]], [[file-systems]], [[os-kernels-and-virtualization]] (filled wanted:
+processes-and-threads, virtual-memory, synchronization-primitives, file-systems).
+
+Insights: OSTEP's three pieces are three uses of one trick — a trap plus a table (trap table,
+page table, lock word) — and "limited direct execution" is the OS version of Rust's zero-cost
+abstractions: run at full speed, pay only at the boundary. LFS → FTL → LSM tree is one design
+lineage; WAL appears in file systems, databases, and Git's reflog. Lampson's "interface = the
+assumptions each side must make" matches Parnas and Liskov exactly.
+Newly wanted: io-and-device-drivers, async-and-event-driven-concurrency, transactions-and-concurrency-control,
+storage-engines-and-indexes, queueing-theory, garbage-collection, distributed-systems-basics.
+
+---
 title: Ingest §4.1 computer architecture and organization
 type: log
 section: "4.1"
