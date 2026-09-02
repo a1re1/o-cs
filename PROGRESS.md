@@ -24,7 +24,7 @@ oasis improvements (PRs to ~/src/oasis), and a running experiments report (`repo
 - [x] 1.1 Discrete math (MCS Lehman/Leighton/Meyer, Levin, Book of Proof, CS70)
 - [x] 1.2 Linear algebra (Strang 18.06, Hefferon, Boyd VMLS)
 - [x] 1.3 Calculus (Strang Calculus, APEX)
-- [ ] 1.4 Probability & stats (Blitzstein Stat110, Bertsekas, CS109, Wasserman, Think Stats)
+- [x] 1.4 Probability & stats (Blitzstein Stat110, Bertsekas, CS109, Wasserman, Think Stats)
 - [ ] 1.5 Logic & computability (Open Logic, CS103, forall x)
 - [ ] 1.6 Optimization & numerics (Boyd CVX, Trefethen, 18.335)
 - [ ] 1.7 Information theory (MacKay, Cover&Thomas, Shannon 1948)

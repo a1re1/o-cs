@@ -5,7 +5,7 @@
 # ///
 """Fetch a URL (HTML or PDF) and print plain text. Caches raw bytes under raw/.
 
-Usage: scripts/fetch.py URL [--max-chars N] [--grep REGEX]
+Usage: scripts/fetch.py URL [--max-chars N] [--grep REGEX] [--start REGEX]  (--start: begin output at first match, skips nav)
 """
 import hashlib, pathlib, re, sys
 import requests, html2text
@@ -48,6 +48,7 @@ if __name__ == "__main__":
         max_chars = int(args[args.index("--max-chars") + 1])
     if "--grep" in args:
         grep = re.compile(args[args.index("--grep") + 1], re.I)
+    start = re.compile(args[args.index("--start") + 1], re.M) if "--start" in args else None
     data, suffix = fetch(url)
     text = to_text(data, suffix)
     text = re.sub(r"[\x00-\x08\x0b\x0c\x0e-\x1f]", "", text)
@@ -58,6 +59,10 @@ if __name__ == "__main__":
             if grep.search(l):
                 print(f"{i}: {l[:200]}")
         sys.exit(0)
+    if start:
+        m = start.search(text)
+        if m:
+            text = text[m.start():]
     if max_chars:
         text = text[:max_chars]
     print(text)

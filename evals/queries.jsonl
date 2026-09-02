@@ -1,3 +1,42 @@
-{"id": "1.1-001", "query": "how does BM25 scoring rank documents against a query", "relevant": ["concepts/bm25.md"], "section": "1.1", "kind": "concept"}
-{"id": "1.1-002", "query": "what is the raft consensus algorithm and leader election", "relevant": ["concepts/raft.md"], "section": "1.1", "kind": "concept"}
-{"id": "1.1-003", "query": "how does vector space retrieval compare documents by cosine similarity", "relevant": ["concepts/induction.md"], "section": "1.1", "kind": "concept"}
+{"id": "1.1-001", "query": "how do I prove a loop terminates", "relevant": ["concepts/invariant-principle.md"], "section": "1.1", "kind": "howto"}
+{"id": "1.1-002", "query": "difference between strong induction and ordinary induction", "relevant": ["concepts/induction.md"], "section": "1.1", "kind": "compare"}
+{"id": "1.1-003", "query": "when should I use proof by contrapositive instead of direct proof", "relevant": ["concepts/proof-techniques.md"], "section": "1.1", "kind": "howto"}
+{"id": "1.1-004", "query": "big O vs big theta vs little o definitions", "relevant": ["concepts/asymptotic-notation.md"], "section": "1.1", "kind": "compare"}
+{"id": "1.1-005", "query": "count the number of ways to distribute n identical items into k bins", "relevant": ["concepts/counting-rules.md"], "section": "1.1", "kind": "howto"}
+{"id": "1.1-006", "query": "why does every hash function have collisions", "relevant": ["concepts/pigeonhole-principle.md"], "section": "1.1", "kind": "concept"}
+{"id": "1.1-007", "query": "compute a modular inverse with the extended euclidean algorithm", "relevant": ["concepts/number-theory-basics.md", "concepts/modular-arithmetic.md"], "section": "1.1", "kind": "howto"}
+{"id": "1.1-008", "query": "negative numbers with the modulo operator in C vs Python", "relevant": ["concepts/modular-arithmetic.md"], "section": "1.1", "kind": "lookup"}
+{"id": "1.1-009", "query": "minimum time to run tasks with dependencies on unlimited processors", "relevant": ["concepts/dags-and-partial-orders.md"], "section": "1.1", "kind": "howto"}
+{"id": "1.1-010", "query": "gale shapley algorithm proof of stability", "relevant": ["concepts/stable-matching.md"], "section": "1.1", "kind": "concept"}
+{"id": "1.1-011", "query": "hall's theorem condition for perfect matching in bipartite graph", "relevant": ["concepts/graph-theory-basics.md"], "section": "1.1", "kind": "lookup"}
+{"id": "1.1-012", "query": "solve a linear recurrence with characteristic equation", "relevant": ["concepts/recurrences.md"], "section": "1.1", "kind": "howto"}
+{"id": "1.1-013", "query": "monty hall problem explained with a tree diagram", "relevant": ["concepts/four-step-method.md"], "section": "1.1", "kind": "concept"}
+{"id": "1.1-014", "query": "why is the RSA decryption correct", "relevant": ["concepts/number-theory-basics.md"], "section": "1.1", "kind": "concept"}
+{"id": "1.1-015", "query": "what textbook does MIT 6.042 use", "relevant": ["sources/mit-6-042j.md", "sources/mcs-lehman-leighton-meyer.md"], "section": "1.1", "kind": "lookup"}
+{"id": "1.1-016", "query": "cantor diagonal argument uncountable", "relevant": ["concepts/sets-relations-functions.md"], "section": "1.1", "kind": "concept"}
+{"id": "1.2-001", "query": "why not compute the matrix inverse to solve Ax=b", "relevant": ["concepts/gaussian-elimination-lu.md", "concepts/matrices-and-linear-maps.md"], "section": "1.2", "kind": "concept"}
+{"id": "1.2-002", "query": "least squares solution when there are more equations than unknowns", "relevant": ["concepts/least-squares.md"], "section": "1.2", "kind": "howto"}
+{"id": "1.2-003", "query": "how to detect overfitting with a train test split", "relevant": ["concepts/least-squares.md"], "section": "1.2", "kind": "howto"}
+{"id": "1.2-004", "query": "best rank k approximation of a matrix", "relevant": ["concepts/svd-and-pca.md"], "section": "1.2", "kind": "concept"}
+{"id": "1.2-005", "query": "rank nullity theorem column space null space dimensions", "relevant": ["concepts/four-fundamental-subspaces.md"], "section": "1.2", "kind": "lookup"}
+{"id": "1.2-006", "query": "gram schmidt orthonormal basis QR factorization", "relevant": ["concepts/orthogonality-and-projections.md"], "section": "1.2", "kind": "concept"}
+{"id": "1.2-007", "query": "cosine similarity for embeddings why normalize vectors", "relevant": ["concepts/vectors-and-inner-products.md"], "section": "1.2", "kind": "concept"}
+{"id": "1.2-008", "query": "positive definite matrix equivalent conditions pivots eigenvalues", "relevant": ["concepts/eigenvalues-and-eigenvectors.md"], "section": "1.2", "kind": "lookup"}
+{"id": "1.2-009", "query": "k-means initialization and choosing k", "relevant": ["concepts/k-means-clustering.md"], "section": "1.2", "kind": "howto"}
+{"id": "1.2-010", "query": "condition number and losing digits of precision", "relevant": ["concepts/svd-and-pca.md", "concepts/gaussian-elimination-lu.md"], "section": "1.2", "kind": "concept"}
+{"id": "1.3-001", "query": "chain rule with jacobians reverse mode autodiff", "relevant": ["concepts/derivatives-and-gradients.md"], "section": "1.3", "kind": "concept"}
+{"id": "1.3-002", "query": "bound the harmonic sum with an integral", "relevant": ["concepts/integrals-and-sums.md"], "section": "1.3", "kind": "howto"}
+{"id": "1.3-003", "query": "hessian positive definite local minimum saddle point", "relevant": ["concepts/derivatives-and-gradients.md"], "section": "1.3", "kind": "lookup"}
+{"id": "1.4-001", "query": "expected number of comparisons in randomized quicksort", "relevant": ["concepts/probabilistic-analysis-of-algorithms.md"], "section": "1.4", "kind": "concept"}
+{"id": "1.4-002", "query": "when to use chernoff bound vs chebyshev", "relevant": ["concepts/concentration-inequalities.md"], "section": "1.4", "kind": "compare"}
+{"id": "1.4-003", "query": "medical test positive but disease is rare, probability actually sick", "relevant": ["concepts/bayes-theorem-and-inference.md"], "section": "1.4", "kind": "howto"}
+{"id": "1.4-004", "query": "avoid underflow when multiplying many small probabilities", "relevant": ["concepts/log-probabilities.md"], "section": "1.4", "kind": "howto"}
+{"id": "1.4-005", "query": "stationary distribution of a markov chain and when it is unique", "relevant": ["concepts/markov-chains.md"], "section": "1.4", "kind": "concept"}
+{"id": "1.4-006", "query": "bootstrap confidence interval by resampling", "relevant": ["concepts/hypothesis-testing-and-confidence-intervals.md"], "section": "1.4", "kind": "howto"}
+{"id": "1.4-007", "query": "MLE for the parameter of a bernoulli or normal distribution", "relevant": ["concepts/maximum-likelihood-estimation.md"], "section": "1.4", "kind": "howto"}
+{"id": "1.4-008", "query": "which distribution models the number of events in a time interval", "relevant": ["concepts/common-distributions.md"], "section": "1.4", "kind": "lookup"}
+{"id": "1.4-009", "query": "standard error of the mean shrinks with square root of n", "relevant": ["concepts/central-limit-theorem-and-lln.md"], "section": "1.4", "kind": "concept"}
+{"id": "1.4-010", "query": "law of total expectation to compute expected running time", "relevant": ["concepts/random-variables-expectation.md", "concepts/probabilistic-analysis-of-algorithms.md"], "section": "1.4", "kind": "howto"}
+{"id": "1.4-011", "query": "metropolis hastings acceptance probability detailed balance", "relevant": ["concepts/markov-chains.md"], "section": "1.4", "kind": "lookup"}
+{"id": "1.4-012", "query": "p-hacking and multiple comparisons correction", "relevant": ["concepts/hypothesis-testing-and-confidence-intervals.md"], "section": "1.4", "kind": "concept"}
+{"id": "1.4-013", "query": "ridge regression is MAP with a gaussian prior", "relevant": ["concepts/maximum-likelihood-estimation.md", "concepts/bayes-theorem-and-inference.md"], "section": "1.4", "kind": "concept"}
