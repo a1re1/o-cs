@@ -45,7 +45,7 @@ wildcards PECS, Kotlin `in`/`out`, Scala `+`/`-`) encode covariance/contravarian
 
 ## Related
 - [[specifications-and-invariants]], [[abstract-data-types-and-rep-invariants]], [[objects-and-classes]],
-  [[design-patterns]], [[type-systems]].
+  [[design-patterns-catalog]], [[type-systems]].
 
 ## Sources
 6.102 reading 08 (Interfaces & Subtyping); Effective Java items 10, 18–20; Liskov & Wing, "A Behavioral Notion of Subtyping" (1994, to be ingested in §2.5).

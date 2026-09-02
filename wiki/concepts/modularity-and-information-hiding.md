@@ -46,7 +46,7 @@ are Parnas's criterion applied to teams and deployables (§7.1, §7.3 — [[soft
 
 ## Related
 - [[managing-complexity-in-software-design]], [[data-abstraction]], [[abstract-data-types-and-rep-invariants]],
-  [[design-patterns]], [[software-architecture-styles]].
+  [[design-patterns-catalog]], [[software-architecture-styles]].
 
 ## Sources
 Parnas 1972 (as summarized in Ousterhout ch. 5 and 6.102 reading 06); to be read in full in §2.5.

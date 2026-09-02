@@ -43,7 +43,7 @@ Minimum **Hamming distance** d between codewords: detects d−1 errors, corrects
 - Checksums vs cryptographic hashes: CRC detects random corruption, not adversaries
   ([[hash-functions-cryptographic]]).
 - Retransmission (ARQ) vs forward error correction: TCP uses ARQ; QUIC/video/satellite use FEC where
-  latency matters ([[tcp]]).
+  latency matters ([[tcp-reliability-and-congestion-control]]).
 
 ## Pitfalls
 - Capacity is a limit on *rate*, not on latency; near-capacity codes need long blocks.

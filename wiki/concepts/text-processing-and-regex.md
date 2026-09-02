@@ -22,7 +22,7 @@ this log?" questions, and regex is the language all of them speak.
 | `(?:…)` `(?=…)` `(?i)` | non-capturing; lookahead; flags |
 Dialects: POSIX basic (`grep`, `sed`: escape `+ ? ( ) {`), extended (`grep -E`, `sed -E`), PCRE
 (`grep -P`, most languages). Regexes recognise regular languages ([[finite-automata-and-regular-languages]])
-— they cannot match balanced parentheses or nested JSON; use a parser ([[parsing]]). Test at
+— they cannot match balanced parentheses or nested JSON; use a parser ([[lexing-and-parsing]]). Test at
 regex101/regexr; catastrophic backtracking (`(a+)+b`) is a DoS vector — prefer RE2-style engines
 for untrusted input.
 
@@ -54,7 +54,7 @@ checking output after each pipe.
 - Parsing structured formats (CSV with quotes, JSON, HTML) with regex — use `csvkit`/`jq`/a parser.
 
 ## Related
-- [[shell-and-unix-tools]], [[finite-automata-and-regular-languages]], [[parsing]], [[debugging]].
+- [[shell-and-unix-tools]], [[finite-automata-and-regular-languages]], [[lexing-and-parsing]], [[debugging]].
 
 ## Sources
 Missing Semester lecture 4; TLCL ch. 19–20.

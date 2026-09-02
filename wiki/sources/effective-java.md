@@ -34,8 +34,8 @@ don't ignore, failure atomicity); concurrency (synchronize access, executors ove
 - Immutability: no mutators, final fields, defensive copies in and out; immutable objects are simple,
   thread-safe, shareable — [[abstract-data-types-and-rep-invariants]].
 - Composition over inheritance; inheritance breaks encapsulation (self-use of overridable methods) —
-  [[liskov-substitution]], [[design-patterns]].
-- Builder for many parameters; static factory methods with names — [[design-patterns]].
+  [[liskov-substitution]], [[design-patterns-catalog]].
+- Builder for many parameters; static factory methods with names — [[design-patterns-catalog]].
 - Fail-fast parameter checking, failure atomicity — [[specifications-and-invariants]].
 
 ## What it adds

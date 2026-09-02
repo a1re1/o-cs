@@ -36,5 +36,5 @@ of `String → [(a, String)]`, alternation, `item`, sequencing; efficiency and e
 
 ## What it adds
 The reference for [[monads]]; the state monad reappears in [[interpreters-eval-apply]]; parser
-combinators in [[parsing]]; the effect-in-the-type idea is the ancestor of `Result`/`?` in
+combinators in [[lexing-and-parsing]]; the effect-in-the-type idea is the ancestor of `Result`/`?` in
 [[rust-traits-generics-lifetimes]] and of effect systems in [[type-systems]].

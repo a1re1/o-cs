@@ -42,7 +42,7 @@ loosening constraint i).
 ## Uses
 - Certify optimality (a dual feasible point with matching value) — solvers report the duality gap.
 - Decomposition: dual variables coordinate subproblems (dual decomposition, ADMM) in distributed
-  optimization and network utility maximization ([[congestion-control]] interprets TCP this way).
+  optimization and network utility maximization ([[tcp-reliability-and-congestion-control]] interprets TCP this way).
 - Derive algorithms: SVM dual, ridge closed forms, water-filling for channel capacity
   ([[channel-capacity-and-error-correction]]).
 - Lower bounds in combinatorial optimization (LP duality proves max-flow = min-cut, König's theorem).

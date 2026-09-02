@@ -39,10 +39,10 @@ evals, prints.
 - Variations are small edits: lazy evaluation (delay operands — SICP 4.2), nondeterministic `amb`
   with backtracking (4.3), a logic-programming query language via unification (4.4), "analyze once,
   execute many" separating syntax analysis from execution (4.1.7) — the first optimization on the way
-  to a compiler ([[compiler-pipeline]]).
+  to a compiler ([[compilers-overview]]).
 - CS61A's Scheme project and Composing Programs' calculator are this design in Python.
 - Tree-walking interpreters like this are simple and slow; bytecode VMs and JITs follow the same
-  eval/apply structure with a different representation ([[bytecode-and-virtual-machines]]).
+  eval/apply structure with a different representation ([[bytecode-vms-and-jit]]).
 
 ## Gotchas when writing one
 - Evaluation order of operands (left-to-right? unspecified?) leaks into semantics with side effects.
@@ -54,7 +54,7 @@ evals, prints.
 
 ## Related
 - [[substitution-and-environment-models]], [[data-abstraction]] (dispatch on expression type is
-  data-directed programming), [[compiler-pipeline]], [[lambda-calculus]], [[parsing]].
+  data-directed programming), [[compilers-overview]], [[lambda-calculus]], [[lexing-and-parsing]].
 
 ## Sources
 SICP 4.1–4.4, 5.5; Composing Programs 3.2–3.5 (calculator and Scheme interpreters).

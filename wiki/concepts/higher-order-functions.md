@@ -30,7 +30,7 @@ are the *same* signal-flow plan: **enumerate** (leaves / integers) → **map** (
 **filter** (odd? / even?) → **accumulate** (+ from 0 / cons from nil). Writing programs against this
 interface (lists as the signal) lets stages be mixed and matched: nested mappings (`flatmap`) express
 searches like "pairs (i, j) with i + j prime" and the eight-queens problem. Modern forms: Python
-comprehensions/generators, Java streams, Rust iterators, LINQ, SQL, MapReduce ([[mapreduce]]).
+comprehensions/generators, Java streams, Rust iterators, LINQ, SQL, MapReduce ([[mapreduce-and-dataflow]]).
 
 ```
 accumulate(op, initial, seq)   # foldr: op(x1, op(x2, ... op(xn, initial)))

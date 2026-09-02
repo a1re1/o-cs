@@ -53,7 +53,7 @@ contaminates interface · vague name · hard-to-pick name · hard-to-describe ·
 
 ## Related
 - [[modularity-and-information-hiding]], [[specifications-and-invariants]], [[code-review]],
-  [[data-abstraction]] (SICP's abstraction barriers are deep modules), [[design-patterns]].
+  [[data-abstraction]] (SICP's abstraction barriers are deep modules), [[design-patterns-catalog]].
 
 ## Sources
 Ousterhout ch. 2–9, 21; SICP 2.1.2.

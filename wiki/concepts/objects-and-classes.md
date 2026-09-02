@@ -41,7 +41,7 @@ that dispatcher; inheritance chains dispatchers.
 - Overriding `__eq__` without `__hash__` makes objects unhashable.
 
 ## Related
-- [[data-abstraction]], [[assignment-state-and-environments]], [[design-patterns]],
+- [[data-abstraction]], [[assignment-state-and-environments]], [[design-patterns-catalog]],
   [[liskov-substitution]], [[specifications-and-invariants]].
 
 ## Sources

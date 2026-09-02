@@ -250,3 +250,25 @@
 {"id":"4.4-017","query":"getaddrinfo socket bind listen accept server example","relevant":["concepts/sockets-programming.md"],"section":"4.4","kind":"keyword"}
 {"id":"4.4-018","query":"Stanford networking course labs implement TCP","relevant":["sources/stanford-cs144.md"],"section":"4.4","kind":"source"}
 {"id":"4.4-019","query":"Jacobson 1988 congestion avoidance paper","relevant":["sources/networking-seminal-papers.md"],"section":"4.4","kind":"source"}
+{"id":"4.5-001","query":"Codd data independence ordering indexing access path dependence","relevant":["concepts/relational-model.md","sources/database-seminal-papers.md"],"section":"4.5","kind":"keyword"}
+{"id":"4.5-002","query":"what is the difference between 3NF and BCNF","relevant":["concepts/relational-model.md"],"section":"4.5","kind":"question"}
+{"id":"4.5-003","query":"why not use mmap for a database buffer pool","relevant":["concepts/storage-engines-and-indexes.md"],"section":"4.5","kind":"question"}
+{"id":"4.5-004","query":"LSM tree memtable SSTable compaction write amplification","relevant":["concepts/storage-engines-and-indexes.md"],"section":"4.5","kind":"keyword"}
+{"id":"4.5-005","query":"clustered vs secondary index covering index leftmost prefix","relevant":["concepts/storage-engines-and-indexes.md"],"section":"4.5","kind":"keyword"}
+{"id":"4.5-006","query":"hash join vs sort merge join vs nested loop when to use","relevant":["concepts/query-optimization.md"],"section":"4.5","kind":"question"}
+{"id":"4.5-007","query":"Selinger System R cost based optimizer dynamic programming join order","relevant":["concepts/query-optimization.md","sources/database-seminal-papers.md"],"section":"4.5","kind":"keyword"}
+{"id":"4.5-008","query":"the planner estimated 10 rows but the query returned a million","relevant":["concepts/query-optimization.md"],"section":"4.5","kind":"paraphrase"}
+{"id":"4.5-009","query":"conflict serializability precedence graph acyclic","relevant":["concepts/transactions-and-concurrency-control.md"],"section":"4.5","kind":"keyword"}
+{"id":"4.5-010","query":"two phase locking strict 2PL deadlock wait-die wound-wait","relevant":["concepts/transactions-and-concurrency-control.md"],"section":"4.5","kind":"keyword"}
+{"id":"4.5-011","query":"snapshot isolation write skew not serializable","relevant":["concepts/transactions-and-concurrency-control.md"],"section":"4.5","kind":"keyword"}
+{"id":"4.5-012","query":"two transactions both read a balance and both subtract, one update is lost","relevant":["concepts/transactions-and-concurrency-control.md"],"section":"4.5","kind":"paraphrase"}
+{"id":"4.5-013","query":"ARIES repeating history compensation log records fuzzy checkpoint","relevant":["concepts/database-recovery-and-logging.md","sources/database-seminal-papers.md"],"section":"4.5","kind":"keyword"}
+{"id":"4.5-014","query":"steal no-force buffer policy why both undo and redo","relevant":["concepts/database-recovery-and-logging.md"],"section":"4.5","kind":"keyword"}
+{"id":"4.5-015","query":"write ahead logging rule log record before data page flush","relevant":["concepts/database-recovery-and-logging.md"],"section":"4.5","kind":"keyword"}
+{"id":"4.5-016","query":"why is calling a database CP or AP misleading","relevant":["concepts/distributed-databases-and-nosql.md","sources/database-seminal-papers.md"],"section":"4.5","kind":"question"}
+{"id":"4.5-017","query":"two phase commit blocking coordinator failure","relevant":["concepts/distributed-databases-and-nosql.md"],"section":"4.5","kind":"keyword"}
+{"id":"4.5-018","query":"Spanner TrueTime external consistency","relevant":["concepts/distributed-databases-and-nosql.md"],"section":"4.5","kind":"keyword"}
+{"id":"4.5-019","query":"Dynamo quorums vector clocks hinted handoff","relevant":["concepts/distributed-databases-and-nosql.md","sources/database-seminal-papers.md"],"section":"4.5","kind":"keyword"}
+{"id":"4.5-020","query":"CMU database systems course BusTub buffer pool project","relevant":["sources/cmu-15-445.md"],"section":"4.5","kind":"source"}
+{"id":"4.5-021","query":"Designing Data-Intensive Applications Kleppmann book","relevant":["sources/database-textbooks.md"],"section":"4.5","kind":"source"}
+{"id":"4.5-022","query":"column store vs row store OLAP compression","relevant":["concepts/storage-engines-and-indexes.md","concepts/distributed-databases-and-nosql.md"],"section":"4.5","kind":"keyword"}

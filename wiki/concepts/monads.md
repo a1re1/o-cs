@@ -28,7 +28,7 @@ at the site of the effect (`raise`, `tick`, `out`). The type `M` documents which
 | State | `s → (a, s)` | mutable state | thread the state | interpreters, random generators, parsers |
 | Writer | `(w, a)` | logging/output | append logs | trace collection |
 | Reader | `r → a` | environment/config | pass env along | dependency injection |
-| Parser | `String → [(a, String)]` | consume input | sequence parsers | parser combinators ([[parsing]]) |
+| Parser | `String → [(a, String)]` | consume input | sequence parsers | parser combinators ([[lexing-and-parsing]]) |
 | IO / Promise / Future | world → (a, world) | I/O, async | run then continue | `async/await`, `.then` |
 
 ## Laws (what makes `do`/`let*`/`?` behave)
@@ -58,7 +58,7 @@ practical complaint.
 
 ## Related
 - [[higher-order-functions]], [[algebraic-data-types]], [[rust-traits-generics-lifetimes]],
-  [[interpreters-eval-apply]], [[parsing]], [[type-systems]].
+  [[interpreters-eval-apply]], [[lexing-and-parsing]], [[type-systems]].
 
 ## Sources
 Wadler 1995 §2–5; CS3110 ch. 8.7 (monads); Rust Book ch. 9.
