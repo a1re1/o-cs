@@ -888,3 +888,41 @@
 {"id":"7.2-040","query":"The Fuzzing Book Zeller chapters grammar fuzzing concolic","relevant":["sources/testing-and-program-analysis-texts-courses-and-seminal-papers.md"],"section":"7.2","kind":"source"}
 {"id":"7.2-041","query":"The Debugging Book statistical debugging automatic repair Zeller","relevant":["sources/testing-and-program-analysis-texts-courses-and-seminal-papers.md"],"section":"7.2","kind":"source"}
 {"id":"7.2-042","query":"Claessen Hughes ICFP 2000 lightweight tool random testing Haskell","relevant":["sources/testing-and-program-analysis-texts-courses-and-seminal-papers.md","concepts/property-based-testing.md"],"section":"7.2","kind":"source"}
+{"id":"7.3-001","query":"Garlan Shaw architectural styles pipes and filters layered blackboard implicit invocation","relevant":["concepts/software-architecture-and-system-design.md"],"section":"7.3","kind":"keyword"}
+{"id":"7.3-002","query":"KWIC in four architectural styles comparison","relevant":["concepts/software-architecture-and-system-design.md"],"section":"7.3","kind":"keyword"}
+{"id":"7.3-003","query":"quality attributes tactics ATAM fitness functions","relevant":["concepts/software-architecture-and-system-design.md"],"section":"7.3","kind":"keyword"}
+{"id":"7.3-004","query":"4+1 view model C4 model architecture decision records","relevant":["concepts/software-architecture-and-system-design.md"],"section":"7.3","kind":"keyword"}
+{"id":"7.3-005","query":"clean architecture dependency rule hexagonal ports and adapters","relevant":["concepts/software-architecture-and-system-design.md"],"section":"7.3","kind":"keyword"}
+{"id":"7.3-006","query":"domain-driven design bounded context aggregate ubiquitous language anti-corruption layer","relevant":["concepts/software-architecture-and-system-design.md"],"section":"7.3","kind":"keyword"}
+{"id":"7.3-007","query":"monolith vs modular monolith vs microservices when to split","relevant":["concepts/software-architecture-and-system-design.md","concepts/microservices-and-resilience-patterns.md"],"section":"7.3","kind":"compare"}
+{"id":"7.3-008","query":"how should I document the architecture of my system for different stakeholders","relevant":["concepts/software-architecture-and-system-design.md"],"section":"7.3","kind":"paraphrase"}
+{"id":"7.3-009","query":"Fielding REST constraints stateless uniform interface HATEOAS layered code on demand","relevant":["concepts/api-design.md"],"section":"7.3","kind":"keyword"}
+{"id":"7.3-010","query":"why does REST require statelessness what properties does it induce","relevant":["concepts/api-design.md"],"section":"7.3","kind":"question"}
+{"id":"7.3-011","query":"HTTP methods safe idempotent status codes ETag conditional requests","relevant":["concepts/api-design.md"],"section":"7.3","kind":"keyword"}
+{"id":"7.3-012","query":"REST vs gRPC vs GraphQL which to choose","relevant":["concepts/api-design.md"],"section":"7.3","kind":"compare"}
+{"id":"7.3-013","query":"cursor vs offset pagination API design","relevant":["concepts/api-design.md"],"section":"7.3","kind":"compare"}
+{"id":"7.3-014","query":"API versioning backward compatibility additive change deprecation OpenAPI contract tests","relevant":["concepts/api-design.md"],"section":"7.3","kind":"keyword"}
+{"id":"7.3-015","query":"idempotency key for retried POST requests duplicate payments","relevant":["concepts/api-design.md","concepts/microservices-and-resilience-patterns.md"],"section":"7.3","kind":"keyword"}
+{"id":"7.3-016","query":"Richardson maturity model levels of REST","relevant":["concepts/api-design.md"],"section":"7.3","kind":"keyword"}
+{"id":"7.3-017","query":"Lewis Fowler microservices characteristics smart endpoints dumb pipes business capabilities","relevant":["concepts/microservices-and-resilience-patterns.md"],"section":"7.3","kind":"keyword"}
+{"id":"7.3-018","query":"circuit breaker bulkhead timeouts retries exponential backoff jitter","relevant":["concepts/microservices-and-resilience-patterns.md"],"section":"7.3","kind":"keyword"}
+{"id":"7.3-019","query":"saga pattern compensating transactions orchestration vs choreography","relevant":["concepts/microservices-and-resilience-patterns.md"],"section":"7.3","kind":"keyword"}
+{"id":"7.3-020","query":"transactional outbox dual write problem change data capture","relevant":["concepts/microservices-and-resilience-patterns.md"],"section":"7.3","kind":"keyword"}
+{"id":"7.3-021","query":"CQRS event sourcing when is it worth it","relevant":["concepts/microservices-and-resilience-patterns.md"],"section":"7.3","kind":"question"}
+{"id":"7.3-022","query":"service mesh sidecar Envoy Istio distributed tracing correlation id","relevant":["concepts/microservices-and-resilience-patterns.md"],"section":"7.3","kind":"keyword"}
+{"id":"7.3-023","query":"our retries are making the outage worse","relevant":["concepts/microservices-and-resilience-patterns.md"],"section":"7.3","kind":"paraphrase"}
+{"id":"7.3-024","query":"distributed monolith shared database anti-pattern","relevant":["concepts/microservices-and-resilience-patterns.md"],"section":"7.3","kind":"keyword"}
+{"id":"7.3-025","query":"how to approach a system design interview question back of the envelope","relevant":["concepts/scalable-system-design.md"],"section":"7.3","kind":"howto"}
+{"id":"7.3-026","query":"latency numbers every programmer should know","relevant":["concepts/scalable-system-design.md"],"section":"7.3","kind":"keyword"}
+{"id":"7.3-027","query":"cache-aside write-through write-behind refresh-ahead","relevant":["concepts/scalable-system-design.md"],"section":"7.3","kind":"keyword"}
+{"id":"7.3-028","query":"load balancer layer 4 vs layer 7 reverse proxy horizontal scaling stateless","relevant":["concepts/scalable-system-design.md"],"section":"7.3","kind":"keyword"}
+{"id":"7.3-029","query":"database federation vs sharding vs denormalization vs read replicas","relevant":["concepts/scalable-system-design.md"],"section":"7.3","kind":"compare"}
+{"id":"7.3-030","query":"SQL vs NoSQL key-value document wide-column graph when to use","relevant":["concepts/scalable-system-design.md"],"section":"7.3","kind":"compare"}
+{"id":"7.3-031","query":"news feed fan-out on write vs fan-out on read celebrity problem","relevant":["concepts/scalable-system-design.md"],"section":"7.3","kind":"keyword"}
+{"id":"7.3-032","query":"design a URL shortener","relevant":["concepts/scalable-system-design.md"],"section":"7.3","kind":"howto"}
+{"id":"7.3-033","query":"thundering herd cache stampede hot key","relevant":["concepts/scalable-system-design.md"],"section":"7.3","kind":"keyword"}
+{"id":"7.3-034","query":"availability nines sequential vs parallel components failover active-passive","relevant":["concepts/scalable-system-design.md"],"section":"7.3","kind":"keyword"}
+{"id":"7.3-035","query":"push CDN vs pull CDN","relevant":["concepts/scalable-system-design.md"],"section":"7.3","kind":"compare"}
+{"id":"7.3-036","query":"system design primer donnemartin","relevant":["sources/software-architecture-texts-courses-and-seminal-papers.md","concepts/scalable-system-design.md"],"section":"7.3","kind":"source"}
+{"id":"7.3-037","query":"Architecture of Open Source Applications AOSA 500 lines or less","relevant":["sources/software-architecture-texts-courses-and-seminal-papers.md"],"section":"7.3","kind":"source"}
+{"id":"7.3-038","query":"Helland life beyond distributed transactions entities idempotent messages","relevant":["sources/software-architecture-texts-courses-and-seminal-papers.md","concepts/microservices-and-resilience-patterns.md"],"section":"7.3","kind":"source"}
