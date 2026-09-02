@@ -21,9 +21,9 @@ oasis improvements (PRs to ~/src/oasis), and a running experiments report (`repo
 
 ## Sections
 ### 1 Foundations
-- [ ] 1.1 Discrete math (MCS Lehman/Leighton/Meyer, Levin, Book of Proof, CS70)
-- [ ] 1.2 Linear algebra (Strang 18.06, Hefferon, Boyd VMLS)
-- [ ] 1.3 Calculus (Strang Calculus, APEX)
+- [x] 1.1 Discrete math (MCS Lehman/Leighton/Meyer, Levin, Book of Proof, CS70)
+- [x] 1.2 Linear algebra (Strang 18.06, Hefferon, Boyd VMLS)
+- [x] 1.3 Calculus (Strang Calculus, APEX)
 - [ ] 1.4 Probability & stats (Blitzstein Stat110, Bertsekas, CS109, Wasserman, Think Stats)
 - [ ] 1.5 Logic & computability (Open Logic, CS103, forall x)
 - [ ] 1.6 Optimization & numerics (Boyd CVX, Trefethen, 18.335)
@@ -105,14 +105,15 @@ oasis improvements (PRs to ~/src/oasis), and a running experiments report (`repo
 - [ ] Learning-path pages (core spine + 7 tracks) with prerequisite edges
 
 ## Engineering track (interleaved)
-- [ ] E1 scaffold: CLAUDE.md, PROGRESS.md, scripts/build_index.py, scripts/lint.py, README
+- [x] E1 scaffold: CLAUDE.md, PROGRESS.md, scripts/build_index.py, scripts/lint.py, README
 - [ ] E2 evals: evals/queries.jsonl + evals/run_eval.py (recall@k, MRR, nDCG@3), results history
 - [ ] E3 skills/oasis-search SKILL.md for lci + Claude (how to query, how to drill in with `show`)
 - [ ] E4 LLM eval: lci answers CS questions with oasis; grade tool usage + answer quality
 - [ ] E5 oasis improvements (candidates, in priority order — verify with evals first):
       frontmatter-aware indexing (title/tags into every chunk), `--filter path`, `--lexical-weight`,
       `serve` (MCP) command, stats on query, dedupe near-identical chunks, BM25 field weights
-- [ ] E6 reports/experiments.md + published artifact, linked from README
+- [~] E6 reports/experiments.md + published artifact, linked from README
 
 ## Handoff notes (newest first)
+- 2026-09-01 20:45 — §1.1 ingested (21 pages) and pushed to main. lci building evals/ in worktree .worktrees/lci-evals (branch eng/evals). Oasis finding: frontmatter becomes its own headingless chunk with snippet "---"; fix planned (E5). Next: §1.2.
 - 2026-09-01 19:55 — scaffold in progress; nothing ingested yet; repo empty on origin (first push pending).
