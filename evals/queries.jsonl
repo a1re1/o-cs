@@ -70,3 +70,15 @@
 {"id": "2.1-010", "query": "difference between is and == in python identity equality", "relevant": ["concepts/assignment-state-and-environments.md", "concepts/objects-and-classes.md"], "section": "2.1", "kind": "lookup"}
 {"id": "2.1-011", "query": "which free book is the python version of SICP", "relevant": ["sources/composing-programs.md"], "section": "2.1", "kind": "lookup"}
 {"id": "2.1-012", "query": "mutable default argument shared between calls", "relevant": ["concepts/assignment-state-and-environments.md", "concepts/debugging.md"], "section": "2.1", "kind": "lookup"}
+{"id": "2.2-001", "query": "should a precondition be checked or left to the caller", "relevant": ["concepts/specifications-and-invariants.md"], "section": "2.2", "kind": "howto"}
+{"id": "2.2-002", "query": "what is representation exposure and how to prevent it", "relevant": ["concepts/abstract-data-types-and-rep-invariants.md"], "section": "2.2", "kind": "concept"}
+{"id": "2.2-003", "query": "square extends rectangle violates which principle", "relevant": ["concepts/liskov-substitution.md"], "section": "2.2", "kind": "concept"}
+{"id": "2.2-004", "query": "overriding equals without hashCode breaks hash map lookups", "relevant": ["concepts/equality-and-hashing.md"], "section": "2.2", "kind": "concept"}
+{"id": "2.2-005", "query": "how to choose test inputs by partitioning the input space and boundary values", "relevant": ["concepts/unit-testing.md"], "section": "2.2", "kind": "howto"}
+{"id": "2.2-006", "query": "what should a code comment say that the code cannot", "relevant": ["concepts/code-review.md"], "section": "2.2", "kind": "concept"}
+{"id": "2.2-007", "query": "deep modules vs shallow modules classitis", "relevant": ["concepts/managing-complexity-in-software-design.md"], "section": "2.2", "kind": "concept"}
+{"id": "2.2-008", "query": "decompose a system by design decisions that are likely to change rather than by processing steps", "relevant": ["concepts/modularity-and-information-hiding.md"], "section": "2.2", "kind": "concept"}
+{"id": "2.2-009", "query": "fail fast or define errors out of existence, which one", "relevant": ["concepts/specifications-and-invariants.md", "concepts/managing-complexity-in-software-design.md"], "section": "2.2", "kind": "compare"}
+{"id": "2.2-010", "query": "using a mutable list as a dictionary key", "relevant": ["concepts/equality-and-hashing.md"], "section": "2.2", "kind": "lookup"}
+{"id": "2.2-011", "query": "underdetermined specification vs nondeterministic implementation", "relevant": ["concepts/specifications-and-invariants.md"], "section": "2.2", "kind": "compare"}
+{"id": "2.2-012", "query": "which MIT course has open readings on specifications and rep invariants", "relevant": ["sources/mit-6-102-software-construction.md"], "section": "2.2", "kind": "lookup"}
