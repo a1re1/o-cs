@@ -1,4 +1,4 @@
-# o-cs â an LLM-maintained computer science wiki, searchable by `oasis`
+# o-cs an LLM-maintained computer science wiki, searchable by `oasis`
 
 A corpus of distilled CS knowledge (CS100 â CS500) built by reading the open courses,
 textbooks, and seminal papers listed in [`curriculum.md`](curriculum.md) and compiling
