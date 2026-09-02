@@ -2,6 +2,32 @@
 
 Newest first. Generated from wiki/log/*.md — do not edit.
 
+---
+title: Ingest §2.3 systems programming in C/C++ and Rust
+type: log
+section: "2.3"
+tags: [ingest, c, rust, csapp, cs107, cs110l]
+summary: Ingested CSAPP/15-213, CS107, the Rust Book + CS110L, Modern C + K&R; wrote 9 concept pages on pointers, memory layout, integers, UB, allocation, calling conventions, generic C, ownership, traits, memory safety.
+---
+## [2026-09-02] ingest | §2.3 Systems programming in C/C++ and Rust
+
+Read: Rust Book ch. 4.1 (ownership, stack/heap), CS107 lecture list and assignments, CS110L syllabus,
+Modern C table of contents (C23 edition), 15-213 Fall schedule. CSAPP chapter knowledge from memory
+(the book is not freely downloadable; the site has slides/labs).
+
+Wrote sources: [[csapp-15-213]], [[stanford-cs107]], [[rust-book]], [[modern-c-gustedt]].
+Concepts: [[pointers-and-memory]], [[memory-layout-stack-heap]], [[integer-representation-and-bits]],
+[[undefined-behavior]], [[dynamic-memory-allocation]], [[calling-conventions-and-the-stack]],
+[[function-pointers-and-generic-c]], [[ownership-and-borrowing]], [[rust-traits-generics-lifetimes]],
+[[memory-safety-and-buffer-overflows]].
+
+Insights recorded: the same layout knowledge (frame = return address above locals) explains
+debugging, performance, FFI, and stack smashing — one page serves four sections. Rust's rules are the
+discipline good C already follows; C's `void*` + function pointer is a hand-built trait object.
+Filled wanted pages: pointers-and-memory, undefined-behavior. Newly wanted: linking-and-loading,
+garbage-collection, compiler-optimizations, caches-and-memory-hierarchy, virtual-memory, isa-and-assembly
+(all §4), error-handling-strategies, algebraic-data-types, fuzzing, security-principles.
+
 ## [2026-09-02] ingest | §2.2 Program design & software construction (MIT 6.102 readings, Ousterhout, Effective Java)
 - Read: 6.102 Spring 2025 reading list; readings 04 Specifications (behavioural equivalence, requires/effects, the S-T-I-C-I ordering exercise), 05 Designing Specifications (deterministic vs underdetermined, declarative vs operational, strength), 07 AF & RI (ADTs preserve their own invariants, rep exposure, Tweet example), 08 Interfaces & Subtyping (subtype = satisfies the spec; subclassing ≠ subtyping), 10 Equality (equivalence relation, AF-defined equality).
 - Created sources: mit-6-102-software-construction, ousterhout-philosophy-of-software-design, effective-java.

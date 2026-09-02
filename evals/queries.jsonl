@@ -82,3 +82,15 @@
 {"id": "2.2-010", "query": "using a mutable list as a dictionary key", "relevant": ["concepts/equality-and-hashing.md"], "section": "2.2", "kind": "lookup"}
 {"id": "2.2-011", "query": "underdetermined specification vs nondeterministic implementation", "relevant": ["concepts/specifications-and-invariants.md"], "section": "2.2", "kind": "compare"}
 {"id": "2.2-012", "query": "which MIT course has open readings on specifications and rep invariants", "relevant": ["sources/mit-6-102-software-construction.md"], "section": "2.2", "kind": "lookup"}
+{"id":"2.3-001","query":"why does signed integer overflow let the compiler delete my check","relevant":["concepts/undefined-behavior.md","concepts/integer-representation-and-bits.md"],"section":"2.3","kind":"paraphrase"}
+{"id":"2.3-002","query":"two's complement negative numbers sign extension","relevant":["concepts/integer-representation-and-bits.md"],"section":"2.3","kind":"keyword"}
+{"id":"2.3-003","query":"array decays to pointer sizeof vs strlen null terminator","relevant":["concepts/pointers-and-memory.md"],"section":"2.3","kind":"keyword"}
+{"id":"2.3-004","query":"which x86-64 registers hold function arguments and which are callee saved","relevant":["concepts/calling-conventions-and-the-stack.md"],"section":"2.3","kind":"question"}
+{"id":"2.3-005","query":"how does malloc find a free block and coalesce fragmentation","relevant":["concepts/dynamic-memory-allocation.md"],"section":"2.3","kind":"question"}
+{"id":"2.3-006","query":"rust borrow checker one mutable reference or many shared","relevant":["concepts/ownership-and-borrowing.md"],"section":"2.3","kind":"keyword"}
+{"id":"2.3-007","query":"stack canary ASLR return oriented programming","relevant":["concepts/memory-safety-and-buffer-overflows.md"],"section":"2.3","kind":"keyword"}
+{"id":"2.3-008","query":"qsort comparator void pointer generic sort in C","relevant":["concepts/function-pointers-and-generic-c.md"],"section":"2.3","kind":"keyword"}
+{"id":"2.3-009","query":"returning a pointer to a local variable dangling after the function returns","relevant":["concepts/memory-layout-stack-heap.md","concepts/pointers-and-memory.md"],"section":"2.3","kind":"paraphrase"}
+{"id":"2.3-010","query":"Option and Result with the question mark operator instead of exceptions","relevant":["concepts/rust-traits-generics-lifetimes.md"],"section":"2.3","kind":"paraphrase"}
+{"id":"2.3-011","query":"CMU 15-213 labs bomblab attacklab malloclab","relevant":["sources/csapp-15-213.md"],"section":"2.3","kind":"source"}
+{"id":"2.3-012","query":"free book to learn C23 modern C","relevant":["sources/modern-c-gustedt.md"],"section":"2.3","kind":"source"}
