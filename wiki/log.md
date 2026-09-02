@@ -3,6 +3,79 @@
 Newest first. Generated from wiki/log/*.md — do not edit.
 
 ---
+title: Ingest §6.6 reinforcement learning
+type: log
+section: "6.6"
+tags: [ingest, reinforcement-learning, td, q-learning, policy-gradient, ppo, sac, bandits]
+summary: Read Spinning Up's Part 1 structure and algorithm docs list and the CS285 course page; wrote 3 concepts (reinforcement-learning-basics, deep-reinforcement-learning, multi-armed-bandits — all wanted) and 1 combined source.
+---
+## [2026-09-02] ingest | §6.6 Reinforcement learning
+
+Read: OpenAI Spinning Up — Part 1 key-concepts outline (states/observations, action spaces,
+deterministic vs stochastic policies, trajectories, reward and return, value functions,
+optimal Q, Bellman equations, advantage), Part 2/3 titles, algorithm docs (VPG, TRPO, PPO,
+DDPG, TD3, SAC); CS285 course page (Levine). Sutton & Barto's site returned only 619
+bytes; the book's structure is from memory (I know it chapter by chapter). Lattimore &
+Szepesvári, Silver's lectures, and the papers from memory.
+
+Source: [[reinforcement-learning-texts-courses-and-seminal-papers]].
+Concepts: [[reinforcement-learning-basics]] (wanted), [[deep-reinforcement-learning]]
+(wanted), [[multi-armed-bandits]] (wanted). §6.1's [[markov-decision-processes]] remains the
+MDP/value-iteration/Q-learning foundation and is linked, not repeated.
+
+Insights: Sutton & Barto's "dimensions" (backup width × depth × on/off-policy × model)
+is the cleanest algorithm taxonomy in the curriculum — every deep RL method is a point in
+it plus a stabilization trick. The deadly triad is the RL name for the same instability
+[[neural-network-training]] fights with target networks and clipping: a bootstrapped
+target that moves with the parameters. PPO's clip, TRPO's KL, SAC's entropy, and RLHF's KL
+penalty are one idea — regularize the policy toward where your data came from — which is
+also offline RL's whole problem (CQL/IQL) and the reason DPO works
+([[llm-post-training-sft-rlhf-dpo]]). UCB's optimism is [[concentration-inequalities]]
+turned into a decision rule; Thompson sampling is [[bayesian-inference]] turned into one;
+UCT is the reason [[adversarial-search-and-game-trees]] got AlphaGo. The bandit lower
+bound (Lai–Robbins: log T / KL) is an information-theoretic argument of the §1.7 kind.
+
+Forward wanted slugs: online-learning-and-regret (§6.8), bayesian-inference (§6.7),
+causal-inference (§6.7/6.9), robotics-and-autonomous-systems (§6.10),
+ai-safety-and-alignment (§6.11), game-theory (§3.x / §6.x).
+
+---
+title: Ingest §6.5 computer vision
+type: log
+section: "6.5"
+tags: [ingest, computer-vision, geometry, sift, nerf, clip, self-supervised]
+summary: Read Szeliski's book site (course adoption list; chapter structure from the 2e ToC); wrote 3 concepts (computer-vision-fundamentals and self-supervised-and-contrastive-learning were wanted) and 1 combined source. CS231n detection/segmentation content was already covered in §6.3's CNN page and is linked, not duplicated.
+---
+## [2026-09-02] ingest | §6.5 Computer vision
+
+Read: szeliski.org/Book (2e 2022 chapter list and the ~15 courses adopting it — Cornell
+Tech, MIT 6.8300, CMU 16-385, Berkeley CS194-26, Brown, Georgia Tech, Michigan EECS 498/504);
+CS231n 2025 schedule (from §6.3). Hartley & Zisserman, Nayar's lectures, Torralba–Isola–
+Freeman, and the paper list from memory. Detection/segmentation architectures live in
+[[convolutional-neural-networks]] (§6.3) and are linked rather than repeated.
+
+Source: [[computer-vision-texts-courses-and-seminal-papers]].
+Concepts: [[computer-vision-fundamentals]] (wanted), [[multiple-view-geometry-and-3d-vision]],
+[[self-supervised-and-contrastive-learning]] (wanted).
+
+Insights: classical vision is a catalogue of hand-designed invariances (SIFT: scale,
+rotation, illumination; HOG: local photometric; Viola–Jones: speed via prefix sums — the
+integral image is a 2-D [[prefix-sums-and-scans]]), and self-supervised learning is the
+same catalogue expressed as augmentations — "which invariances do I want" moved from the
+descriptor to the data pipeline. Epipolar geometry is the rank-2 constraint that makes
+two-view reconstruction a linear algebra problem; bundle adjustment is sparse
+Gauss–Newton with the same Schur-complement trick as [[sparse-linear-algebra]] solvers.
+NeRF and Gaussian splatting close the loop with graphics: reconstruction is now
+gradient descent through a renderer ([[computer-graphics-rendering]]), the vision-side
+analogue of "differentiable everything". InfoNCE = word2vec negative sampling = CLIP = the
+retriever training objective behind [[dense-retrieval-and-embeddings]] — one loss across
+§6.4, §6.5 and §10.3.
+
+Forward wanted slugs: signals-and-sampling (check §1/§4 for an existing DSP page),
+computational-photography, computer-graphics-rendering (§9?), nonlinear-optimization,
+sparse-linear-algebra (check §1.2), prefix-sums-and-scans.
+
+---
 title: Ingest §6.4 NLP and LLMs
 type: log
 section: "6.4"

@@ -625,3 +625,52 @@
 {"id":"6.4-029","query":"Jurafsky Martin Speech and Language Processing 3rd edition","relevant":["sources/nlp-and-llm-courses-texts-and-seminal-papers.md"],"section":"6.4","kind":"source"}
 {"id":"6.4-030","query":"CS336 language modeling from scratch assignments","relevant":["sources/nlp-and-llm-courses-texts-and-seminal-papers.md"],"section":"6.4","kind":"source"}
 {"id":"6.4-031","query":"nanoGPT Karpathy reproduce GPT-2","relevant":["sources/nlp-and-llm-courses-texts-and-seminal-papers.md","concepts/large-language-models.md"],"section":"6.4","kind":"lookup"}
+{"id":"6.5-001","query":"pinhole camera perspective projection intrinsics focal length Bayer gamma","relevant":["concepts/computer-vision-fundamentals.md"],"section":"6.5","kind":"keyword"}
+{"id":"6.5-002","query":"Canny edge detector non-maximum suppression hysteresis","relevant":["concepts/computer-vision-fundamentals.md"],"section":"6.5","kind":"keyword"}
+{"id":"6.5-003","query":"SIFT keypoints difference of Gaussians descriptor RANSAC matching","relevant":["concepts/computer-vision-fundamentals.md"],"section":"6.5","kind":"keyword"}
+{"id":"6.5-004","query":"Viola-Jones integral image Haar features AdaBoost cascade HOG SVM","relevant":["concepts/computer-vision-fundamentals.md"],"section":"6.5","kind":"keyword"}
+{"id":"6.5-005","query":"optical flow brightness constancy Lucas-Kanade aperture problem","relevant":["concepts/computer-vision-fundamentals.md"],"section":"6.5","kind":"keyword"}
+{"id":"6.5-006","query":"why do you blur before downsampling an image aliasing pyramid","relevant":["concepts/computer-vision-fundamentals.md"],"section":"6.5","kind":"question"}
+{"id":"6.5-007","query":"stitch photos into a panorama","relevant":["concepts/computer-vision-fundamentals.md","concepts/multiple-view-geometry-and-3d-vision.md"],"section":"6.5","kind":"paraphrase"}
+{"id":"6.5-008","query":"fundamental matrix essential matrix epipolar line 8-point algorithm","relevant":["concepts/multiple-view-geometry-and-3d-vision.md"],"section":"6.5","kind":"keyword"}
+{"id":"6.5-009","query":"homography DLT camera calibration Zhang checkerboard","relevant":["concepts/multiple-view-geometry-and-3d-vision.md"],"section":"6.5","kind":"keyword"}
+{"id":"6.5-010","query":"stereo disparity depth baseline rectification semi-global matching","relevant":["concepts/multiple-view-geometry-and-3d-vision.md"],"section":"6.5","kind":"keyword"}
+{"id":"6.5-011","query":"structure from motion bundle adjustment reprojection error COLMAP","relevant":["concepts/multiple-view-geometry-and-3d-vision.md"],"section":"6.5","kind":"keyword"}
+{"id":"6.5-012","query":"visual SLAM loop closure pose graph ORB-SLAM","relevant":["concepts/multiple-view-geometry-and-3d-vision.md"],"section":"6.5","kind":"keyword"}
+{"id":"6.5-013","query":"NeRF neural radiance field volume rendering 3D Gaussian splatting novel view","relevant":["concepts/multiple-view-geometry-and-3d-vision.md"],"section":"6.5","kind":"keyword"}
+{"id":"6.5-014","query":"reconstruct 3D from a set of photos","relevant":["concepts/multiple-view-geometry-and-3d-vision.md"],"section":"6.5","kind":"paraphrase"}
+{"id":"6.5-015","query":"SimCLR MoCo InfoNCE contrastive loss augmentations negatives","relevant":["concepts/self-supervised-and-contrastive-learning.md"],"section":"6.5","kind":"keyword"}
+{"id":"6.5-016","query":"BYOL DINO collapse stop-gradient self-distillation","relevant":["concepts/self-supervised-and-contrastive-learning.md"],"section":"6.5","kind":"keyword"}
+{"id":"6.5-017","query":"masked autoencoder MAE 75 percent patches BERT masked modeling images","relevant":["concepts/self-supervised-and-contrastive-learning.md"],"section":"6.5","kind":"keyword"}
+{"id":"6.5-018","query":"CLIP zero-shot classification image text contrastive prompt templates","relevant":["concepts/self-supervised-and-contrastive-learning.md"],"section":"6.5","kind":"keyword"}
+{"id":"6.5-019","query":"pretrain a vision model without any labels","relevant":["concepts/self-supervised-and-contrastive-learning.md"],"section":"6.5","kind":"paraphrase"}
+{"id":"6.5-020","query":"linear probe vs fine-tuning foundation model transfer","relevant":["concepts/self-supervised-and-contrastive-learning.md"],"section":"6.5","kind":"compare"}
+{"id":"6.5-021","query":"Szeliski Computer Vision Algorithms and Applications free book","relevant":["sources/computer-vision-texts-courses-and-seminal-papers.md"],"section":"6.5","kind":"source"}
+{"id":"6.5-022","query":"Hartley Zisserman Multiple View Geometry","relevant":["sources/computer-vision-texts-courses-and-seminal-papers.md","concepts/multiple-view-geometry-and-3d-vision.md"],"section":"6.5","kind":"source"}
+{"id":"6.6-001","query":"Monte Carlo vs temporal difference vs dynamic programming bootstrapping sampling","relevant":["concepts/reinforcement-learning-basics.md"],"section":"6.6","kind":"compare"}
+{"id":"6.6-002","query":"SARSA vs Q-learning on-policy off-policy cliff walking","relevant":["concepts/reinforcement-learning-basics.md"],"section":"6.6","kind":"compare"}
+{"id":"6.6-003","query":"TD lambda eligibility traces n-step returns","relevant":["concepts/reinforcement-learning-basics.md"],"section":"6.6","kind":"keyword"}
+{"id":"6.6-004","query":"deadly triad function approximation bootstrapping off-policy divergence","relevant":["concepts/reinforcement-learning-basics.md"],"section":"6.6","kind":"keyword"}
+{"id":"6.6-005","query":"Dyna-Q planning with a learned model simulated experience","relevant":["concepts/reinforcement-learning-basics.md"],"section":"6.6","kind":"keyword"}
+{"id":"6.6-006","query":"importance sampling off-policy evaluation returns variance","relevant":["concepts/reinforcement-learning-basics.md"],"section":"6.6","kind":"keyword"}
+{"id":"6.6-007","query":"why does my Q-learning agent take the risky path near the cliff","relevant":["concepts/reinforcement-learning-basics.md"],"section":"6.6","kind":"paraphrase"}
+{"id":"6.6-008","query":"DQN experience replay target network Atari Rainbow double dueling","relevant":["concepts/deep-reinforcement-learning.md"],"section":"6.6","kind":"keyword"}
+{"id":"6.6-009","query":"policy gradient theorem REINFORCE baseline advantage GAE","relevant":["concepts/deep-reinforcement-learning.md"],"section":"6.6","kind":"keyword"}
+{"id":"6.6-010","query":"PPO clipped surrogate objective TRPO KL trust region","relevant":["concepts/deep-reinforcement-learning.md"],"section":"6.6","kind":"keyword"}
+{"id":"6.6-011","query":"SAC maximum entropy DDPG TD3 continuous control","relevant":["concepts/deep-reinforcement-learning.md"],"section":"6.6","kind":"keyword"}
+{"id":"6.6-012","query":"model-based RL MuZero Dreamer world model MBPO","relevant":["concepts/deep-reinforcement-learning.md"],"section":"6.6","kind":"keyword"}
+{"id":"6.6-013","query":"offline RL distribution shift CQL IQL batch data","relevant":["concepts/deep-reinforcement-learning.md"],"section":"6.6","kind":"keyword"}
+{"id":"6.6-014","query":"curiosity RND exploration bonus sparse rewards Montezuma","relevant":["concepts/deep-reinforcement-learning.md"],"section":"6.6","kind":"keyword"}
+{"id":"6.6-015","query":"behavior cloning DAgger inverse RL GAIL Decision Transformer","relevant":["concepts/deep-reinforcement-learning.md"],"section":"6.6","kind":"keyword"}
+{"id":"6.6-016","query":"which deep RL algorithm should I use for continuous robot control","relevant":["concepts/deep-reinforcement-learning.md"],"section":"6.6","kind":"question"}
+{"id":"6.6-017","query":"why are deep RL results hard to reproduce seeds hyperparameters","relevant":["concepts/deep-reinforcement-learning.md"],"section":"6.6","kind":"question"}
+{"id":"6.6-018","query":"UCB1 regret bound optimism in the face of uncertainty","relevant":["concepts/multi-armed-bandits.md"],"section":"6.6","kind":"keyword"}
+{"id":"6.6-019","query":"Thompson sampling Beta posterior Bernoulli bandit","relevant":["concepts/multi-armed-bandits.md"],"section":"6.6","kind":"keyword"}
+{"id":"6.6-020","query":"Lai-Robbins lower bound logarithmic regret","relevant":["concepts/multi-armed-bandits.md"],"section":"6.6","kind":"lookup"}
+{"id":"6.6-021","query":"contextual bandits LinUCB inverse propensity off-policy evaluation recommendation","relevant":["concepts/multi-armed-bandits.md"],"section":"6.6","kind":"keyword"}
+{"id":"6.6-022","query":"Exp3 adversarial bandit exponential weights","relevant":["concepts/multi-armed-bandits.md"],"section":"6.6","kind":"keyword"}
+{"id":"6.6-023","query":"adaptive A/B test stop early best arm identification","relevant":["concepts/multi-armed-bandits.md"],"section":"6.6","kind":"paraphrase"}
+{"id":"6.6-024","query":"explore exploit tradeoff epsilon greedy regret","relevant":["concepts/multi-armed-bandits.md","concepts/reinforcement-learning-basics.md"],"section":"6.6","kind":"keyword"}
+{"id":"6.6-025","query":"Sutton Barto Reinforcement Learning An Introduction chapters","relevant":["sources/reinforcement-learning-texts-courses-and-seminal-papers.md"],"section":"6.6","kind":"source"}
+{"id":"6.6-026","query":"OpenAI Spinning Up deep RL key concepts","relevant":["sources/reinforcement-learning-texts-courses-and-seminal-papers.md"],"section":"6.6","kind":"source"}
+{"id":"6.6-027","query":"Berkeley CS285 Levine deep reinforcement learning course","relevant":["sources/reinforcement-learning-texts-courses-and-seminal-papers.md"],"section":"6.6","kind":"source"}
