@@ -557,3 +557,40 @@
 {"id":"6.2-029","query":"CS229 lecture notes Andrew Ng Tengyu Ma","relevant":["sources/ml-courses-texts-and-seminal-papers.md"],"section":"6.2","kind":"source"}
 {"id":"6.2-030","query":"Elements of Statistical Learning Hastie Tibshirani free textbook","relevant":["sources/ml-courses-texts-and-seminal-papers.md"],"section":"6.2","kind":"source"}
 {"id":"6.2-031","query":"Breiman statistical modeling two cultures","relevant":["sources/ml-courses-texts-and-seminal-papers.md","concepts/machine-learning-basics.md"],"section":"6.2","kind":"lookup"}
+{"id":"6.3-001","query":"backpropagation chain rule computational graph reverse-mode automatic differentiation","relevant":["concepts/deep-learning-basics.md"],"section":"6.3","kind":"keyword"}
+{"id":"6.3-002","query":"why ReLU instead of sigmoid activation vanishing gradient dead relu","relevant":["concepts/deep-learning-basics.md","concepts/neural-network-training.md"],"section":"6.3","kind":"question"}
+{"id":"6.3-003","query":"universal approximation theorem why depth beats width","relevant":["concepts/deep-learning-basics.md"],"section":"6.3","kind":"keyword"}
+{"id":"6.3-004","query":"PyTorch autograd vs JAX grad jit vmap","relevant":["concepts/deep-learning-basics.md"],"section":"6.3","kind":"compare"}
+{"id":"6.3-005","query":"Adam optimizer bias correction AdamW weight decay decoupled","relevant":["concepts/neural-network-training.md"],"section":"6.3","kind":"keyword"}
+{"id":"6.3-006","query":"learning rate warmup cosine schedule batch size linear scaling","relevant":["concepts/neural-network-training.md"],"section":"6.3","kind":"keyword"}
+{"id":"6.3-007","query":"Xavier He initialization batch normalization layer normalization residual connections","relevant":["concepts/neural-network-training.md"],"section":"6.3","kind":"keyword"}
+{"id":"6.3-008","query":"my training loss is NaN what should I check","relevant":["concepts/neural-network-training.md"],"section":"6.3","kind":"paraphrase"}
+{"id":"6.3-009","query":"dropout inverted scaling test time data augmentation regularization deep nets","relevant":["concepts/neural-network-training.md"],"section":"6.3","kind":"keyword"}
+{"id":"6.3-010","query":"mixed precision bf16 fp16 loss scaling memory optimizer state","relevant":["concepts/neural-network-training.md"],"section":"6.3","kind":"keyword"}
+{"id":"6.3-011","query":"rethinking generalization random labels implicit bias SGD flat minima","relevant":["concepts/neural-network-training.md"],"section":"6.3","kind":"keyword"}
+{"id":"6.3-012","query":"overfit a single batch first recipe for training neural networks","relevant":["concepts/neural-network-training.md"],"section":"6.3","kind":"howto"}
+{"id":"6.3-013","query":"convolution stride padding output size receptive field parameters","relevant":["concepts/convolutional-neural-networks.md"],"section":"6.3","kind":"keyword"}
+{"id":"6.3-014","query":"AlexNet VGG ResNet Inception architecture comparison ImageNet","relevant":["concepts/convolutional-neural-networks.md"],"section":"6.3","kind":"compare"}
+{"id":"6.3-015","query":"translation equivariance vs invariance CNN pooling","relevant":["concepts/convolutional-neural-networks.md"],"section":"6.3","kind":"keyword"}
+{"id":"6.3-016","query":"depthwise separable convolution MobileNet EfficientNet ConvNeXt","relevant":["concepts/convolutional-neural-networks.md"],"section":"6.3","kind":"keyword"}
+{"id":"6.3-017","query":"Faster R-CNN YOLO DETR U-Net detection segmentation","relevant":["concepts/convolutional-neural-networks.md"],"section":"6.3","kind":"keyword"}
+{"id":"6.3-018","query":"LSTM forget gate cell state why gradients don't vanish","relevant":["concepts/recurrent-neural-networks-and-lstms.md"],"section":"6.3","kind":"question"}
+{"id":"6.3-019","query":"backpropagation through time truncated BPTT exploding gradients clipping","relevant":["concepts/recurrent-neural-networks-and-lstms.md"],"section":"6.3","kind":"keyword"}
+{"id":"6.3-020","query":"seq2seq encoder decoder teacher forcing exposure bias beam search","relevant":["concepts/recurrent-neural-networks-and-lstms.md"],"section":"6.3","kind":"keyword"}
+{"id":"6.3-021","query":"state space models Mamba S4 recurrence returns","relevant":["concepts/recurrent-neural-networks-and-lstms.md"],"section":"6.3","kind":"keyword"}
+{"id":"6.3-022","query":"scaled dot-product attention queries keys values softmax sqrt d_k","relevant":["concepts/transformers-and-attention.md"],"section":"6.3","kind":"keyword"}
+{"id":"6.3-023","query":"positional encoding sinusoidal RoPE rotary relative position","relevant":["concepts/transformers-and-attention.md"],"section":"6.3","kind":"keyword"}
+{"id":"6.3-024","query":"causal mask KV cache autoregressive decoding cost","relevant":["concepts/transformers-and-attention.md"],"section":"6.3","kind":"keyword"}
+{"id":"6.3-025","query":"BERT vs GPT vs T5 encoder-only decoder-only encoder-decoder","relevant":["concepts/transformers-and-attention.md"],"section":"6.3","kind":"compare"}
+{"id":"6.3-026","query":"why did transformers replace RNNs parallelism path length","relevant":["concepts/transformers-and-attention.md","concepts/recurrent-neural-networks-and-lstms.md"],"section":"6.3","kind":"question"}
+{"id":"6.3-027","query":"Vision Transformer patches ViT vs CNN inductive bias","relevant":["concepts/transformers-and-attention.md","concepts/convolutional-neural-networks.md"],"section":"6.3","kind":"compare"}
+{"id":"6.3-028","query":"FlashAttention IO-aware quadratic attention memory","relevant":["concepts/transformers-and-attention.md"],"section":"6.3","kind":"keyword"}
+{"id":"6.3-029","query":"VAE vs GAN vs diffusion tradeoffs sample quality likelihood speed","relevant":["concepts/deep-generative-models.md"],"section":"6.3","kind":"compare"}
+{"id":"6.3-030","query":"GAN minimax mode collapse WGAN Wasserstein gradient penalty","relevant":["concepts/deep-generative-models.md"],"section":"6.3","kind":"keyword"}
+{"id":"6.3-031","query":"DDPM forward noising reverse process predict noise score matching","relevant":["concepts/deep-generative-models.md"],"section":"6.3","kind":"keyword"}
+{"id":"6.3-032","query":"classifier-free guidance latent diffusion Stable Diffusion U-Net DiT","relevant":["concepts/deep-generative-models.md"],"section":"6.3","kind":"keyword"}
+{"id":"6.3-033","query":"how do image generation models turn noise into pictures","relevant":["concepts/deep-generative-models.md"],"section":"6.3","kind":"paraphrase"}
+{"id":"6.3-034","query":"FID inception score evaluating generative models","relevant":["concepts/deep-generative-models.md"],"section":"6.3","kind":"keyword"}
+{"id":"6.3-035","query":"Goodfellow Bengio Courville Deep Learning book chapters","relevant":["sources/deep-learning-texts-courses-and-seminal-papers.md"],"section":"6.3","kind":"source"}
+{"id":"6.3-036","query":"Karpathy Neural Networks Zero to Hero micrograd makemore","relevant":["sources/deep-learning-texts-courses-and-seminal-papers.md","concepts/deep-learning-basics.md"],"section":"6.3","kind":"source"}
+{"id":"6.3-037","query":"CS231n Stanford deep learning computer vision course","relevant":["sources/deep-learning-texts-courses-and-seminal-papers.md"],"section":"6.3","kind":"source"}

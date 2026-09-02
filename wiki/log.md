@@ -3,6 +3,48 @@
 Newest first. Generated from wiki/log/*.md — do not edit.
 
 ---
+title: Ingest §6.3 deep learning
+type: log
+section: "6.3"
+tags: [ingest, deep-learning, cnn, rnn, transformers, diffusion, training]
+summary: Read the Goodfellow ToC and the CS231n 2025 schedule (D2L and UDL sites returned nav/empty); wrote 6 concepts (deep-learning-basics, neural-network-training, transformers-and-attention, deep-generative-models were all wanted) and 1 combined source.
+---
+## [2026-09-02] ingest | §6.3 Deep learning
+
+Read: deeplearningbook.org table of contents (20 chapters in three parts); CS231n spring
+2025 schedule (17 lectures — half the course is now transformers, self-supervision,
+generative models, 3D, vision-language and world models; suggested readings name ViT,
+DETR, DINO, ELBO). D2L returned only its nav; udlbook.github.io returned 2 bytes. Nielsen,
+Prince, Karpathy's Zero to Hero, and the seminal papers from memory (I have read them).
+
+Source: [[deep-learning-texts-courses-and-seminal-papers]].
+Concepts: [[deep-learning-basics]] (wanted), [[neural-network-training]] (wanted),
+[[convolutional-neural-networks]], [[recurrent-neural-networks-and-lstms]],
+[[transformers-and-attention]] (wanted), [[deep-generative-models]] (wanted).
+
+Insights: three separate inventions are the same trick — LSTM's additive cell (1997),
+ResNet's skip (2015), and the transformer's residual stream (2017) all give the gradient an
+identity path; the field re-discovers "make the Jacobian product contain an I" every time
+depth (in time, in layers) is pushed. Attention is a soft hash-table lookup, and the KV
+cache is the table — so the serving-cost story is the memory-hierarchy story of §4
+([[roofline-model]]) again: FlashAttention is cache-blocking. Diffusion's loss is the ELBO
+of [[unsupervised-learning-em-and-mixture-models]] applied to a Markov chain of latents,
+and denoising score matching is the same object as ICA's non-Gaussianity: a learned
+gradient of log-density. Zhang et al. 2017 is the deep-learning counterpart of natural
+proofs: a demonstration that the classical explanatory tool (capacity bounds) cannot
+distinguish the good case from the bad case.
+
+Search note: in §6.2 the paraphrase query "how many training examples do I need" ranked
+10th; adding those exact words to the relevant heading moved it to rank 1 with no other
+change. That is the cheapest possible "you might ask" intervention — record as a finding
+and apply to future paraphrase misses.
+
+Forward wanted slugs: distributed-training-and-ml-systems, transfer-learning-and-fine-tuning,
+self-supervised-and-contrastive-learning, efficient-transformers-and-long-context,
+dense-retrieval-and-embeddings, llm-evaluation-and-benchmarks, computer-vision-fundamentals,
+scaling-laws, prefix-sums-and-scans (check §3), bipartite-matching (check §3).
+
+---
 title: Ingest §6.2 machine learning
 type: log
 section: "6.2"
