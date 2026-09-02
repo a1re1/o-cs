@@ -209,3 +209,25 @@
 {"id":"4.2-016","query":"how do containers differ from virtual machines namespaces cgroups hypervisor","relevant":["concepts/os-kernels-and-virtualization.md"],"section":"4.2","kind":"question"}
 {"id":"4.2-017","query":"free operating systems textbook three easy pieces","relevant":["sources/ostep.md"],"section":"4.2","kind":"source"}
 {"id":"4.2-018","query":"Lampson hints for computer system design end-to-end keep it simple","relevant":["sources/os-seminal-papers.md"],"section":"4.2","kind":"keyword"}
+{"id":"4.3-001","query":"phases of a compiler front end middle end back end intermediate representation","relevant":["concepts/compilers-overview.md"],"section":"4.3","kind":"keyword"}
+{"id":"4.3-002","query":"difference between a compiler an interpreter a bytecode VM and a JIT","relevant":["concepts/compilers-overview.md","concepts/bytecode-vms-and-jit.md"],"section":"4.3","kind":"question"}
+{"id":"4.3-003","query":"Pratt parser binding power prefix infix","relevant":["concepts/lexing-and-parsing.md"],"section":"4.3","kind":"keyword"}
+{"id":"4.3-004","query":"why does my recursive descent parser loop forever on left recursion","relevant":["concepts/lexing-and-parsing.md"],"section":"4.3","kind":"question"}
+{"id":"4.3-005","query":"LALR shift reduce conflict yacc bison","relevant":["concepts/lexing-and-parsing.md"],"section":"4.3","kind":"keyword"}
+{"id":"4.3-006","query":"where to place phi functions dominance frontier renaming","relevant":["concepts/intermediate-representations-and-ssa.md"],"section":"4.3","kind":"keyword"}
+{"id":"4.3-007","query":"a variable that is assigned exactly once so every use points to its definition","relevant":["concepts/intermediate-representations-and-ssa.md"],"section":"4.3","kind":"paraphrase"}
+{"id":"4.3-008","query":"worklist algorithm transfer function meet lattice fixed point","relevant":["concepts/dataflow-analysis.md"],"section":"4.3","kind":"keyword"}
+{"id":"4.3-009","query":"live variables backward analysis reaching definitions forward","relevant":["concepts/dataflow-analysis.md"],"section":"4.3","kind":"keyword"}
+{"id":"4.3-010","query":"why can't the compiler vectorize my loop aliasing restrict","relevant":["concepts/compiler-optimizations.md"],"section":"4.3","kind":"question"}
+{"id":"4.3-011","query":"inlining loop invariant code motion strength reduction","relevant":["concepts/compiler-optimizations.md"],"section":"4.3","kind":"keyword"}
+{"id":"4.3-012","query":"graph coloring register allocation interference graph spill coalesce","relevant":["concepts/register-allocation-and-code-generation.md"],"section":"4.3","kind":"keyword"}
+{"id":"4.3-013","query":"linear scan vs graph coloring for a JIT","relevant":["concepts/register-allocation-and-code-generation.md"],"section":"4.3","kind":"question"}
+{"id":"4.3-014","query":"generational garbage collector nursery write barrier remembered set","relevant":["concepts/garbage-collection.md"],"section":"4.3","kind":"keyword"}
+{"id":"4.3-015","query":"why does reference counting leak cycles","relevant":["concepts/garbage-collection.md"],"section":"4.3","kind":"question"}
+{"id":"4.3-016","query":"tricolor marking mark sweep copying collector Cheney","relevant":["concepts/garbage-collection.md"],"section":"4.3","kind":"keyword"}
+{"id":"4.3-017","query":"inline caches type feedback speculation deoptimization tiered JIT","relevant":["concepts/bytecode-vms-and-jit.md"],"section":"4.3","kind":"keyword"}
+{"id":"4.3-018","query":"how did V8 make JavaScript fast hidden classes","relevant":["concepts/bytecode-vms-and-jit.md"],"section":"4.3","kind":"question"}
+{"id":"4.3-019","query":"undefined reference at link time library order static archive","relevant":["concepts/linking-and-loading.md"],"section":"4.3","kind":"keyword"}
+{"id":"4.3-020","query":"PLT GOT lazy binding position independent code shared library","relevant":["concepts/linking-and-loading.md"],"section":"4.3","kind":"keyword"}
+{"id":"4.3-021","query":"free book that builds a bytecode VM interpreter in C","relevant":["sources/crafting-interpreters.md"],"section":"4.3","kind":"source"}
+{"id":"4.3-022","query":"Cornell advanced compilers course Bril LLVM lessons","relevant":["sources/cs6120-and-compiler-courses.md"],"section":"4.3","kind":"source"}

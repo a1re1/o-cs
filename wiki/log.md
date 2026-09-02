@@ -3,6 +3,34 @@
 Newest first. Generated from wiki/log/*.md — do not edit.
 
 ---
+title: Ingest §4.3 compilers
+type: log
+section: "4.3"
+tags: [ingest, compilers, crafting-interpreters, cs6120, ssa, dragon-book]
+summary: Read Crafting Interpreters ch. 2 (the map), CS6120 lesson list, SSA Book contents; wrote 9 concept pages (overview, lexing/parsing, IR/SSA, dataflow, optimizations, codegen/regalloc, GC, VMs/JIT, linking) and 4 sources.
+---
+## [2026-09-02] ingest | §4.3 Compilers
+
+Read: Crafting Interpreters "A Map of the Territory" (the mountain; where analysis results live;
+front/middle/back end; shortcuts), CS6120 self-guided lesson list (14 lessons), SSA Book ToC
+(construction via dominance frontiers; properties; destruction). Dragon Book, Appel, Cooper &
+Torczon, LLVM, Self/Smalltalk papers from memory.
+
+Sources: [[crafting-interpreters]], [[dragon-book-and-compiler-texts]], [[cs6120-and-compiler-courses]],
+[[compiler-seminal-papers]]. Concepts: [[compilers-overview]], [[lexing-and-parsing]],
+[[intermediate-representations-and-ssa]], [[dataflow-analysis]], [[compiler-optimizations]],
+[[register-allocation-and-code-generation]], [[garbage-collection]], [[bytecode-vms-and-jit]],
+[[linking-and-loading]] (filled wanted: compilers-overview, parsing → lexing-and-parsing,
+compiler-optimizations, garbage-collection, linking-and-loading).
+
+Insights: SSA is the compiler's own referential transparency ([[purity-and-referential-transparency]]);
+dataflow analysis, type inference and dominators are all fixed points ([[induction]]); the
+JIT's measure–guess–guard–recover loop is the same shape as branch prediction and adaptive query
+optimization; Bacon's tracing/RC duality is a real unification, not a slogan.
+Newly wanted: context-free-grammars, type-systems (§4.4), program-verification, query-optimization,
+async-and-event-driven-concurrency, io-and-device-drivers.
+
+---
 title: Ingest §4.2 operating systems
 type: log
 section: "4.2"
