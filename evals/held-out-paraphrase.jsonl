@@ -1,0 +1,25 @@
+{"id":"ho-001","query":"my program keeps crashing because it ran out of stack space from calling itself too many times","relevant":["concepts/recursion-and-iteration.md","concepts/functional-programming-principles.md"],"section":"held-out","kind":"paraphrase"}
+{"id":"ho-002","query":"a way to check if something is probably in a set using very little memory but sometimes wrong","relevant":["concepts/streaming-and-sketching.md"],"section":"held-out","kind":"paraphrase"}
+{"id":"ho-003","query":"two people both act selfishly and end up worse off than if they cooperated","relevant":["concepts/game-theory.md"],"section":"held-out","kind":"paraphrase"}
+{"id":"ho-004","query":"picking the item that looks best right now at each step without reconsidering","relevant":["concepts/greedy-algorithms.md"],"section":"held-out","kind":"paraphrase"}
+{"id":"ho-005","query":"the computer pretends each program has all the memory to itself","relevant":["concepts/virtual-memory.md"],"section":"held-out","kind":"paraphrase"}
+{"id":"ho-006","query":"finding which webpages matter most based on who links to them","relevant":["concepts/pagerank.md","concepts/network-science.md"],"section":"held-out","kind":"paraphrase"}
+{"id":"ho-007","query":"suggesting movies to someone based on what similar people liked","relevant":["concepts/recommender-systems.md"],"section":"held-out","kind":"paraphrase"}
+{"id":"ho-008","query":"the search finds documents about the same idea even when they use different words","relevant":["concepts/dense-retrieval-and-embeddings.md"],"section":"held-out","kind":"paraphrase"}
+{"id":"ho-009","query":"reusing a model trained on lots of data for a new problem with little data","relevant":["concepts/transfer-learning-and-fine-tuning.md"],"section":"held-out","kind":"paraphrase"}
+{"id":"ho-010","query":"making sure only one thread touches the shared data at a time","relevant":["concepts/synchronization-primitives.md"],"section":"held-out","kind":"paraphrase"}
+{"id":"ho-011","query":"breaking a big problem into smaller identical subproblems and remembering the answers","relevant":["concepts/dynamic-programming.md"],"section":"held-out","kind":"paraphrase"}
+{"id":"ho-012","query":"the database change either fully happens or not at all even if the power fails","relevant":["concepts/transactions-and-concurrency-control.md","concepts/database-recovery-and-logging.md"],"section":"held-out","kind":"paraphrase"}
+{"id":"ho-013","query":"getting many computers to agree on one value even if some fail","relevant":["concepts/consensus-paxos-raft.md"],"section":"held-out","kind":"paraphrase"}
+{"id":"ho-014","query":"turning a recorded sound into text automatically","relevant":["concepts/speech-and-audio-processing.md"],"section":"held-out","kind":"paraphrase"}
+{"id":"ho-015","query":"why you cannot sample a signal too slowly or it looks like a different frequency","relevant":["concepts/signals-systems-and-sampling.md"],"section":"held-out","kind":"paraphrase"}
+{"id":"ho-016","query":"proving a program never reaches a bad state by checking all reachable states","relevant":["concepts/model-checking.md"],"section":"held-out","kind":"paraphrase"}
+{"id":"ho-017","query":"an auction where telling the truth about your value is the best strategy","relevant":["concepts/mechanism-design-and-auctions.md"],"section":"held-out","kind":"paraphrase"}
+{"id":"ho-018","query":"figuring out a protein's shape from its sequence of amino acids","relevant":["concepts/genome-assembly-and-protein-structure.md"],"section":"held-out","kind":"paraphrase"}
+{"id":"ho-019","query":"a chart that lies by starting the axis partway up instead of at zero","relevant":["concepts/data-visualization.md"],"section":"held-out","kind":"paraphrase"}
+{"id":"ho-020","query":"software that costs a lot to change later because early shortcuts piled up","relevant":["concepts/technical-debt-and-maintenance.md"],"section":"held-out","kind":"paraphrase"}
+{"id":"ho-021","query":"hiding the internal details of a module so other code cannot depend on them","relevant":["concepts/modularity-and-information-hiding.md"],"section":"held-out","kind":"paraphrase"}
+{"id":"ho-022","query":"letting the model compute exact gradients by applying the chain rule through the code","relevant":["concepts/automatic-differentiation.md"],"section":"held-out","kind":"paraphrase"}
+{"id":"ho-023","query":"storing data by column so analytics queries only read the fields they need","relevant":["concepts/columnar-storage-and-data-formats.md"],"section":"held-out","kind":"paraphrase"}
+{"id":"ho-024","query":"an attacker tricks the browser into making requests as a logged-in user","relevant":["concepts/web-security.md"],"section":"held-out","kind":"paraphrase"}
+{"id":"ho-025","query":"the smallest change to make the interface show the system is doing something","relevant":["concepts/human-computer-interaction.md","concepts/usability-evaluation-and-user-research.md"],"section":"held-out","kind":"paraphrase"}
