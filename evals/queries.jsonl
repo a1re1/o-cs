@@ -1132,3 +1132,61 @@
 {"id":"8.4-011","query":"do I actually need a blockchain or would a database work","relevant":["concepts/blockchain-and-cryptocurrencies.md"],"section":"8.4","kind":"paraphrase"}
 {"id":"8.4-012","query":"Nakamoto Bitcoin whitepaper peer to peer electronic cash","relevant":["sources/privacy-and-blockchain-texts-courses-and-seminal-papers.md","concepts/blockchain-and-cryptocurrencies.md"],"section":"8.4","kind":"source"}
 {"id":"8.4-013","query":"Stanford CS251 blockchain course Boneh","relevant":["sources/privacy-and-blockchain-texts-courses-and-seminal-papers.md"],"section":"8.4","kind":"source"}
+{"id":"9.1-001","query":"affordances signifiers mapping feedback Norman design principles","relevant":["concepts/human-computer-interaction.md"],"section":"9.1","kind":"keyword"}
+{"id":"9.1-002","query":"gulf of execution and gulf of evaluation","relevant":["concepts/human-computer-interaction.md"],"section":"9.1","kind":"concept"}
+{"id":"9.1-003","query":"why does a push door that should be pulled confuse people","relevant":["concepts/human-computer-interaction.md"],"section":"9.1","kind":"question"}
+{"id":"9.1-004","query":"Nielsen ten usability heuristics list","relevant":["concepts/usability-evaluation-and-user-research.md"],"section":"9.1","kind":"keyword"}
+{"id":"9.1-005","query":"how many users do you need for a usability test to find most problems","relevant":["concepts/usability-evaluation-and-user-research.md"],"section":"9.1","kind":"question"}
+{"id":"9.1-006","query":"difference between heuristic evaluation and A/B testing","relevant":["concepts/usability-evaluation-and-user-research.md"],"section":"9.1","kind":"compare"}
+{"id":"9.1-007","query":"Fitts's law pointing time index of difficulty formula","relevant":["concepts/interaction-design-and-cognitive-models.md"],"section":"9.1","kind":"keyword"}
+{"id":"9.1-008","query":"why are screen corners good places for buttons","relevant":["concepts/interaction-design-and-cognitive-models.md"],"section":"9.1","kind":"question"}
+{"id":"9.1-009","query":"GOMS keystroke level model predict expert task time","relevant":["concepts/interaction-design-and-cognitive-models.md"],"section":"9.1","kind":"lookup"}
+{"id":"9.1-010","query":"Bush As We May Think memex Engelbart mother of all demos","relevant":["sources/hci-texts-courses-and-seminal-papers.md","concepts/human-computer-interaction.md"],"section":"9.1","kind":"source"}
+{"id":"9.1-011","query":"how to run user research and evaluate an interface","relevant":["concepts/usability-evaluation-and-user-research.md"],"section":"9.1","kind":"howto"}
+{"id":"9.2-001","query":"rasterization pipeline transforms projection shading z-buffer","relevant":["concepts/computer-graphics-rendering.md"],"section":"9.2","kind":"keyword"}
+{"id":"9.2-002","query":"how does a GPU turn a 3D scene into pixels","relevant":["concepts/computer-graphics-rendering.md"],"section":"9.2","kind":"question"}
+{"id":"9.2-003","query":"Phong Blinn shading model specular highlight","relevant":["concepts/computer-graphics-rendering.md"],"section":"9.2","kind":"lookup"}
+{"id":"9.2-004","query":"Kajiya rendering equation global illumination integral","relevant":["concepts/ray-tracing-and-path-tracing.md"],"section":"9.2","kind":"keyword"}
+{"id":"9.2-005","query":"Monte Carlo path tracing noise converges 1 over root N","relevant":["concepts/ray-tracing-and-path-tracing.md"],"section":"9.2","kind":"concept"}
+{"id":"9.2-006","query":"rasterization versus ray tracing when to use each","relevant":["concepts/ray-tracing-and-path-tracing.md","concepts/computer-graphics-rendering.md"],"section":"9.2","kind":"compare"}
+{"id":"9.2-007","query":"bounding volume hierarchy BVH accelerate ray scene intersection","relevant":["concepts/ray-tracing-and-path-tracing.md"],"section":"9.2","kind":"lookup"}
+{"id":"9.2-008","query":"half-edge mesh data structure adjacency","relevant":["concepts/geometry-processing-and-meshes.md"],"section":"9.2","kind":"keyword"}
+{"id":"9.2-009","query":"how to reduce triangle count of a scanned model quadric error","relevant":["concepts/geometry-processing-and-meshes.md"],"section":"9.2","kind":"howto"}
+{"id":"9.2-010","query":"cotangent Laplacian discrete differential geometry mesh smoothing","relevant":["concepts/geometry-processing-and-meshes.md"],"section":"9.2","kind":"lookup"}
+{"id":"9.2-011","query":"NeRF Gaussian splatting neural rendering from photos","relevant":["concepts/computer-graphics-rendering.md","sources/computer-graphics-texts-courses-and-seminal-papers.md"],"section":"9.2","kind":"paraphrase"}
+{"id":"9.2-012","query":"physically based rendering PBRT textbook free","relevant":["sources/computer-graphics-texts-courses-and-seminal-papers.md"],"section":"9.2","kind":"source"}
+{"id":"9.3-001","query":"fixed timestep game loop accumulator interpolation","relevant":["concepts/game-engine-architecture.md"],"section":"9.3","kind":"keyword"}
+{"id":"9.3-002","query":"entity component system ECS data oriented design games","relevant":["concepts/game-engine-architecture.md"],"section":"9.3","kind":"concept"}
+{"id":"9.3-003","query":"why should physics use a fixed timestep not variable","relevant":["concepts/game-engine-architecture.md"],"section":"9.3","kind":"question"}
+{"id":"9.3-004","query":"broad phase narrow phase collision detection GJK SAT","relevant":["concepts/physics-simulation-and-collision-detection.md"],"section":"9.3","kind":"keyword"}
+{"id":"9.3-005","query":"semi-implicit symplectic Euler stable integration explicit blows up","relevant":["concepts/physics-simulation-and-collision-detection.md"],"section":"9.3","kind":"lookup"}
+{"id":"9.3-006","query":"position based dynamics cloth simulation stable","relevant":["concepts/physics-simulation-and-collision-detection.md"],"section":"9.3","kind":"concept"}
+{"id":"9.3-007","query":"how do fast objects tunnel through walls in a physics engine","relevant":["concepts/physics-simulation-and-collision-detection.md"],"section":"9.3","kind":"question"}
+{"id":"9.3-008","query":"Reynolds boids flocking separation alignment cohesion","relevant":["concepts/physics-simulation-and-collision-detection.md","sources/games-and-simulation-texts-and-seminal-papers.md"],"section":"9.3","kind":"lookup"}
+{"id":"9.3-009","query":"Stam stable fluids Navier Stokes semi-Lagrangian real time","relevant":["concepts/physics-simulation-and-collision-detection.md"],"section":"9.3","kind":"paraphrase"}
+{"id":"9.3-010","query":"Game Engine Architecture Gregory game programming patterns Nystrom","relevant":["sources/games-and-simulation-texts-and-seminal-papers.md"],"section":"9.3","kind":"source"}
+{"id":"9.4-001","query":"Tufte data-ink ratio chartjunk graphical integrity","relevant":["concepts/data-visualization.md"],"section":"9.4","kind":"keyword"}
+{"id":"9.4-002","query":"how to choose the right chart type for your data","relevant":["concepts/data-visualization.md"],"section":"9.4","kind":"howto"}
+{"id":"9.4-003","query":"truncated y-axis misleading bar chart lie factor","relevant":["concepts/data-visualization.md"],"section":"9.4","kind":"lookup"}
+{"id":"9.4-004","query":"Cleveland McGill ranking of visual channels accuracy position length","relevant":["concepts/visual-encoding-and-perception.md"],"section":"9.4","kind":"keyword"}
+{"id":"9.4-005","query":"why are pie charts worse than bar charts for comparing values","relevant":["concepts/visual-encoding-and-perception.md"],"section":"9.4","kind":"question"}
+{"id":"9.4-006","query":"perceptually uniform colormap viridis color blind safe avoid rainbow","relevant":["concepts/visual-encoding-and-perception.md"],"section":"9.4","kind":"lookup"}
+{"id":"9.4-007","query":"grammar of graphics encodings marks scales ggplot vega-lite","relevant":["concepts/grammar-of-graphics-and-interactive-visualization.md"],"section":"9.4","kind":"keyword"}
+{"id":"9.4-008","query":"Shneiderman overview first zoom filter details on demand","relevant":["concepts/grammar-of-graphics-and-interactive-visualization.md"],"section":"9.4","kind":"lookup"}
+{"id":"9.4-009","query":"D3 data join enter update exit selections","relevant":["concepts/grammar-of-graphics-and-interactive-visualization.md"],"section":"9.4","kind":"concept"}
+{"id":"9.4-010","query":"brushing and linking coordinated multiple views interactive","relevant":["concepts/grammar-of-graphics-and-interactive-visualization.md"],"section":"9.4","kind":"paraphrase"}
+{"id":"9.4-011","query":"Anscombe quartet always plot the data summary statistics identical","relevant":["concepts/data-visualization.md"],"section":"9.4","kind":"paraphrase"}
+{"id":"9.5-001","query":"small world network high clustering short paths Watts Strogatz","relevant":["concepts/network-science.md"],"section":"9.5","kind":"keyword"}
+{"id":"9.5-002","query":"scale free network power law degree preferential attachment Barabasi","relevant":["concepts/network-science.md"],"section":"9.5","kind":"keyword"}
+{"id":"9.5-003","query":"how does PageRank rank web pages random surfer stationary distribution","relevant":["concepts/network-science.md"],"section":"9.5","kind":"question"}
+{"id":"9.5-004","query":"strength of weak ties Granovetter bridges between communities","relevant":["concepts/network-science.md"],"section":"9.5","kind":"lookup"}
+{"id":"9.5-005","query":"message passing graph neural network aggregate neighbors GCN","relevant":["concepts/graph-neural-networks.md"],"section":"9.5","kind":"keyword"}
+{"id":"9.5-006","query":"why can't you stack many layers in a GNN over-smoothing","relevant":["concepts/graph-neural-networks.md"],"section":"9.5","kind":"question"}
+{"id":"9.5-007","query":"node2vec random walk node embeddings deepwalk","relevant":["concepts/graph-neural-networks.md"],"section":"9.5","kind":"lookup"}
+{"id":"9.5-008","query":"collaborative filtering matrix factorization Netflix prize latent factors","relevant":["concepts/recommender-systems.md"],"section":"9.5","kind":"keyword"}
+{"id":"9.5-009","query":"cold start problem new user new item recommendation","relevant":["concepts/recommender-systems.md"],"section":"9.5","kind":"concept"}
+{"id":"9.5-010","query":"item-item collaborative filtering people who bought this also bought","relevant":["concepts/recommender-systems.md"],"section":"9.5","kind":"paraphrase"}
+{"id":"9.5-011","query":"spectral clustering graph Laplacian Fiedler vector eigenvectors","relevant":["concepts/spectral-graph-theory-and-clustering.md"],"section":"9.5","kind":"keyword"}
+{"id":"9.5-012","query":"number of connected components equals multiplicity of zero eigenvalue Laplacian","relevant":["concepts/spectral-graph-theory-and-clustering.md"],"section":"9.5","kind":"lookup"}
+{"id":"9.5-013","query":"Easley Kleinberg Networks Crowds and Markets free textbook","relevant":["sources/computational-social-science-texts-and-seminal-papers.md"],"section":"9.5","kind":"source"}
+{"id":"9.5-014","query":"influence maximization greedy submodular seed nodes cascade","relevant":["concepts/network-science.md"],"section":"9.5","kind":"lookup"}

@@ -84,11 +84,11 @@ oasis improvements (PRs to ~/src/oasis), and a running experiments report (`repo
 - [x] 8.3 Privacy (Dwork&Roth, Programming DP, k-anonymity, Tor, federated learning)
 - [x] 8.4 Blockchain (Nakamoto, Princeton Bitcoin book, Ethereum, selfish mining)
 ### 9 Human-centered
-- [ ] 9.1 HCI (Norman, Bush, Engelbart, Fitts, Nielsen heuristics)
-- [ ] 9.2 Graphics (15-462 Crane, PBR book, Ray Tracing in One Weekend, Kajiya)
-- [ ] 9.3 Games & animation (Game Programming Patterns, Baraff&Witkin, Stable Fluids, ECS)
-- [ ] 9.4 Data visualization (Wilke, Munzner, Cleveland&McGill, D3, Vega-Lite)
-- [ ] 9.5 Social computing & graph ML (Easley&Kleinberg, MMDS, CS224W, PageRank, GCN)
+- [x] 9.1 HCI (Norman, Bush, Engelbart, Fitts, Nielsen heuristics)
+- [x] 9.2 Graphics (15-462 Crane, PBR book, Ray Tracing in One Weekend, Kajiya)
+- [x] 9.3 Games & animation (Game Programming Patterns, Baraff&Witkin, Stable Fluids, ECS)
+- [x] 9.4 Data visualization (Wilke, Munzner, Cleveland&McGill, D3, Vega-Lite)
+- [x] 9.5 Social computing & graph ML (Easley&Kleinberg, MMDS, CS224W, PageRank, GCN)
 ### 10 Data
 - [ ] 10.1 Data science (Data 8, Data 100, McKinney, R4DS)
 - [ ] 10.2 Big data & mining (MMDS, MapReduce, Spark, MinHash, HyperLogLog, Count-Min, Dataflow)
