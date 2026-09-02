@@ -1066,3 +1066,45 @@
 {"id":"7.8-021","query":"when should engineers involve lawyers privacy IP triggers","relevant":["concepts/technology-law-privacy-and-intellectual-property.md"],"section":"7.8","kind":"howto"}
 {"id":"7.8-022","query":"Stanford CS181 computers ethics public policy recognize reason persuade memo","relevant":["sources/computing-ethics-texts-courses-and-codes.md","concepts/computing-ethics-and-professional-responsibility.md"],"section":"7.8","kind":"source"}
 {"id":"7.8-023","query":"Harvard Embedded EthiCS modules","relevant":["sources/computing-ethics-texts-courses-and-codes.md"],"section":"7.8","kind":"source"}
+{"id":"8.1-001","query":"threat model attacker assumptions who is the adversary","relevant":["concepts/security-principles.md"],"section":"8.1","kind":"keyword"}
+{"id":"8.1-002","query":"Saltzer Schroeder design principles least privilege fail-safe defaults complete mediation","relevant":["concepts/security-principles.md"],"section":"8.1","kind":"keyword"}
+{"id":"8.1-003","query":"security is economics risk cost benefit weakest link","relevant":["concepts/security-principles.md"],"section":"8.1","kind":"concept"}
+{"id":"8.1-004","query":"Kerckhoffs principle security through obscurity open design Shannon's maxim","relevant":["concepts/security-principles.md"],"section":"8.1","kind":"keyword"}
+{"id":"8.1-005","query":"defense in depth trusted computing base attack surface","relevant":["concepts/security-principles.md"],"section":"8.1","kind":"keyword"}
+{"id":"8.1-006","query":"TOCTTOU race condition time of check time of use","relevant":["concepts/security-principles.md"],"section":"8.1","kind":"keyword"}
+{"id":"8.1-007","query":"how do I think about securing a new system where do I start","relevant":["concepts/security-principles.md"],"section":"8.1","kind":"paraphrase"}
+{"id":"8.1-008","query":"CIA triad confidentiality integrity availability authentication authorization","relevant":["concepts/security-principles.md"],"section":"8.1","kind":"keyword"}
+{"id":"8.1-009","query":"access control list vs capability ticket-oriented list-oriented","relevant":["concepts/access-control-and-isolation.md"],"section":"8.1","kind":"compare"}
+{"id":"8.1-010","query":"confused deputy problem ambient authority","relevant":["concepts/access-control-and-isolation.md"],"section":"8.1","kind":"keyword"}
+{"id":"8.1-011","query":"Bell-LaPadula no read up no write down multilevel security mandatory access control","relevant":["concepts/access-control-and-isolation.md"],"section":"8.1","kind":"keyword"}
+{"id":"8.1-012","query":"RBAC vs ABAC role-based attribute-based access control","relevant":["concepts/access-control-and-isolation.md"],"section":"8.1","kind":"compare"}
+{"id":"8.1-013","query":"privilege separation OKWS OpenSSH reference monitor","relevant":["concepts/access-control-and-isolation.md"],"section":"8.1","kind":"keyword"}
+{"id":"8.1-014","query":"sandboxing containers vs VMs seccomp WebAssembly software fault isolation","relevant":["concepts/access-control-and-isolation.md"],"section":"8.1","kind":"compare"}
+{"id":"8.1-015","query":"confinement problem covert channels Lampson","relevant":["concepts/access-control-and-isolation.md"],"section":"8.1","kind":"keyword"}
+{"id":"8.1-016","query":"how do I isolate untrusted third-party code in my application","relevant":["concepts/access-control-and-isolation.md"],"section":"8.1","kind":"howto"}
+{"id":"8.1-017","query":"how does a stack buffer overflow exploit overwrite the return address shellcode","relevant":["concepts/software-exploitation-and-mitigations.md"],"section":"8.2","kind":"question"}
+{"id":"8.1-018","query":"return-oriented programming ROP gadgets DEP W^X bypass","relevant":["concepts/software-exploitation-and-mitigations.md"],"section":"8.2","kind":"keyword"}
+{"id":"8.1-019","query":"ASLR stack canary CFI shadow stack mitigations arms race","relevant":["concepts/software-exploitation-and-mitigations.md"],"section":"8.2","kind":"keyword"}
+{"id":"8.1-020","query":"use-after-free heap exploitation type confusion","relevant":["concepts/software-exploitation-and-mitigations.md"],"section":"8.2","kind":"keyword"}
+{"id":"8.1-021","query":"Spectre Meltdown speculative execution cache timing side channel","relevant":["concepts/software-exploitation-and-mitigations.md"],"section":"8.2","kind":"keyword"}
+{"id":"8.1-022","query":"why rewrite in Rust memory safety 70 percent of vulnerabilities","relevant":["concepts/software-exploitation-and-mitigations.md"],"section":"8.2","kind":"question"}
+{"id":"8.1-023","query":"reverse engineering Ghidra CTF exploit development pwn","relevant":["concepts/software-exploitation-and-mitigations.md"],"section":"8.2","kind":"keyword"}
+{"id":"8.1-024","query":"same-origin policy CORS browser security model","relevant":["concepts/web-security.md"],"section":"8.1","kind":"keyword"}
+{"id":"8.1-025","query":"SQL injection parameterized queries prepared statements","relevant":["concepts/web-security.md"],"section":"8.1","kind":"keyword"}
+{"id":"8.1-026","query":"cross-site scripting XSS output encoding Content Security Policy","relevant":["concepts/web-security.md"],"section":"8.1","kind":"keyword"}
+{"id":"8.1-027","query":"CSRF cross-site request forgery SameSite token","relevant":["concepts/web-security.md"],"section":"8.1","kind":"keyword"}
+{"id":"8.1-028","query":"IDOR broken access control object-level authorization","relevant":["concepts/web-security.md"],"section":"8.1","kind":"keyword"}
+{"id":"8.1-029","query":"OWASP top 10 web application security risks","relevant":["concepts/web-security.md"],"section":"8.1","kind":"keyword"}
+{"id":"8.1-030","query":"SSRF server-side request forgery cloud metadata endpoint","relevant":["concepts/web-security.md"],"section":"8.1","kind":"keyword"}
+{"id":"8.1-031","query":"security headers HSTS clickjacking X-Frame-Options subresource integrity","relevant":["concepts/web-security.md"],"section":"8.1","kind":"keyword"}
+{"id":"8.1-032","query":"how do I protect my web app from common attacks","relevant":["concepts/web-security.md"],"section":"8.1","kind":"paraphrase"}
+{"id":"8.1-033","query":"ARP spoofing DHCP attack man in the middle LAN","relevant":["concepts/network-security-attacks-and-defenses.md"],"section":"8.1","kind":"keyword"}
+{"id":"8.1-034","query":"BGP hijacking DNS cache poisoning Kaminsky","relevant":["concepts/network-security-attacks-and-defenses.md"],"section":"8.1","kind":"keyword"}
+{"id":"8.1-035","query":"DDoS amplification reflection attack SYN flood botnet Mirai","relevant":["concepts/network-security-attacks-and-defenses.md"],"section":"8.1","kind":"keyword"}
+{"id":"8.1-036","query":"TLS certificate authority PKI chain of trust certificate transparency DigiNotar","relevant":["concepts/network-security-attacks-and-defenses.md"],"section":"8.1","kind":"keyword"}
+{"id":"8.1-037","query":"DNSSEC RPKI WPA3 IPsec WireGuard adding authentication to protocols","relevant":["concepts/network-security-attacks-and-defenses.md"],"section":"8.1","kind":"keyword"}
+{"id":"8.1-038","query":"firewall IDS IPS evasion zero trust BeyondCorp","relevant":["concepts/network-security-attacks-and-defenses.md"],"section":"8.1","kind":"keyword"}
+{"id":"8.1-039","query":"SSL strip downgrade attack HSTS","relevant":["concepts/network-security-attacks-and-defenses.md"],"section":"8.1","kind":"keyword"}
+{"id":"8.1-040","query":"CS161 Berkeley computer security textbook","relevant":["sources/computer-security-texts-courses-and-seminal-papers.md"],"section":"8.1","kind":"source"}
+{"id":"8.1-041","query":"Anderson Security Engineering book","relevant":["sources/computer-security-texts-courses-and-seminal-papers.md"],"section":"8.1","kind":"source"}
+{"id":"8.1-042","query":"Reflections on Trusting Trust Thompson compiler backdoor","relevant":["concepts/software-exploitation-and-mitigations.md","sources/computer-security-texts-courses-and-seminal-papers.md"],"section":"8.2","kind":"keyword"}

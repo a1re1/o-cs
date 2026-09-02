@@ -79,8 +79,8 @@ oasis improvements (PRs to ~/src/oasis), and a running experiments report (`repo
 - [x] 7.7 Open source practice (Fogel, Cathedral & Bazaar, licensing, supply chain)
 - [x] 7.8 Ethics & law (ACM code, Weizenbaum, CS181)
 ### 8 Security
-- [ ] 8.1 Computer security (CS161 textbook, 6.858, Saltzer&Schroeder, Thompson, Aleph One, Spectre)
-- [ ] 8.2 Offensive security & RE (pwn.college, OverTheWire, Nightmare)
+- [x] 8.1 Computer security (CS161 textbook, 6.858, Saltzer&Schroeder, Thompson, Aleph One, Spectre)
+- [x] 8.2 Offensive security & RE (pwn.college, OverTheWire, Nightmare)
 - [ ] 8.3 Privacy (Dwork&Roth, Programming DP, k-anonymity, Tor, federated learning)
 - [ ] 8.4 Blockchain (Nakamoto, Princeton Bitcoin book, Ethereum, selfish mining)
 ### 9 Human-centered
