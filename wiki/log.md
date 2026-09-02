@@ -3,6 +3,39 @@
 Newest first. Generated from wiki/log/*.md — do not edit.
 
 ---
+title: Ingest §6.9 ML systems, MLOps and data engineering
+type: log
+section: "6.9"
+tags: [ingest, mlops, ml-systems, distributed-training, inference, quantization]
+summary: Read the CS329S syllabus; wrote 3 concepts (mlops-and-ml-systems, distributed-training-and-ml-systems, llm-inference-and-serving — all wanted) and 1 combined source.
+---
+## [2026-09-02] ingest | §6.9 ML systems & MLOps
+
+Read: Stanford CS329S syllabus (lecture sequence from "understanding ML production" through
+deployment, drift/monitoring, continual learning, infrastructure, responsible AI). Huyen's
+book, Sculley's hidden-technical-debt paper, 10-714, Han's 6.5940, ZeRO/Megatron/GPipe/
+vLLM/GPTQ from memory (well known to me). Reis & Housley from memory.
+
+Source: [[ml-systems-and-mlops-texts-courses-and-seminal-papers]].
+Concepts: [[mlops-and-ml-systems]] (wanted), [[distributed-training-and-ml-systems]]
+(wanted), [[llm-inference-and-serving]] (wanted).
+
+Insights: three sections of the curriculum converge here. Decode is a [[roofline-model]]
+problem (intensity ≈ batch size), PagedAttention is [[virtual-memory]], ring all-reduce is
+the bandwidth-optimal collective of [[parallel-programming-models]], and 3D parallelism is a
+placement problem the [[query-optimization]] chapter would recognize (a cost model over
+partitionings). Sculley's CACE is Parnas' information hiding failing — features are a
+module interface nobody declared. Speculative decoding is a rejection-sampling argument
+from [[monte-carlo-methods]] used as a systems trick: the exact-distribution guarantee is what
+makes it deployable. The MLOps page is the one where the wiki links back to §7–§8 topics
+that don't exist yet (software-engineering-fundamentals, technical-debt-and-maintenance,
+differential-privacy) — those slugs are now wanted and will be filled in §7/§8.
+
+Forward wanted slugs: hardware-accelerators (§4.1 or §11?), memory-hierarchy-and-caches
+(check §4.1 slug), software-engineering-fundamentals, technical-debt-and-maintenance (§7.1),
+differential-privacy (§8.x / §6.11).
+
+---
 title: Ingest §6.8 learning theory
 type: log
 section: "6.8"
@@ -277,6 +310,93 @@ deep-learning-basics / deep-generative-models / scaling-laws (§6.3), bayesian-i
 probabilistic-graphical-models (§6.7), interpretability-and-explainability (§6.11),
 mlops-and-ml-systems (§6.9), learning-to-rank / evaluation-of-ir-systems (§10.3),
 concentration-inequalities, kolmogorov-complexity-and-mdl, causal-inference, hypothesis-testing.
+
+---
+title: Ingest §6.11 AI safety, alignment, ethics, fairness and interpretability
+type: log
+section: "6.11"
+tags: [ingest, ai-safety, alignment, fairness, interpretability, differential-privacy]
+summary: Read the fairmlbook contents page and the Concrete Problems abstract; wrote 4 concepts (ai-safety-and-alignment, fairness-in-machine-learning, interpretability-and-explainability, differential-privacy — all wanted) and 1 combined source. §6 (AI/ML, 11 subsections) is complete.
+---
+## [2026-09-02] ingest | §6.11 Safety, fairness, interpretability
+
+Read: fairmlbook.org contents (nine chapters — legitimacy, classification criteria,
+relative fairness, causality, U.S. law, testing discrimination, structural
+discrimination, datasets — plus the "21 definitions and their politics" tutorial and
+course list); Amodei et al. 2016 abstract in full (five problems in three causal buckets:
+wrong objective / expensive objective / learning process). Molnar, Christian, Russell,
+the Anthropic interpretability papers, Dwork & Roth, DP-SGD from memory (I know these
+well).
+
+Source: [[ai-safety-fairness-and-interpretability-texts-courses-and-seminal-papers]].
+Concepts: [[ai-safety-and-alignment]] (wanted — referenced by 10+ pages),
+[[fairness-in-machine-learning]] (wanted), [[interpretability-and-explainability]] (wanted),
+[[differential-privacy]] (wanted; the §8 security tag list also names it — this page is the
+ML side, §8 can add the systems/crypto side).
+
+Insights: the fairness impossibility theorem is a base-rate identity — the same Bayes'
+rule that [[bayes-theorem-and-inference]] teaches with medical tests — turned into a
+normative fork: calibration or equal error rates, choose. Concrete Problems' taxonomy is
+"wrong objective / expensive objective / learning process", and every later alignment
+failure (RLHF sycophancy, reward-model over-optimization, goal misgeneralization) files
+under one of them; Goodhart is the through-line from [[mlops-and-ml-systems]] proxies to
+[[llm-post-training-sft-rlhf-dpo]] reward hacking to [[causal-inference]]'s deployed-
+predictor failure. Shapley values are [[game-theory]] used as an explanation axiom set.
+Superposition is [[similarity-search-and-lsh]]'s nearly-orthogonal-vectors fact
+(Johnson–Lindenstrauss) read as a property of learned representations, and sparse
+autoencoders are the [[unsupervised-learning-em-and-mixture-models]] dictionary-learning
+idea applied to activations. Differential privacy's composition is [[concentration-inequalities]]
+in reverse (bound the divergence, then compose), and the Census reconstruction attack is
+Dinur–Nissim's "too many accurate answers determine the data" — an information-theoretic
+argument. Prompt injection is the [[web-security]] confused-deputy problem with a model as
+the deputy.
+
+**§6 complete (11/11).** Next: §7 software engineering (7.1–7.x), then §8 security, §9
+graphics/HCI?, §10 IR/data, §11 misc, §12 paths; refresh the report at the §6 boundary.
+Forward wanted slugs now heavily referenced: game-theory, web-security, security-principles,
+llm-agents-and-tool-use, llm-evaluation-and-benchmarks, hardware-accelerators,
+software-engineering-fundamentals, technical-debt-and-maintenance, computational-geometry,
+nonlinear-optimization, sparse-linear-algebra, prefix-sums-and-scans, probability-and-statistics-for-cs.
+
+---
+title: Ingest §6.10 robotics and autonomous systems
+type: log
+section: "6.10"
+tags: [ingest, robotics, kalman, slam, motion-planning, rrt, lqr, mpc, tedrake]
+summary: Read chapters 1–2 of Tedrake's Robotic Manipulation and 1–3 of Underactuated Robotics (ToC level with section titles); wrote 3 concepts (robotics-and-autonomous-systems and state-estimation-and-kalman-filters were wanted) and 1 combined source.
+---
+## [2026-09-02] ingest | §6.10 Robotics
+
+Read: manipulation.csail.mit.edu (ch. 1 "manipulation is more than pick-and-place",
+open-world manipulation, simulation, model-based design; ch. 2 robot description files,
+position- vs torque-controlled arms, link dynamics with transmissions, Kuka iiwa, hands —
+dexterous/simple/soft — sensors); underactuated.mit.edu (ch. 1 fully-actuated vs
+underactuated — ASIMO vs passive walkers, birds vs aircraft, feedback equivalence, input/
+state constraints, nonholonomic constraints; ch. 2 the simple pendulum — overdamped/
+undamped orbits, torque-limited with energy shaping; ch. 3 acrobot, cart-pole,
+quadrotors). Thrun et al., Lynch & Park, LaValle, and the papers from memory.
+
+Source: [[robotics-texts-courses-and-seminal-papers]].
+Concepts: [[robotics-and-autonomous-systems]] (wanted), [[state-estimation-and-kalman-filters]]
+(wanted), [[motion-planning-and-control]].
+
+Insights: the Kalman filter is [[bayesian-inference]]'s Normal–Normal conjugate update run
+recursively, and GraphSLAM is bundle adjustment ([[multiple-view-geometry-and-3d-vision]])
+with odometry factors — one sparse least-squares solver serves vision and robotics. The
+Bayes filter is the HMM forward algorithm of §6.1 with continuous state; MCL is the
+particle filter of [[monte-carlo-methods]]. LQR's Riccati recursion is value iteration on a
+quadratic value function; MPC is receding-horizon [[markov-decision-processes]] planning
+with constraints; iLQR is Newton's method in trajectory space. RRT's Voronoi bias is the
+same "explore where you haven't been" that [[multi-armed-bandits]] and RND formalize.
+Tedrake's fully- vs underactuated split is a clean statement of when control is trivial
+(feedback linearization) and when it isn't — the reason walking robots took thirty years
+longer than arms. Control barrier functions as QP safety filters are the current answer to
+"how do you deploy a learned policy" — a [[program-verification]]-style invariant enforced
+at runtime.
+
+§6 (AI/ML) is now 10 of 11; §6.11 safety/fairness/interpretability next.
+Forward wanted slugs: computational-geometry (check §3 slug), nonlinear-optimization,
+sparse-linear-algebra (both referenced by 5+ pages now — candidates for a §1.2/§3 addendum).
 
 ---
 title: Ingest §6.1 introduction to AI

@@ -66,9 +66,9 @@ oasis improvements (PRs to ~/src/oasis), and a running experiments report (`repo
 - [x] 6.6 Reinforcement learning (Sutton&Barto, CS285, Spinning Up, seminal papers)
 - [x] 6.7 PGMs & Bayesian (Koller-Friedman, Barber, CS228 notes, MCMC papers)
 - [x] 6.8 Learning theory (Shalev-Shwartz, Mohri, Vershynin, double descent/NTK)
-- [ ] 6.9 ML systems (CS329S, 10-714, Sculley tech debt, ZeRO, vLLM, TVM)
-- [ ] 6.10 Robotics (Tedrake, Modern Robotics, LaValle, Thrun)
-- [ ] 6.11 AI safety/fairness (Fairness&ML, Molnar, Amodei 2016, interpretability)
+- [x] 6.9 ML systems (CS329S, 10-714, Sculley tech debt, ZeRO, vLLM, TVM)
+- [x] 6.10 Robotics (Tedrake, Modern Robotics, LaValle, Thrun)
+- [x] 6.11 AI safety/fairness (Fairness&ML, Molnar, Amodei 2016, interpretability)
 ### 7 Software engineering
 - [ ] 7.1 SE fundamentals (SWE at Google, Brooks, Parnas, Conway, Agile)
 - [ ] 7.2 Testing & analysis (Fuzzing Book, Debugging Book, QuickCheck, KLEE, delta debugging)

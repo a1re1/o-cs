@@ -732,3 +732,92 @@
 {"id":"6.8-019","query":"AdaBoost as a game Hedge against weak learner","relevant":["concepts/online-learning-and-regret.md"],"section":"6.8","kind":"keyword"}
 {"id":"6.8-020","query":"Mohri Foundations of Machine Learning Vershynin High-Dimensional Probability","relevant":["sources/learning-theory-texts-courses-and-seminal-papers.md"],"section":"6.8","kind":"source"}
 {"id":"6.8-021","query":"Belkin double descent reconciling bias-variance modern practice","relevant":["sources/learning-theory-texts-courses-and-seminal-papers.md","concepts/statistical-learning-theory.md"],"section":"6.8","kind":"source"}
+{"id":"6.9-001","query":"hidden technical debt in ML systems entanglement CACE feedback loops pipeline jungles","relevant":["concepts/mlops-and-ml-systems.md","sources/ml-systems-and-mlops-texts-courses-and-seminal-papers.md"],"section":"6.9","kind":"keyword"}
+{"id":"6.9-002","query":"training serving skew feature store point-in-time join","relevant":["concepts/mlops-and-ml-systems.md"],"section":"6.9","kind":"keyword"}
+{"id":"6.9-003","query":"data drift concept drift covariate shift monitoring production model","relevant":["concepts/mlops-and-ml-systems.md"],"section":"6.9","kind":"keyword"}
+{"id":"6.9-004","query":"shadow deployment canary A/B test interleaving online evaluation","relevant":["concepts/mlops-and-ml-systems.md"],"section":"6.9","kind":"keyword"}
+{"id":"6.9-005","query":"my model's accuracy dropped after a few months in production why","relevant":["concepts/mlops-and-ml-systems.md"],"section":"6.9","kind":"paraphrase"}
+{"id":"6.9-006","query":"batch prediction vs online prediction deployment edge cloud","relevant":["concepts/mlops-and-ml-systems.md"],"section":"6.9","kind":"compare"}
+{"id":"6.9-007","query":"ETL vs ELT batch vs streaming orchestration data quality lineage","relevant":["concepts/mlops-and-ml-systems.md"],"section":"6.9","kind":"keyword"}
+{"id":"6.9-008","query":"experiment tracking reproducibility data versioning champion challenger retraining","relevant":["concepts/mlops-and-ml-systems.md"],"section":"6.9","kind":"keyword"}
+{"id":"6.9-009","query":"ring all-reduce bandwidth NCCL data parallel gradient bucketing","relevant":["concepts/distributed-training-and-ml-systems.md"],"section":"6.9","kind":"keyword"}
+{"id":"6.9-010","query":"ZeRO FSDP shard optimizer state gradients parameters memory per GPU","relevant":["concepts/distributed-training-and-ml-systems.md"],"section":"6.9","kind":"keyword"}
+{"id":"6.9-011","query":"tensor parallelism Megatron vs pipeline parallelism GPipe 1F1B bubble","relevant":["concepts/distributed-training-and-ml-systems.md"],"section":"6.9","kind":"compare"}
+{"id":"6.9-012","query":"3D parallelism context parallelism expert parallelism training a 70B model on thousands of GPUs","relevant":["concepts/distributed-training-and-ml-systems.md"],"section":"6.9","kind":"keyword"}
+{"id":"6.9-013","query":"16 bytes per parameter mixed precision Adam memory activation checkpointing","relevant":["concepts/distributed-training-and-ml-systems.md"],"section":"6.9","kind":"keyword"}
+{"id":"6.9-014","query":"operator fusion XLA TVM torch.compile Inductor Triton ML compiler","relevant":["concepts/distributed-training-and-ml-systems.md"],"section":"6.9","kind":"keyword"}
+{"id":"6.9-015","query":"model FLOPs utilization MFU how to measure training efficiency","relevant":["concepts/distributed-training-and-ml-systems.md"],"section":"6.9","kind":"howto"}
+{"id":"6.9-016","query":"autograd tape define-by-run PyTorch vs TensorFlow static graph framework internals","relevant":["concepts/distributed-training-and-ml-systems.md","concepts/deep-learning-basics.md"],"section":"6.9","kind":"compare"}
+{"id":"6.9-017","query":"checkpointing fault tolerance stragglers training at 10k GPUs","relevant":["concepts/distributed-training-and-ml-systems.md"],"section":"6.9","kind":"keyword"}
+{"id":"6.9-018","query":"why is LLM decoding memory bound prefill vs decode arithmetic intensity","relevant":["concepts/llm-inference-and-serving.md"],"section":"6.9","kind":"question"}
+{"id":"6.9-019","query":"KV cache size per token grouped query attention PagedAttention fragmentation","relevant":["concepts/llm-inference-and-serving.md"],"section":"6.9","kind":"keyword"}
+{"id":"6.9-020","query":"continuous batching iteration-level scheduling vLLM Orca throughput","relevant":["concepts/llm-inference-and-serving.md"],"section":"6.9","kind":"keyword"}
+{"id":"6.9-021","query":"GPTQ AWQ SmoothQuant INT4 weight-only quantization outliers","relevant":["concepts/llm-inference-and-serving.md"],"section":"6.9","kind":"keyword"}
+{"id":"6.9-022","query":"speculative decoding draft model rejection sampling exact distribution","relevant":["concepts/llm-inference-and-serving.md"],"section":"6.9","kind":"keyword"}
+{"id":"6.9-023","query":"pruning 2:4 sparsity knowledge distillation neural architecture search once-for-all TinyML","relevant":["concepts/llm-inference-and-serving.md"],"section":"6.9","kind":"keyword"}
+{"id":"6.9-024","query":"how to make my LLM API cheaper and faster per token","relevant":["concepts/llm-inference-and-serving.md"],"section":"6.9","kind":"paraphrase"}
+{"id":"6.9-025","query":"time to first token inter-token latency tokens per second cost per million tokens","relevant":["concepts/llm-inference-and-serving.md"],"section":"6.9","kind":"keyword"}
+{"id":"6.9-026","query":"run a language model on a laptop llama.cpp GGUF 4-bit","relevant":["concepts/llm-inference-and-serving.md"],"section":"6.9","kind":"howto"}
+{"id":"6.9-027","query":"Chip Huyen Designing Machine Learning Systems CS329S","relevant":["sources/ml-systems-and-mlops-texts-courses-and-seminal-papers.md"],"section":"6.9","kind":"source"}
+{"id":"6.9-028","query":"CMU 10-714 deep learning systems build a framework from scratch needle","relevant":["sources/ml-systems-and-mlops-texts-courses-and-seminal-papers.md"],"section":"6.9","kind":"source"}
+{"id":"6.10-001","query":"subsumption architecture vs sense-plan-act Brooks behavior trees","relevant":["concepts/robotics-and-autonomous-systems.md"],"section":"6.10","kind":"compare"}
+{"id":"6.10-002","query":"forward kinematics product of exponentials inverse kinematics Jacobian singularities","relevant":["concepts/robotics-and-autonomous-systems.md"],"section":"6.10","kind":"keyword"}
+{"id":"6.10-003","query":"manipulator equation fully actuated vs underactuated feedback linearization","relevant":["concepts/robotics-and-autonomous-systems.md","concepts/motion-planning-and-control.md"],"section":"6.10","kind":"keyword"}
+{"id":"6.10-004","query":"ICP point cloud pose estimation grasp planning bin picking","relevant":["concepts/robotics-and-autonomous-systems.md"],"section":"6.10","kind":"keyword"}
+{"id":"6.10-005","query":"sim-to-real domain randomization imitation learning diffusion policy robot","relevant":["concepts/robotics-and-autonomous-systems.md"],"section":"6.10","kind":"keyword"}
+{"id":"6.10-006","query":"self-driving car autonomy stack localization perception prediction planning","relevant":["concepts/robotics-and-autonomous-systems.md"],"section":"6.10","kind":"keyword"}
+{"id":"6.10-007","query":"why is it hard to get a robot arm to pick things up reliably","relevant":["concepts/robotics-and-autonomous-systems.md"],"section":"6.10","kind":"paraphrase"}
+{"id":"6.10-008","query":"Kalman filter predict update Kalman gain innovation covariance","relevant":["concepts/state-estimation-and-kalman-filters.md"],"section":"6.10","kind":"keyword"}
+{"id":"6.10-009","query":"EKF vs UKF linearization sigma points nonlinear estimation","relevant":["concepts/state-estimation-and-kalman-filters.md"],"section":"6.10","kind":"compare"}
+{"id":"6.10-010","query":"Monte Carlo localization particle filter kidnapped robot resampling","relevant":["concepts/state-estimation-and-kalman-filters.md"],"section":"6.10","kind":"keyword"}
+{"id":"6.10-011","query":"sensor fusion IMU GPS odometry drift visual inertial odometry","relevant":["concepts/state-estimation-and-kalman-filters.md"],"section":"6.10","kind":"keyword"}
+{"id":"6.10-012","query":"EKF-SLAM vs FastSLAM vs GraphSLAM factor graph loop closure data association","relevant":["concepts/state-estimation-and-kalman-filters.md"],"section":"6.10","kind":"compare"}
+{"id":"6.10-013","query":"occupancy grid mapping log odds","relevant":["concepts/state-estimation-and-kalman-filters.md"],"section":"6.10","kind":"keyword"}
+{"id":"6.10-014","query":"combine noisy sensor readings to track where the robot is","relevant":["concepts/state-estimation-and-kalman-filters.md"],"section":"6.10","kind":"paraphrase"}
+{"id":"6.10-015","query":"RRT vs PRM sampling-based motion planning Voronoi bias probabilistic completeness","relevant":["concepts/motion-planning-and-control.md"],"section":"6.10","kind":"compare"}
+{"id":"6.10-016","query":"RRT* asymptotic optimality rewiring RRT-Connect","relevant":["concepts/motion-planning-and-control.md"],"section":"6.10","kind":"keyword"}
+{"id":"6.10-017","query":"configuration space C-obstacles collision checking narrow passages","relevant":["concepts/motion-planning-and-control.md"],"section":"6.10","kind":"keyword"}
+{"id":"6.10-018","query":"trajectory optimization direct collocation shooting CHOMP TrajOpt","relevant":["concepts/motion-planning-and-control.md"],"section":"6.10","kind":"keyword"}
+{"id":"6.10-019","query":"LQR Riccati equation iLQR DDP model predictive control receding horizon","relevant":["concepts/motion-planning-and-control.md"],"section":"6.10","kind":"keyword"}
+{"id":"6.10-020","query":"Lyapunov stability region of attraction control barrier function safety filter","relevant":["concepts/motion-planning-and-control.md"],"section":"6.10","kind":"keyword"}
+{"id":"6.10-021","query":"pendulum swing-up energy shaping torque limited cart-pole","relevant":["concepts/motion-planning-and-control.md"],"section":"6.10","kind":"keyword"}
+{"id":"6.10-022","query":"potential field planner local minima","relevant":["concepts/motion-planning-and-control.md"],"section":"6.10","kind":"keyword"}
+{"id":"6.10-023","query":"plan a collision-free path for a 7-DOF arm","relevant":["concepts/motion-planning-and-control.md"],"section":"6.10","kind":"paraphrase"}
+{"id":"6.10-024","query":"Tedrake Underactuated Robotics Robotic Manipulation Drake free textbook","relevant":["sources/robotics-texts-courses-and-seminal-papers.md"],"section":"6.10","kind":"source"}
+{"id":"6.10-025","query":"Probabilistic Robotics Thrun Burgard Fox","relevant":["sources/robotics-texts-courses-and-seminal-papers.md","concepts/state-estimation-and-kalman-filters.md"],"section":"6.10","kind":"source"}
+{"id":"6.10-026","query":"LaValle Planning Algorithms Lynch Park Modern Robotics","relevant":["sources/robotics-texts-courses-and-seminal-papers.md"],"section":"6.10","kind":"source"}
+{"id":"6.11-001","query":"Concrete Problems in AI Safety five problems side effects reward hacking scalable oversight","relevant":["concepts/ai-safety-and-alignment.md","sources/ai-safety-fairness-and-interpretability-texts-courses-and-seminal-papers.md"],"section":"6.11","kind":"keyword"}
+{"id":"6.11-002","query":"specification gaming Goodhart's law reward hacking examples boat","relevant":["concepts/ai-safety-and-alignment.md"],"section":"6.11","kind":"keyword"}
+{"id":"6.11-003","query":"outer alignment vs inner alignment goal misgeneralization mesa-optimizer","relevant":["concepts/ai-safety-and-alignment.md"],"section":"6.11","kind":"compare"}
+{"id":"6.11-004","query":"instrumental convergence assistance games CIRL corrigibility Russell","relevant":["concepts/ai-safety-and-alignment.md"],"section":"6.11","kind":"keyword"}
+{"id":"6.11-005","query":"scalable oversight debate process supervision weak-to-strong generalization","relevant":["concepts/ai-safety-and-alignment.md"],"section":"6.11","kind":"keyword"}
+{"id":"6.11-006","query":"jailbreaks prompt injection adversarial suffix GCG defenses agents","relevant":["concepts/ai-safety-and-alignment.md"],"section":"6.11","kind":"keyword"}
+{"id":"6.11-007","query":"dangerous capability evals responsible scaling policy safety case compute governance","relevant":["concepts/ai-safety-and-alignment.md"],"section":"6.11","kind":"keyword"}
+{"id":"6.11-008","query":"how could an AI system behave well in training but badly in deployment","relevant":["concepts/ai-safety-and-alignment.md"],"section":"6.11","kind":"paraphrase"}
+{"id":"6.11-009","query":"adversarial examples adversarial training certified robustness randomized smoothing","relevant":["concepts/ai-safety-and-alignment.md","concepts/convolutional-neural-networks.md"],"section":"6.11","kind":"keyword"}
+{"id":"6.11-010","query":"demographic parity equalized odds calibration impossibility theorem base rates","relevant":["concepts/fairness-in-machine-learning.md"],"section":"6.11","kind":"keyword"}
+{"id":"6.11-011","query":"COMPAS ProPublica false positive rate calibrated Northpointe","relevant":["concepts/fairness-in-machine-learning.md"],"section":"6.11","kind":"keyword"}
+{"id":"6.11-012","query":"fairness through unawareness proxies why removing the protected attribute fails","relevant":["concepts/fairness-in-machine-learning.md"],"section":"6.11","kind":"question"}
+{"id":"6.11-013","query":"individual fairness Dwork Lipschitz similar individuals metric","relevant":["concepts/fairness-in-machine-learning.md"],"section":"6.11","kind":"keyword"}
+{"id":"6.11-014","query":"equality of opportunity post-processing thresholds Hardt Price Srebro","relevant":["concepts/fairness-in-machine-learning.md"],"section":"6.11","kind":"keyword"}
+{"id":"6.11-015","query":"disparate treatment vs disparate impact four-fifths rule anti-discrimination law ML","relevant":["concepts/fairness-in-machine-learning.md"],"section":"6.11","kind":"compare"}
+{"id":"6.11-016","query":"counterfactual fairness path-specific effects causal fairness","relevant":["concepts/fairness-in-machine-learning.md","concepts/causal-inference.md"],"section":"6.11","kind":"keyword"}
+{"id":"6.11-017","query":"my model is accurate overall but wrong for one group what should I check","relevant":["concepts/fairness-in-machine-learning.md"],"section":"6.11","kind":"paraphrase"}
+{"id":"6.11-018","query":"LIME vs SHAP Shapley values local explanations instability","relevant":["concepts/interpretability-and-explainability.md"],"section":"6.11","kind":"compare"}
+{"id":"6.11-019","query":"partial dependence ICE ALE permutation importance correlated features","relevant":["concepts/interpretability-and-explainability.md"],"section":"6.11","kind":"keyword"}
+{"id":"6.11-020","query":"saliency maps sanity checks integrated gradients Grad-CAM faithfulness","relevant":["concepts/interpretability-and-explainability.md"],"section":"6.11","kind":"keyword"}
+{"id":"6.11-021","query":"counterfactual explanations recourse anchors","relevant":["concepts/interpretability-and-explainability.md"],"section":"6.11","kind":"keyword"}
+{"id":"6.11-022","query":"mechanistic interpretability circuits induction heads residual stream","relevant":["concepts/interpretability-and-explainability.md"],"section":"6.11","kind":"keyword"}
+{"id":"6.11-023","query":"superposition polysemantic neurons sparse autoencoders monosemantic features Golden Gate","relevant":["concepts/interpretability-and-explainability.md"],"section":"6.11","kind":"keyword"}
+{"id":"6.11-024","query":"activation patching causal tracing probing classifiers logit lens","relevant":["concepts/interpretability-and-explainability.md"],"section":"6.11","kind":"keyword"}
+{"id":"6.11-025","query":"should I use an interpretable model instead of explaining a black box Rudin","relevant":["concepts/interpretability-and-explainability.md"],"section":"6.11","kind":"question"}
+{"id":"6.11-026","query":"differential privacy epsilon delta definition neighboring datasets","relevant":["concepts/differential-privacy.md"],"section":"6.11","kind":"keyword"}
+{"id":"6.11-027","query":"Laplace mechanism Gaussian mechanism sensitivity composition privacy budget","relevant":["concepts/differential-privacy.md"],"section":"6.11","kind":"keyword"}
+{"id":"6.11-028","query":"DP-SGD gradient clipping noise moments accountant privacy amplification","relevant":["concepts/differential-privacy.md"],"section":"6.11","kind":"keyword"}
+{"id":"6.11-029","query":"membership inference training data extraction memorization LLM privacy attacks","relevant":["concepts/differential-privacy.md","concepts/large-language-models.md"],"section":"6.11","kind":"keyword"}
+{"id":"6.11-030","query":"why did the Netflix Prize dataset get de-anonymized linkage attack k-anonymity","relevant":["concepts/differential-privacy.md"],"section":"6.11","kind":"question"}
+{"id":"6.11-031","query":"local vs central differential privacy randomized response RAPPOR Census 2020","relevant":["concepts/differential-privacy.md"],"section":"6.11","kind":"compare"}
+{"id":"6.11-032","query":"federated learning secure aggregation is it private","relevant":["concepts/differential-privacy.md"],"section":"6.11","kind":"question"}
+{"id":"6.11-033","query":"Barocas Hardt Narayanan Fairness and Machine Learning book chapters","relevant":["sources/ai-safety-fairness-and-interpretability-texts-courses-and-seminal-papers.md"],"section":"6.11","kind":"source"}
+{"id":"6.11-034","query":"Molnar Interpretable Machine Learning free book","relevant":["sources/ai-safety-fairness-and-interpretability-texts-courses-and-seminal-papers.md"],"section":"6.11","kind":"source"}
+{"id":"6.11-035","query":"Anthropic interpretability circuits toy models of superposition scaling monosemanticity","relevant":["sources/ai-safety-fairness-and-interpretability-texts-courses-and-seminal-papers.md","concepts/interpretability-and-explainability.md"],"section":"6.11","kind":"source"}
