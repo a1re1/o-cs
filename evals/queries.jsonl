@@ -1239,3 +1239,47 @@
 {"id":"10.4-008","query":"why does OWL EL make reasoning polynomial expressiveness tractability","relevant":["concepts/description-logics-and-reasoning.md"],"section":"10.4","kind":"question"}
 {"id":"10.4-009","query":"Berners-Lee Semantic Web vision Wikidata Freebase","relevant":["sources/knowledge-representation-texts-and-papers.md"],"section":"10.4","kind":"source"}
 {"id":"10.4-010","query":"knowledge graph versus relational database when to use","relevant":["concepts/knowledge-graphs-and-ontologies.md","concepts/relational-model.md"],"section":"10.4","kind":"compare"}
+{"id":"11.1-001","query":"sequence alignment Needleman-Wunsch dynamic programming global","relevant":["concepts/sequence-alignment.md"],"section":"11.1","kind":"keyword"}
+{"id":"11.1-002","query":"Smith-Waterman local alignment best matching subsequence","relevant":["concepts/sequence-alignment.md"],"section":"11.1","kind":"lookup"}
+{"id":"11.1-003","query":"BLAST fast heuristic sequence database search seed and extend","relevant":["concepts/sequence-alignment.md"],"section":"11.1","kind":"concept"}
+{"id":"11.1-004","query":"how do you assemble a genome from short reads de Bruijn graph","relevant":["concepts/genome-assembly-and-protein-structure.md"],"section":"11.1","kind":"question"}
+{"id":"11.1-005","query":"AlphaFold protein structure prediction from amino acid sequence","relevant":["concepts/genome-assembly-and-protein-structure.md"],"section":"11.1","kind":"keyword"}
+{"id":"11.1-006","query":"why do repeats limit genome assembly","relevant":["concepts/genome-assembly-and-protein-structure.md"],"section":"11.1","kind":"question"}
+{"id":"11.1-007","query":"Compeau Pevzner bioinformatics algorithms Rosalind course","relevant":["sources/bioinformatics-texts-and-papers.md"],"section":"11.1","kind":"source"}
+{"id":"11.2-001","query":"conditioning versus stability numerical linear algebra condition number","relevant":["concepts/numerical-linear-algebra-and-solvers.md"],"section":"11.2","kind":"keyword"}
+{"id":"11.2-002","query":"conjugate gradient GMRES iterative solver sparse preconditioning","relevant":["concepts/numerical-linear-algebra-and-solvers.md"],"section":"11.2","kind":"lookup"}
+{"id":"11.2-003","query":"why not use normal equations for least squares use QR","relevant":["concepts/numerical-linear-algebra-and-solvers.md"],"section":"11.2","kind":"question"}
+{"id":"11.2-004","query":"finite difference finite element PDE solver stability CFL","relevant":["concepts/numerical-linear-algebra-and-solvers.md"],"section":"11.2","kind":"concept"}
+{"id":"11.2-005","query":"automatic differentiation forward mode reverse mode chain rule","relevant":["concepts/automatic-differentiation.md"],"section":"11.2","kind":"keyword"}
+{"id":"11.2-006","query":"is backpropagation the same as automatic differentiation","relevant":["concepts/automatic-differentiation.md"],"section":"11.2","kind":"question"}
+{"id":"11.2-007","query":"reverse mode autodiff gradient of scalar loss all parameters one pass","relevant":["concepts/automatic-differentiation.md"],"section":"11.2","kind":"paraphrase"}
+{"id":"11.2-008","query":"Heath scientific computing numerical methods textbook","relevant":["sources/scientific-computing-texts-and-courses.md"],"section":"11.2","kind":"source"}
+{"id":"11.3-001","query":"Nyquist Shannon sampling theorem aliasing twice highest frequency","relevant":["concepts/signals-systems-and-sampling.md"],"section":"11.3","kind":"keyword"}
+{"id":"11.3-002","query":"convolution theorem convolution in time multiplication in frequency","relevant":["concepts/signals-systems-and-sampling.md"],"section":"11.3","kind":"lookup"}
+{"id":"11.3-003","query":"why does a tone sampled too slowly sound like a different pitch","relevant":["concepts/signals-systems-and-sampling.md"],"section":"11.3","kind":"question"}
+{"id":"11.3-004","query":"spectrogram short time Fourier transform time frequency resolution","relevant":["concepts/signals-systems-and-sampling.md"],"section":"11.3","kind":"concept"}
+{"id":"11.3-005","query":"CTC connectionist temporal classification speech alignment free","relevant":["concepts/speech-and-audio-processing.md"],"section":"11.3","kind":"keyword"}
+{"id":"11.3-006","query":"Whisper wav2vec end to end speech recognition transformer","relevant":["concepts/speech-and-audio-processing.md"],"section":"11.3","kind":"lookup"}
+{"id":"11.3-007","query":"how does automatic speech recognition turn audio into text","relevant":["concepts/speech-and-audio-processing.md"],"section":"11.3","kind":"question"}
+{"id":"11.3-008","query":"Oppenheim signals and systems Think DSP Fourier textbook","relevant":["sources/signal-processing-texts-and-papers.md"],"section":"11.3","kind":"source"}
+{"id":"11.4-001","query":"Voronoi diagram nearest site partition of the plane","relevant":["concepts/voronoi-diagrams-and-delaunay-triangulation.md"],"section":"11.4","kind":"keyword"}
+{"id":"11.4-002","query":"Delaunay triangulation empty circle maximize minimum angle mesh","relevant":["concepts/voronoi-diagrams-and-delaunay-triangulation.md"],"section":"11.4","kind":"keyword"}
+{"id":"11.4-003","query":"Fortune sweep line algorithm build Voronoi diagram n log n","relevant":["concepts/voronoi-diagrams-and-delaunay-triangulation.md"],"section":"11.4","kind":"lookup"}
+{"id":"11.4-004","query":"why do geometric predicates fail with floating point robustness","relevant":["concepts/voronoi-diagrams-and-delaunay-triangulation.md","concepts/computational-geometry.md"],"section":"11.4","kind":"question"}
+{"id":"11.4-005","query":"de Berg computational geometry algorithms and applications textbook","relevant":["sources/computational-geometry-texts.md"],"section":"11.4","kind":"source"}
+{"id":"11.5-001","query":"Nash equilibrium no player improves by deviating game theory","relevant":["concepts/game-theory.md"],"section":"11.5","kind":"keyword"}
+{"id":"11.5-002","query":"prisoners dilemma dominant strategy cooperation defection","relevant":["concepts/game-theory.md"],"section":"11.5","kind":"concept"}
+{"id":"11.5-003","query":"why is computing a Nash equilibrium hard PPAD complete","relevant":["concepts/game-theory.md"],"section":"11.5","kind":"question"}
+{"id":"11.5-004","query":"price of anarchy selfish routing cost of decentralization","relevant":["concepts/game-theory.md"],"section":"11.5","kind":"lookup"}
+{"id":"11.5-005","query":"second price Vickrey auction truthful dominant strategy bidding","relevant":["concepts/mechanism-design-and-auctions.md"],"section":"11.5","kind":"keyword"}
+{"id":"11.5-006","query":"VCG mechanism truthful efficient externality payment","relevant":["concepts/mechanism-design-and-auctions.md"],"section":"11.5","kind":"lookup"}
+{"id":"11.5-007","query":"how do sponsored search ad auctions work GSP","relevant":["concepts/mechanism-design-and-auctions.md"],"section":"11.5","kind":"question"}
+{"id":"11.5-008","query":"stable matching Gale Shapley deferred acceptance residents hospitals","relevant":["concepts/mechanism-design-and-auctions.md"],"section":"11.5","kind":"lookup"}
+{"id":"11.5-009","query":"design rules so telling the truth is the best strategy mechanism design","relevant":["concepts/mechanism-design-and-auctions.md"],"section":"11.5","kind":"paraphrase"}
+{"id":"11.5-010","query":"Roughgarden twenty lectures algorithmic game theory CS364A","relevant":["sources/algorithmic-game-theory-texts-and-papers.md"],"section":"11.5","kind":"source"}
+{"id":"11.6-001","query":"No Silver Bullet essential versus accidental complexity Brooks","relevant":["syntheses/classic-essays-of-computing.md"],"section":"11.6","kind":"keyword"}
+{"id":"11.6-002","query":"Worse Is Better Gabriel simplicity over correctness","relevant":["syntheses/classic-essays-of-computing.md"],"section":"11.6","kind":"lookup"}
+{"id":"11.6-003","query":"Hamming you and your research work on important problems","relevant":["syntheses/classic-essays-of-computing.md"],"section":"11.6","kind":"concept"}
+{"id":"11.6-004","query":"why won't any single advance make software ten times easier","relevant":["syntheses/classic-essays-of-computing.md"],"section":"11.6","kind":"question"}
+{"id":"11.6-005","query":"Turing Award lectures classic computer science papers history","relevant":["sources/computing-history-and-classic-essays.md"],"section":"11.6","kind":"source"}
+{"id":"11.6-006","query":"Hoare billion dollar mistake null reference emperor's old clothes","relevant":["syntheses/classic-essays-of-computing.md"],"section":"11.6","kind":"lookup"}

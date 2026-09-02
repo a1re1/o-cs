@@ -95,12 +95,12 @@ oasis improvements (PRs to ~/src/oasis), and a running experiments report (`repo
 - [x] 10.3 Information retrieval (Manning IIR, Croft, CS276, BM25, DPR, ColBERT, HNSW)  ← also feeds oasis tuning
 - [x] 10.4 Knowledge representation (Brachman-Levesque, RDF/SPARQL, knowledge graphs)
 ### 11 Specialized
-- [ ] 11.1 Comp bio (Compeau-Pevzner, Needleman-Wunsch, BLAST, BWT, AlphaFold)
-- [ ] 11.2 Scientific computing (Heath, 18.335, AM205, autodiff)
-- [ ] 11.3 Signal processing (Think DSP, 6.003, FFT, Rabiner HMM, CTC)
-- [ ] 11.4 Computational geometry (de Berg, Graham scan, Fortune, Shewchuk)
-- [ ] 11.5 Algorithmic game theory (Roughgarden 20 lectures, Nisan AGT, Nash, Vickrey, PoA)
-- [ ] 11.6 History & essays (Dijkstra EWD, Hamming, Brooks, Gabriel, Perlis, Turing lectures)
+- [x] 11.1 Comp bio (Compeau-Pevzner, Needleman-Wunsch, BLAST, BWT, AlphaFold)
+- [x] 11.2 Scientific computing (Heath, 18.335, AM205, autodiff)
+- [x] 11.3 Signal processing (Think DSP, 6.003, FFT, Rabiner HMM, CTC)
+- [x] 11.4 Computational geometry (de Berg, Graham scan, Fortune, Shewchuk)
+- [x] 11.5 Algorithmic game theory (Roughgarden 20 lectures, Nisan AGT, Nash, Vickrey, PoA)
+- [x] 11.6 History & essays (Dijkstra EWD, Hamming, Brooks, Gabriel, Perlis, Turing lectures)
 ### 12 Paths
 - [ ] Learning-path pages (core spine + 7 tracks) with prerequisite edges
 
