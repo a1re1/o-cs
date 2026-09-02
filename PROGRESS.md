@@ -115,5 +115,6 @@ oasis improvements (PRs to ~/src/oasis), and a running experiments report (`repo
 - [~] E6 reports/experiments.md + published artifact, linked from README
 
 ## Handoff notes (newest first)
+- 2026-09-02 01:05 — §1 and §2 complete (13 curriculum sections, 139 pages, 129 eval queries; lexical recall@3 0.977, MRR 0.935; hybrid on 96q recall@3 0.979, MRR 0.936). All pushed to main. Findings for E5: (1) wiki/index.md ranks #1 for some queries (e.g. 'trace which system calls a program makes') — oasis needs a way to skip generated pages; (2) the same page occupies several top-k slots via different chunks — need per-page dedupe/grouping in oasis and confirm harness counts by path; (3) §2.6 recall@3 0.80 — tool-usage queries phrased as tasks match weakly against reference-style pages. Next: update reports/experiments.html (E6), then §3.1 data structures (fill wanted: hash-tables, balanced-search-trees, union-find, heaps…), then oasis PRs for (1)(2).
 - 2026-09-01 20:45 — §1.1 ingested (21 pages) and pushed to main. lci building evals/ in worktree .worktrees/lci-evals (branch eng/evals). Oasis finding: frontmatter becomes its own headingless chunk with snippet "---"; fix planned (E5). Next: §1.2.
 - 2026-09-01 19:55 — scaffold in progress; nothing ingested yet; repo empty on origin (first push pending).

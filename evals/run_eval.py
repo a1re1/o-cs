@@ -76,11 +76,31 @@ def run_oasis(root: str, query: str, k: int, mode: str) -> List[Dict[str, Any]]:
     return json.loads(proc.stdout)
 
 
+GENERATED = {"index.md", "log.md"}
+
+
+def postprocess(ranked: Sequence[str], dedupe: bool, k: int) -> List[str]:
+    """Simulate result-level fixes (candidate oasis features): drop generated
+    index pages and keep only the first (best) chunk per page."""
+    if not dedupe:
+        return list(ranked)
+    out: List[str] = []
+    seen: set = set()
+    for p in ranked:
+        if p in GENERATED or p in seen:
+            continue
+        seen.add(p)
+        out.append(p)
+        if len(out) >= k:
+            break
+    return out
+
+
 def eval_query(query: str, relevant: Sequence[str], k: int, mode: str,
-               root: str) -> Dict[str, Any]:
+               root: str, dedupe: bool = False) -> Dict[str, Any]:
     """Run one query; return per-query metrics and details."""
-    hits = run_oasis(root, query, k, mode)
-    ranked = [str(h.get("path", "")) for h in hits]
+    hits = run_oasis(root, query, k * 4 if dedupe else k, mode)
+    ranked = postprocess([str(h.get("path", "")) for h in hits], dedupe, k)
     rel = set(relevant)
     rank_found = next((r for r, p in enumerate(ranked, start=1) if p in rel), None)
     return {
@@ -289,6 +309,9 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--compare", action="store_true",
                         help="compare with the most recent history entry of the same mode; "
                              "exit 1 if recall@3 dropped by more than 0.02")
+    parser.add_argument("--dedupe", action="store_true",
+                        help="post-process hits: drop index.md/log.md and keep one hit per page "
+                             "(simulates candidate oasis features; mode is recorded as <mode>+dedupe)")
     parser.add_argument("--no-history", action="store_true",
                         help="do not append to evals/results/history.jsonl")
     return parser
@@ -310,11 +333,13 @@ def main(argv: Optional[List[str]] = None) -> int:
         print("error: no queries to evaluate (check --section filter)", file=sys.stderr)
         return 2
 
+    if args.dedupe:
+        args.mode = args.mode + "+dedupe"
     print(f"running {len(rows)} queries (mode={args.mode}, k={args.k}, root={args.root})")
     results: List[Dict[str, Any]] = []
     for row in rows:
         results.append(eval_query(row["query"], row.get("relevant", []),
-                                  args.k, args.mode, args.root))
+                                  args.k, args.mode, args.root, args.dedupe))
 
     metrics = aggregate(results)
     per_section = aggregate_by_section(rows, results)
