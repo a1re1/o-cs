@@ -319,3 +319,39 @@
 {"id":"4.7-019","query":"Stanford parallel computing course ISPC CUDA renderer assignment","relevant":["sources/stanford-cs149-and-cmu-15-418.md"],"section":"4.7","kind":"source"}
 {"id":"4.7-020","query":"Herlihy Shavit Art of Multiprocessor Programming book","relevant":["sources/parallel-programming-texts.md"],"section":"4.7","kind":"source"}
 {"id":"4.7-021","query":"Programming Massively Parallel Processors Kirk Hwu","relevant":["sources/parallel-programming-texts.md"],"section":"4.7","kind":"source"}
+{"id":"4.8-001","query":"RAID 5 small write problem parity rebuild write hole","relevant":["concepts/raid-and-erasure-coding.md"],"section":"4.8","kind":"keyword"}
+{"id":"4.8-002","query":"Reed-Solomon erasure coding k data m parity storage overhead vs 3x replication","relevant":["concepts/raid-and-erasure-coding.md"],"section":"4.8","kind":"keyword"}
+{"id":"4.8-003","query":"why is RAID 5 unsafe on multi-terabyte disks","relevant":["concepts/raid-and-erasure-coding.md"],"section":"4.8","kind":"question"}
+{"id":"4.8-004","query":"CRUSH placement Ceph no lookup table failure domains","relevant":["concepts/distributed-file-and-object-storage.md","sources/storage-and-cloud-seminal-papers.md"],"section":"4.8","kind":"keyword"}
+{"id":"4.8-005","query":"Haystack photo storage metadata lookups one disk read needles","relevant":["concepts/distributed-file-and-object-storage.md","sources/storage-and-cloud-seminal-papers.md"],"section":"4.8","kind":"keyword"}
+{"id":"4.8-006","query":"S3 object storage flat namespace no rename read-after-write lifecycle","relevant":["concepts/distributed-file-and-object-storage.md"],"section":"4.8","kind":"keyword"}
+{"id":"4.8-007","query":"flash translation layer garbage collection write amplification over-provisioning TRIM","relevant":["concepts/ssd-and-nvme-storage.md"],"section":"4.8","kind":"keyword"}
+{"id":"4.8-008","query":"what did Google's field study find about SSD reliability SLC vs MLC","relevant":["concepts/ssd-and-nvme-storage.md","sources/storage-and-cloud-seminal-papers.md"],"section":"4.8","kind":"question"}
+{"id":"4.8-009","query":"NVMe queues io_uring SPDK zoned namespaces","relevant":["concepts/ssd-and-nvme-storage.md"],"section":"4.8","kind":"keyword"}
+{"id":"4.8-010","query":"polling vs interrupts DMA scatter gather IOMMU device drivers","relevant":["concepts/io-and-device-drivers.md"],"section":"4.8","kind":"keyword"}
+{"id":"4.8-011","query":"top half bottom half interrupt handler NAPI receive livelock","relevant":["concepts/io-and-device-drivers.md"],"section":"4.8","kind":"keyword"}
+{"id":"4.8-012","query":"PUE energy proportionality datacenter power cooling cost","relevant":["concepts/warehouse-scale-computing.md"],"section":"4.8","kind":"keyword"}
+{"id":"4.8-013","query":"latency numbers DRAM rack flash disk datacenter storage hierarchy","relevant":["concepts/warehouse-scale-computing.md"],"section":"4.8","kind":"keyword"}
+{"id":"4.8-014","query":"SLO SLI error budget release freeze","relevant":["concepts/site-reliability-engineering.md"],"section":"4.8","kind":"keyword"}
+{"id":"4.8-015","query":"blameless postmortem incident commander on-call toil","relevant":["concepts/site-reliability-engineering.md"],"section":"4.8","kind":"keyword"}
+{"id":"4.8-016","query":"one overloaded backend died and took the rest down with it","relevant":["concepts/site-reliability-engineering.md"],"section":"4.8","kind":"paraphrase"}
+{"id":"4.8-017","query":"four golden signals latency traffic errors saturation alerting on symptoms","relevant":["concepts/site-reliability-engineering.md"],"section":"4.8","kind":"keyword"}
+{"id":"4.8-018","query":"serverless FaaS cold starts limitations Berkeley view","relevant":["concepts/cloud-and-serverless.md","sources/storage-and-cloud-seminal-papers.md"],"section":"4.8","kind":"keyword"}
+{"id":"4.8-019","query":"containers namespaces cgroups vs virtual machines isolation Firecracker","relevant":["concepts/cloud-and-serverless.md"],"section":"4.8","kind":"keyword"}
+{"id":"4.8-020","query":"availability zones regions spot instances egress pricing","relevant":["concepts/cloud-and-serverless.md"],"section":"4.8","kind":"keyword"}
+{"id":"4.8-021","query":"Google SRE book site reliability engineering","relevant":["sources/datacenter-and-sre-books.md"],"section":"4.8","kind":"source"}
+{"id":"4.8-022","query":"The Datacenter as a Computer Barroso Hölzle","relevant":["sources/datacenter-and-sre-books.md"],"section":"4.8","kind":"source"}
+{"id":"4.9-001","query":"rate monotonic utilization bound 69 percent Liu Layland","relevant":["concepts/real-time-scheduling.md","sources/embedded-systems-texts-and-courses.md"],"section":"4.9","kind":"keyword"}
+{"id":"4.9-002","query":"EDF optimal uniprocessor utilization 1 domino effect overload","relevant":["concepts/real-time-scheduling.md"],"section":"4.9","kind":"keyword"}
+{"id":"4.9-003","query":"priority inversion Mars Pathfinder priority inheritance ceiling protocol","relevant":["concepts/real-time-scheduling.md"],"section":"4.9","kind":"keyword"}
+{"id":"4.9-004","query":"response time analysis critical instant fixed point schedulability","relevant":["concepts/real-time-scheduling.md"],"section":"4.9","kind":"keyword"}
+{"id":"4.9-005","query":"why does my variable read in the main loop never change after the interrupt sets it","relevant":["concepts/microcontrollers-and-embedded-programming.md"],"section":"4.9","kind":"paraphrase"}
+{"id":"4.9-006","query":"memory mapped registers GPIO timers PWM ADC UART SPI I2C","relevant":["concepts/microcontrollers-and-embedded-programming.md"],"section":"4.9","kind":"keyword"}
+{"id":"4.9-007","query":"ISR design rules keep short ring buffer volatile interrupt latency","relevant":["concepts/microcontrollers-and-embedded-programming.md"],"section":"4.9","kind":"keyword"}
+{"id":"4.9-008","query":"when should I use an RTOS instead of a superloop","relevant":["concepts/microcontrollers-and-embedded-programming.md"],"section":"4.9","kind":"question"}
+{"id":"4.9-009","query":"watchdog brown-out bootloader signed OTA firmware update low power sleep modes","relevant":["concepts/microcontrollers-and-embedded-programming.md"],"section":"4.9","kind":"keyword"}
+{"id":"4.9-010","query":"hybrid automata guards resets mode invariants thermostat","relevant":["concepts/cyber-physical-systems-and-models-of-computation.md"],"section":"4.9","kind":"keyword"}
+{"id":"4.9-011","query":"synchronous reactive Lustre Esterel vs Kahn process networks dataflow models of computation","relevant":["concepts/cyber-physical-systems-and-models-of-computation.md"],"section":"4.9","kind":"keyword"}
+{"id":"4.9-012","query":"Lee cyber-physical systems abstractions discard time PRET","relevant":["concepts/cyber-physical-systems-and-models-of-computation.md","sources/embedded-systems-texts-and-courses.md"],"section":"4.9","kind":"keyword"}
+{"id":"4.9-013","query":"Lee Seshia Introduction to Embedded Systems book","relevant":["sources/embedded-systems-texts-and-courses.md"],"section":"4.9","kind":"source"}
+{"id":"4.9-014","query":"Valvano ARM Cortex-M embedded course labs","relevant":["sources/embedded-systems-texts-and-courses.md"],"section":"4.9","kind":"source"}
