@@ -1,7 +1,7 @@
 #!/usr/bin/env -S uv run --quiet --script
 # /// script
 # requires-python = ">=3.11"
-# dependencies = ["html2text", "pypdf", "requests"]
+# dependencies = ["html2text", "pypdf", "cryptography", "requests"]
 # ///
 """Fetch a URL (HTML or PDF) and print plain text. Caches raw bytes under raw/.
 

@@ -38,7 +38,7 @@ oasis improvements (PRs to ~/src/oasis), and a running experiments report (`repo
 ### 3 Algorithms
 - [x] 3.1 Data structures (CS61B, Sedgewick, Open Data Structures, 6.006)
 - [x] 3.2 Algorithms (CLRS, DPV, Erickson, Kleinberg-Tardos, CS161, 6.046)
-- [ ] 3.3 Advanced algorithms (6.854, 6.851 Demaine, CS168, Williamson-Shmoys, seminal papers)
+- [x] 3.3 Advanced algorithms (6.854, 6.851 Demaine, CS168, Williamson-Shmoys, seminal papers)
 - [ ] 3.4 Competitive programming (CPH Laaksonen, USACO guide)
 ### 4 Systems
 - [ ] 4.1 Architecture (CS61C, Nand2Tetris, P&H, H&P, Mutlu, seminal papers)

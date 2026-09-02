@@ -65,9 +65,25 @@ def ndcg_at_k(relevant: Sequence[str], ranked_paths: Sequence[str], k: int = 3) 
 # Oasis driver
 # ---------------------------------------------------------------------------
 
+_IGNORE_FLAGS: List[str] | None = None
+
+
+def ignore_flags() -> List[str]:
+    """`--ignore index.md --ignore log.md` when the installed oasis supports it
+    (oasis >= the per-page/ignore PR); empty otherwise so old binaries still run."""
+    global _IGNORE_FLAGS
+    if _IGNORE_FLAGS is None:
+        try:
+            help_text = subprocess.run(["oasis", "--help"], capture_output=True, text=True).stdout
+        except OSError:
+            help_text = ""
+        _IGNORE_FLAGS = ["--ignore", "index.md", "--ignore", "log.md"] if "--ignore" in help_text else []
+    return _IGNORE_FLAGS
+
+
 def run_oasis(root: str, query: str, k: int, mode: str) -> List[Dict[str, Any]]:
     """Run `oasis search` for one query; return the parsed hit list."""
-    cmd = ["oasis", "--root", root, "search", query, "--json", "-k", str(k)]
+    cmd = ["oasis", "--root", root, *ignore_flags(), "search", query, "--json", "-k", str(k)]
     if mode == "lexical":
         cmd.append("--lexical-only")
     proc = subprocess.run(cmd, capture_output=True, text=True)

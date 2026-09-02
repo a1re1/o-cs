@@ -154,3 +154,16 @@
 {"id":"3.2-013","query":"the algorithm works by trusting that smaller instances are already solved, like an induction hypothesis","relevant":["concepts/divide-and-conquer.md","sources/erickson-algorithms.md"],"section":"3.2","kind":"paraphrase"}
 {"id":"3.2-014","query":"Dasgupta Papadimitriou Vazirani free algorithms book","relevant":["sources/dpv-algorithms.md"],"section":"3.2","kind":"source"}
 {"id":"3.2-015","query":"CLRS introduction to algorithms chapters","relevant":["sources/clrs.md"],"section":"3.2","kind":"source"}
+{"id":"3.3-001","query":"bloom filter false positive rate optimal number of hash functions","relevant":["concepts/streaming-and-sketching.md"],"section":"3.3","kind":"keyword"}
+{"id":"3.3-002","query":"estimate how many distinct users visited without storing them all","relevant":["concepts/streaming-and-sketching.md"],"section":"3.3","kind":"paraphrase"}
+{"id":"3.3-003","query":"count-min sketch heavy hitters overestimate epsilon delta","relevant":["concepts/streaming-and-sketching.md"],"section":"3.3","kind":"keyword"}
+{"id":"3.3-004","query":"minhash jaccard similarity collision probability near duplicate documents","relevant":["concepts/similarity-search-and-lsh.md"],"section":"3.3","kind":"keyword"}
+{"id":"3.3-005","query":"random projection preserves pairwise distances Johnson Lindenstrauss","relevant":["concepts/similarity-search-and-lsh.md"],"section":"3.3","kind":"keyword"}
+{"id":"3.3-006","query":"how do vector databases find approximate nearest neighbors quickly","relevant":["concepts/similarity-search-and-lsh.md"],"section":"3.3","kind":"question"}
+{"id":"3.3-007","query":"set cover LP rounding greedy ln n primal dual","relevant":["concepts/approximation-algorithms.md","sources/williamson-shmoys-approximation.md"],"section":"3.3","kind":"keyword"}
+{"id":"3.3-008","query":"what is a PTAS versus an FPTAS","relevant":["concepts/approximation-algorithms.md"],"section":"3.3","kind":"question"}
+{"id":"3.3-009","query":"van Emde Boas log log u predecessor fusion trees","relevant":["concepts/advanced-data-structures.md"],"section":"3.3","kind":"keyword"}
+{"id":"3.3-010","query":"make any pointer based data structure remember all previous versions","relevant":["concepts/advanced-data-structures.md","concepts/persistent-data-structures.md"],"section":"3.3","kind":"paraphrase"}
+{"id":"3.3-011","query":"adding a cache server remaps only 1/n of the keys hash ring virtual nodes","relevant":["concepts/consistent-hashing.md"],"section":"3.3","kind":"keyword"}
+{"id":"3.3-012","query":"Karp 21 NP-complete problems Cook theorem paper","relevant":["sources/karp-cook-and-classic-papers.md"],"section":"3.3","kind":"source"}
+{"id":"3.3-013","query":"Stanford modern algorithmic toolbox course mini-projects","relevant":["sources/cs168-modern-algorithmic-toolbox.md"],"section":"3.3","kind":"source"}
