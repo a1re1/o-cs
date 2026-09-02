@@ -53,3 +53,16 @@ memory, unchecked return values, character encoding, timezone.
 
 ## Sources
 Think Python "Debugging" sections and appendix; CS50 weeks 1–4 (debug50, valgrind); Agans' 9 rules and Zeller's Debugging Book to be added in §2.6/§7.2.
+
+## Tools ladder and Agans's rules (added §2.6)
+Missing Semester's order: printf/logging with levels and colour (structured logs, `journalctl`,
+`/var/log`); a **debugger** for state inspection — `pdb`/`ipdb` (`l s n b p r q`), `gdb`/`lldb`
+(`break`, `bt`, `x/8gx $rsp`, `watch`); **specialized tracers** when the bug is outside your code —
+`strace`/`dtruss` for syscalls, `ltrace`, `tcpdump`/Wireshark for packets; **static analysis** and
+linters (`pyflakes`, `mypy`, `shellcheck`, clang-tidy) and sanitizers ([[undefined-behavior]]);
+`git bisect` to find the commit that introduced a regression ([[git-data-model]]).
+Agans's nine rules: understand the system; **make it fail** (reproduce reliably, then automate);
+**quit thinking and look** (instrument before hypothesizing); divide and conquer (binary search
+the pipeline/data/history); change one thing at a time; keep an audit trail; check the plug
+(assumptions: right binary? right config?); get a fresh view; if you didn't fix it, it ain't fixed
+(a bug that "went away" is still there). See [[tlcl-shotts]], [[profiling-and-performance]].

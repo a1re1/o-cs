@@ -117,3 +117,13 @@
 {"id":"2.5-009","query":"change the structure of code without changing what it does, in small tested steps","relevant":["concepts/refactoring.md"],"section":"2.5","kind":"paraphrase"}
 {"id":"2.5-010","query":"how does a vtable implement virtual method calls","relevant":["concepts/polymorphism-and-dispatch.md"],"section":"2.5","kind":"question"}
 {"id":"2.5-011","query":"Gang of Four creational structural behavioral","relevant":["sources/gof-design-patterns.md","concepts/design-patterns-catalog.md"],"section":"2.5","kind":"source"}
+{"id":"2.6-001","query":"git objects blob tree commit content addressed by sha1 references are mutable pointers","relevant":["concepts/git-data-model.md"],"section":"2.6","kind":"keyword"}
+{"id":"2.6-002","query":"what does git reset --soft --mixed --hard actually move","relevant":["concepts/git-data-model.md","sources/pro-git.md"],"section":"2.6","kind":"question"}
+{"id":"2.6-003","query":"difference between single and double quotes in bash and what $? means","relevant":["concepts/shell-and-unix-tools.md"],"section":"2.6","kind":"question"}
+{"id":"2.6-004","query":"makefile target prerequisites recipe rebuild when newer automatic variables","relevant":["concepts/build-systems-and-make.md"],"section":"2.6","kind":"keyword"}
+{"id":"2.6-005","query":"sampling vs tracing profiler flame graph","relevant":["concepts/profiling-and-performance.md"],"section":"2.6","kind":"keyword"}
+{"id":"2.6-006","query":"count the most common lines in a log file with sort and uniq","relevant":["concepts/text-processing-and-regex.md","concepts/shell-and-unix-tools.md"],"section":"2.6","kind":"paraphrase"}
+{"id":"2.6-007","query":"nine rules of debugging make it fail quit thinking and look","relevant":["concepts/debugging.md","sources/tlcl-shotts.md"],"section":"2.6","kind":"keyword"}
+{"id":"2.6-008","query":"trace which system calls a program makes","relevant":["concepts/debugging.md","concepts/profiling-and-performance.md"],"section":"2.6","kind":"paraphrase"}
+{"id":"2.6-009","query":"golden rule of rebasing do not rebase shared commits","relevant":["concepts/git-data-model.md","sources/pro-git.md"],"section":"2.6","kind":"paraphrase"}
+{"id":"2.6-010","query":"MIT missing semester course lectures","relevant":["sources/missing-semester.md"],"section":"2.6","kind":"source"}
