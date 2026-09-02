@@ -127,3 +127,15 @@
 {"id":"2.6-008","query":"trace which system calls a program makes","relevant":["concepts/debugging.md","concepts/profiling-and-performance.md"],"section":"2.6","kind":"paraphrase"}
 {"id":"2.6-009","query":"golden rule of rebasing do not rebase shared commits","relevant":["concepts/git-data-model.md","sources/pro-git.md"],"section":"2.6","kind":"paraphrase"}
 {"id":"2.6-010","query":"MIT missing semester course lectures","relevant":["sources/missing-semester.md"],"section":"2.6","kind":"source"}
+{"id":"3.1-001","query":"linear probing vs separate chaining load factor tombstones","relevant":["concepts/hash-tables.md"],"section":"3.1","kind":"keyword"}
+{"id":"3.1-002","query":"why do I need to override hashCode when I override equals","relevant":["concepts/hash-tables.md","concepts/equality-and-hashing.md"],"section":"3.1","kind":"question"}
+{"id":"3.1-003","query":"weighted quick union path compression inverse ackermann","relevant":["concepts/union-find.md"],"section":"3.1","kind":"keyword"}
+{"id":"3.1-004","query":"keep track of which items are in the same group as connections are added","relevant":["concepts/union-find.md"],"section":"3.1","kind":"paraphrase"}
+{"id":"3.1-005","query":"red black tree as an encoding of a 2-3 tree left leaning red links rotations","relevant":["concepts/balanced-search-trees.md"],"section":"3.1","kind":"keyword"}
+{"id":"3.1-006","query":"a search tree that turns into a linked list when keys are inserted in sorted order","relevant":["concepts/binary-search-trees.md","concepts/balanced-search-trees.md"],"section":"3.1","kind":"paraphrase"}
+{"id":"3.1-007","query":"children of node i at 2i+1 and 2i+2 sift down build heap O(n)","relevant":["concepts/heaps-and-priority-queues.md"],"section":"3.1","kind":"keyword"}
+{"id":"3.1-008","query":"why is appending to a dynamic array O(1) amortized","relevant":["concepts/arrays-and-linked-lists.md","concepts/amortized-analysis.md"],"section":"3.1","kind":"question"}
+{"id":"3.1-009","query":"data structure for autocomplete and longest prefix match","relevant":["concepts/tries.md"],"section":"3.1","kind":"paraphrase"}
+{"id":"3.1-010","query":"adjacency list vs adjacency matrix sparse dense graph","relevant":["concepts/graph-representations.md"],"section":"3.1","kind":"keyword"}
+{"id":"3.1-011","query":"Sedgewick Wayne algorithms booksite Java","relevant":["sources/sedgewick-algorithms-4e.md"],"section":"3.1","kind":"source"}
+{"id":"3.1-012","query":"free data structures textbook with proofs Morin","relevant":["sources/open-data-structures-morin.md"],"section":"3.1","kind":"source"}
