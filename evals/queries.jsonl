@@ -272,3 +272,29 @@
 {"id":"4.5-020","query":"CMU database systems course BusTub buffer pool project","relevant":["sources/cmu-15-445.md"],"section":"4.5","kind":"source"}
 {"id":"4.5-021","query":"Designing Data-Intensive Applications Kleppmann book","relevant":["sources/database-textbooks.md"],"section":"4.5","kind":"source"}
 {"id":"4.5-022","query":"column store vs row store OLAP compression","relevant":["concepts/storage-engines-and-indexes.md","concepts/distributed-databases-and-nosql.md"],"section":"4.5","kind":"keyword"}
+{"id":"4.6-001","query":"happens-before partial order concurrent events Lamport","relevant":["concepts/time-clocks-and-ordering.md","sources/distributed-systems-seminal-papers.md"],"section":"4.6","kind":"keyword"}
+{"id":"4.6-002","query":"vector clocks detect concurrent writes vs Lamport clocks","relevant":["concepts/time-clocks-and-ordering.md"],"section":"4.6","kind":"keyword"}
+{"id":"4.6-003","query":"why should I never measure elapsed time with the wall clock","relevant":["concepts/time-clocks-and-ordering.md"],"section":"4.6","kind":"paraphrase"}
+{"id":"4.6-004","query":"FLP impossibility asynchronous consensus one faulty process","relevant":["concepts/distributed-systems-basics.md","sources/distributed-systems-seminal-papers.md"],"section":"4.6","kind":"keyword"}
+{"id":"4.6-005","query":"exactly once delivery idempotency at-least-once retries RPC","relevant":["concepts/distributed-systems-basics.md"],"section":"4.6","kind":"keyword"}
+{"id":"4.6-006","query":"how do I stop an old leader that thinks it is still leader from writing","relevant":["concepts/distributed-systems-basics.md"],"section":"4.6","kind":"paraphrase"}
+{"id":"4.6-007","query":"linearizability vs sequential consistency vs causal consistency","relevant":["concepts/consistency-models.md"],"section":"4.6","kind":"keyword"}
+{"id":"4.6-008","query":"CRDT OR-set join semilattice merge without coordination","relevant":["concepts/consistency-models.md"],"section":"4.6","kind":"keyword"}
+{"id":"4.6-009","query":"Raft leader election randomized timeouts terms log matching","relevant":["concepts/consensus-paxos-raft.md","sources/distributed-systems-seminal-papers.md"],"section":"4.6","kind":"keyword"}
+{"id":"4.6-010","query":"Paxos prepare promise accept phases highest ballot value","relevant":["concepts/consensus-paxos-raft.md"],"section":"4.6","kind":"keyword"}
+{"id":"4.6-011","query":"why does Raft only commit entries from the leader's current term","relevant":["concepts/consensus-paxos-raft.md"],"section":"4.6","kind":"question"}
+{"id":"4.6-012","query":"ZooKeeper znodes watches ephemeral leader election recipe","relevant":["concepts/consensus-paxos-raft.md"],"section":"4.6","kind":"keyword"}
+{"id":"4.6-013","query":"synchronous vs asynchronous replication lag failover lost writes","relevant":["concepts/replication-and-partitioning.md"],"section":"4.6","kind":"keyword"}
+{"id":"4.6-014","query":"chain replication CRAQ reads from tail","relevant":["concepts/replication-and-partitioning.md"],"section":"4.6","kind":"keyword"}
+{"id":"4.6-015","query":"one shard gets all the traffic hot key celebrity problem","relevant":["concepts/replication-and-partitioning.md"],"section":"4.6","kind":"paraphrase"}
+{"id":"4.6-016","query":"Byzantine generals 3f+1 oral messages PBFT view change","relevant":["concepts/byzantine-fault-tolerance-and-blockchains.md"],"section":"4.6","kind":"keyword"}
+{"id":"4.6-017","query":"how does Bitcoin reach agreement without knowing who the participants are","relevant":["concepts/byzantine-fault-tolerance-and-blockchains.md"],"section":"4.6","kind":"question"}
+{"id":"4.6-018","query":"MapReduce map shuffle reduce stragglers re-execution","relevant":["concepts/mapreduce-and-dataflow.md"],"section":"4.6","kind":"keyword"}
+{"id":"4.6-019","query":"Spark RDD lineage fault tolerance DAG scheduler","relevant":["concepts/mapreduce-and-dataflow.md"],"section":"4.6","kind":"keyword"}
+{"id":"4.6-020","query":"event time vs processing time watermarks windows stream processing","relevant":["concepts/mapreduce-and-dataflow.md"],"section":"4.6","kind":"keyword"}
+{"id":"4.6-021","query":"GFS single master chunks record append relaxed consistency","relevant":["concepts/mapreduce-and-dataflow.md","sources/distributed-systems-seminal-papers.md"],"section":"4.6","kind":"keyword"}
+{"id":"4.6-022","query":"Borg Kubernetes bin packing priority preemption cells","relevant":["concepts/cluster-scheduling-and-observability.md"],"section":"4.6","kind":"keyword"}
+{"id":"4.6-023","query":"Dapper distributed tracing spans sampling","relevant":["concepts/cluster-scheduling-and-observability.md","sources/distributed-systems-seminal-papers.md"],"section":"4.6","kind":"keyword"}
+{"id":"4.6-024","query":"shuffle sharding blast radius cell architecture","relevant":["concepts/cluster-scheduling-and-observability.md"],"section":"4.6","kind":"keyword"}
+{"id":"4.6-025","query":"MIT distributed systems course Raft lab in Go","relevant":["sources/mit-6-824.md"],"section":"4.6","kind":"source"}
+{"id":"4.6-026","query":"Cachin Guerraoui Rodrigues reliable distributed programming failure detectors broadcast","relevant":["sources/distributed-systems-textbooks.md"],"section":"4.6","kind":"source"}
