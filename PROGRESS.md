@@ -25,9 +25,9 @@ oasis improvements (PRs to ~/src/oasis), and a running experiments report (`repo
 - [x] 1.2 Linear algebra (Strang 18.06, Hefferon, Boyd VMLS)
 - [x] 1.3 Calculus (Strang Calculus, APEX)
 - [x] 1.4 Probability & stats (Blitzstein Stat110, Bertsekas, CS109, Wasserman, Think Stats)
-- [ ] 1.5 Logic & computability (Open Logic, CS103, forall x)
-- [ ] 1.6 Optimization & numerics (Boyd CVX, Trefethen, 18.335)
-- [ ] 1.7 Information theory (MacKay, Cover&Thomas, Shannon 1948)
+- [x] 1.5 Logic & computability (Open Logic, CS103, forall x)
+- [x] 1.6 Optimization & numerics (Boyd CVX, Trefethen, 18.335)
+- [x] 1.7 Information theory (MacKay, Cover&Thomas, Shannon 1948)
 ### 2 Programming
 - [ ] 2.1 Intro programming (SICP, HtDP, Composing Programs, CS61A, CS50)
 - [ ] 2.2 Software construction (6.102, Ousterhout, Effective Java)
@@ -106,7 +106,7 @@ oasis improvements (PRs to ~/src/oasis), and a running experiments report (`repo
 
 ## Engineering track (interleaved)
 - [x] E1 scaffold: CLAUDE.md, PROGRESS.md, scripts/build_index.py, scripts/lint.py, README
-- [ ] E2 evals: evals/queries.jsonl + evals/run_eval.py (recall@k, MRR, nDCG@3), results history
+- [x] E2 evals: evals/queries.jsonl + evals/run_eval.py (recall@k, MRR, nDCG@3), results history
 - [ ] E3 skills/oasis-search SKILL.md for lci + Claude (how to query, how to drill in with `show`)
 - [ ] E4 LLM eval: lci answers CS questions with oasis; grade tool usage + answer quality
 - [ ] E5 oasis improvements (candidates, in priority order — verify with evals first):

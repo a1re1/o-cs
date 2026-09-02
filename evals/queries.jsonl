@@ -40,3 +40,21 @@
 {"id": "1.4-011", "query": "metropolis hastings acceptance probability detailed balance", "relevant": ["concepts/markov-chains.md"], "section": "1.4", "kind": "lookup"}
 {"id": "1.4-012", "query": "p-hacking and multiple comparisons correction", "relevant": ["concepts/hypothesis-testing-and-confidence-intervals.md"], "section": "1.4", "kind": "concept"}
 {"id": "1.4-013", "query": "ridge regression is MAP with a gaussian prior", "relevant": ["concepts/maximum-likelihood-estimation.md", "concepts/bayes-theorem-and-inference.md"], "section": "1.4", "kind": "concept"}
+{"id": "1.5-001", "query": "difference between logical consequence and derivability", "relevant": ["concepts/first-order-logic.md", "concepts/soundness-and-completeness.md"], "section": "1.5", "kind": "compare"}
+{"id": "1.5-002", "query": "why can't first order logic express reachability or finiteness", "relevant": ["concepts/soundness-and-completeness.md", "concepts/first-order-logic.md"], "section": "1.5", "kind": "concept"}
+{"id": "1.5-003", "query": "is every property of a program's behavior undecidable", "relevant": ["concepts/computability-and-halting-problem.md"], "section": "1.5", "kind": "concept"}
+{"id": "1.5-004", "query": "how does gödel construct a sentence that says it is unprovable", "relevant": ["concepts/godel-incompleteness-theorems.md"], "section": "1.5", "kind": "concept"}
+{"id": "1.5-005", "query": "introduction and elimination rules for connectives in fitch style proofs", "relevant": ["concepts/proof-systems-and-natural-deduction.md"], "section": "1.5", "kind": "lookup"}
+{"id": "1.5-006", "query": "symbolize 'all cats are animals' in predicate logic, arrow or and", "relevant": ["concepts/first-order-logic.md"], "section": "1.5", "kind": "howto"}
+{"id": "1.6-001", "query": "how many iterations does gradient descent need and why does the condition number matter", "relevant": ["concepts/gradient-descent.md"], "section": "1.6", "kind": "concept"}
+{"id": "1.6-002", "query": "what makes an optimization problem convex and why does it matter", "relevant": ["concepts/convexity.md"], "section": "1.6", "kind": "concept"}
+{"id": "1.6-003", "query": "KKT conditions complementary slackness meaning of lagrange multipliers", "relevant": ["concepts/linear-programming-and-duality.md"], "section": "1.6", "kind": "lookup"}
+{"id": "1.6-004", "query": "why does 0.1 + 0.2 != 0.3 and how should I compare floats", "relevant": ["concepts/floating-point.md"], "section": "1.6", "kind": "howto"}
+{"id": "1.6-005", "query": "computing variance in one pass loses precision, catastrophic cancellation", "relevant": ["concepts/floating-point.md"], "section": "1.6", "kind": "howto"}
+{"id": "1.6-006", "query": "backtracking line search step size rule", "relevant": ["concepts/gradient-descent.md"], "section": "1.6", "kind": "lookup"}
+{"id": "1.7-001", "query": "what does perplexity of a language model mean in bits", "relevant": ["concepts/entropy-and-information.md"], "section": "1.7", "kind": "concept"}
+{"id": "1.7-002", "query": "huffman coding vs arithmetic coding which is closer to entropy", "relevant": ["concepts/source-coding-and-compression.md"], "section": "1.7", "kind": "compare"}
+{"id": "1.7-003", "query": "reed solomon vs replication for durable storage overhead", "relevant": ["concepts/channel-capacity-and-error-correction.md"], "section": "1.7", "kind": "compare"}
+{"id": "1.7-004", "query": "KL divergence is not symmetric which direction to use", "relevant": ["concepts/entropy-and-information.md"], "section": "1.7", "kind": "concept"}
+{"id": "1.7-005", "query": "shannon capacity formula for a noisy channel with bandwidth and SNR", "relevant": ["concepts/channel-capacity-and-error-correction.md", "sources/shannon-1948.md"], "section": "1.7", "kind": "lookup"}
+{"id": "1.7-006", "query": "minimum description length as occam's razor for model selection", "relevant": ["concepts/kolmogorov-complexity.md"], "section": "1.7", "kind": "concept"}
