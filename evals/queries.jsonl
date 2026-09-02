@@ -964,3 +964,105 @@
 {"id":"7.4-036","query":"Site Reliability Engineering book Google chapters embracing risk eliminating toil","relevant":["sources/devops-cicd-and-sre-texts-courses-and-seminal-papers.md","concepts/site-reliability-engineering.md"],"section":"7.4","kind":"source"}
 {"id":"7.4-037","query":"Accelerate Forsgren Humble Kim State of DevOps","relevant":["sources/devops-cicd-and-sre-texts-courses-and-seminal-papers.md"],"section":"7.4","kind":"source"}
 {"id":"7.4-038","query":"SRE Workbook implementing SLOs canarying releases","relevant":["sources/devops-cicd-and-sre-texts-courses-and-seminal-papers.md"],"section":"7.4","kind":"source"}
+{"id":"7.5-001","query":"semantic HTML elements accessibility tree forms validation","relevant":["concepts/html-css-and-the-dom.md"],"section":"7.5","kind":"keyword"}
+{"id":"7.5-002","query":"CSS specificity cascade inheritance box-sizing border-box","relevant":["concepts/html-css-and-the-dom.md"],"section":"7.5","kind":"keyword"}
+{"id":"7.5-003","query":"flexbox vs grid when to use responsive design container queries","relevant":["concepts/html-css-and-the-dom.md"],"section":"7.5","kind":"compare"}
+{"id":"7.5-004","query":"event bubbling capturing delegation addEventListener preventDefault","relevant":["concepts/html-css-and-the-dom.md"],"section":"7.5","kind":"keyword"}
+{"id":"7.5-005","query":"why doesn't my z-index work stacking context","relevant":["concepts/html-css-and-the-dom.md"],"section":"7.5","kind":"paraphrase"}
+{"id":"7.5-006","query":"WCAG ARIA keyboard navigation screen reader accessibility testing","relevant":["concepts/html-css-and-the-dom.md"],"section":"7.5","kind":"keyword"}
+{"id":"7.5-007","query":"JavaScript event loop task queue microtasks promises ordering setTimeout","relevant":["concepts/javascript-and-the-event-loop.md"],"section":"7.5","kind":"keyword"}
+{"id":"7.5-008","query":"closures this arrow functions prototypes classes JavaScript","relevant":["concepts/javascript-and-the-event-loop.md"],"section":"7.5","kind":"keyword"}
+{"id":"7.5-009","query":"callbacks vs promises vs async await error handling unhandled rejection","relevant":["concepts/javascript-and-the-event-loop.md"],"section":"7.5","kind":"compare"}
+{"id":"7.5-010","query":"why is my web page frozen during a long loop single-threaded","relevant":["concepts/javascript-and-the-event-loop.md"],"section":"7.5","kind":"paraphrase"}
+{"id":"7.5-011","query":"TypeScript structural typing narrowing unknown vs any","relevant":["concepts/javascript-and-the-event-loop.md"],"section":"7.5","kind":"keyword"}
+{"id":"7.5-012","query":"Web Workers parallelism postMessage SharedArrayBuffer","relevant":["concepts/javascript-and-the-event-loop.md"],"section":"7.5","kind":"keyword"}
+{"id":"7.5-013","query":"Node.js libuv event loop streams backpressure npm lockfile","relevant":["concepts/javascript-and-the-event-loop.md"],"section":"7.5","kind":"keyword"}
+{"id":"7.5-014","query":"React components props state hooks useEffect dependency array stale closure","relevant":["concepts/frontend-frameworks-and-state-management.md"],"section":"7.5","kind":"keyword"}
+{"id":"7.5-015","query":"virtual DOM reconciliation keys why not array index","relevant":["concepts/frontend-frameworks-and-state-management.md"],"section":"7.5","kind":"keyword"}
+{"id":"7.5-016","query":"Redux vs React Query vs context where should state live","relevant":["concepts/frontend-frameworks-and-state-management.md"],"section":"7.5","kind":"compare"}
+{"id":"7.5-017","query":"SSR vs SPA vs SSG hydration islands React Server Components","relevant":["concepts/frontend-frameworks-and-state-management.md"],"section":"7.5","kind":"compare"}
+{"id":"7.5-018","query":"signals fine-grained reactivity SolidJS Svelte Vue vs virtual DOM","relevant":["concepts/frontend-frameworks-and-state-management.md"],"section":"7.5","kind":"compare"}
+{"id":"7.5-019","query":"UI as a function of state declarative vs imperative DOM","relevant":["concepts/frontend-frameworks-and-state-management.md"],"section":"7.5","kind":"concept"}
+{"id":"7.5-020","query":"cookie attributes HttpOnly Secure SameSite","relevant":["concepts/web-backends-sessions-and-authentication.md"],"section":"7.5","kind":"keyword"}
+{"id":"7.5-021","query":"session cookies vs JWT tokens revocation refresh tokens","relevant":["concepts/web-backends-sessions-and-authentication.md"],"section":"7.5","kind":"compare"}
+{"id":"7.5-022","query":"how to store passwords bcrypt argon2 salt","relevant":["concepts/web-backends-sessions-and-authentication.md"],"section":"7.5","kind":"howto"}
+{"id":"7.5-023","query":"OAuth 2.0 authorization code flow PKCE OpenID Connect ID token","relevant":["concepts/web-backends-sessions-and-authentication.md"],"section":"7.5","kind":"keyword"}
+{"id":"7.5-024","query":"CSRF SameSite anti-forgery token CORS preflight same-origin policy","relevant":["concepts/web-backends-sessions-and-authentication.md"],"section":"7.5","kind":"keyword"}
+{"id":"7.5-025","query":"IDOR object-level authorization check every request","relevant":["concepts/web-backends-sessions-and-authentication.md"],"section":"7.5","kind":"keyword"}
+{"id":"7.5-026","query":"ORM N+1 queries connection pool migrations background jobs","relevant":["concepts/web-backends-sessions-and-authentication.md"],"section":"7.5","kind":"keyword"}
+{"id":"7.5-027","query":"request lifecycle middleware router handler Express Django","relevant":["concepts/web-backends-sessions-and-authentication.md"],"section":"7.5","kind":"keyword"}
+{"id":"7.5-028","query":"WebSockets vs server-sent events real-time","relevant":["concepts/web-backends-sessions-and-authentication.md"],"section":"7.5","kind":"compare"}
+{"id":"7.5-029","query":"why latency matters more than bandwidth for page load round trips","relevant":["concepts/web-performance-and-browser-networking.md"],"section":"7.5","kind":"question"}
+{"id":"7.5-030","query":"HTTP/1.1 vs HTTP/2 vs HTTP/3 multiplexing head-of-line blocking QUIC","relevant":["concepts/web-performance-and-browser-networking.md","concepts/dns-http-and-the-web-stack.md"],"section":"7.5","kind":"compare"}
+{"id":"7.5-031","query":"Core Web Vitals LCP INP CLS thresholds","relevant":["concepts/web-performance-and-browser-networking.md"],"section":"7.5","kind":"keyword"}
+{"id":"7.5-032","query":"critical rendering path render-blocking CSS parser-blocking script defer async","relevant":["concepts/web-performance-and-browser-networking.md","concepts/html-css-and-the-dom.md"],"section":"7.5","kind":"keyword"}
+{"id":"7.5-033","query":"preconnect preload prefetch resource hints fetchpriority","relevant":["concepts/web-performance-and-browser-networking.md"],"section":"7.5","kind":"keyword"}
+{"id":"7.5-034","query":"TCP slow start TLS handshake cost initial congestion window web","relevant":["concepts/web-performance-and-browser-networking.md"],"section":"7.5","kind":"keyword"}
+{"id":"7.5-035","query":"service worker offline cache strategies PWA","relevant":["concepts/web-performance-and-browser-networking.md"],"section":"7.5","kind":"keyword"}
+{"id":"7.5-036","query":"my site is slow on mobile but fine on my laptop","relevant":["concepts/web-performance-and-browser-networking.md"],"section":"7.5","kind":"paraphrase"}
+{"id":"7.5-037","query":"lab vs field RUM Lighthouse performance budget","relevant":["concepts/web-performance-and-browser-networking.md"],"section":"7.5","kind":"keyword"}
+{"id":"7.5-038","query":"High Performance Browser Networking Grigorik","relevant":["sources/web-development-texts-courses-and-seminal-papers.md","concepts/web-performance-and-browser-networking.md"],"section":"7.5","kind":"source"}
+{"id":"7.5-039","query":"Eloquent JavaScript Haverbeke chapters","relevant":["sources/web-development-texts-courses-and-seminal-papers.md"],"section":"7.5","kind":"source"}
+{"id":"7.5-040","query":"Full Stack Open Helsinki React Node course","relevant":["sources/web-development-texts-courses-and-seminal-papers.md"],"section":"7.5","kind":"source"}
+{"id":"7.5-041","query":"Garrett Ajax 2005 XMLHttpRequest Berners-Lee 1989 proposal Crockford JSON","relevant":["sources/web-development-texts-courses-and-seminal-papers.md"],"section":"7.5","kind":"source"}
+{"id":"7.6-001","query":"iOS app lifecycle process death state restoration","relevant":["concepts/mobile-development-and-cross-platform.md"],"section":"7.6","kind":"keyword"}
+{"id":"7.6-002","query":"SwiftUI @State @Binding @Observable view as function of state","relevant":["concepts/mobile-development-and-cross-platform.md"],"section":"7.6","kind":"keyword"}
+{"id":"7.6-003","query":"Jetpack Compose remember recomposition state hoisting","relevant":["concepts/mobile-development-and-cross-platform.md"],"section":"7.6","kind":"keyword"}
+{"id":"7.6-004","query":"MVVM unidirectional data flow repository single source of truth Android architecture","relevant":["concepts/mobile-development-and-cross-platform.md"],"section":"7.6","kind":"keyword"}
+{"id":"7.6-005","query":"offline-first mobile app local database sync conflicts","relevant":["concepts/mobile-development-and-cross-platform.md"],"section":"7.6","kind":"keyword"}
+{"id":"7.6-006","query":"React Native vs Flutter vs Kotlin Multiplatform vs native which to choose","relevant":["concepts/mobile-development-and-cross-platform.md"],"section":"7.6","kind":"compare"}
+{"id":"7.6-007","query":"background work WorkManager BGTaskScheduler battery push notifications","relevant":["concepts/mobile-development-and-cross-platform.md"],"section":"7.6","kind":"keyword"}
+{"id":"7.6-008","query":"my app loses the user's input when they switch apps and come back","relevant":["concepts/mobile-development-and-cross-platform.md"],"section":"7.6","kind":"paraphrase"}
+{"id":"7.6-009","query":"Stanford CS193p SwiftUI course SwiftData","relevant":["sources/mobile-development-courses.md"],"section":"7.6","kind":"source"}
+{"id":"7.7-001","query":"cathedral and the bazaar release early release often Linus's law","relevant":["concepts/open-source-practice-and-governance.md"],"section":"7.7","kind":"keyword"}
+{"id":"7.7-002","query":"how to start an open source project mission statement license hosting setting the tone","relevant":["concepts/open-source-practice-and-governance.md"],"section":"7.7","kind":"howto"}
+{"id":"7.7-003","query":"benevolent dictator vs consensus vs foundation governance forkability","relevant":["concepts/open-source-practice-and-governance.md"],"section":"7.7","kind":"compare"}
+{"id":"7.7-004","query":"maintainer burnout sustainability funding stadiums Eghbal","relevant":["concepts/open-source-practice-and-governance.md"],"section":"7.7","kind":"keyword"}
+{"id":"7.7-005","query":"CLA vs DCO relicensing forks Elastic HashiCorp Redis","relevant":["concepts/open-source-practice-and-governance.md","concepts/software-licensing.md"],"section":"7.7","kind":"keyword"}
+{"id":"7.7-006","query":"how do I contribute a pull request to an open source project etiquette","relevant":["concepts/open-source-practice-and-governance.md"],"section":"7.7","kind":"howto"}
+{"id":"7.7-007","query":"MIT vs Apache 2.0 vs GPL vs AGPL differences patent grant copyleft","relevant":["concepts/software-licensing.md"],"section":"7.7","kind":"compare"}
+{"id":"7.7-008","query":"what happens if code on GitHub has no license","relevant":["concepts/software-licensing.md"],"section":"7.7","kind":"question"}
+{"id":"7.7-009","query":"license compatibility GPLv2 Apache CDDL combining licenses","relevant":["concepts/software-licensing.md"],"section":"7.7","kind":"keyword"}
+{"id":"7.7-010","query":"AGPL network use SaaS loophole source-available BSL SSPL","relevant":["concepts/software-licensing.md"],"section":"7.7","kind":"keyword"}
+{"id":"7.7-011","query":"SPDX license identifier LICENSE file NOTICE attribution compliance","relevant":["concepts/software-licensing.md"],"section":"7.7","kind":"keyword"}
+{"id":"7.7-012","query":"Creative Commons BY SA NC CC0 for content and data","relevant":["concepts/software-licensing.md"],"section":"7.7","kind":"keyword"}
+{"id":"7.7-013","query":"semantic versioning caret tilde ranges lockfile","relevant":["concepts/dependency-management-and-packaging.md"],"section":"7.7","kind":"keyword"}
+{"id":"7.7-014","query":"dependency resolution NP-hard PubGrub minimal version selection Go modules","relevant":["concepts/dependency-management-and-packaging.md"],"section":"7.7","kind":"keyword"}
+{"id":"7.7-015","query":"diamond dependency problem npm nested node_modules pnpm phantom dependencies one-version rule","relevant":["concepts/dependency-management-and-packaging.md"],"section":"7.7","kind":"keyword"}
+{"id":"7.7-016","query":"left-pad incident unpublish registry immutability","relevant":["concepts/dependency-management-and-packaging.md"],"section":"7.7","kind":"keyword"}
+{"id":"7.7-017","query":"how often should we update dependencies Dependabot Renovate","relevant":["concepts/dependency-management-and-packaging.md"],"section":"7.7","kind":"question"}
+{"id":"7.7-018","query":"vendoring vs registry vs monorepo dependencies","relevant":["concepts/dependency-management-and-packaging.md"],"section":"7.7","kind":"compare"}
+{"id":"7.7-019","query":"publishing a package entry points exports deprecation yank","relevant":["concepts/dependency-management-and-packaging.md"],"section":"7.7","kind":"keyword"}
+{"id":"7.7-020","query":"SLSA levels provenance hosted build hardened build","relevant":["concepts/software-supply-chain-security.md"],"section":"7.7","kind":"keyword"}
+{"id":"7.7-021","query":"Sigstore cosign Fulcio Rekor keyless signing transparency log","relevant":["concepts/software-supply-chain-security.md"],"section":"7.7","kind":"keyword"}
+{"id":"7.7-022","query":"SBOM SPDX CycloneDX VEX vulnerability scanning","relevant":["concepts/software-supply-chain-security.md"],"section":"7.7","kind":"keyword"}
+{"id":"7.7-023","query":"reproducible builds bit-for-bit SOURCE_DATE_EPOCH trusting trust diverse double compiling","relevant":["concepts/software-supply-chain-security.md"],"section":"7.7","kind":"keyword"}
+{"id":"7.7-024","query":"xz-utils backdoor SolarWinds event-stream supply chain attacks","relevant":["concepts/software-supply-chain-security.md"],"section":"7.7","kind":"keyword"}
+{"id":"7.7-025","query":"dependency confusion typosquatting private registry scoped packages","relevant":["concepts/software-supply-chain-security.md"],"section":"7.7","kind":"keyword"}
+{"id":"7.7-026","query":"harden GitHub Actions pinned by SHA least privilege tokens trusted publishing OIDC","relevant":["concepts/software-supply-chain-security.md"],"section":"7.7","kind":"howto"}
+{"id":"7.7-027","query":"how do we find out fast whether a vulnerable library is deployed anywhere","relevant":["concepts/software-supply-chain-security.md"],"section":"7.7","kind":"paraphrase"}
+{"id":"7.7-028","query":"Producing Open Source Software Fogel","relevant":["sources/open-source-practice-texts-and-seminal-papers.md","concepts/open-source-practice-and-governance.md"],"section":"7.7","kind":"source"}
+{"id":"7.7-029","query":"Working in Public Eghbal open source maintainers","relevant":["sources/open-source-practice-texts-and-seminal-papers.md"],"section":"7.7","kind":"source"}
+{"id":"7.8-001","query":"ACM Code of Ethics principles avoid harm public good competence","relevant":["concepts/computing-ethics-and-professional-responsibility.md"],"section":"7.8","kind":"keyword"}
+{"id":"7.8-002","query":"blameworthiness vs liability vs taking responsibility many hands responsibility gap","relevant":["concepts/computing-ethics-and-professional-responsibility.md"],"section":"7.8","kind":"keyword"}
+{"id":"7.8-003","query":"Therac-25 lessons race condition safety culture","relevant":["concepts/computing-ethics-and-professional-responsibility.md"],"section":"7.8","kind":"keyword"}
+{"id":"7.8-004","query":"Weapons of Math Destruction opacity scale damage feedback loops","relevant":["concepts/computing-ethics-and-professional-responsibility.md"],"section":"7.8","kind":"keyword"}
+{"id":"7.8-005","query":"my manager wants me to ship a feature I think is harmful what should I do","relevant":["concepts/computing-ethics-and-professional-responsibility.md"],"section":"7.8","kind":"paraphrase"}
+{"id":"7.8-006","query":"utilitarian deontological virtue ethics lenses for engineering decisions","relevant":["concepts/computing-ethics-and-professional-responsibility.md"],"section":"7.8","kind":"keyword"}
+{"id":"7.8-007","query":"Boeing 737 MAX MCAS Volkswagen defeat device engineer responsibility","relevant":["concepts/computing-ethics-and-professional-responsibility.md"],"section":"7.8","kind":"keyword"}
+{"id":"7.8-008","query":"dark patterns deceptive design ethics","relevant":["concepts/computing-ethics-and-professional-responsibility.md"],"section":"7.8","kind":"keyword"}
+{"id":"7.8-009","query":"Weizenbaum ELIZA computers should not make decisions requiring wisdom","relevant":["concepts/computing-ethics-and-professional-responsibility.md","sources/computing-ethics-texts-courses-and-codes.md"],"section":"7.8","kind":"keyword"}
+{"id":"7.8-010","query":"GDPR lawful basis data subject rights DPIA breach notification","relevant":["concepts/technology-law-privacy-and-intellectual-property.md"],"section":"7.8","kind":"keyword"}
+{"id":"7.8-011","query":"CCPA HIPAA COPPA FERPA which US privacy law applies","relevant":["concepts/technology-law-privacy-and-intellectual-property.md"],"section":"7.8","kind":"keyword"}
+{"id":"7.8-012","query":"contextual integrity Nissenbaum information flows norms","relevant":["concepts/technology-law-privacy-and-intellectual-property.md"],"section":"7.8","kind":"keyword"}
+{"id":"7.8-013","query":"is anonymized data really anonymous re-identification Sweeney Netflix Prize","relevant":["concepts/technology-law-privacy-and-intellectual-property.md","concepts/differential-privacy.md"],"section":"7.8","kind":"question"}
+{"id":"7.8-014","query":"Oracle v Google API copyright fair use clean room","relevant":["concepts/technology-law-privacy-and-intellectual-property.md"],"section":"7.8","kind":"keyword"}
+{"id":"7.8-015","query":"software patents Alice abstract idea trade secrets DTSA","relevant":["concepts/technology-law-privacy-and-intellectual-property.md"],"section":"7.8","kind":"keyword"}
+{"id":"7.8-016","query":"CFAA unauthorized access Van Buren hiQ scraping security research legal","relevant":["concepts/technology-law-privacy-and-intellectual-property.md"],"section":"7.8","kind":"keyword"}
+{"id":"7.8-017","query":"DMCA 1201 anti-circumvention notice and takedown safe harbor","relevant":["concepts/technology-law-privacy-and-intellectual-property.md"],"section":"7.8","kind":"keyword"}
+{"id":"7.8-018","query":"Section 230 platform liability DSA DMA","relevant":["concepts/technology-law-privacy-and-intellectual-property.md"],"section":"7.8","kind":"keyword"}
+{"id":"7.8-019","query":"ADA Section 508 European Accessibility Act WCAG legal requirement websites","relevant":["concepts/technology-law-privacy-and-intellectual-property.md"],"section":"7.8","kind":"keyword"}
+{"id":"7.8-020","query":"AI training data copyright lawsuits EU AI Act risk tiers","relevant":["concepts/technology-law-privacy-and-intellectual-property.md"],"section":"7.8","kind":"keyword"}
+{"id":"7.8-021","query":"when should engineers involve lawyers privacy IP triggers","relevant":["concepts/technology-law-privacy-and-intellectual-property.md"],"section":"7.8","kind":"howto"}
+{"id":"7.8-022","query":"Stanford CS181 computers ethics public policy recognize reason persuade memo","relevant":["sources/computing-ethics-texts-courses-and-codes.md","concepts/computing-ethics-and-professional-responsibility.md"],"section":"7.8","kind":"source"}
+{"id":"7.8-023","query":"Harvard Embedded EthiCS modules","relevant":["sources/computing-ethics-texts-courses-and-codes.md"],"section":"7.8","kind":"source"}

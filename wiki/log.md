@@ -3,6 +3,121 @@
 Newest first. Generated from wiki/log/*.md — do not edit.
 
 ---
+title: Ingest §7.8 professional practice, ethics & law
+type: log
+section: "7.8"
+tags: [ingest, ethics, professional-responsibility, law, privacy, intellectual-property, acm-code]
+summary: Read Stanford CS181's Spring 2024 syllabus (goals, Unit 1 readings), Harvard Embedded EthiCS's module index (responsibility and red-teaming modules), and confirmed the ACM code from memory after acm.org returned 403; wrote 2 concepts and 1 source. This completes §7.
+---
+## [2026-09-02] ingest | §7.8 Professional practice, ethics & law
+
+Read: web.stanford.edu/class/cs181 Spring 2024 (learning goals: recognize / reason /
+persuade; grading; Unit 1 risk and responsibility — NSPE + ACM codes, Therac-25 memo,
+Bernstein, Hofstadter, Hormio, Patrick Racing, Iran Air 655); embeddedethics.seas.
+harvard.edu modules index (taxonomy of ethics topics; "Responsibility in Software
+Design: Blame, Liability, & Taking Responsibility" — three senses of responsibility,
+AI responsibility gaps, Kodak Shirley cards; "Red Teaming & Responsibility").
+acm.org/code-of-ethics and ethics.acm.org both 403 — the code's structure and clauses
+written from memory (flagged in the source page). O'Neil, Quinn, Weizenbaum, Leveson &
+Turner, case law (Oracle v. Google, Alice, Van Buren, hiQ), GDPR/CCPA from memory.
+
+Source: [[computing-ethics-texts-courses-and-codes]].
+Concepts: [[computing-ethics-and-professional-responsibility]],
+[[technology-law-privacy-and-intellectual-property]].
+
+Insights: the three-senses-of-responsibility distinction (blame / liability / taking
+responsibility) is the ethics counterpart of blameless postmortems (§4.8, §7.4): stop
+asking who is at fault, ask who will act. Nissenbaum's contextual integrity is
+purpose limitation stated as a theory of norms — and it is exactly the property
+differential privacy (§6.11) and data minimization operationalize. Oracle v. Google's
+"assume copyrightable, hold fair use" leaves clean-room reimplementation the
+engineering norm, the same discipline as Compaq's BIOS. Van Buren's gates-up-or-down
+test is an authorization model (§8.2 access control) written by a court. Weizenbaum's
+decide-vs-choose is the alignment/oversight question of §6.11 forty years early.
+
+§7 complete (7.1–7.8). Next: §8 Security & privacy — the pages security-principles
+and web-security are now wanted from ~12 pages; create them first.
+
+---
+title: Ingest §7.6 mobile & cross-platform and §7.7 open source practice & ecosystems
+type: log
+section: "7.7"
+tags: [ingest, mobile, swiftui, compose, open-source, licensing, dependencies, supply-chain, slsa]
+summary: Read CS193p's 2025 lecture list and the Android developer site structure (§7.6); Fogel's full ToC, Raymond's "Release Early, Release Often", choosealicense's license spectrum, SLSA v1.0 levels, and the Reproducible Builds definition (§7.7); wrote 1+4 concepts (dependency-management-and-packaging was wanted) and 2 sources.
+---
+## [2026-09-02] ingest | §7.6 Mobile and §7.7 Open source practice
+
+§7.6 read: cs193p.stanford.edu Spring 2025 (14 lectures: Views/modifiers, Model vs UI,
+Swift type system, @State/@Binding, layout and data flow, generics/ViewBuilder,
+animation, protocols, List/navigation, iPad/sheets, SwiftData); developer.android.com
+navigation (Compose, adaptive apps, architecture, quality, security). Apple lifecycle,
+Compose state docs, RN/Flutter/KMP from memory.
+Source: [[mobile-development-courses]]; concept: [[mobile-development-and-cross-platform]].
+
+§7.7 read: producingoss.com 2e full table of contents (ch. 1–5 in detail: mission,
+license choice, setting the tone, infrastructure, governance models, money);
+catb.org "Release Early, Release Often" (Linus's law, users as co-developers);
+choosealicense.com/licenses (AGPLv3 → Unlicense with permissions/conditions/
+limitations); slsa.dev v1.0 "Security levels" (Build L0–L3); reproducible-builds.org
+definition. Eghbal, SemVer, Cox on MVS, Sigstore, incidents from memory.
+Source: [[open-source-practice-texts-and-seminal-papers]]; concepts:
+[[open-source-practice-and-governance]], [[software-licensing]],
+[[dependency-management-and-packaging]] (wanted), [[software-supply-chain-security]].
+
+Insights: SwiftUI and Compose independently converging on UI = f(state) with
+hoisted state is strong evidence the React model is the stable attractor for UI
+programming; process death is the mobile form of crash-only design (§4.8) — design so
+any state can be rebuilt. Fogel's "be open from day one / waiting creates an exposure
+event" is the same argument as continuous integration (small public increments beat
+big private batches). Dependency resolution is literally SAT (Abate et al.), and Go's
+MVS is the "restrict the problem until it's polynomial" move from §5 complexity. SLSA
+levels are a threat-model ladder exactly like §4.8 SLO tiers; Sigstore's transparency
+log is a Merkle tree (§8.3 cryptography) doing certificate-transparency's job for
+software. Reproducible builds are determinism as a security property — the same
+requirement fuzzing (§7.2) and delta debugging impose for different reasons.
+
+Forward wanted: computing-ethics-and-professional-responsibility (§7.8 next),
+security-principles, web-security (§8), human-computer-interaction (§9).
+
+---
+title: Ingest §7.5 web development & full-stack
+type: log
+section: "7.5"
+tags: [ingest, web, html, css, javascript, react, http, performance, authentication]
+summary: Read MDN's HTTP overview and critical-rendering-path guide, HPBN's table of contents, Eloquent JavaScript's contents, Full Stack Open's part list; wrote 5 concepts and 1 combined source, building on the existing dns-http-and-the-web-stack (§4) and api-design (§7.3) pages.
+---
+## [2026-09-02] ingest | §7.5 Web development & full-stack
+
+Read: MDN "Overview of HTTP" (client–server, user agents, proxies, extensible,
+stateless-but-sessions-via-cookies, what HTTP controls); MDN "Critical rendering path"
+(bytes → tokens → DOM; CSSOM; render tree; layout; paint; render-blocking CSS and
+parser-blocking scripts); hpbn.co ToC (latency/bandwidth, TCP, UDP/NAT, TLS with its
+optimization checklist, wireless/WiFi/mobile RRC, HTTP/1.x → /2, browser APIs);
+eloquentjavascript.net 4e contents; fullstackopen.com parts 0–14. React docs, YDKJS,
+OWASP cheat sheets, OAuth/OIDC RFCs, Core Web Vitals from memory.
+
+Source: [[web-development-texts-courses-and-seminal-papers]].
+Concepts: [[html-css-and-the-dom]], [[javascript-and-the-event-loop]],
+[[frontend-frameworks-and-state-management]], [[web-backends-sessions-and-authentication]],
+[[web-performance-and-browser-networking]]. Existing pages extended by linking:
+[[dns-http-and-the-web-stack]], [[api-design]].
+
+Insights: the JavaScript event loop is the same run-to-completion, single-queue model
+as an OS interrupt-driven kernel with deferred work (microtasks ≈ softirqs); the
+"task vs microtask" ordering puzzle is priority scheduling. "UI = f(state)" is the
+functional-core idea from §2 applied to screens, and virtual-DOM diffing is
+tree-edit-distance made cheap by heuristics (keys = identity). Web performance's
+"latency not bandwidth" lesson is the memory-hierarchy lesson from §4.1 one level up:
+round trips are cache misses. Sessions vs JWTs is the stateful-vs-stateless trade-off
+from REST (§7.3) with revocation as the cost of statelessness. Cookies' SameSite/CSRF
+story is the confused-deputy problem, which §8 will name.
+
+Forward wanted: web-security, security-principles (§8.1–8.2 — now referenced from
+seven pages; prioritize), human-computer-interaction (§9.x), mobile-development-and-
+cross-platform (§7.6 next), concurrency-and-parallelism (check §4 slug — may be
+parallel-programming-models).
+
+---
 title: Ingest §7.4 DevOps, CI/CD, SRE & infrastructure
 type: log
 section: "7.4"
