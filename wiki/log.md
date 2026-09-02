@@ -3,6 +3,36 @@
 Newest first. Generated from wiki/log/*.md — do not edit.
 
 ---
+title: Ingest §3.2 algorithms
+type: log
+section: "3.2"
+tags: [ingest, algorithms, erickson, clrs, dpv, kleinberg-tardos, roughgarden]
+summary: Read Erickson ch. 1 (reductions, Recursion Fairy), ch. 3 (DP recipe), ch. 4 (exchange-argument pattern); wrote 12 concept pages (DP, D&C, greedy, graph search, shortest paths, MST, sorting, flow, NP-completeness, randomized, strings, FFT) and 5 source pages.
+---
+## [2026-09-02] ingest | §3.2 Algorithms
+
+Read: Erickson 1.1–1.2 (reductions are black boxes; recursion = simplify and delegate; the
+Recursion Fairy is the induction hypothesis), 3.4 (the two-stage DP pattern with its six
+mechanical steps; "not about filling in tables"), 4.x (general greedy proof pattern: first
+difference + exchange). CLRS, DPV, K&T, Skiena, Roughgarden from memory.
+
+Sources: [[erickson-algorithms]], [[clrs]] (wanted → filled), [[dpv-algorithms]],
+[[kleinberg-tardos-skiena]], [[roughgarden-algorithms-illuminated]].
+Concepts: [[dynamic-programming]], [[divide-and-conquer]], [[greedy-algorithms]], [[graph-search]],
+[[shortest-paths]], [[minimum-spanning-trees]], [[sorting]], [[network-flow]],
+[[np-completeness-and-reductions]], [[randomized-algorithms]], [[string-algorithms]], [[fft]]
+(filled wanted: dynamic-programming, sorting, graph-search, randomized-algorithms, shortest-paths,
+minimum-spanning-trees, string-algorithms, master-theorem → covered in divide-and-conquer).
+
+Insights: the three design paradigms line up with three proof shapes — DP with induction over a
+subproblem DAG, greedy with exchange arguments, D&C with recurrences; and "memoization is DFS" ties
+[[dynamic-programming]] to [[graph-search]] (DPV's "DP = DAG in topological order"). Relaxation
+unifies every shortest-path algorithm; reductions unify D&C (to itself), NP-hardness (to a known
+problem) and flow (from everything else).
+Newly wanted: complexity-classes, search-algorithms-ai, streaming-and-sketching, cryptography-basics,
+linear-programming (exists as linear-programming-and-duality), stable-matching (exists).
+
+---
 title: Ingest §3.1 data structures
 type: log
 section: "3.1"

@@ -139,3 +139,18 @@
 {"id":"3.1-010","query":"adjacency list vs adjacency matrix sparse dense graph","relevant":["concepts/graph-representations.md"],"section":"3.1","kind":"keyword"}
 {"id":"3.1-011","query":"Sedgewick Wayne algorithms booksite Java","relevant":["sources/sedgewick-algorithms-4e.md"],"section":"3.1","kind":"source"}
 {"id":"3.1-012","query":"free data structures textbook with proofs Morin","relevant":["sources/open-data-structures-morin.md"],"section":"3.1","kind":"source"}
+{"id":"3.2-001","query":"dynamic programming is smart recursion not filling in tables specification and recurrence","relevant":["concepts/dynamic-programming.md","sources/erickson-algorithms.md"],"section":"3.2","kind":"paraphrase"}
+{"id":"3.2-002","query":"master theorem three cases compare f(n) with n^log_b a","relevant":["concepts/divide-and-conquer.md"],"section":"3.2","kind":"keyword"}
+{"id":"3.2-003","query":"how do I prove a greedy algorithm is optimal","relevant":["concepts/greedy-algorithms.md"],"section":"3.2","kind":"question"}
+{"id":"3.2-004","query":"reverse postorder of DFS gives a topological sort, Kosaraju strongly connected components","relevant":["concepts/graph-search.md"],"section":"3.2","kind":"keyword"}
+{"id":"3.2-005","query":"why does Dijkstra fail with negative edge weights and what to use instead","relevant":["concepts/shortest-paths.md"],"section":"3.2","kind":"question"}
+{"id":"3.2-006","query":"cut property lightest edge crossing a cut Kruskal Prim","relevant":["concepts/minimum-spanning-trees.md"],"section":"3.2","kind":"keyword"}
+{"id":"3.2-007","query":"lower bound n log n comparisons decision tree counting sort beats it","relevant":["concepts/sorting.md"],"section":"3.2","kind":"keyword"}
+{"id":"3.2-008","query":"max flow equals min cut residual graph augmenting path bipartite matching","relevant":["concepts/network-flow.md"],"section":"3.2","kind":"keyword"}
+{"id":"3.2-009","query":"which direction do I reduce to show my problem is NP-hard","relevant":["concepts/np-completeness-and-reductions.md"],"section":"3.2","kind":"question"}
+{"id":"3.2-010","query":"expected number of comparisons in randomized quicksort indicator variables","relevant":["concepts/randomized-algorithms.md","concepts/sorting.md"],"section":"3.2","kind":"keyword"}
+{"id":"3.2-011","query":"KMP failure function never backs up in the text Boyer Moore skips","relevant":["concepts/string-algorithms.md"],"section":"3.2","kind":"keyword"}
+{"id":"3.2-012","query":"multiply two polynomials in n log n using roots of unity","relevant":["concepts/fft.md"],"section":"3.2","kind":"paraphrase"}
+{"id":"3.2-013","query":"the algorithm works by trusting that smaller instances are already solved, like an induction hypothesis","relevant":["concepts/divide-and-conquer.md","sources/erickson-algorithms.md"],"section":"3.2","kind":"paraphrase"}
+{"id":"3.2-014","query":"Dasgupta Papadimitriou Vazirani free algorithms book","relevant":["sources/dpv-algorithms.md"],"section":"3.2","kind":"source"}
+{"id":"3.2-015","query":"CLRS introduction to algorithms chapters","relevant":["sources/clrs.md"],"section":"3.2","kind":"source"}
