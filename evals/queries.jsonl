@@ -106,3 +106,14 @@
 {"id":"2.4-010","query":"von Neumann bottleneck Backus Turing lecture","relevant":["sources/backus-can-programming-be-liberated.md"],"section":"2.4","kind":"source"}
 {"id":"2.4-011","query":"structural sharing path copying persistent tree","relevant":["concepts/persistent-data-structures.md"],"section":"2.4","kind":"keyword"}
 {"id":"2.4-012","query":"Cornell OCaml textbook","relevant":["sources/cs3110-ocaml.md"],"section":"2.4","kind":"source"}
+{"id":"2.5-001","query":"KWIC index two modularizations flowchart vs information hiding","relevant":["sources/parnas-1972-criteria.md","concepts/modularity-and-information-hiding.md"],"section":"2.5","kind":"keyword"}
+{"id":"2.5-002","query":"why isn't a square a subtype of a resizable rectangle","relevant":["concepts/liskov-substitution.md","concepts/inheritance-vs-composition.md"],"section":"2.5","kind":"question"}
+{"id":"2.5-003","query":"history rule mutable bag not subtype of immutable bag","relevant":["concepts/liskov-substitution.md","sources/liskov-wing-1994.md"],"section":"2.5","kind":"paraphrase"}
+{"id":"2.5-004","query":"which design pattern replaces a switch on type with objects","relevant":["concepts/design-patterns-catalog.md","concepts/refactoring.md"],"section":"2.5","kind":"question"}
+{"id":"2.5-005","query":"visitor pattern double dispatch expression problem","relevant":["concepts/polymorphism-and-dispatch.md"],"section":"2.5","kind":"keyword"}
+{"id":"2.5-006","query":"favor composition over inheritance fragile base class","relevant":["concepts/inheritance-vs-composition.md"],"section":"2.5","kind":"keyword"}
+{"id":"2.5-007","query":"dependency inversion inject abstractions testable","relevant":["concepts/solid-principles.md"],"section":"2.5","kind":"keyword"}
+{"id":"2.5-008","query":"code smells feature envy shotgun surgery data clumps","relevant":["concepts/refactoring.md","sources/fowler-refactoring.md"],"section":"2.5","kind":"keyword"}
+{"id":"2.5-009","query":"change the structure of code without changing what it does, in small tested steps","relevant":["concepts/refactoring.md"],"section":"2.5","kind":"paraphrase"}
+{"id":"2.5-010","query":"how does a vtable implement virtual method calls","relevant":["concepts/polymorphism-and-dispatch.md"],"section":"2.5","kind":"question"}
+{"id":"2.5-011","query":"Gang of Four creational structural behavioral","relevant":["sources/gof-design-patterns.md","concepts/design-patterns-catalog.md"],"section":"2.5","kind":"source"}

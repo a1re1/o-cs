@@ -50,3 +50,14 @@ are Parnas's criterion applied to teams and deployables (§7.1, §7.3 — [[soft
 
 ## Sources
 Parnas 1972 (as summarized in Ousterhout ch. 5 and 6.102 reading 06); to be read in full in §2.5.
+
+## Parnas's KWIC experiment (added §2.5)
+Parnas 1972 decomposed the same KWIC-index program two ways: by processing step (input → circular
+shift → alphabetize → output, all sharing table formats) and by *hidden design decision* (line
+storage, shifting, alphabetizing, each behind function interfaces). Against five plausible changes
+(input format, storage medium, character packing, shift representation, lazy vs eager sorting), the
+flowchart decomposition touched every module while the information-hiding one touched one. Hence
+the criterion: list the difficult or likely-to-change decisions first and give each its own module;
+"it is almost always incorrect to begin the decomposition … on the basis of a flowchart". See
+[[parnas-1972-criteria]]; the deep-module idea in [[managing-complexity-in-software-design]] is the
+same criterion restated.

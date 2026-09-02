@@ -3,6 +3,31 @@
 Newest first. Generated from wiki/log/*.md — do not edit.
 
 ---
+title: Ingest §2.5 object-oriented design and design patterns
+type: log
+section: "2.5"
+tags: [ingest, design-patterns, parnas, liskov-wing, fowler, gof]
+summary: Read Parnas 1972 (KWIC comparison) and Liskov & Wing 1994 (subtype requirement); GoF/Fowler/Meyer from memory; wrote 5 concept pages and enriched liskov-substitution and modularity pages.
+---
+## [2026-09-02] ingest | §2.5 OO design & design patterns
+
+Read: Parnas 1972 (modularization 1 vs 2, the five changes, "The Criteria"); Liskov & Wing 1994
+§1 (subtype requirement, invariants vs history properties, why contra/covariance is insufficient).
+GoF, Head First, Fowler 2nd ed., Meyer OOSC from memory.
+
+Sources: [[parnas-1972-criteria]], [[liskov-wing-1994]], [[gof-design-patterns]], [[fowler-refactoring]].
+Concepts: [[design-patterns-catalog]], [[inheritance-vs-composition]], [[polymorphism-and-dispatch]],
+[[solid-principles]], [[refactoring]]. Appended sections to [[liskov-substitution]] (formal rules) and
+[[modularity-and-information-hiding]] (KWIC).
+
+Insights: the whole section is one idea — isolate the axis of change — stated four ways (Parnas:
+hide the decision; GoF: encapsulate what varies; Fowler: remove the smell that makes change
+expensive; Liskov: substitutability is what makes the abstraction point safe to rely on).
+Patterns table maps each GoF pattern to its FP/modern-language equivalent, linking §2.4 ↔ §2.5.
+Newly wanted: profiling-and-performance, effective-java (source), ousterhout-philosophy (source
+slug check), mit-6102 (slug check).
+
+---
 title: Ingest §2.4 functional programming
 type: log
 section: "2.4"

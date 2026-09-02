@@ -49,3 +49,14 @@ wildcards PECS, Kotlin `in`/`out`, Scala `+`/`-`) encode covariance/contravarian
 
 ## Sources
 6.102 reading 08 (Interfaces & Subtyping); Effective Java items 10, 18–20; Liskov & Wing, "A Behavioral Notion of Subtyping" (1994, to be ingested in §2.5).
+
+## The formal version (Liskov & Wing 1994, added §2.5)
+The **Subtype Requirement**: every property provable of T-objects from T's specification must hold
+of S-objects. Signature rules (contravariant arguments, covariant results) prevent type errors only
+— a stack and a queue with identical `put`/`get` signatures would each be a subtype of the other.
+The behavioral rules: (1) **methods rule** — `pre_T ⇒ pre_S` and `post_S ⇒ post_T` for each
+inherited method, via an abstraction function from S values to T values; (2) **invariant rule** —
+S's invariant implies T's; (3) **constraint/history rule** — S's history constraint implies T's, so
+a subtype may add methods but not ones that produce state transitions T forbids (a mutable Bag is
+not a subtype of an immutable Bag; a Square is not a subtype of a resizable Rectangle). Source:
+[[liskov-wing-1994]]; consequences in [[inheritance-vs-composition]] and [[solid-principles]].
