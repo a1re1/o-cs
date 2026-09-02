@@ -231,3 +231,22 @@
 {"id":"4.3-020","query":"PLT GOT lazy binding position independent code shared library","relevant":["concepts/linking-and-loading.md"],"section":"4.3","kind":"keyword"}
 {"id":"4.3-021","query":"free book that builds a bytecode VM interpreter in C","relevant":["sources/crafting-interpreters.md"],"section":"4.3","kind":"source"}
 {"id":"4.3-022","query":"Cornell advanced compilers course Bril LLVM lessons","relevant":["sources/cs6120-and-compiler-courses.md"],"section":"4.3","kind":"source"}
+{"id":"4.4-001","query":"why put reliability at the endpoints instead of in the network end-to-end argument","relevant":["concepts/internet-architecture-and-layering.md","sources/networking-seminal-papers.md"],"section":"4.4","kind":"question"}
+{"id":"4.4-002","query":"Clark design goals survivability fate sharing datagrams","relevant":["concepts/internet-architecture-and-layering.md"],"section":"4.4","kind":"keyword"}
+{"id":"4.4-003","query":"hourglass thin waist IP best effort ossification middleboxes","relevant":["concepts/internet-architecture-and-layering.md"],"section":"4.4","kind":"keyword"}
+{"id":"4.4-004","query":"slow start AIMD congestion collapse packet conservation","relevant":["concepts/tcp-reliability-and-congestion-control.md","sources/networking-seminal-papers.md"],"section":"4.4","kind":"keyword"}
+{"id":"4.4-005","query":"how is the TCP retransmission timeout computed from RTT","relevant":["concepts/tcp-reliability-and-congestion-control.md"],"section":"4.4","kind":"question"}
+{"id":"4.4-006","query":"BBR vs CUBIC bufferbloat loss based congestion control","relevant":["concepts/tcp-reliability-and-congestion-control.md"],"section":"4.4","kind":"keyword"}
+{"id":"4.4-007","query":"longest prefix match forwarding table CIDR","relevant":["concepts/ip-routing-and-forwarding.md"],"section":"4.4","kind":"keyword"}
+{"id":"4.4-008","query":"BGP policy routing between autonomous systems not shortest path","relevant":["concepts/ip-routing-and-forwarding.md"],"section":"4.4","kind":"keyword"}
+{"id":"4.4-009","query":"why can't a peer connect to my machine behind a home router","relevant":["concepts/ip-routing-and-forwarding.md"],"section":"4.4","kind":"paraphrase"}
+{"id":"4.4-010","query":"how does a switch learn which port a MAC address is on and why spanning tree","relevant":["concepts/link-layer-and-lans.md"],"section":"4.4","kind":"question"}
+{"id":"4.4-011","query":"CSMA/CA hidden terminal RTS CTS wifi","relevant":["concepts/link-layer-and-lans.md"],"section":"4.4","kind":"keyword"}
+{"id":"4.4-012","query":"recursive resolver root TLD authoritative TTL caching","relevant":["concepts/dns-http-and-the-web-stack.md"],"section":"4.4","kind":"keyword"}
+{"id":"4.4-013","query":"what problem does HTTP/3 over QUIC solve that HTTP/2 did not","relevant":["concepts/dns-http-and-the-web-stack.md","concepts/tcp-reliability-and-congestion-control.md"],"section":"4.4","kind":"question"}
+{"id":"4.4-014","query":"TLS 1.3 handshake certificate chain SNI 0-RTT","relevant":["concepts/dns-http-and-the-web-stack.md"],"section":"4.4","kind":"keyword"}
+{"id":"4.4-015","query":"recv returned fewer bytes than my message partial reads framing","relevant":["concepts/sockets-programming.md"],"section":"4.4","kind":"paraphrase"}
+{"id":"4.4-016","query":"epoll vs select event loop handle ten thousand connections","relevant":["concepts/sockets-programming.md"],"section":"4.4","kind":"keyword"}
+{"id":"4.4-017","query":"getaddrinfo socket bind listen accept server example","relevant":["concepts/sockets-programming.md"],"section":"4.4","kind":"keyword"}
+{"id":"4.4-018","query":"Stanford networking course labs implement TCP","relevant":["sources/stanford-cs144.md"],"section":"4.4","kind":"source"}
+{"id":"4.4-019","query":"Jacobson 1988 congestion avoidance paper","relevant":["sources/networking-seminal-papers.md"],"section":"4.4","kind":"source"}

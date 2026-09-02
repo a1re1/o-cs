@@ -44,7 +44,7 @@ oasis improvements (PRs to ~/src/oasis), and a running experiments report (`repo
 - [x] 4.1 Architecture (CS61C, Nand2Tetris, P&H, H&P, Mutlu, seminal papers)
 - [x] 4.2 Operating systems (OSTEP, xv6 book, 6.1810, seminal papers)
 - [x] 4.3 Compilers (Crafting Interpreters, CS143, CS6120, SSA book, seminal papers)
-- [ ] 4.4 Networks (CS144, Peterson&Davie, HPBN, Beej, RFCs, seminal papers)
+- [x] 4.4 Networks (CS144, Peterson&Davie, HPBN, Beej, RFCs, seminal papers)
 - [ ] 4.5 Databases (15-445, CS186, Red Book, Hellerstein Architecture of a DBMS, seminal papers)
 - [ ] 4.6 Distributed systems (6.5840, Kleppmann notes, DDIA-adjacent, seminal papers)
 - [ ] 4.7 Parallel & HPC (CS149, 15-418, 6.172, McKenney, seminal papers)
