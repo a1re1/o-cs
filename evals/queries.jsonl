@@ -94,3 +94,15 @@
 {"id":"2.3-010","query":"Option and Result with the question mark operator instead of exceptions","relevant":["concepts/rust-traits-generics-lifetimes.md"],"section":"2.3","kind":"paraphrase"}
 {"id":"2.3-011","query":"CMU 15-213 labs bomblab attacklab malloclab","relevant":["sources/csapp-15-213.md"],"section":"2.3","kind":"source"}
 {"id":"2.3-012","query":"free book to learn C23 modern C","relevant":["sources/modern-c-gustedt.md"],"section":"2.3","kind":"source"}
+{"id":"2.4-001","query":"foldr replaces cons with f and nil with z","relevant":["concepts/fold-and-structural-recursion.md"],"section":"2.4","kind":"paraphrase"}
+{"id":"2.4-002","query":"monad laws left identity right identity associativity","relevant":["concepts/monads.md","sources/wadler-monads.md"],"section":"2.4","kind":"keyword"}
+{"id":"2.4-003","query":"how do I add error handling and state to an evaluator without rewriting every case","relevant":["concepts/monads.md","sources/wadler-monads.md"],"section":"2.4","kind":"question"}
+{"id":"2.4-004","query":"make illegal states unrepresentable sum types","relevant":["concepts/algebraic-data-types.md"],"section":"2.4","kind":"keyword"}
+{"id":"2.4-005","query":"OCaml functor is a function from modules to modules not inheritance","relevant":["concepts/ml-modules-and-functors.md"],"section":"2.4","kind":"paraphrase"}
+{"id":"2.4-006","query":"why does the two-list queue lose its amortized bound when old versions are reused","relevant":["concepts/persistent-data-structures.md","concepts/amortized-analysis.md"],"section":"2.4","kind":"question"}
+{"id":"2.4-007","query":"potential method physicist's method dynamic array doubling amortized O(1)","relevant":["concepts/amortized-analysis.md"],"section":"2.4","kind":"keyword"}
+{"id":"2.4-008","query":"lazy evaluation as glue newton raphson within eps","relevant":["sources/hughes-why-fp-matters.md","concepts/streams-and-lazy-evaluation.md"],"section":"2.4","kind":"keyword"}
+{"id":"2.4-009","query":"replace an expression by its value without changing the program","relevant":["concepts/purity-and-referential-transparency.md"],"section":"2.4","kind":"paraphrase"}
+{"id":"2.4-010","query":"von Neumann bottleneck Backus Turing lecture","relevant":["sources/backus-can-programming-be-liberated.md"],"section":"2.4","kind":"source"}
+{"id":"2.4-011","query":"structural sharing path copying persistent tree","relevant":["concepts/persistent-data-structures.md"],"section":"2.4","kind":"keyword"}
+{"id":"2.4-012","query":"Cornell OCaml textbook","relevant":["sources/cs3110-ocaml.md"],"section":"2.4","kind":"source"}

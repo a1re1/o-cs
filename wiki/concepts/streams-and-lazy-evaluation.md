@@ -52,3 +52,13 @@ summary: A stream is a pair whose rest is delayed — a memoized thunk — so in
 
 ## Sources
 SICP 3.5 (streams), 4.2 (lazy evaluation); Composing Programs 4.2 (implicit sequences, generators).
+
+## Lazy evaluation as glue (Hughes, added §2.4)
+Hughes's Newton–Raphson example separates *generating* approximations (`repeat (next n) a0`, an
+infinite list) from *deciding when to stop* (`within eps`, `relative eps`); the same `within` then
+terminates numerical differentiation and integration, and `elimerror`/`improve` (Richardson
+extrapolation) are stream-to-stream transformers slotted in between. Alpha-beta search is
+`maximize . maptree static . prune 5 . gametree` over an infinite game tree, pruned lazily. Laziness
+is what lets termination conditions, accuracy improvements and generators be written and reused
+independently — see [[hughes-why-fp-matters]], [[purity-and-referential-transparency]], and the
+persistence-aware use of laziness in [[persistent-data-structures]].

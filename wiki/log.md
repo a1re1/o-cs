@@ -3,6 +3,33 @@
 Newest first. Generated from wiki/log/*.md — do not edit.
 
 ---
+title: Ingest §2.4 functional programming
+type: log
+section: "2.4"
+tags: [ingest, functional-programming, ocaml, hughes, wadler, okasaki, backus]
+summary: Read Hughes (folds, lazy glue), Wadler (monadic evaluator, laws), Okasaki (persistence vs amortization), CS3110 (fold derivation, functors); wrote 7 concept pages incl. wanted algebraic-data-types and amortized-analysis.
+---
+## [2026-09-02] ingest | §2.4 Functional programming
+
+Read: Hughes §3–4 (foldr derivation, map as fold, treeof, Newton–Raphson/within/relative,
+differentiation with elimerror), Wadler §2.2–2.9 and §3 (the three variations, monadic evaluator,
+laws), Okasaki front matter and ToC (multiple futures, banker's/physicist's, scheduling, lazy
+rebuilding), CS3110 4.3 (fold from sum/concat) and 5.9 (functors are functions, not `extends`).
+Backus from memory.
+
+Sources: [[cs3110-ocaml]], [[hughes-why-fp-matters]], [[wadler-monads]],
+[[okasaki-purely-functional-data-structures]], [[backus-can-programming-be-liberated]].
+Concepts: [[algebraic-data-types]] (wanted → filled), [[fold-and-structural-recursion]], [[monads]],
+[[ml-modules-and-functors]], [[persistent-data-structures]], [[amortized-analysis]] (wanted → filled),
+[[purity-and-referential-transparency]]; appended a Hughes section to [[streams-and-lazy-evaluation]].
+
+Insights: fold = catamorphism = "one function per constructor" = the design recipe's template =
+structural induction's computational twin (links §1.1 ↔ §2.1 ↔ §2.4). Okasaki's "multiple futures"
+is the cleanest statement of why amortized bounds assume linear use; laziness + memoization repairs
+it. Wadler's "the type M indicates the effect" is the lineage of Rust's `Result`/`?`.
+Newly wanted: balanced-search-trees, union-find, parsing, mapreduce-and-dataflow, clrs (source).
+
+---
 title: Ingest §2.3 systems programming in C/C++ and Rust
 type: log
 section: "2.3"

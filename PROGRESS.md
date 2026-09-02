@@ -32,7 +32,7 @@ oasis improvements (PRs to ~/src/oasis), and a running experiments report (`repo
 - [x] 2.1 Intro programming (SICP, HtDP, Composing Programs, CS61A, CS50)
 - [x] 2.2 Software construction (6.102, Ousterhout, Effective Java)
 - [x] 2.3 Systems programming C/Rust (CSAPP/15-213, CS107, Rust Book, Modern C, CS110L)
-- [ ] 2.4 Functional programming (CS3110 OCaml, Hughes, Wadler monads, Backus, Okasaki)
+- [x] 2.4 Functional programming (CS3110 OCaml, Hughes, Wadler monads, Backus, Okasaki)
 - [ ] 2.5 OO design & patterns (GoF, Fowler Refactoring, Liskov&Wing, Parnas 1972)
 - [ ] 2.6 Developer tooling (Missing Semester, Pro Git, TLCL, Make)
 ### 3 Algorithms
