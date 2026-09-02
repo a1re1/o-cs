@@ -116,6 +116,8 @@ oasis improvements (PRs to ~/src/oasis), and a running experiments report (`repo
 
 ## Handoff notes (newest first)
 
+- 2026-09-02 11:20 EDT — CURRICULUM COMPLETE (§1–§12, all 62 sections). 468 pages (330 concepts, 129 sources, 7 paths, 2 syntheses), 1295 eval queries; lexical recall@3 0.985, MRR 0.933, 46 wanted, 0 orphans. §8–§12 done this session: security/privacy/blockchain, HCI/graphics/games/dataviz/social-computing, data-science/IR (full BM25+dense+RRF spine + oasis-search-engine synthesis)/knowledge-graphs, bio/sci-computing/DSP/geometry/game-theory/history, and 7 learning-path pages. Report+chart regenerated, artifact republished (§1–§12 complete). Heading trick now 13/13 (still author-written — held-out paraphrase eval is the honest next test). REMAINING (engineering track only, no curriculum left): E3 skills/oasis-search SKILL.md; E4 LLM eval via lci (glm-5-3-flash, background, DoD contract); E5 oasis PRs (serve mode, frontmatter-in-chunks, RRF/weight tuning on paraphrase subset — verify with evals first); scripts/lint.py; held-out paraphrase eval written without looking at pages. Eval needs timeout 600000 (~4 min at 1295 q).
+
 ### 2026-09-02 09:45 EDT — §7 complete (51/62 sections)
 - Ingested §7.1–7.8 this stretch: 30 concepts + 8 sources; 398 pages (286 concepts, 112 sources); 1068 eval queries; lexical recall@3 0.985, MRR 0.940; 0 orphans, 53 wanted slugs.
 - Heading trick (Finding 8) is now 9/9: every paraphrase miss went to rank 1 after appending the question to a section heading. Paraphrase remains the weakest kind (recall@3 0.905 at n=84).
