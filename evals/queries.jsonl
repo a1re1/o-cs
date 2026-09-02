@@ -1283,3 +1283,13 @@
 {"id":"11.6-004","query":"why won't any single advance make software ten times easier","relevant":["syntheses/classic-essays-of-computing.md"],"section":"11.6","kind":"question"}
 {"id":"11.6-005","query":"Turing Award lectures classic computer science papers history","relevant":["sources/computing-history-and-classic-essays.md"],"section":"11.6","kind":"source"}
 {"id":"11.6-006","query":"Hoare billion dollar mistake null reference emperor's old clothes","relevant":["syntheses/classic-essays-of-computing.md"],"section":"11.6","kind":"lookup"}
+{"id":"12-001","query":"what should I study to learn computer science from scratch order","relevant":["paths/core-spine.md"],"section":"12","kind":"question"}
+{"id":"12-002","query":"prerequisite spine data structures algorithms OS networks theory","relevant":["paths/core-spine.md"],"section":"12","kind":"keyword"}
+{"id":"12-003","query":"learning path to become a systems programmer OS compilers distributed","relevant":["paths/systems-track.md"],"section":"12","kind":"howto"}
+{"id":"12-004","query":"how to learn theory complexity cryptography programming language theory","relevant":["paths/theory-track.md"],"section":"12","kind":"howto"}
+{"id":"12-005","query":"machine learning curriculum deep learning reinforcement learning LLMs path","relevant":["paths/ai-ml-track.md"],"section":"12","kind":"howto"}
+{"id":"12-006","query":"software engineering track testing architecture devops open source","relevant":["paths/software-engineering-track.md"],"section":"12","kind":"keyword"}
+{"id":"12-007","query":"learning path HCI graphics visualization games social computing","relevant":["paths/human-centered-track.md"],"section":"12","kind":"keyword"}
+{"id":"12-008","query":"how to learn data science databases big data information retrieval","relevant":["paths/data-track.md"],"section":"12","kind":"howto"}
+{"id":"12-009","query":"what order should I learn to build a search engine and data systems","relevant":["paths/data-track.md"],"section":"12","kind":"question"}
+{"id":"12-010","query":"roadmap from beginner to specialized track computer science","relevant":["paths/core-spine.md"],"section":"12","kind":"paraphrase"}

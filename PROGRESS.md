@@ -102,7 +102,7 @@ oasis improvements (PRs to ~/src/oasis), and a running experiments report (`repo
 - [x] 11.5 Algorithmic game theory (Roughgarden 20 lectures, Nisan AGT, Nash, Vickrey, PoA)
 - [x] 11.6 History & essays (Dijkstra EWD, Hamming, Brooks, Gabriel, Perlis, Turing lectures)
 ### 12 Paths
-- [ ] Learning-path pages (core spine + 7 tracks) with prerequisite edges
+- [x] Learning-path pages (core spine + 7 tracks) with prerequisite edges
 
 ## Engineering track (interleaved)
 - [x] E1 scaffold: CLAUDE.md, PROGRESS.md, scripts/build_index.py, scripts/lint.py, README

@@ -1560,6 +1560,86 @@ garbage-collection, compiler-optimizations, caches-and-memory-hierarchy, virtual
 - Insight: SICP's "sequences as conventional interfaces" is the same idea as MapReduce, Rust iterators and SQL pipelines; and its "costs of assignment" section is the clearest argument for the pure-core/impure-shell design that §2.2/§2.4 pages will rely on. HtDP's template step is structural induction as a coding discipline — linked to [[induction]].
 - Wanted pages: functional-programming-principles, specifications-and-invariants, algebraic-data-types, persistent-data-structures, lambda-calculus, compiler-pipeline, bytecode-and-virtual-machines, parsing, unit-testing, delta-debugging, undefined-behavior, pointers-and-memory, binary-search, liskov-substitution, design-patterns, mapreduce, synchronization-primitives, dynamic-programming.
 
+# 2026-09-02 — Ingest §12 Learning Paths (prerequisite spines)
+
+**Created 7 path pages** in wiki/paths/, each a prerequisite spine linking existing
+concept pages in order:
+- core-spine (the backbone everyone takes: programming → discrete math → data structures
+  → algorithms → architecture → OS → networks → databases → theory → software construction).
+- systems-track, theory-track, ai-ml-track, software-engineering-track,
+  human-centered-track, data-track — the six 400/500-level branches, each linking back to
+  core-spine and cross-linking sibling tracks.
+
+**Design:** paths link only real slugs (build_index confirms 0 new wanted from paths),
+so a "learning path" / "what should I study for X" query lands on an ordered spine of
+pages already in the corpus. data-track routes IR learners to [[oasis-search-engine]].
+
+**Status:** build_index ok: 468 pages, 52 logs, 46 wanted, 0 orphans. Curriculum
+§1–§12 now fully ingested.
+
+**Next (engineering track):** E3 skills/oasis-search SKILL.md; E4 LLM eval via lci
+(glm-5-3-flash only, background); E5 oasis PRs; scripts/lint.py; held-out paraphrase
+eval. Plus the deferred report/chart/artifact/PROGRESS/memory bookkeeping for §9–§12.
+
+# 2026-09-02 — Ingest §11 Specialized & Interdisciplinary Areas (11.1–11.6)
+
+**Read/distilled:** Compeau-Pevzner *Bioinformatics Algorithms*, Durbin et al.;
+Needleman-Wunsch, Smith-Waterman, BLAST, BWT/BWA, AlphaFold 2. Heath *Scientific
+Computing*, Numerical Recipes, Trefethen-Bau, MIT 18.335/18.S191, Barba CFD Python.
+Oppenheim *Signals and Systems*, Downey *Think DSP*, J.O. Smith CCRMA; Cooley-Tukey,
+Nyquist-Shannon, CTC, wav2vec 2.0, Whisper. de Berg et al. *Computational Geometry*,
+Fortune's sweep, Shewchuk robust predicates. Roughgarden *Twenty Lectures on AGT* /
+CS364A, Nisan et al.; Nash, Vickrey, VCG, price of anarchy, PPAD, GSP auctions,
+Gale-Shapley. Brooks *No Silver Bullet*, Gabriel *Worse Is Better*, Hamming, Dijkstra,
+Hoare; *Ideas That Created the Future*, Turing Award lectures.
+
+**Pages created (16):**
+- Sources (6): bioinformatics-texts-and-papers, scientific-computing-texts-and-courses,
+  signal-processing-texts-and-papers, computational-geometry-texts,
+  algorithmic-game-theory-texts-and-papers, computing-history-and-classic-essays.
+- Concepts (9): sequence-alignment, genome-assembly-and-protein-structure [§11.1];
+  numerical-linear-algebra-and-solvers, automatic-differentiation [§11.2];
+  signals-systems-and-sampling, speech-and-audio-processing [§11.3];
+  voronoi-diagrams-and-delaunay-triangulation [§11.4]; game-theory (was wanted from ~10
+  pages), mechanism-design-and-auctions [§11.5].
+- Syntheses (1): classic-essays-of-computing [§11.6].
+
+**Reused (linked, not recreated):** dynamic-programming, bayesian-networks-and-hmms,
+graph-representations, deep-learning-basics, transformers-and-attention, fft,
+convolutional-neural-networks, self-supervised-and-contrastive-learning, floating-point,
+matrices-and-linear-maps, svd-and-pca, derivatives-and-gradients,
+linear-programming-and-duality, np-completeness-and-reductions, computational-geometry,
+geometry-processing-and-meshes, approximate-nearest-neighbor-search, string-algorithms,
+blockchain-and-cryptocurrencies, reinforcement-learning-basics, entropy-and-information,
+software-engineering-fundamentals, modularity-and-information-hiding,
+technical-debt-and-maintenance.
+
+**Cross-cutting insights logged:**
+- Sequence alignment = [[dynamic-programming]] (edit distance with biology's scoring);
+  BWT read mapping = the FM-index over [[string-algorithms]].
+- Backpropagation = reverse-mode [[automatic-differentiation]]; AD is exact (chain rule),
+  not finite differences — the bridge from §11 scientific computing to deep learning.
+- Convolution theorem: convolution in time = multiplication in frequency, so [[fft]]
+  powers fast filtering, spectrograms feed [[speech-and-audio-processing]] — one lens
+  spanning §3 algorithms, §5 CNNs, §9.2 graphics sampling, §11.3 DSP.
+- Nash equilibrium existence (1950) vs PPAD-completeness of computing it (2009):
+  economically real yet computationally intractable — links [[game-theory]] to
+  [[np-completeness-and-reductions]]; zero-sum equilibria solvable via LP duality.
+- Second-price/VCG truthfulness vs deployed non-truthful GSP ad auctions: theory-practice
+  gap in [[mechanism-design-and-auctions]]; incentive design also underlies
+  [[blockchain-and-cryptocurrencies]].
+- Delaunay in 2D = lower convex hull of sites lifted to a paraboloid — geometric duality
+  tying [[voronoi-diagrams-and-delaunay-triangulation]] to [[computational-geometry]].
+- Brooks's essential/accidental complexity is the standing skeptic's frame for any
+  silver-bullet claim; recorded in [[classic-essays-of-computing]].
+
+**Status:** build_index ok: 461 pages, 51 logs, 46 wanted, 0 orphans.
+
+**Next:** §12 learning paths (prerequisite spines as paths/ pages) + cross-cutting
+syntheses; then E3 skills, E4 LLM eval (lci glm-5-3-flash), E5 oasis PRs. Also the
+deferred §9–§11 report/chart/artifact/PROGRESS/memory bookkeeping — do at the §11/§12
+boundary now that the whole curriculum §1–§11 is ingested.
+
 # 2026-09-02 — Ingest §10 Data & Information Systems (10.1–10.4)
 
 **Read/distilled:** Berkeley Data 8/Data 100, McKinney pandas, Wickham tidy data;
