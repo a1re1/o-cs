@@ -428,3 +428,30 @@
 {"id":"5.3-024","query":"Shamir secret sharing threshold polynomial interpolation","relevant":["concepts/cryptographic-protocols-and-zero-knowledge.md"],"section":"5.3","kind":"keyword"}
 {"id":"5.3-025","query":"Boneh Shoup graduate course applied cryptography free book","relevant":["sources/boneh-shoup-and-crypto-texts.md"],"section":"5.3","kind":"source"}
 {"id":"5.3-026","query":"Diffie Hellman New Directions in Cryptography 1976","relevant":["sources/cryptography-seminal-papers.md"],"section":"5.3","kind":"source"}
+{"id":"5.4-001","query":"beta reduction capture-avoiding substitution de Bruijn indices","relevant":["concepts/lambda-calculus.md"],"section":"5.4","kind":"keyword"}
+{"id":"5.4-002","query":"Church numerals Y combinator recursion without names","relevant":["concepts/lambda-calculus.md"],"section":"5.4","kind":"keyword"}
+{"id":"5.4-003","query":"call-by-name vs call-by-value vs call-by-need which programs terminate","relevant":["concepts/lambda-calculus.md"],"section":"5.4","kind":"compare"}
+{"id":"5.4-004","query":"small-step vs big-step operational semantics evaluation contexts Plotkin","relevant":["concepts/operational-and-denotational-semantics.md"],"section":"5.4","kind":"keyword"}
+{"id":"5.4-005","query":"denotational semantics least fixed point while loop domains Scott","relevant":["concepts/operational-and-denotational-semantics.md"],"section":"5.4","kind":"keyword"}
+{"id":"5.4-006","query":"contextual equivalence logical relations bisimulation program equivalence","relevant":["concepts/operational-and-denotational-semantics.md"],"section":"5.4","kind":"keyword"}
+{"id":"5.4-007","query":"progress and preservation type soundness proof","relevant":["concepts/type-systems.md"],"section":"5.4","kind":"keyword"}
+{"id":"5.4-008","query":"why are function argument types contravariant subtyping","relevant":["concepts/type-systems.md"],"section":"5.4","kind":"question"}
+{"id":"5.4-009","query":"linear affine types substructural Rust ownership theory","relevant":["concepts/type-systems.md"],"section":"5.4","kind":"keyword"}
+{"id":"5.4-010","query":"is TypeScript's type system sound gradual typing","relevant":["concepts/type-systems.md"],"section":"5.4","kind":"question"}
+{"id":"5.4-011","query":"Hindley-Milner Algorithm W unification principal types let-polymorphism","relevant":["concepts/polymorphism-and-type-inference.md"],"section":"5.4","kind":"keyword"}
+{"id":"5.4-012","query":"theorems for free parametricity what can a function of type forall a. [a] -> [a] do","relevant":["concepts/polymorphism-and-type-inference.md"],"section":"5.4","kind":"question"}
+{"id":"5.4-013","query":"value restriction polymorphic references unsound","relevant":["concepts/polymorphism-and-type-inference.md"],"section":"5.4","kind":"keyword"}
+{"id":"5.4-014","query":"existential types abstract data types System F","relevant":["concepts/polymorphism-and-type-inference.md"],"section":"5.4","kind":"keyword"}
+{"id":"5.4-015","query":"type classes dictionary passing vs Rust traits monomorphization","relevant":["concepts/polymorphism-and-type-inference.md"],"section":"5.4","kind":"compare"}
+{"id":"5.4-016","query":"propositions as types proofs as programs implication is function type","relevant":["concepts/curry-howard-correspondence.md"],"section":"5.4","kind":"keyword"}
+{"id":"5.4-017","query":"why must a proof assistant reject non-terminating programs","relevant":["concepts/curry-howard-correspondence.md"],"section":"5.4","kind":"question"}
+{"id":"5.4-018","query":"dependent types Pi Sigma identity type Vec length in type","relevant":["concepts/curry-howard-correspondence.md"],"section":"5.4","kind":"keyword"}
+{"id":"5.4-019","query":"Coq Rocq Agda Lean tactics extraction CompCert","relevant":["concepts/curry-howard-correspondence.md"],"section":"5.4","kind":"keyword"}
+{"id":"5.4-020","query":"closure captures environment lexical scope vs dynamic scope","relevant":["concepts/closures-and-environment-model.md"],"section":"5.4","kind":"keyword"}
+{"id":"5.4-021","query":"my callbacks all see the last value of the loop variable","relevant":["concepts/closures-and-environment-model.md"],"section":"5.4","kind":"paraphrase"}
+{"id":"5.4-022","query":"continuation passing style call/cc delimited continuations generators","relevant":["concepts/closures-and-environment-model.md"],"section":"5.4","kind":"keyword"}
+{"id":"5.4-023","query":"proper tail calls Lambda the Ultimate GOTO loops as recursion","relevant":["concepts/closures-and-environment-model.md"],"section":"5.4","kind":"keyword"}
+{"id":"5.4-024","query":"closure conversion flat vs linked closures funarg problem","relevant":["concepts/closures-and-environment-model.md"],"section":"5.4","kind":"keyword"}
+{"id":"5.4-025","query":"Types and Programming Languages Pierce TAPL","relevant":["sources/pierce-tapl-and-pl-theory-texts.md"],"section":"5.4","kind":"source"}
+{"id":"5.4-026","query":"Software Foundations Coq Rocq book free","relevant":["sources/pierce-tapl-and-pl-theory-texts.md"],"section":"5.4","kind":"source"}
+{"id":"5.4-027","query":"Milner well-typed programs cannot go wrong paper","relevant":["sources/pl-theory-seminal-papers.md"],"section":"5.4","kind":"source"}
