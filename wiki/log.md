@@ -3,6 +3,54 @@
 Newest first. Generated from wiki/log/*.md — do not edit.
 
 ---
+title: Ingest §7.2 testing, debugging & program analysis
+type: log
+section: "7.2"
+tags: [ingest, testing, fuzzing, delta-debugging, symbolic-execution, quickcheck, klee, static-analysis, contracts]
+summary: Read Fuzzing Book (ToC, "Fuzzing: Breaking Things with Random Inputs", "Greybox Fuzzing"), Debugging Book (ToC, "Reducing Failure-Inducing Inputs", "Statistical Debugging"), QuickCheck abstract+intro, KLEE abstract+intro; wrote 7 concepts (fuzzing and design-by-contract were wanted) and 1 combined source; found abstract-interpretation, dataflow-analysis, sat-and-smt-solvers, memory-safety-and-buffer-overflows, undefined-behavior already exist from §3/§8 prep and linked rather than duplicated.
+---
+## [2026-09-02] ingest | §7.2 Testing, debugging & program analysis
+
+Read: fuzzingbook.org ToC + Fuzzer.html (RandomFuzzer/Runner architecture, bugs
+fuzzers find: buffer overflows, missing error checks, rogue numbers; generic vs
+program-specific checkers) + GreyboxFuzzer.html (AFL trampoline after every conditional
+jump, seeds/mutators/power schedules, AFLFast energy for rare paths, AFLGo directed
+distance schedule, the URL-corpus example); debuggingbook.org ToC + DeltaDebugger.html
+('1 + 2 * 3 / 0' → '3/0'; min_args/max_args/min_arg_diff; reducing code and syntax trees)
++ StatisticalDebugger.html (collect_pass/collect_fail, Tarantula/Ochiai, discrete vs
+continuous spectra, "how useful is ranking"); Claessen & Hughes 2000 abstract + §1
+(properties as formal specs, distribution under tester control, 300 lines); Cadar, Dunbar
+& Engler 2008 abstract + §1 (symbolic input "anything", path condition, 90 % Coreutils
+coverage, 56 bugs, cross-checking, path explosion + environment problem). AFL whitepaper,
+DART/SAGE, Tarantula, mutation testing, Coverity CACM, Meyer, Hypothesis from memory.
+
+Source: [[testing-and-program-analysis-texts-courses-and-seminal-papers]].
+Concepts: [[software-testing-fundamentals]], [[fuzzing]] (wanted), [[property-based-testing]],
+[[delta-debugging-and-fault-localization]], [[symbolic-execution-and-concolic-testing]],
+[[static-and-dynamic-analysis-tools]], [[design-by-contract]] (wanted).
+Existing pages linked, not duplicated: [[abstract-interpretation]], [[dataflow-analysis]],
+[[sat-and-smt-solvers]], [[memory-safety-and-buffer-overflows]], [[undefined-behavior]],
+[[unit-testing]], [[debugging]], [[program-verification]], [[model-checking]].
+
+Insights: the whole section is one search problem with different oracles and different
+step generators — fuzzing (implicit oracle, byte mutations, coverage as fitness), PBT
+(property oracle, typed generators, shrinking), symbolic execution (solver as the step
+generator, assertions as oracle), delta debugging (the test as oracle, subset lattice as
+the space), SBFL (coverage spectra as features), program repair (test suite as fitness
+over patches — and therefore exactly as weak as the suite). Shrinking = ddmin =
+Hypothesis's byte-stream reduction; the coupling effect in mutation testing is the same
+bet as "small faults suffice" in the competent-programmer hypothesis. Coverity's
+30 %-false-positive cliff is the Goodhart/precision-recall trade-off of §6.11 in tool
+adoption clothing. Design by contract closes the loop: contracts are Hoare triples,
+which are what KLEE checks per path, what Dafny proves for all paths, and what fuzzers
+need to find logic bugs.
+
+Forward wanted (still): continuous-integration-and-delivery (§7.4), web-security,
+security-principles (§8), hoare-logic (check §3.x slug), exceptions-and-error-handling
+(§2.x?), computability-and-undecidability (§5.1 slug?), crdts-and-eventual-consistency
+(§4.x?), complexity-classes-p-np (§5.x?), binary-search (§3.1?).
+
+---
 title: Ingest §7.1 software engineering fundamentals
 type: log
 section: "7.1"

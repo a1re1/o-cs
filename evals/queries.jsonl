@@ -846,3 +846,45 @@
 {"id":"7.1-023","query":"our codebase keeps getting slower to change every quarter","relevant":["concepts/technical-debt-and-maintenance.md"],"section":"7.1","kind":"paraphrase"}
 {"id":"7.1-024","query":"Software Engineering at Google book programming over time","relevant":["sources/software-engineering-texts-courses-and-seminal-papers.md"],"section":"7.1","kind":"source"}
 {"id":"7.1-025","query":"Peopleware DeMarco Lister flow productivity","relevant":["sources/software-engineering-texts-courses-and-seminal-papers.md","concepts/software-engineering-fundamentals.md"],"section":"7.1","kind":"source"}
+{"id":"7.2-001","query":"testing shows the presence of bugs not their absence Dijkstra","relevant":["concepts/software-testing-fundamentals.md"],"section":"7.2","kind":"keyword"}
+{"id":"7.2-002","query":"equivalence partitioning boundary value analysis pairwise testing","relevant":["concepts/software-testing-fundamentals.md"],"section":"7.2","kind":"keyword"}
+{"id":"7.2-003","query":"statement vs branch vs MC/DC coverage what does coverage mean","relevant":["concepts/software-testing-fundamentals.md"],"section":"7.2","kind":"compare"}
+{"id":"7.2-004","query":"test oracle problem metamorphic testing differential testing","relevant":["concepts/software-testing-fundamentals.md"],"section":"7.2","kind":"keyword"}
+{"id":"7.2-005","query":"mutation testing mutation score equivalent mutants competent programmer hypothesis","relevant":["concepts/software-testing-fundamentals.md"],"section":"7.2","kind":"keyword"}
+{"id":"7.2-006","query":"how to deal with flaky tests in CI","relevant":["concepts/software-testing-fundamentals.md"],"section":"7.2","kind":"howto"}
+{"id":"7.2-007","query":"test pyramid unit integration end-to-end test sizes hermetic","relevant":["concepts/software-testing-fundamentals.md","concepts/unit-testing.md"],"section":"7.2","kind":"keyword"}
+{"id":"7.2-008","query":"how does AFL coverage-guided greybox fuzzing work","relevant":["concepts/fuzzing.md"],"section":"7.2","kind":"question"}
+{"id":"7.2-009","query":"power schedule energy AFLFast AFLGo directed fuzzing","relevant":["concepts/fuzzing.md"],"section":"7.2","kind":"keyword"}
+{"id":"7.2-010","query":"grammar-based fuzzing generation vs mutation based","relevant":["concepts/fuzzing.md"],"section":"7.2","kind":"compare"}
+{"id":"7.2-011","query":"OSS-Fuzz continuous fuzzing when to stop fuzzing residual risk","relevant":["concepts/fuzzing.md"],"section":"7.2","kind":"keyword"}
+{"id":"7.2-012","query":"my parser keeps crashing on weird input, how do I find more of these bugs automatically","relevant":["concepts/fuzzing.md"],"section":"7.2","kind":"paraphrase"}
+{"id":"7.2-013","query":"Miller 1990 random inputs crash unix utilities buffer overflow rogue numbers","relevant":["concepts/fuzzing.md","sources/testing-and-program-analysis-texts-courses-and-seminal-papers.md"],"section":"7.2","kind":"keyword"}
+{"id":"7.2-014","query":"QuickCheck properties random testing generators Arbitrary distribution","relevant":["concepts/property-based-testing.md"],"section":"7.2","kind":"keyword"}
+{"id":"7.2-015","query":"shrinking minimal counterexample Hypothesis integrated shrinking","relevant":["concepts/property-based-testing.md"],"section":"7.2","kind":"keyword"}
+{"id":"7.2-016","query":"what properties should I write for property-based tests round trip invariants","relevant":["concepts/property-based-testing.md"],"section":"7.2","kind":"question"}
+{"id":"7.2-017","query":"stateful model-based testing state machine QuickCheck Erlang","relevant":["concepts/property-based-testing.md"],"section":"7.2","kind":"keyword"}
+{"id":"7.2-018","query":"vacuous property precondition filters discard most test cases","relevant":["concepts/property-based-testing.md"],"section":"7.2","kind":"concept"}
+{"id":"7.2-019","query":"ddmin delta debugging 1-minimal failure-inducing input","relevant":["concepts/delta-debugging-and-fault-localization.md"],"section":"7.2","kind":"keyword"}
+{"id":"7.2-020","query":"git bisect isolating failure-inducing change yesterday my program worked","relevant":["concepts/delta-debugging-and-fault-localization.md"],"section":"7.2","kind":"keyword"}
+{"id":"7.2-021","query":"Tarantula Ochiai suspiciousness spectrum-based fault localization","relevant":["concepts/delta-debugging-and-fault-localization.md"],"section":"7.2","kind":"keyword"}
+{"id":"7.2-022","query":"automatic program repair GenProg overfitting patches","relevant":["concepts/delta-debugging-and-fault-localization.md"],"section":"7.2","kind":"keyword"}
+{"id":"7.2-023","query":"how do I shrink a huge failing test input down to something small","relevant":["concepts/delta-debugging-and-fault-localization.md"],"section":"7.2","kind":"paraphrase"}
+{"id":"7.2-024","query":"creduce hierarchical delta debugging compiler bug reproducer","relevant":["concepts/delta-debugging-and-fault-localization.md"],"section":"7.2","kind":"keyword"}
+{"id":"7.2-025","query":"KLEE symbolic execution path condition test generation coreutils coverage","relevant":["concepts/symbolic-execution-and-concolic-testing.md"],"section":"7.2","kind":"keyword"}
+{"id":"7.2-026","query":"concolic execution DART SAGE negate branch constraint concretize","relevant":["concepts/symbolic-execution-and-concolic-testing.md"],"section":"7.2","kind":"keyword"}
+{"id":"7.2-027","query":"path explosion environment problem symbolic execution mitigations state merging","relevant":["concepts/symbolic-execution-and-concolic-testing.md"],"section":"7.2","kind":"keyword"}
+{"id":"7.2-028","query":"hybrid fuzzing Driller QSYM fuzzer stuck on magic number check","relevant":["concepts/symbolic-execution-and-concolic-testing.md","concepts/fuzzing.md"],"section":"7.2","kind":"keyword"}
+{"id":"7.2-029","query":"symbolic execution vs fuzzing when to use which","relevant":["concepts/symbolic-execution-and-concolic-testing.md","concepts/fuzzing.md"],"section":"7.2","kind":"compare"}
+{"id":"7.2-030","query":"why are static analyzers unsound false positives Coverity a few billion lines of code later","relevant":["concepts/static-and-dynamic-analysis-tools.md"],"section":"7.2","kind":"question"}
+{"id":"7.2-031","query":"AddressSanitizer shadow memory ThreadSanitizer data race detection","relevant":["concepts/static-and-dynamic-analysis-tools.md"],"section":"7.2","kind":"keyword"}
+{"id":"7.2-032","query":"Infer bi-abduction CodeQL taint analysis ErrorProne Tricorder code review integration","relevant":["concepts/static-and-dynamic-analysis-tools.md"],"section":"7.2","kind":"keyword"}
+{"id":"7.2-033","query":"soundness completeness precision static analysis trade-off","relevant":["concepts/static-and-dynamic-analysis-tools.md","concepts/abstract-interpretation.md"],"section":"7.2","kind":"concept"}
+{"id":"7.2-034","query":"rolling out a static analyzer on a legacy codebase baseline ratchet suppressions","relevant":["concepts/static-and-dynamic-analysis-tools.md"],"section":"7.2","kind":"howto"}
+{"id":"7.2-035","query":"design by contract preconditions postconditions class invariants Meyer Eiffel","relevant":["concepts/design-by-contract.md"],"section":"7.2","kind":"keyword"}
+{"id":"7.2-036","query":"should assertions be enabled in production fail fast","relevant":["concepts/design-by-contract.md"],"section":"7.2","kind":"question"}
+{"id":"7.2-037","query":"subclass weaken precondition strengthen postcondition behavioral subtyping","relevant":["concepts/design-by-contract.md"],"section":"7.2","kind":"keyword"}
+{"id":"7.2-038","query":"defensive programming vs contracts who is responsible for checking arguments","relevant":["concepts/design-by-contract.md"],"section":"7.2","kind":"compare"}
+{"id":"7.2-039","query":"Dafny JML SPARK static verification of contracts","relevant":["concepts/design-by-contract.md","concepts/program-verification.md"],"section":"7.2","kind":"keyword"}
+{"id":"7.2-040","query":"The Fuzzing Book Zeller chapters grammar fuzzing concolic","relevant":["sources/testing-and-program-analysis-texts-courses-and-seminal-papers.md"],"section":"7.2","kind":"source"}
+{"id":"7.2-041","query":"The Debugging Book statistical debugging automatic repair Zeller","relevant":["sources/testing-and-program-analysis-texts-courses-and-seminal-papers.md"],"section":"7.2","kind":"source"}
+{"id":"7.2-042","query":"Claessen Hughes ICFP 2000 lightweight tool random testing Haskell","relevant":["sources/testing-and-program-analysis-texts-courses-and-seminal-papers.md","concepts/property-based-testing.md"],"section":"7.2","kind":"source"}
