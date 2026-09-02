@@ -59,7 +59,7 @@ oasis improvements (PRs to ~/src/oasis), and a running experiments report (`repo
 - [x] 5.6 Quantum computing (de Wolf notes, Preskill, Qiskit, Shor/Grover)
 ### 6 AI/ML
 - [x] 6.1 Intro AI (CS188, AIMA, Poole&Mackworth, A*)
-- [ ] 6.2 Machine learning (CS229 notes, ISLR, ESL, Shalev-Shwartz, Murphy, seminal papers)
+- [x] 6.2 Machine learning (CS229 notes, ISLR, ESL, Shalev-Shwartz, Murphy, seminal papers)
 - [ ] 6.3 Deep learning (Goodfellow, D2L, Prince UDL, CS231N, seminal papers)
 - [ ] 6.4 NLP & LLMs (Jurafsky-Martin, CS224N, CS324, CS336, seminal papers)
 - [ ] 6.5 Computer vision (Szeliski, CS231N, seminal papers)

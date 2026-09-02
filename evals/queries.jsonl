@@ -526,3 +526,34 @@
 {"id":"6.1-026","query":"why did AI winters happen expert systems brittleness","relevant":["concepts/intelligent-agents-and-ai-history.md"],"section":"6.1","kind":"question"}
 {"id":"6.1-027","query":"Berkeley CS188 Pacman course AIMA Russell Norvig","relevant":["sources/ai-intro-courses-texts-and-seminal-papers.md"],"section":"6.1","kind":"source"}
 {"id":"6.1-028","query":"Poole Mackworth free AI textbook computational agents","relevant":["sources/ai-intro-courses-texts-and-seminal-papers.md"],"section":"6.1","kind":"source"}
+{"id":"6.2-001","query":"supervised vs unsupervised learning empirical risk minimization hypothesis class","relevant":["concepts/machine-learning-basics.md"],"section":"6.2","kind":"keyword"}
+{"id":"6.2-002","query":"train validation test split k-fold cross validation data leakage","relevant":["concepts/machine-learning-basics.md","concepts/generalization-bias-variance-and-regularization.md"],"section":"6.2","kind":"keyword"}
+{"id":"6.2-003","query":"precision recall F1 ROC AUC class imbalance which metric","relevant":["concepts/machine-learning-basics.md"],"section":"6.2","kind":"question"}
+{"id":"6.2-004","query":"my model scores 99% but the positives are rare, what am I doing wrong","relevant":["concepts/machine-learning-basics.md"],"section":"6.2","kind":"paraphrase"}
+{"id":"6.2-005","query":"Domingos a few useful things to know about machine learning","relevant":["concepts/machine-learning-basics.md","sources/ml-courses-texts-and-seminal-papers.md"],"section":"6.2","kind":"lookup"}
+{"id":"6.2-006","query":"linear regression normal equations vs gradient descent LMS","relevant":["concepts/linear-models-logistic-regression-and-glms.md"],"section":"6.2","kind":"compare"}
+{"id":"6.2-007","query":"logistic regression sigmoid log loss gradient update Newton's method","relevant":["concepts/linear-models-logistic-regression-and-glms.md"],"section":"6.2","kind":"keyword"}
+{"id":"6.2-008","query":"generalized linear models exponential family canonical link softmax Poisson","relevant":["concepts/linear-models-logistic-regression-and-glms.md"],"section":"6.2","kind":"keyword"}
+{"id":"6.2-009","query":"generative vs discriminative classifier GDA naive Bayes logistic regression","relevant":["concepts/linear-models-logistic-regression-and-glms.md"],"section":"6.2","kind":"compare"}
+{"id":"6.2-010","query":"kernel trick Mercer RBF kernel Gram matrix positive semidefinite","relevant":["concepts/kernels-and-support-vector-machines.md"],"section":"6.2","kind":"keyword"}
+{"id":"6.2-011","query":"SVM maximum margin Lagrange dual support vectors KKT soft margin C","relevant":["concepts/kernels-and-support-vector-machines.md"],"section":"6.2","kind":"keyword"}
+{"id":"6.2-012","query":"hinge loss SMO algorithm LIBSVM","relevant":["concepts/kernels-and-support-vector-machines.md"],"section":"6.2","kind":"keyword"}
+{"id":"6.2-013","query":"why does an SVM only depend on a few training points","relevant":["concepts/kernels-and-support-vector-machines.md"],"section":"6.2","kind":"question"}
+{"id":"6.2-014","query":"decision tree Gini entropy information gain pruning CART","relevant":["concepts/decision-trees-and-ensembles.md"],"section":"6.2","kind":"keyword"}
+{"id":"6.2-015","query":"random forest bagging out-of-bag error feature importance Breiman","relevant":["concepts/decision-trees-and-ensembles.md"],"section":"6.2","kind":"keyword"}
+{"id":"6.2-016","query":"gradient boosting functional gradient descent shrinkage XGBoost second order","relevant":["concepts/decision-trees-and-ensembles.md"],"section":"6.2","kind":"keyword"}
+{"id":"6.2-017","query":"AdaBoost vs gradient boosting vs random forest differences","relevant":["concepts/decision-trees-and-ensembles.md"],"section":"6.2","kind":"compare"}
+{"id":"6.2-018","query":"best model for tabular data with mixed feature types","relevant":["concepts/decision-trees-and-ensembles.md"],"section":"6.2","kind":"paraphrase"}
+{"id":"6.2-019","query":"bias variance decomposition overfitting underfitting learning curves","relevant":["concepts/generalization-bias-variance-and-regularization.md"],"section":"6.2","kind":"keyword"}
+{"id":"6.2-020","query":"double descent interpolation threshold over-parameterized","relevant":["concepts/generalization-bias-variance-and-regularization.md"],"section":"6.2","kind":"keyword"}
+{"id":"6.2-021","query":"sample complexity finite hypothesis class Hoeffding union bound uniform convergence","relevant":["concepts/generalization-bias-variance-and-regularization.md"],"section":"6.2","kind":"keyword"}
+{"id":"6.2-022","query":"L1 vs L2 regularization sparsity ridge lasso MAP prior","relevant":["concepts/generalization-bias-variance-and-regularization.md","concepts/linear-models-logistic-regression-and-glms.md"],"section":"6.2","kind":"compare"}
+{"id":"6.2-023","query":"how many training examples do I need","relevant":["concepts/generalization-bias-variance-and-regularization.md"],"section":"6.2","kind":"paraphrase"}
+{"id":"6.2-024","query":"EM algorithm mixture of Gaussians E-step M-step responsibilities","relevant":["concepts/unsupervised-learning-em-and-mixture-models.md"],"section":"6.2","kind":"keyword"}
+{"id":"6.2-025","query":"ELBO Jensen's inequality why EM converges coordinate ascent","relevant":["concepts/unsupervised-learning-em-and-mixture-models.md"],"section":"6.2","kind":"keyword"}
+{"id":"6.2-026","query":"ICA cocktail party independent components ambiguities Gaussian","relevant":["concepts/unsupervised-learning-em-and-mixture-models.md"],"section":"6.2","kind":"keyword"}
+{"id":"6.2-027","query":"k-means vs GMM soft clustering relationship hard EM","relevant":["concepts/unsupervised-learning-em-and-mixture-models.md","concepts/k-means-clustering.md"],"section":"6.2","kind":"compare"}
+{"id":"6.2-028","query":"variational inference VAE reparameterization trick ELBO","relevant":["concepts/unsupervised-learning-em-and-mixture-models.md"],"section":"6.2","kind":"keyword"}
+{"id":"6.2-029","query":"CS229 lecture notes Andrew Ng Tengyu Ma","relevant":["sources/ml-courses-texts-and-seminal-papers.md"],"section":"6.2","kind":"source"}
+{"id":"6.2-030","query":"Elements of Statistical Learning Hastie Tibshirani free textbook","relevant":["sources/ml-courses-texts-and-seminal-papers.md"],"section":"6.2","kind":"source"}
+{"id":"6.2-031","query":"Breiman statistical modeling two cultures","relevant":["sources/ml-courses-texts-and-seminal-papers.md","concepts/machine-learning-basics.md"],"section":"6.2","kind":"lookup"}
