@@ -498,3 +498,31 @@
 {"id":"5.6-017","query":"superconducting transmon vs trapped ion vs neutral atom qubits comparison","relevant":["concepts/quantum-error-correction-and-nisq.md"],"section":"5.6","kind":"compare"}
 {"id":"5.6-018","query":"Nielsen Chuang quantum computation and quantum information textbook","relevant":["sources/quantum-computing-texts-and-courses.md"],"section":"5.6","kind":"source"}
 {"id":"5.6-019","query":"Scott Aaronson quantum lecture notes free","relevant":["sources/quantum-computing-texts-and-courses.md"],"section":"5.6","kind":"source"}
+{"id":"6.1-001","query":"A* search admissible consistent heuristic optimality proof","relevant":["concepts/search-algorithms-ai.md"],"section":"6.1","kind":"keyword"}
+{"id":"6.1-002","query":"how do I design a heuristic for A* relaxed problem","relevant":["concepts/search-algorithms-ai.md"],"section":"6.1","kind":"howto"}
+{"id":"6.1-003","query":"iterative deepening vs BFS vs uniform cost search space complexity","relevant":["concepts/search-algorithms-ai.md"],"section":"6.1","kind":"compare"}
+{"id":"6.1-004","query":"simulated annealing hill climbing local search plateaus","relevant":["concepts/search-algorithms-ai.md"],"section":"6.1","kind":"keyword"}
+{"id":"6.1-005","query":"CSP backtracking MRV LCV forward checking arc consistency AC-3","relevant":["concepts/constraint-satisfaction-problems.md"],"section":"6.1","kind":"keyword"}
+{"id":"6.1-006","query":"solving sudoku or map coloring with constraint propagation","relevant":["concepts/constraint-satisfaction-problems.md"],"section":"6.1","kind":"paraphrase"}
+{"id":"6.1-007","query":"min-conflicts n-queens million","relevant":["concepts/constraint-satisfaction-problems.md"],"section":"6.1","kind":"lookup"}
+{"id":"6.1-008","query":"minimax alpha-beta pruning move ordering b^(d/2)","relevant":["concepts/adversarial-search-and-game-trees.md"],"section":"6.1","kind":"keyword"}
+{"id":"6.1-009","query":"expectimax vs minimax when the opponent is random","relevant":["concepts/adversarial-search-and-game-trees.md"],"section":"6.1","kind":"question"}
+{"id":"6.1-010","query":"Monte Carlo tree search UCT AlphaGo AlphaZero","relevant":["concepts/adversarial-search-and-game-trees.md"],"section":"6.1","kind":"keyword"}
+{"id":"6.1-011","query":"horizon effect quiescence search evaluation function","relevant":["concepts/adversarial-search-and-game-trees.md"],"section":"6.1","kind":"keyword"}
+{"id":"6.1-012","query":"Bellman equation value iteration policy iteration MDP discount","relevant":["concepts/markov-decision-processes.md"],"section":"6.1","kind":"keyword"}
+{"id":"6.1-013","query":"Q-learning off-policy convergence exploration epsilon greedy","relevant":["concepts/markov-decision-processes.md"],"section":"6.1","kind":"keyword"}
+{"id":"6.1-014","query":"planning when actions have uncertain outcomes and rewards","relevant":["concepts/markov-decision-processes.md"],"section":"6.1","kind":"paraphrase"}
+{"id":"6.1-015","query":"why discount factor less than 1 in infinite horizon MDP","relevant":["concepts/markov-decision-processes.md"],"section":"6.1","kind":"question"}
+{"id":"6.1-016","query":"d-separation explaining away v-structure Bayes net independence","relevant":["concepts/bayesian-networks-and-hmms.md"],"section":"6.1","kind":"keyword"}
+{"id":"6.1-017","query":"variable elimination factors treewidth elimination order","relevant":["concepts/bayesian-networks-and-hmms.md"],"section":"6.1","kind":"keyword"}
+{"id":"6.1-018","query":"likelihood weighting vs rejection sampling vs Gibbs sampling","relevant":["concepts/bayesian-networks-and-hmms.md"],"section":"6.1","kind":"compare"}
+{"id":"6.1-019","query":"HMM forward algorithm filtering Viterbi particle filter","relevant":["concepts/bayesian-networks-and-hmms.md"],"section":"6.1","kind":"keyword"}
+{"id":"6.1-020","query":"track a robot's position from noisy sensor readings over time","relevant":["concepts/bayesian-networks-and-hmms.md"],"section":"6.1","kind":"paraphrase"}
+{"id":"6.1-021","query":"value of perfect information decision network","relevant":["concepts/bayesian-networks-and-hmms.md"],"section":"6.1","kind":"keyword"}
+{"id":"6.1-022","query":"Turing test imitation game Lady Lovelace objection","relevant":["concepts/intelligent-agents-and-ai-history.md"],"section":"6.1","kind":"keyword"}
+{"id":"6.1-023","query":"Dartmouth 1956 proposal McCarthy Minsky artificial intelligence term","relevant":["concepts/intelligent-agents-and-ai-history.md","sources/ai-intro-courses-texts-and-seminal-papers.md"],"section":"6.1","kind":"keyword"}
+{"id":"6.1-024","query":"PEAS rational agent environment types partially observable stochastic","relevant":["concepts/intelligent-agents-and-ai-history.md"],"section":"6.1","kind":"keyword"}
+{"id":"6.1-025","query":"STRIPS planning delete relaxation heuristic GPS means-ends analysis","relevant":["concepts/intelligent-agents-and-ai-history.md"],"section":"6.1","kind":"keyword"}
+{"id":"6.1-026","query":"why did AI winters happen expert systems brittleness","relevant":["concepts/intelligent-agents-and-ai-history.md"],"section":"6.1","kind":"question"}
+{"id":"6.1-027","query":"Berkeley CS188 Pacman course AIMA Russell Norvig","relevant":["sources/ai-intro-courses-texts-and-seminal-papers.md"],"section":"6.1","kind":"source"}
+{"id":"6.1-028","query":"Poole Mackworth free AI textbook computational agents","relevant":["sources/ai-intro-courses-texts-and-seminal-papers.md"],"section":"6.1","kind":"source"}

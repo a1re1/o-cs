@@ -58,7 +58,7 @@ oasis improvements (PRs to ~/src/oasis), and a running experiments report (`repo
 - [x] 5.5 Formal methods (TLA+, model checking, abstract interpretation, seL4, CompCert)
 - [x] 5.6 Quantum computing (de Wolf notes, Preskill, Qiskit, Shor/Grover)
 ### 6 AI/ML
-- [ ] 6.1 Intro AI (CS188, AIMA, Poole&Mackworth, A*)
+- [x] 6.1 Intro AI (CS188, AIMA, Poole&Mackworth, A*)
 - [ ] 6.2 Machine learning (CS229 notes, ISLR, ESL, Shalev-Shwartz, Murphy, seminal papers)
 - [ ] 6.3 Deep learning (Goodfellow, D2L, Prince UDL, CS231N, seminal papers)
 - [ ] 6.4 NLP & LLMs (Jurafsky-Martin, CS224N, CS324, CS336, seminal papers)
@@ -115,6 +115,7 @@ oasis improvements (PRs to ~/src/oasis), and a running experiments report (`repo
 - [~] E6 reports/experiments.md + published artifact, linked from README
 
 ## Handoff notes (newest first)
+- 2026-09-02 07:05 — §5 complete (32/62 sections, 304 pages: 211 concepts / 93 sources, 500 queries; lexical r@3 0.974, MRR 0.930). Report republished (finding 7: hybrid per-kind, log-ignore wash; chart via reports/chart.py). Next: §6.1 intro AI → 6.11, then §7–§11, §12 paths; E3 oasis-search skill; E4 LLM eval via lci; E5 oasis serve mode + frontmatter-in-chunks; scripts/lint.py; syntheses at the end. Wanted slugs still open incl. probability-and-statistics-for-cs, monte-carlo-methods, search-algorithms-ai, neural-network-training.
 - 2026-09-02 05:10 — §4 complete (26/62 sections, 265 pages: 183 concepts / 82 sources, 357 queries; lexical r@3 0.980, MRR 0.932, no regression across 7 ingests). Report artifact republished with regenerated chart + per-kind finding. Fetch failures: ACM/Google/Berkeley hosts; Hellerstein Architecture-of-DBMS, Roofline, Tail-at-Scale, WSC written from memory (logs say so). Next: §5.1 (automata/computability) → 5.x → §6 …; E3 oasis-search skill; E4 LLM eval via lci; E5 oasis: frontmatter-in-chunks, serve mode, 'you might ask' lines for paraphrase misses; periodic lint (scripts/lint.py still unwritten); syntheses/paths at the end.
 - 2026-09-02 02:20 — §1–§3 complete, §4.1–4.2 done (19/62 sections, 200 pages, 211 queries). oasis PR #2 merged (per-page collapse + --ignore); installed binary from ~/src/oasis/.worktrees/dedupe (== main). Honest numbers (193 q, lexical k=10): old r@1 .870/MRR .921 → new .886/.929; hybrid .896/.943, r@3 .990. Harness bug fixed (mode label vs flag); use --label/--oasis-args/--no-ignore for experiments. Report artifact updated. Next: §4.3 compilers → 4.4 …; E3 skill; E4 LLM eval; oasis next: frontmatter text in chunks, serve mode.
 - 2026-09-02 01:05 — §1 and §2 complete (13 curriculum sections, 139 pages, 129 eval queries; lexical recall@3 0.977, MRR 0.935; hybrid on 96q recall@3 0.979, MRR 0.936). All pushed to main. Findings for E5: (1) wiki/index.md ranks #1 for some queries (e.g. 'trace which system calls a program makes') — oasis needs a way to skip generated pages; (2) the same page occupies several top-k slots via different chunks — need per-page dedupe/grouping in oasis and confirm harness counts by path; (3) §2.6 recall@3 0.80 — tool-usage queries phrased as tasks match weakly against reference-style pages. Next: update reports/experiments.html (E6), then §3.1 data structures (fill wanted: hash-tables, balanced-search-trees, union-find, heaps…), then oasis PRs for (1)(2).
