@@ -3,14 +3,14 @@
 import json, re, pathlib
 root = pathlib.Path(__file__).resolve().parent.parent
 hist = [json.loads(l) for l in (root/'evals/results/history.jsonl').read_text().splitlines() if l.strip()]
-PMIN, PMAX = 40, 400
+PMIN, PMAX = 40, 640
 def X(p): return round(60 + (p-PMIN)*560/(PMAX-PMIN), 1)
 def Y(v): return round(220 - (v-0.80)*1000)
 lex = [h for h in hist if h.get('mode') == 'lexical']
 hyb = [h for h in hist if h.get('mode') == 'hybrid']
 pts = lambda rows, m: ' '.join(f"{X(h['n_pages'])},{Y(h['metrics'][m])}" for h in rows)
 circ = lambda rows, m, r: ''.join(f'<circle cx="{X(h["n_pages"])}" cy="{Y(h["metrics"][m])}" r="{r}"/>' for h in rows)
-ticks = ''.join(f'<text x="{X(p)}" y="240" text-anchor="middle">{p}</text>' for p in range(PMIN, PMAX+1, 60))
+ticks = ''.join(f'<text x="{X(p)}" y="240" text-anchor="middle">{p}</text>' for p in range(PMIN, PMAX+1, 100))
 svg = f'''<svg viewBox="0 0 640 260" width="100%" role="img" aria-label="recall@1 and MRR versus wiki page count">
   <line class="axis" x1="60" y1="20" x2="60" y2="220"/><line class="axis" x1="60" y1="220" x2="620" y2="220"/>
   <line class="grid" x1="60" y1="20" x2="620" y2="20"/><line class="grid" x1="60" y1="70" x2="620" y2="70"/><line class="grid" x1="60" y1="120" x2="620" y2="120"/><line class="grid" x1="60" y1="170" x2="620" y2="170"/>
