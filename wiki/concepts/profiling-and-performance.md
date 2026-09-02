@@ -57,3 +57,21 @@ overview with `htop`/`glances`. Load-test servers with `ab`/`wrk`/`k6`.
 
 ## Sources
 Missing Semester lecture 7; CSAPP ch. 5 (optimizing program performance).
+
+## Performance engineering the 6.172 way (§4.7 addendum)
+Leiserson's course starts with one demonstration — matrix multiply from Python (hours) to
+Java to C to loop-reordered, blocked, vectorized, parallel C (seconds), ~50,000× — and then
+teaches the *sources* of that gap. **Bentley's rules** for work reduction: data structures
+(packing/encoding, augmentation, precomputation, caching, lazy evaluation, sparsity), loops
+(hoisting, sentinels, loop unrolling, fusion, eliminating wasted iterations), logic (constant
+folding, common-subexpression elimination, algebraic identities, short-circuiting, ordering
+tests by frequency, creating a fast path, combining tests), functions (inlining, tail-
+recursion elimination, coarsening recursion). Then: bit hacks; reading assembly (`-S`, godbolt;
+what the compiler did and didn't do — [[compiler-optimizations]]); vectorization (contiguous
+loops, no aliasing — `restrict`, alignment, intrinsics when the compiler gives up —
+[[parallel-architectures-simd-gpu]]); multicore with Cilk ([[work-stealing-and-fork-join]]);
+cache-efficient and cache-oblivious algorithms ([[cache-oblivious-algorithms]]); storage
+allocation (arenas, per-thread pools, false sharing); **measurement** — quiet the machine
+(frequency scaling, hyperthreading, ASLR, NUMA), use minimum-of-runs rather than mean for
+timing, `perf stat` counters, and the roofline to know when you are done ([[roofline-model]]).
+The discipline: measure → hypothesize which resource bounds you → change one thing → measure.

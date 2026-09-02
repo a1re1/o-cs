@@ -298,3 +298,24 @@
 {"id":"4.6-024","query":"shuffle sharding blast radius cell architecture","relevant":["concepts/cluster-scheduling-and-observability.md"],"section":"4.6","kind":"keyword"}
 {"id":"4.6-025","query":"MIT distributed systems course Raft lab in Go","relevant":["sources/mit-6-824.md"],"section":"4.6","kind":"source"}
 {"id":"4.6-026","query":"Cachin Guerraoui Rodrigues reliable distributed programming failure detectors broadcast","relevant":["sources/distributed-systems-textbooks.md"],"section":"4.6","kind":"source"}
+{"id":"4.7-001","query":"shared address space vs message passing vs data parallel programming models","relevant":["concepts/parallel-programming-models.md"],"section":"4.7","kind":"keyword"}
+{"id":"4.7-002","query":"decomposition assignment orchestration mapping parallelizing a program","relevant":["concepts/parallel-programming-models.md"],"section":"4.7","kind":"keyword"}
+{"id":"4.7-003","query":"strong scaling vs weak scaling Gustafson","relevant":["concepts/parallel-programming-models.md","sources/parallel-computing-seminal-papers.md"],"section":"4.7","kind":"keyword"}
+{"id":"4.7-004","query":"CUDA warps divergence coalescing shared memory tiling occupancy","relevant":["concepts/gpu-programming-cuda.md"],"section":"4.7","kind":"keyword"}
+{"id":"4.7-005","query":"my GPU kernel is slow because consecutive threads read scattered addresses","relevant":["concepts/gpu-programming-cuda.md"],"section":"4.7","kind":"paraphrase"}
+{"id":"4.7-006","query":"work span parallelism greedy scheduler bound T1/P + Tinf","relevant":["concepts/work-stealing-and-fork-join.md"],"section":"4.7","kind":"keyword"}
+{"id":"4.7-007","query":"work stealing deque steal from top pop from bottom Cilk","relevant":["concepts/work-stealing-and-fork-join.md","sources/parallel-computing-seminal-papers.md"],"section":"4.7","kind":"keyword"}
+{"id":"4.7-008","query":"consensus number compare-and-swap universal registers Herlihy hierarchy","relevant":["concepts/lock-free-programming.md","sources/parallel-computing-seminal-papers.md"],"section":"4.7","kind":"keyword"}
+{"id":"4.7-009","query":"ABA problem hazard pointers epoch based reclamation RCU","relevant":["concepts/lock-free-programming.md"],"section":"4.7","kind":"keyword"}
+{"id":"4.7-010","query":"lock-free vs wait-free vs obstruction-free definitions","relevant":["concepts/lock-free-programming.md"],"section":"4.7","kind":"keyword"}
+{"id":"4.7-011","query":"MCS lock vs ticket lock vs test-and-test-and-set contention","relevant":["concepts/lock-free-programming.md"],"section":"4.7","kind":"keyword"}
+{"id":"4.7-012","query":"roofline arithmetic intensity memory bound vs compute bound ridge point","relevant":["concepts/roofline-model.md"],"section":"4.7","kind":"keyword"}
+{"id":"4.7-013","query":"how do I know if my kernel is limited by bandwidth or by flops","relevant":["concepts/roofline-model.md"],"section":"4.7","kind":"paraphrase"}
+{"id":"4.7-014","query":"cache-oblivious matrix multiply funnelsort van Emde Boas layout","relevant":["concepts/cache-oblivious-algorithms.md"],"section":"4.7","kind":"keyword"}
+{"id":"4.7-015","query":"ideal cache model tall cache assumption external memory model","relevant":["concepts/cache-oblivious-algorithms.md"],"section":"4.7","kind":"keyword"}
+{"id":"4.7-016","query":"hedged requests tied requests tail latency fan-out p99","relevant":["concepts/tail-latency-at-scale.md"],"section":"4.7","kind":"keyword"}
+{"id":"4.7-017","query":"one slow server out of a hundred makes most requests slow","relevant":["concepts/tail-latency-at-scale.md"],"section":"4.7","kind":"paraphrase"}
+{"id":"4.7-018","query":"Bentley rules for optimizing work loops hoisting sentinels","relevant":["concepts/profiling-and-performance.md"],"section":"4.7","kind":"keyword"}
+{"id":"4.7-019","query":"Stanford parallel computing course ISPC CUDA renderer assignment","relevant":["sources/stanford-cs149-and-cmu-15-418.md"],"section":"4.7","kind":"source"}
+{"id":"4.7-020","query":"Herlihy Shavit Art of Multiprocessor Programming book","relevant":["sources/parallel-programming-texts.md"],"section":"4.7","kind":"source"}
+{"id":"4.7-021","query":"Programming Massively Parallel Processors Kirk Hwu","relevant":["sources/parallel-programming-texts.md"],"section":"4.7","kind":"source"}
