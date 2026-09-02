@@ -3,6 +3,35 @@
 Newest first. Generated from wiki/log/*.md — do not edit.
 
 ---
+title: Ingest §5.1 automata, computability and complexity
+type: log
+section: "5.1"
+tags: [ingest, theory, turing, sipser, barak, p-vs-np]
+summary: Read Turing 1936 §1 (the model's justification), 18.404 lecture list, Barak's chapter list; wrote 6 concepts (all six were wanted slugs) and 2 sources.
+---
+## [2026-09-02] ingest | §5.1 Automata, computability & complexity
+
+Read: Turing 1936 abstract and §1 ("computable numbers … calculable by finite means";
+"the human memory is necessarily limited"; m-configurations, scanned square, the
+justification deferred to §9; equivalence with Church noted); MIT 18.404 Fall 2020 lecture
+titles (26); Barak's introtcs chapter list (0–23). Sipser proofs, Cook–Levin tableau, Savitch,
+Immerman–Szelepcsényi, Ladner, BGS from memory.
+
+Sources: [[sipser-and-theory-of-computation-courses]], [[theory-of-computation-seminal-papers]].
+Concepts: [[finite-automata-and-regular-languages]], [[context-free-grammars]],
+[[turing-machines]], [[decidability-and-reductions]], [[complexity-classes]], [[p-vs-np]] —
+every one a slug other sections had already linked to (six wanted pages closed).
+
+Insights: one idea, the *locally checkable computation history*, does triple duty — the
+computation-history method (undecidability of ALL_CFG, PCP), the Cook–Levin tableau (NP-
+completeness of SAT), and TQBF's PSPACE-completeness (Savitch's midpoint recursion as
+alternating quantifiers). Diagonalization appears four times (Cantor, halting, time
+hierarchy, Ladner) and BGS says exactly where it stops working. Nondeterminism is free for
+DFAs, decisive for PDAs, nearly free for space (Savitch), and the whole open question for
+time — a nice axis to teach along. Rice's theorem is the formal reason every §4.3 analysis
+is an approximation ([[dataflow-analysis]], [[abstract-interpretation]]).
+
+---
 title: Ingest §4.9 embedded, real-time and IoT systems
 type: log
 section: "4.9"

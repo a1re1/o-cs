@@ -51,7 +51,7 @@ oasis improvements (PRs to ~/src/oasis), and a running experiments report (`repo
 - [x] 4.8 Storage & datacenter (Datacenter as a Computer, SRE book, seminal papers)
 - [x] 4.9 Embedded & real-time (Lee&Seshia, EECS149, Liu&Layland)
 ### 5 Theory
-- [ ] 5.1 Automata/computability/complexity (Sipser 18.404, Barak, Arora-Barak, seminal papers)
+- [x] 5.1 Automata/computability/complexity (Sipser 18.404, Barak, Arora-Barak, seminal papers)
 - [ ] 5.2 Advanced complexity (Arora-Barak, PCP, natural proofs, IP=PSPACE)
 - [ ] 5.3 Cryptography (Boneh-Shoup, Joy of Cryptography, CS255, seminal papers)
 - [ ] 5.4 PL theory & types (TAPL, Software Foundations, PFPL, PLAI, seminal papers)

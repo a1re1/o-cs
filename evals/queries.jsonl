@@ -355,3 +355,29 @@
 {"id":"4.9-012","query":"Lee cyber-physical systems abstractions discard time PRET","relevant":["concepts/cyber-physical-systems-and-models-of-computation.md","sources/embedded-systems-texts-and-courses.md"],"section":"4.9","kind":"keyword"}
 {"id":"4.9-013","query":"Lee Seshia Introduction to Embedded Systems book","relevant":["sources/embedded-systems-texts-and-courses.md"],"section":"4.9","kind":"source"}
 {"id":"4.9-014","query":"Valvano ARM Cortex-M embedded course labs","relevant":["sources/embedded-systems-texts-and-courses.md"],"section":"4.9","kind":"source"}
+{"id":"5.1-001","query":"NFA to DFA subset construction exponential blowup","relevant":["concepts/finite-automata-and-regular-languages.md"],"section":"5.1","kind":"keyword"}
+{"id":"5.1-002","query":"how do I prove a language is not regular","relevant":["concepts/finite-automata-and-regular-languages.md"],"section":"5.1","kind":"howto"}
+{"id":"5.1-003","query":"Myhill-Nerode minimal DFA distinguishable prefixes","relevant":["concepts/finite-automata-and-regular-languages.md"],"section":"5.1","kind":"keyword"}
+{"id":"5.1-004","query":"why can't a regex match balanced parentheses","relevant":["concepts/finite-automata-and-regular-languages.md","concepts/context-free-grammars.md"],"section":"5.1","kind":"question"}
+{"id":"5.1-005","query":"ambiguous grammar two parse trees precedence Chomsky normal form CYK","relevant":["concepts/context-free-grammars.md"],"section":"5.1","kind":"keyword"}
+{"id":"5.1-006","query":"deterministic vs nondeterministic pushdown automata DCFL LR parsers","relevant":["concepts/context-free-grammars.md"],"section":"5.1","kind":"keyword"}
+{"id":"5.1-007","query":"a^n b^n c^n not context free pumping lemma","relevant":["concepts/context-free-grammars.md"],"section":"5.1","kind":"keyword"}
+{"id":"5.1-008","query":"Chomsky hierarchy regular context-free context-sensitive unrestricted","relevant":["concepts/context-free-grammars.md"],"section":"5.1","kind":"keyword"}
+{"id":"5.1-009","query":"Church-Turing thesis why every model computes the same functions","relevant":["concepts/turing-machines.md"],"section":"5.1","kind":"question"}
+{"id":"5.1-010","query":"universal Turing machine code as data","relevant":["concepts/turing-machines.md"],"section":"5.1","kind":"keyword"}
+{"id":"5.1-011","query":"recognizable vs decidable recursively enumerable","relevant":["concepts/turing-machines.md","concepts/decidability-and-reductions.md"],"section":"5.1","kind":"compare"}
+{"id":"5.1-012","query":"halting problem diagonalization proof","relevant":["concepts/decidability-and-reductions.md"],"section":"5.1","kind":"keyword"}
+{"id":"5.1-013","query":"Rice's theorem why static analysis can't be perfect","relevant":["concepts/decidability-and-reductions.md"],"section":"5.1","kind":"question"}
+{"id":"5.1-014","query":"can a program tell whether another program will ever finish","relevant":["concepts/decidability-and-reductions.md"],"section":"5.1","kind":"paraphrase"}
+{"id":"5.1-015","query":"Post correspondence problem computation history method","relevant":["concepts/decidability-and-reductions.md"],"section":"5.1","kind":"keyword"}
+{"id":"5.1-016","query":"recursion theorem quines programs obtain their own description","relevant":["concepts/decidability-and-reductions.md"],"section":"5.1","kind":"keyword"}
+{"id":"5.1-017","query":"Savitch theorem PSPACE equals NPSPACE","relevant":["concepts/complexity-classes.md"],"section":"5.1","kind":"keyword"}
+{"id":"5.1-018","query":"L NL PATH log space NL = coNL","relevant":["concepts/complexity-classes.md"],"section":"5.1","kind":"keyword"}
+{"id":"5.1-019","query":"time hierarchy theorem P not equal EXP","relevant":["concepts/complexity-classes.md"],"section":"5.1","kind":"keyword"}
+{"id":"5.1-020","query":"TQBF PSPACE-complete games alternating quantifiers","relevant":["concepts/complexity-classes.md"],"section":"5.1","kind":"keyword"}
+{"id":"5.1-021","query":"Cook-Levin tableau proof SAT NP-complete","relevant":["concepts/p-vs-np.md"],"section":"5.1","kind":"keyword"}
+{"id":"5.1-022","query":"why hasn't anyone proved P != NP relativization natural proofs barriers","relevant":["concepts/p-vs-np.md"],"section":"5.1","kind":"question"}
+{"id":"5.1-023","query":"Ladner NP-intermediate factoring graph isomorphism","relevant":["concepts/p-vs-np.md"],"section":"5.1","kind":"keyword"}
+{"id":"5.1-024","query":"what would happen to cryptography if P = NP","relevant":["concepts/p-vs-np.md"],"section":"5.1","kind":"question"}
+{"id":"5.1-025","query":"Sipser theory of computation MIT lectures","relevant":["sources/sipser-and-theory-of-computation-courses.md"],"section":"5.1","kind":"source"}
+{"id":"5.1-026","query":"Turing 1936 On Computable Numbers Entscheidungsproblem","relevant":["sources/theory-of-computation-seminal-papers.md","concepts/turing-machines.md"],"section":"5.1","kind":"source"}
