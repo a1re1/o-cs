@@ -52,7 +52,7 @@ oasis improvements (PRs to ~/src/oasis), and a running experiments report (`repo
 - [x] 4.9 Embedded & real-time (Lee&Seshia, EECS149, Liu&Layland)
 ### 5 Theory
 - [x] 5.1 Automata/computability/complexity (Sipser 18.404, Barak, Arora-Barak, seminal papers)
-- [ ] 5.2 Advanced complexity (Arora-Barak, PCP, natural proofs, IP=PSPACE)
+- [x] 5.2 Advanced complexity (Arora-Barak, PCP, natural proofs, IP=PSPACE)
 - [ ] 5.3 Cryptography (Boneh-Shoup, Joy of Cryptography, CS255, seminal papers)
 - [ ] 5.4 PL theory & types (TAPL, Software Foundations, PFPL, PLAI, seminal papers)
 - [ ] 5.5 Formal methods (TLA+, model checking, abstract interpretation, seL4, CompCert)

@@ -381,3 +381,24 @@
 {"id":"5.1-024","query":"what would happen to cryptography if P = NP","relevant":["concepts/p-vs-np.md"],"section":"5.1","kind":"question"}
 {"id":"5.1-025","query":"Sipser theory of computation MIT lectures","relevant":["sources/sipser-and-theory-of-computation-courses.md"],"section":"5.1","kind":"source"}
 {"id":"5.1-026","query":"Turing 1936 On Computable Numbers Entscheidungsproblem","relevant":["sources/theory-of-computation-seminal-papers.md","concepts/turing-machines.md"],"section":"5.1","kind":"source"}
+{"id":"5.2-001","query":"polynomial hierarchy collapse Karp-Lipton NP in P/poly","relevant":["concepts/complexity-theory-advanced.md","concepts/circuit-complexity-and-lower-bounds.md"],"section":"5.2","kind":"keyword"}
+{"id":"5.2-002","query":"permanent #P-complete determinant easy Valiant counting","relevant":["concepts/complexity-theory-advanced.md","sources/complexity-theory-seminal-papers.md"],"section":"5.2","kind":"keyword"}
+{"id":"5.2-003","query":"Toda's theorem PH inside P^#P","relevant":["concepts/complexity-theory-advanced.md"],"section":"5.2","kind":"keyword"}
+{"id":"5.2-004","query":"Impagliazzo five worlds Algorithmica Heuristica Pessiland Minicrypt Cryptomania","relevant":["concepts/complexity-theory-advanced.md","sources/complexity-theory-seminal-papers.md"],"section":"5.2","kind":"keyword"}
+{"id":"5.2-005","query":"why can't edit distance be solved in subquadratic time SETH orthogonal vectors","relevant":["concepts/complexity-theory-advanced.md"],"section":"5.2","kind":"question"}
+{"id":"5.2-006","query":"sum-check protocol arithmetization IP = PSPACE","relevant":["concepts/interactive-proofs-and-pcp.md"],"section":"5.2","kind":"keyword"}
+{"id":"5.2-007","query":"PCP theorem constant queries hardness of approximation MAX-3SAT gap","relevant":["concepts/interactive-proofs-and-pcp.md"],"section":"5.2","kind":"keyword"}
+{"id":"5.2-008","query":"Dinur gap amplification graph powering expander","relevant":["concepts/interactive-proofs-and-pcp.md","sources/complexity-theory-seminal-papers.md"],"section":"5.2","kind":"keyword"}
+{"id":"5.2-009","query":"how can a verifier check a proof by reading only a few bits of it","relevant":["concepts/interactive-proofs-and-pcp.md"],"section":"5.2","kind":"paraphrase"}
+{"id":"5.2-010","query":"unique games conjecture Håstad 7/8 MAX-3SAT optimal inapproximability","relevant":["concepts/interactive-proofs-and-pcp.md"],"section":"5.2","kind":"keyword"}
+{"id":"5.2-011","query":"switching lemma random restrictions parity not in AC0","relevant":["concepts/circuit-complexity-and-lower-bounds.md"],"section":"5.2","kind":"keyword"}
+{"id":"5.2-012","query":"natural proofs barrier Razborov Rudich pseudorandom functions","relevant":["concepts/circuit-complexity-and-lower-bounds.md","sources/complexity-theory-seminal-papers.md"],"section":"5.2","kind":"keyword"}
+{"id":"5.2-013","query":"Williams NEXP not in ACC faster circuit satisfiability algorithm implies lower bound","relevant":["concepts/circuit-complexity-and-lower-bounds.md"],"section":"5.2","kind":"keyword"}
+{"id":"5.2-014","query":"monotone circuit lower bound clique approximation method","relevant":["concepts/circuit-complexity-and-lower-bounds.md"],"section":"5.2","kind":"keyword"}
+{"id":"5.2-015","query":"NC AC0 TC0 parallel circuit classes P-complete","relevant":["concepts/circuit-complexity-and-lower-bounds.md"],"section":"5.2","kind":"keyword"}
+{"id":"5.2-016","query":"Nisan-Wigderson pseudorandom generator from hard function P = BPP","relevant":["concepts/pseudorandomness-and-derandomization.md"],"section":"5.2","kind":"keyword"}
+{"id":"5.2-017","query":"hardness versus randomness Impagliazzo Wigderson Kabanets derandomizing PIT","relevant":["concepts/pseudorandomness-and-derandomization.md"],"section":"5.2","kind":"keyword"}
+{"id":"5.2-018","query":"pairwise independence method of conditional expectations derandomize MAX-CUT","relevant":["concepts/pseudorandomness-and-derandomization.md"],"section":"5.2","kind":"keyword"}
+{"id":"5.2-019","query":"Reingold SL = L undirected connectivity log space zig-zag","relevant":["concepts/pseudorandomness-and-derandomization.md"],"section":"5.2","kind":"keyword"}
+{"id":"5.2-020","query":"extractors min-entropy expander walks save random bits","relevant":["concepts/pseudorandomness-and-derandomization.md"],"section":"5.2","kind":"keyword"}
+{"id":"5.2-021","query":"Arora Barak Computational Complexity Modern Approach book","relevant":["sources/arora-barak-and-complexity-texts.md"],"section":"5.2","kind":"source"}
