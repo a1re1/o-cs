@@ -1,0 +1,3 @@
+{"id": "1.1-001", "query": "how does BM25 scoring rank documents against a query", "relevant": ["concepts/bm25.md"], "section": "1.1", "kind": "concept"}
+{"id": "1.1-002", "query": "what is the raft consensus algorithm and leader election", "relevant": ["concepts/raft.md"], "section": "1.1", "kind": "concept"}
+{"id": "1.1-003", "query": "how does vector space retrieval compare documents by cosine similarity", "relevant": ["concepts/induction.md"], "section": "1.1", "kind": "concept"}

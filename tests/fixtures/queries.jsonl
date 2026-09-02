@@ -1,0 +1,4 @@
+{"id": "1.1-001", "query": "how does mathematical induction prove a statement for all natural numbers", "relevant": ["concepts/induction.md"], "section": "1.1", "kind": "concept"}
+{"id": "10.3-001", "query": "how does bm25 rank documents with term frequency and inverse document frequency", "relevant": ["concepts/bm25.md"], "section": "10.3", "kind": "concept"}
+{"id": "4.6-001", "query": "how does raft elect a leader and replicate the log", "relevant": ["concepts/raft.md"], "section": "4.6", "kind": "concept"}
+{"id": "5.6-001", "query": "quantum entanglement qubits superposition decoherence", "relevant": ["concepts/raft.md"], "section": "5.6", "kind": "lookup"}
