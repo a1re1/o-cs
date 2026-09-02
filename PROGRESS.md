@@ -108,7 +108,7 @@ oasis improvements (PRs to ~/src/oasis), and a running experiments report (`repo
 - [x] E1 scaffold: CLAUDE.md, PROGRESS.md, scripts/build_index.py, scripts/lint.py, README
 - [x] E2 evals: evals/queries.jsonl + evals/run_eval.py (recall@k, MRR, nDCG@3), results history
 - [x] E3 skills/oasis-search SKILL.md for lci + Claude (how to query, how to drill in with `show`)
-- [ ] E4 LLM eval: lci answers CS questions with oasis; grade tool usage + answer quality
+- [~] E4 LLM eval: harness written (evals/llm_eval/), lci glm-5-3-flash run in progress
 - [ ] E5 oasis improvements (candidates, in priority order — verify with evals first):
       frontmatter-aware indexing (title/tags into every chunk), `--filter path`, `--lexical-weight`,
       `serve` (MCP) command, stats on query, dedupe near-identical chunks, BM25 field weights
