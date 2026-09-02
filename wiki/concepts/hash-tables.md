@@ -23,7 +23,7 @@ programming.
   Adversaries can violate it (hash-flooding DoS) — mitigate with **universal hashing** (pick the
   function at random from a family: `((a·k + b) mod p) mod M`), **tabulation hashing**, or keyed
   SipHash (Python, Rust `HashMap` default).
-- Cryptographic hashes are a different tool (collision *resistance*) — [[hash-functions-and-integrity]].
+- Cryptographic hashes are a different tool (collision *resistance*) — [[hash-functions-cryptographic]].
 
 ## Collision resolution
 | Scheme | Structure | Cost (α = n/M) | Notes |
@@ -56,7 +56,7 @@ probing ≈ M·(key+value).
 
 ## Related
 - [[equality-and-hashing]], [[amortized-analysis]], [[balanced-search-trees]], [[arrays-and-linked-lists]],
-  [[probabilistic-analysis-of-algorithms]] (expected costs), [[hash-functions-and-integrity]],
+  [[probabilistic-analysis-of-algorithms]] (expected costs), [[hash-functions-cryptographic]],
   [[caches-and-memory-hierarchy]] (why probing wins in practice).
 
 ## Sources

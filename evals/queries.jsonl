@@ -402,3 +402,29 @@
 {"id":"5.2-019","query":"Reingold SL = L undirected connectivity log space zig-zag","relevant":["concepts/pseudorandomness-and-derandomization.md"],"section":"5.2","kind":"keyword"}
 {"id":"5.2-020","query":"extractors min-entropy expander walks save random bits","relevant":["concepts/pseudorandomness-and-derandomization.md"],"section":"5.2","kind":"keyword"}
 {"id":"5.2-021","query":"Arora Barak Computational Complexity Modern Approach book","relevant":["sources/arora-barak-and-complexity-texts.md"],"section":"5.2","kind":"source"}
+{"id":"5.3-001","query":"Kerckhoffs principle security must rest on the key","relevant":["concepts/cryptography-basics.md"],"section":"5.3","kind":"keyword"}
+{"id":"5.3-002","query":"IND-CPA vs IND-CCA semantic security game adversary advantage","relevant":["concepts/cryptography-basics.md"],"section":"5.3","kind":"keyword"}
+{"id":"5.3-003","query":"one-way functions imply PRG PRF encryption Minicrypt ladder","relevant":["concepts/cryptography-basics.md"],"section":"5.3","kind":"keyword"}
+{"id":"5.3-004","query":"what does it mean for an encryption scheme to be provably secure","relevant":["concepts/cryptography-basics.md"],"section":"5.3","kind":"question"}
+{"id":"5.3-005","query":"AES-GCM nonce reuse catastrophic authentication key leak","relevant":["concepts/symmetric-encryption-and-authenticated-encryption.md"],"section":"5.3","kind":"keyword"}
+{"id":"5.3-006","query":"encrypt-then-MAC vs MAC-then-encrypt authenticated encryption AEAD","relevant":["concepts/symmetric-encryption-and-authenticated-encryption.md"],"section":"5.3","kind":"compare"}
+{"id":"5.3-007","query":"CBC padding oracle attack ECB penguin CTR mode","relevant":["concepts/symmetric-encryption-and-authenticated-encryption.md"],"section":"5.3","kind":"keyword"}
+{"id":"5.3-008","query":"I encrypted two messages with the same keystream and someone recovered them","relevant":["concepts/symmetric-encryption-and-authenticated-encryption.md"],"section":"5.3","kind":"paraphrase"}
+{"id":"5.3-009","query":"length extension attack Merkle-Damgard why HMAC","relevant":["concepts/hash-functions-cryptographic.md"],"section":"5.3","kind":"keyword"}
+{"id":"5.3-010","query":"birthday attack collision resistance 256-bit hash 128-bit security","relevant":["concepts/hash-functions-cryptographic.md"],"section":"5.3","kind":"keyword"}
+{"id":"5.3-011","query":"how should I store user passwords Argon2 bcrypt salt","relevant":["concepts/hash-functions-cryptographic.md"],"section":"5.3","kind":"howto"}
+{"id":"5.3-012","query":"Merkle tree membership proof hash chain content addressing","relevant":["concepts/hash-functions-cryptographic.md"],"section":"5.3","kind":"keyword"}
+{"id":"5.3-013","query":"Diffie-Hellman key exchange discrete log CDH DDH man in the middle","relevant":["concepts/public-key-cryptography.md"],"section":"5.3","kind":"keyword"}
+{"id":"5.3-014","query":"why is textbook RSA insecure OAEP PSS padding Bleichenbacher","relevant":["concepts/public-key-cryptography.md"],"section":"5.3","kind":"question"}
+{"id":"5.3-015","query":"ECDSA nonce reuse leaks private key Ed25519 deterministic","relevant":["concepts/public-key-cryptography.md"],"section":"5.3","kind":"keyword"}
+{"id":"5.3-016","query":"post-quantum Kyber ML-KEM Dilithium learning with errors lattices Shor","relevant":["concepts/public-key-cryptography.md"],"section":"5.3","kind":"keyword"}
+{"id":"5.3-017","query":"hybrid encryption KEM plus AEAD why not encrypt data with RSA directly","relevant":["concepts/public-key-cryptography.md"],"section":"5.3","kind":"question"}
+{"id":"5.3-018","query":"TLS 1.3 handshake transcript binding forward secrecy 0-RTT replay","relevant":["concepts/cryptographic-protocols-and-zero-knowledge.md","concepts/dns-http-and-the-web-stack.md"],"section":"5.3","kind":"keyword"}
+{"id":"5.3-019","query":"Signal Double Ratchet X3DH post-compromise security","relevant":["concepts/cryptographic-protocols-and-zero-knowledge.md"],"section":"5.3","kind":"keyword"}
+{"id":"5.3-020","query":"Schnorr sigma protocol commit challenge response Fiat-Shamir zero knowledge simulator","relevant":["concepts/cryptographic-protocols-and-zero-knowledge.md"],"section":"5.3","kind":"keyword"}
+{"id":"5.3-021","query":"zk-SNARK Groth16 PLONK STARK arithmetization trusted setup","relevant":["concepts/cryptographic-protocols-and-zero-knowledge.md"],"section":"5.3","kind":"keyword"}
+{"id":"5.3-022","query":"Yao garbled circuits oblivious transfer secure two-party computation","relevant":["concepts/cryptographic-protocols-and-zero-knowledge.md","sources/cryptography-seminal-papers.md"],"section":"5.3","kind":"keyword"}
+{"id":"5.3-023","query":"fully homomorphic encryption bootstrapping Gentry CKKS","relevant":["concepts/cryptographic-protocols-and-zero-knowledge.md"],"section":"5.3","kind":"keyword"}
+{"id":"5.3-024","query":"Shamir secret sharing threshold polynomial interpolation","relevant":["concepts/cryptographic-protocols-and-zero-knowledge.md"],"section":"5.3","kind":"keyword"}
+{"id":"5.3-025","query":"Boneh Shoup graduate course applied cryptography free book","relevant":["sources/boneh-shoup-and-crypto-texts.md"],"section":"5.3","kind":"source"}
+{"id":"5.3-026","query":"Diffie Hellman New Directions in Cryptography 1976","relevant":["sources/cryptography-seminal-papers.md"],"section":"5.3","kind":"source"}

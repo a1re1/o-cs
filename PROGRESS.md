@@ -53,7 +53,7 @@ oasis improvements (PRs to ~/src/oasis), and a running experiments report (`repo
 ### 5 Theory
 - [x] 5.1 Automata/computability/complexity (Sipser 18.404, Barak, Arora-Barak, seminal papers)
 - [x] 5.2 Advanced complexity (Arora-Barak, PCP, natural proofs, IP=PSPACE)
-- [ ] 5.3 Cryptography (Boneh-Shoup, Joy of Cryptography, CS255, seminal papers)
+- [x] 5.3 Cryptography (Boneh-Shoup, Joy of Cryptography, CS255, seminal papers)
 - [ ] 5.4 PL theory & types (TAPL, Software Foundations, PFPL, PLAI, seminal papers)
 - [ ] 5.5 Formal methods (TLA+, model checking, abstract interpretation, seL4, CompCert)
 - [ ] 5.6 Quantum computing (de Wolf notes, Preskill, Qiskit, Shor/Grover)

@@ -22,7 +22,7 @@ id(obj) = sha1(type + size + content)            // content addressing
 ```
 Objects never change; the same content anywhere has the same id (dedup for free). Trees reference
 children by hash, so a commit's hash covers the whole snapshot and all history — a **Merkle DAG**
-([[hash-functions-and-integrity]]). Loose objects live in `.git/objects/ab/cdef…`, later packed
+([[hash-functions-cryptographic]]). Loose objects live in `.git/objects/ab/cdef…`, later packed
 into delta-compressed packfiles (`git gc`). Snapshots, not diffs: diffs are computed on demand.
 
 ## References
@@ -63,7 +63,7 @@ tags for releases; hooks for lint/tests ([[code-review]]).
 - Force-pushing shared branches; rebasing merge commits; huge binaries in history (use LFS).
 
 ## Related
-- [[shell-and-unix-tools]], [[dags-and-partial-orders]], [[hash-functions-and-integrity]],
+- [[shell-and-unix-tools]], [[dags-and-partial-orders]], [[hash-functions-cryptographic]],
   [[code-review]], [[debugging]], [[build-systems-and-make]].
 
 ## Sources

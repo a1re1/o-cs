@@ -3,6 +3,38 @@
 Newest first. Generated from wiki/log/*.md — do not edit.
 
 ---
+title: Ingest §5.3 cryptography
+type: log
+section: "5.3"
+tags: [ingest, cryptography, diffie-hellman, boneh-shoup, zero-knowledge, post-quantum]
+summary: Read Diffie–Hellman 1976 abstract and §I, Boneh & Shoup's 23-chapter ToC; wrote 5 concepts (cryptography-basics and hash-functions-cryptographic were wanted; hash-functions-and-integrity links redirected) and 2 sources.
+---
+## [2026-09-02] ingest | §5.3 Cryptography
+
+Read: Diffie & Hellman 1976 abstract and §I ("brink of a revolution"; cheap digital hardware;
+teleprocessing needs systems minimizing secure key channels and supplying the equivalent of
+a written signature; "changing this ancient art into a science"); Boneh & Shoup ToC (23
+chapters in three parts). Joy of Cryptography PDF returned nothing. Katz & Lindell, GMR,
+Yao, Regev, Gentry, Groth16, Signal specs, TLS 1.3, Cryptopals from memory.
+
+Sources: [[boneh-shoup-and-crypto-texts]], [[cryptography-seminal-papers]].
+Concepts: [[cryptography-basics]] (wanted), [[symmetric-encryption-and-authenticated-encryption]],
+[[hash-functions-cryptographic]] (wanted; the alias `hash-functions-and-integrity` was
+redirected to it in existing pages), [[public-key-cryptography]],
+[[cryptographic-protocols-and-zero-knowledge]].
+
+Insights: the security-game/reduction style is exactly [[interactive-proofs-and-pcp]]'s
+completeness/soundness pair pointed at an adversary instead of a prover; Fiat–Shamir is the
+random oracle standing in for the verifier — which is why SNARKs are "PCPs plus a hash". Every
+deployed catastrophe in the section (two-time pad, GCM nonce reuse, ECDSA nonce reuse) is the
+same bug: reusing randomness that the proof assumed fresh — the freshness invariant is to
+crypto what [[invariant-principle]] is to loops. Shamir sharing and Reed–Solomon are one
+polynomial: erasure coding is secret sharing with the secrecy thrown away. Merkle trees
+now link five sections (git, Dynamo anti-entropy, CT, Bitcoin, hashes).
+Newly wanted: security-principles (§6? no — §7.x security), quantum-computing (§5.6),
+polynomial-identity-testing, expander-graphs, information-theory-basics (check existing slug).
+
+---
 title: Ingest §5.2 advanced complexity theory
 type: log
 section: "5.2"
