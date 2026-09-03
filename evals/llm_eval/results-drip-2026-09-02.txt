@@ -1,0 +1,17 @@
+id    used_oasis  citation  point_recall
+q01   yes         cite:Y    0.8
+q02   yes         cite:Y    1.0
+q03   yes         cite:Y    0.67
+q04   yes         cite:Y    0.75
+q05   yes         cite:Y    0.67
+q06   yes         cite:Y    0.67
+q07   yes         cite:Y    0.0
+q08   yes         cite:Y    0.5
+q09   yes         cite:Y    0.75
+q10   yes         cite:Y    1.0
+q11   yes         cite:Y    0.0
+q12   yes         cite:Y    0.33
+------------------------------------------
+tool-use rate     12/12 = 1.00
+citation hit rate 12/12 = 1.00
+mean point recall 0.59

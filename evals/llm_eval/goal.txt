@@ -1,0 +1,22 @@
+Answer 12 computer-science questions using the oasis search engine over the local wiki, writing each answer to a file AS YOU GO. Read-and-report task: modify only the one output file named below.
+
+CRITICAL to avoid running out of context: handle ONE question at a time and APPEND its result line to the output file immediately (with >>) before starting the next question. Do NOT read all pages up front. Do NOT hold all 12 answers in memory.
+
+The questions are in evals/llm_eval/questions.jsonl (one JSON object per line: id, question).
+
+For EACH question, in id order (q01..q12):
+1. Run:  oasis --root wiki search "<question text>" --json -k 3
+   Each hit has "path" and "snippet". The snippets are usually enough to answer.
+2. Only if the snippets are insufficient, read ONE page:  oasis --root wiki show --path <best path>   (skip this step when you can).
+3. Immediately append ONE line to evals/llm_eval/answers-drip.jsonl using a shell append (>>), a compact JSON object with EXACTLY these keys:
+   {"id":"qNN","answer":"<2-3 sentence answer grounded in the retrieved text>","pages_cited":["<real path from the search hits>"],"used_oasis":true}
+   Then go to the next question.
+
+Definition of done (all required):
+1. evals/llm_eval/answers-drip.jsonl exists with exactly 12 lines, one compact JSON object per line, ids q01..q12 in order, each with keys id, answer, pages_cited, used_oasis.
+2. pages_cited are real paths returned by oasis (e.g. "concepts/bm25.md"), never invented.
+3. Verify at the end (both must pass):
+   - test "$(wc -l < evals/llm_eval/answers-drip.jsonl)" = "12"
+   - python3 -c "import json;[json.loads(l) for l in open('evals/llm_eval/answers-drip.jsonl')];print('ok')"
+
+Scope: write ONLY evals/llm_eval/answers-drip.jsonl (append per question). Do not edit any other file. Keep each oasis command's output small (use -k 3, avoid show when possible) so you do not exhaust context.

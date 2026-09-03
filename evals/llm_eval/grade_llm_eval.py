@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Grade an LLM's answers to evals/llm_eval/questions.jsonl.
 
-The model (lci/GLM-5.3-Flash) is asked to answer each question USING oasis and to
+The model (drip/GLM-5.3-Flash) is asked to answer each question USING oasis and to
 output one JSON object per question: {"id","answer","pages_cited":[...],"used_oasis":bool}.
 This script joins those answers to the gold questions and scores, per question:
   - used_oasis:   did it call the search tool at all?
